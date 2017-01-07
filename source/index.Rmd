@@ -1,0 +1,67 @@
+---
+title: "Bat Bike"
+output: html_document
+---
+
+**Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen**. De 23 km lange route brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. De route en de stopplaatsen zijn weergegeven op onderstaande kaart. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.
+
+```{r load_packages, include = FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE
+)
+library(leaflet)
+library(tibble)
+```
+
+```{r map_data, fig.cap = "OpenStreetMap"}
+iconen <- iconList(
+  infobord = makeIcon("images/icon_bat.png", iconWidth = 32, iconHeight = 32),
+  wegwijzer = makeIcon("images/icon_wegwijzer.png", iconWidth = 32, iconHeight = 32),
+  koffie = makeIcon("images/icon_koffie.png", iconWidth = 32, iconHeight = 32),
+  eten = makeIcon("images/icon_eten.png", iconWidth = 32, iconHeight = 32)
+)
+punten <- tribble(
+  ~omschrijving, ~lat, ~long, ~icoon,
+  "Grote Zenne", 50.708614, 4.230570, "infobord",  
+  "Kasteelpark Lembeek", 50.713455, 4.225291, "infobord", 
+  "Bunker Colruyt", 50.728402, 4.223548, "infobord", 
+  "Oude spoorweg", 50.730955, 4.219671, "infobord", 
+  "Bunker kerkhof", 50.746620, 4.229127, "infobord", 
+  "Bunker Jambonstraat", 50.748987, 4.237973, "infobord", 
+  "Sint Vincentiuskerk", 50.740913, 4.249800, "infobord", 
+  "Den Herberg", 50.741806, 4.250804, "koffie",
+  "Alsput", 50.750371, 4.231023, "eten"
+)
+leaflet(data = punten) %>%
+  addTiles() %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving, icon = ~iconen[icoon])
+```
+
+```{r, fig.cap = "Esri.WorldImagery"}
+leaflet(data = punten) %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving)
+```
+
+```{r, fig.cap = "Thunderforest.OpenCycleMap"}
+leaflet(data = punten) %>%
+  addProviderTiles("Thunderforest.OpenCycleMap") %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving)
+```
+
+```{r, fig.cap = "Stamen toner"}
+leaflet(data = punten) %>%
+  addProviderTiles("Stamen.Toner") %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving)
+```
+
+```{r, fig.cap = "Stamen watercolor"}
+leaflet(data = punten) %>%
+  addProviderTiles("Stamen.Watercolor") %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving)
+```
+
+
+
+
