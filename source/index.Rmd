@@ -12,6 +12,7 @@ opts_chunk$set(
 )
 library(leaflet)
 library(tibble)
+library(plotKML)
 ```
 
 ```{r map_data, fig.cap = "OpenStreetMap"}
@@ -19,7 +20,8 @@ iconen <- iconList(
   infobord = makeIcon("images/icon_bat.png", iconWidth = 32, iconHeight = 32),
   wegwijzer = makeIcon("images/icon_wegwijzer.png", iconWidth = 32, iconHeight = 32),
   koffie = makeIcon("images/icon_koffie.png", iconWidth = 32, iconHeight = 32),
-  eten = makeIcon("images/icon_eten.png", iconWidth = 32, iconHeight = 32)
+  eten = makeIcon("images/icon_eten.png", iconWidth = 32, iconHeight = 32),
+  info = makeIcon("images/icon_info.png", iconWidth = 32, iconHeight = 32)
 )
 punten <- tribble(
   ~omschrijving, ~lat, ~long, ~icoon,
@@ -31,35 +33,42 @@ punten <- tribble(
   "Bunker Jambonstraat", 50.748987, 4.237973, "infobord", 
   "Sint Vincentiuskerk", 50.740913, 4.249800, "infobord", 
   "Den Herberg", 50.741806, 4.250804, "koffie",
-  "Alsput", 50.750371, 4.231023, "eten"
+  "Alsput", 50.750371, 4.231023, "eten",
+  "Toerisme Halle", 50.736003, 4.237707, "info"
 )
+route <- readGPX("route/route.gpx")$tracks[[1]][[1]]
 leaflet(data = punten) %>%
   addTiles() %>%
+  addPolylines(~lon, ~lat, data = route) %>%
   addMarkers(~long, ~lat, popup = ~omschrijving, icon = ~iconen[icoon])
 ```
 
 ```{r, fig.cap = "Esri.WorldImagery"}
 leaflet(data = punten) %>%
   addProviderTiles("Esri.WorldImagery") %>%
-  addMarkers(~long, ~lat, popup = ~omschrijving)
+  addPolylines(~lon, ~lat, data = route) %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving, icon = ~iconen[icoon])
 ```
 
 ```{r, fig.cap = "Thunderforest.OpenCycleMap"}
 leaflet(data = punten) %>%
   addProviderTiles("Thunderforest.OpenCycleMap") %>%
-  addMarkers(~long, ~lat, popup = ~omschrijving)
+  addPolylines(~lon, ~lat, data = route) %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving, icon = ~iconen[icoon])
 ```
 
 ```{r, fig.cap = "Stamen toner"}
 leaflet(data = punten) %>%
   addProviderTiles("Stamen.Toner") %>%
-  addMarkers(~long, ~lat, popup = ~omschrijving)
+  addPolylines(~lon, ~lat, data = route) %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving, icon = ~iconen[icoon])
 ```
 
 ```{r, fig.cap = "Stamen watercolor"}
 leaflet(data = punten) %>%
   addProviderTiles("Stamen.Watercolor") %>%
-  addMarkers(~long, ~lat, popup = ~omschrijving)
+  addPolylines(~lon, ~lat, data = route) %>%
+  addMarkers(~long, ~lat, popup = ~omschrijving, icon = ~iconen[icoon])
 ```
 
 
