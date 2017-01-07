@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Bat Bike</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<script src="site_libs/htmlwidgets-0.8/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-0.7.3/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-0.7.3/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-1.0.1/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.0.27/leaflet-providers.js"></script>
+<script src="site_libs/leaflet-providers-plugin-1.0.1/leaflet-providers-plugin.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Bat Bike</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Bat Bike</h1>
+
+</div>
+
+
+<p><strong>Bat Bike</strong> is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van vleermuizen. De route van 23 km brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. De route en de stopplaatsen zijn weergegeven op onderstaande kaart. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.</p>
+<div class="figure">
+<div id="htmlwidget-47fdd94ec29d5069162d" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-47fdd94ec29d5069162d">{"x":{"calls":[{"method":"addTiles","args":["http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap\u003c/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA\u003c/a>"}]},{"method":"addMarkers","args":[[50.708614,50.713455,50.728402,50.730955,50.74662,50.748987,50.740913,50.741806,50.750371],[4.23057,4.225291,4.223548,4.219671,4.229127,4.237973,4.2498,4.250804,4.231023],{"iconUrl":{"data":["data:image/png;base64,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","data:image/png;base64,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","data:image/png;base64,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"],"index":[0,0,0,0,0,0,0,1,2]},"iconWidth":32,"iconHeight":32},null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Grote Zenne","Kasteelpark Lembeek","Bunker Colruyt","Oude spoorweg","Bunker kerkhof","Bunker Jambonstraat","Sint Vincentiuskerk","Den Herberg","Alsput"],null,null]}],"limits":{"lat":[50.708614,50.750371],"lng":[4.219671,4.250804]}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+OpenStreetMap
+</p>
+</div>
+<div class="figure">
+<div id="htmlwidget-7f663afccd9033b1e952" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7f663afccd9033b1e952">{"x":{"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false}]},{"method":"addMarkers","args":[[50.708614,50.713455,50.728402,50.730955,50.74662,50.748987,50.740913,50.741806,50.750371],[4.23057,4.225291,4.223548,4.219671,4.229127,4.237973,4.2498,4.250804,4.231023],null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Grote Zenne","Kasteelpark Lembeek","Bunker Colruyt","Oude spoorweg","Bunker kerkhof","Bunker Jambonstraat","Sint Vincentiuskerk","Den Herberg","Alsput"],null,null]}],"limits":{"lat":[50.708614,50.750371],"lng":[4.219671,4.250804]}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Esri.WorldImagery
+</p>
+</div>
+<div class="figure">
+<div id="htmlwidget-a7fcc5735183018f295d" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a7fcc5735183018f295d">{"x":{"calls":[{"method":"addProviderTiles","args":["Thunderforest.OpenCycleMap",null,null,{"errorTileUrl":"","noWrap":false,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false}]},{"method":"addMarkers","args":[[50.708614,50.713455,50.728402,50.730955,50.74662,50.748987,50.740913,50.741806,50.750371],[4.23057,4.225291,4.223548,4.219671,4.229127,4.237973,4.2498,4.250804,4.231023],null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Grote Zenne","Kasteelpark Lembeek","Bunker Colruyt","Oude spoorweg","Bunker kerkhof","Bunker Jambonstraat","Sint Vincentiuskerk","Den Herberg","Alsput"],null,null]}],"limits":{"lat":[50.708614,50.750371],"lng":[4.219671,4.250804]}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Thunderforest.OpenCycleMap
+</p>
+</div>
+<div class="figure">
+<div id="htmlwidget-130d24d0920031dc9adf" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-130d24d0920031dc9adf">{"x":{"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false}]},{"method":"addMarkers","args":[[50.708614,50.713455,50.728402,50.730955,50.74662,50.748987,50.740913,50.741806,50.750371],[4.23057,4.225291,4.223548,4.219671,4.229127,4.237973,4.2498,4.250804,4.231023],null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Grote Zenne","Kasteelpark Lembeek","Bunker Colruyt","Oude spoorweg","Bunker kerkhof","Bunker Jambonstraat","Sint Vincentiuskerk","Den Herberg","Alsput"],null,null]}],"limits":{"lat":[50.708614,50.750371],"lng":[4.219671,4.250804]}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Stamen toner
+</p>
+</div>
+<div class="figure">
+<div id="htmlwidget-6e9e210e848e473ae797" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6e9e210e848e473ae797">{"x":{"calls":[{"method":"addProviderTiles","args":["Stamen.Watercolor",null,null,{"errorTileUrl":"","noWrap":false,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false}]},{"method":"addMarkers","args":[[50.708614,50.713455,50.728402,50.730955,50.74662,50.748987,50.740913,50.741806,50.750371],[4.23057,4.225291,4.223548,4.219671,4.229127,4.237973,4.2498,4.250804,4.231023],null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Grote Zenne","Kasteelpark Lembeek","Bunker Colruyt","Oude spoorweg","Bunker kerkhof","Bunker Jambonstraat","Sint Vincentiuskerk","Den Herberg","Alsput"],null,null]}],"limits":{"lat":[50.708614,50.750371],"lng":[4.219671,4.250804]}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Stamen watercolor
+</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
