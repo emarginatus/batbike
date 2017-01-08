@@ -2,6 +2,8 @@ name: "batbike"
 navbar:
   title: "Bat Bike"
   left:
-    - text: "Home"
+    - text: "Start"
       href: "index.html"
+    - text: "Detailkaart"
+      href: "kaart.html"
 output_dir: "../docs"
