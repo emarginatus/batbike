@@ -37,7 +37,7 @@ punten <- tribble(
 route <- readGPX("route/route.gpx")$tracks[[1]][[1]]
 ```
 
-```{r}
+```{r detailkaart}
 leaflet(data = punten) %>%
   addProviderTiles("Thunderforest.OpenCycleMap") %>%
   addPolylines(~lon, ~lat, data = route) %>%
