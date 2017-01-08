@@ -8,6 +8,8 @@ library(knitr)
 opts_chunk$set(
   echo = FALSE
 )
+library(htmlwidgets)
+setWidgetIdSeed(1)
 library(leaflet)
 library(tibble)
 library(plotKML)
