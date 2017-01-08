@@ -52,15 +52,13 @@ hoogteprofiel <- coordinates(route_lambert)[[1]][[1]] %>%
 hoogtemeters <- sprintf("%.0fm", max(hoogteprofiel$hoogtemeter))
 ```
 
-**Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen**. De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.
-
+**Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen**. De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.  De [GPX track](route/route.gpx) is tevens beschikbaar.
 
 ```{r overzicht_kaart}
 leaflet(data = route) %>%
   addProviderTiles("Thunderforest.OpenCycleMap") %>%
   addPolylines(~lon, ~lat)
 ```
-
 
 ```{r hoogtemeters}
 hoogteprofiel %>%
