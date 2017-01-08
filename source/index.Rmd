@@ -10,13 +10,25 @@ opts_chunk$set(
 )
 library(leaflet)
 library(plotKML)
+library(dplyr)
+library(sp)
+library(rgeos)
 ```
 
 ```{r map_data}
 route <- readGPX("route/route.gpx")$tracks[[1]][[1]]
+route_lambert <- route %>%
+  select(lon, lat) %>%
+  Line() %>%
+  list() %>%
+  Lines(ID = 1) %>%
+  list() %>%
+  SpatialLines(CRS("+proj=longlat +ellps=WGS84")) %>%
+  spTransform(CRS("+init=epsg:31370"))
+afstand <- sprintf("%.0fkm", gLength(route_lambert) / 1e3)
 ```
 
-**Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen**. De 23 km lange route brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.
+**Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen**. De `r afstand` lange route brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.
 
 
 ```{r}
