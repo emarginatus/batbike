@@ -2,6 +2,34 @@
 output: html_document
 ---
 
+- welke achtergrond?
+    - nu een fietskaart (Thunderforest.OpenCyclemap)
+    - voor alle opties zie http://leaflet-extras.github.io/leaflet-providers/preview/index.html
+- fietsroute
+- extra lussen
+    - bunker Colruyt
+    - wandeling Grote Zenne
+    - wandeling Kasteelpark?
+- locaties infoborden
+- locaties sponsors / afhaalpunt folder
+    - toerismekantoor
+    - Den herberg?
+    - Belle-vue?
+    - Alsput?
+    - Conversion works?
+    - Colruyt?
+    - fietsenmakers? (AVA, Gouden spaak, Fietspunt Halle)
+- rustplaatsen
+    - relevante sponsors
+    - picnic plaatsen
+        - welke?
+    - speeltuinen? 
+        - kasteelpark Lembeek
+- extra interactiviteit
+    - keuze van achtergrondlaag
+    - keuze van voorgrondlagen
+        - standaard alles aan? of enkel specifieke lagen?
+
 ```{r load_packages, include = FALSE}
 library(knitr)
 opts_chunk$set(

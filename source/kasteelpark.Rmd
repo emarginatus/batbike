@@ -2,3 +2,28 @@
 title: "Kasteelpark Lembeek"
 output: html_document
 ---
+
+- eigenaar: stad Halle? 
+- nut voor vleermuizen: zomerkolonie, winterverblijfplaats jachtgebied
+- inrichting:
+    - invliegopening: foto/tekening gebouw met aanduiding
+    - acetyleenkelder: foto buiten, filmpje binnen
+    - beerput: filmpje binnen
+- geschiedenis: 
+    - http://home.scarlet.be/~tsf13331/toenennu/lokaal.htm
+    - http://www.gs-esf.be/downloads/topoguides/Lembeek05_NL_LOW_A4.pdf
+    - https://inventaris.onroerenderfgoed.be/erfgoedobjecten/135379
+    - http://www.hallensia.be/blog/?page_id=6
+- vleermuis toegelicht: franjestaart
+    - foto
+    - silhouet?
+    - beknopte levenswijze
+    - kenmerken voor leken
+        - geen
+- detailkaart:
+    - fietsroute
+    - wandelroute?
+    - infobord
+    - acetyleenkelder
+    - beerput?
+    - kasteelruïne

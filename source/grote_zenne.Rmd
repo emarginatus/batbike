@@ -1,4 +1,32 @@
 ---
-title: "Grote Zenne"
+title: "Malakoffdomein (Grote Zenne)"
 output: html_document
 ---
+
+- eigenaar: Agentschap voor Natuur- en Bos
+- nut voor vleermuizen:
+    - winterverblijfplaats
+    - jachtgebied
+- inrichting:
+    - kelder
+        - filmpje met binnenzicht kelder. Eventueel te maken tijdens een volgende telling.
+- geschiedenis: 
+    - http://www.hallerbos.be/bezoekersinfo/verdronken-toren/
+    - http://www.gs-esf.be/downloads/topoguides/Lembeek05_NL_LOW_A4.pdf
+- vleermuis toegelicht: watervleermuis
+    - foto
+    - silhouet?
+    - beknopte levenswijze
+    - kenmerken voor leken
+        - jaagt vlak boven water
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kmq-aYFfD68?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+- detailkaart:
+    - fietsroute
+    - wandelroute
+    - infobord
+    - ingang kelder
+    - toren
+- meer info:
+    - https://www.natuurenbos.be/malakoffdomein

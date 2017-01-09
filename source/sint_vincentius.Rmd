@@ -2,3 +2,9 @@
 title: "Sint Vincentiuskerk"
 output: html_document
 ---
+
+- eigenaar: kerkfabriek
+- nut voor vleermuizen: zomerkolonie
+- inrichting: invliegopeningen
+- geschiedenis: toren zonder spits
+- vleermuis toegelicht: laatvlieger

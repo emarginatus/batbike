@@ -1,0 +1,16 @@
+---
+title: "Bunker Conversion Works"
+output: html_document
+---
+
+- eigenaar: Conversion Works
+- nut voor vleermuizen
+    - overwinteringsplaats
+- info over inrichting
+- geschiedenis
+    - typische cementering buitenkant
+    - http://www.ablhistoryforum.be/viewtopic.php?t=501
+    - https://collectiefgeheugen.wordpress.com/ontwerpers/krishia-de-vroede/
+    - http://www.militair.net/forum/viewtopic.php?f=8&t=1838&sid=abe21d13214f9d98c53513b08e54ebea&start=45
+    - http://www.bunkergordel.be/2-camouflage%20van%20de%20bunkers.htm
+- vleermuis toegelicht: rosse vleermuis
