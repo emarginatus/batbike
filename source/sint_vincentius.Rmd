@@ -3,6 +3,8 @@ title: "Sint Vincentiuskerk"
 output: html_document
 ---
 
+## Zomerkolonies van vleermuizen
+
 - eigenaar: kerkfabriek
 - nut voor vleermuizen: zomerkolonie
 - inrichting: invliegopeningen
