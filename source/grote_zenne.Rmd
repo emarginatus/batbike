@@ -3,23 +3,21 @@ title: "Malakoffdomein (Grote Zenne)"
 output: html_document
 ---
 
-## Wat eten vleermuizen?
+## Vleermuizen kunnen "zien" in het donker
 
-Alle vleermuizen die in onze streken voorkomen eten insecten en spinnen. Sommige tropische soorten zijn verzot op fruit, nectar of vis.
+<img style="float: left;" src="images/echo.gif">Vleermuizen maken gebruiken van _echolocatie_. Op sommige plaatsen in de bergen of bij een diepe put, hoor je je eigen stem iets later opnieuw nadien je iets riep. Wat er gebeurd is dat het geluid van jouw stem vertrekt vanaf je mond in de richting waar je roept. Wanneer het geluid ergens tegen bots (een bergwand of de bodem van de put) keert het terug en hoor je een echo. Geluid verplaatst zich tegen ongeveer 330 meter per seconde door de lucht. Dus als je de tijd meet tussen jouw roep en moment dat je de echo hoort, kan je afstand berekenen. Stel dat je de echo na 2 seconden hoort. Dan heeft het geluid $2s \times 330 m/s = 660 m$ afgelegd. Die afstand moeten we nog door twee delen, het geluid is immers heen en terug moeten gaan. Bijgevolg is het obstakel $330m$ van ons verwijderd.
 
-Vleermuizen gebruiken verschillende technieken om hun prooi te pakken te krijgen. Voor vliegende prooien gebruiken de vleermuizen meestal hun staarthuid als een soort schepnet. De staarthuid is een dun vlies dat tussen de achterpoten en de staart van vleermuizen zit. Vervolgens nemen ze de prooi met hun mond vast. Muggen worden in de vlucht opgegeten, deze zijn klein genoeg om snel door te slikken. Nachtvlinders of kevers zijn te groot om in een keer door te slikken. De vleermuis vliegt dan naar een boom en hangt ondersteboven aan een tak waarna de prooi opgegeten wordt.
+<img style="float: right;" src="images/echoa.gif">Vleermuizen zijn meesters in het gebruik van echo. Ze roepen voortdurend en luisteren naar hun echo. Vleermuizen zijn er zo goed in dat ze een onderscheid tussen maken tussen de verschillende obstakels waartegen hun roep bots: insecten, bomen, bladeren, grond, muren, andere vleermuizen, mensen, ... Stel dat een obstakel aan de linkerkant van de vleermuis is. Dan is het linkeroor van de vleermuis twee centimeter dichter bij het obstakel dan het rechteroor. Hierdoor zal het linkeroor de echo een heel klein beetje eerder horen dan het rechteroor. Het verschil is slechts 60 miljoenste van een seconde!
 
-### Wist je dat... 
+Door gebruik te maken van echolocatie kunnen vleermuizen zonder problemen door het donker vliegen. Ze "zien" (eigenlijk eerder "horen") waar alle obstakels staan. Dingen te kunnen zien met de ogen is er altijd licht nodig. Zo heeft een kat genoeg aan het licht van de maan en de sterren om 's nachts rond te kunnen lopen. In een volledig donkere ruimte zal een kat evenmin iets kunnen zien.
 
-... vampiervleermuizen echt bestaan. Ze hebben slijmscherpe tanden waarmee ze een wondje maken bij hun slachtoffer waarna ze het bloed oplikken. Gelukkig komen deze vleermuizen enkel in Midden-Amerika voor!
+Vleermuizen gebruiken geluiden met zeer hoge tonen, deze zijn zo hoog dat mensen ze niet meer kunnen horen. We noemen dit ultrasone geluiden. Vleermuisonderzoekers gebruiken daarom een zogenaamde _batdetector_. Dit toestel zet de ultrasone geluiden om naar voor de mensen hoorbare geluiden. **link naar een ultrasone opname**.
 
-... een vleermuis echt nacht de helft van zijn eigen gewicht opeet. Reken maar uit hoeveel muggen dat zijn als je weet dat een mug slechts 0.0025 gram weegt.
+### Wist je dat...
 
-### Video's
-
-Jagende vleermuizen  
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/p08Y0oRAX3g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
+... vleermuizen niet blind zijn? Sommige vleermuissoort hebben zelfs vrij grote ogen zodat ze op het zicht kunnen jagen in plaats van met echolocatie
+... sommige insecten kunnen luisteren naar de echolocatie van vleermuizen? Als ze horen dat een vleermuis vlakbij is, laten ze zich pardoes vallen in een poging te vleermuis te ontwijken.
+... wanneer vleermuizen in grotten vliegen ze goed kennen doen ze dat soms zonder hun echolocatie te gebruiken.
 
 ## Watervleermuis
 
