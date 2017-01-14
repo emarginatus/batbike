@@ -33,4 +33,3 @@ navbar:
           href: "route/route.gpx"
         - text: "Routebeschrijving"
     - text: "Over de fietsroute"
-output_dir: "../docs"
