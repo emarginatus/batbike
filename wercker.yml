@@ -1,0 +1,7 @@
+box: rocker/rstudio
+build:
+  steps:
+    - script:
+        code: |
+          cd source
+          Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
