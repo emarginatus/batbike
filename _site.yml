@@ -3,35 +3,58 @@ navbar:
   title: "Bat Bike"
   left:
     - text: "Start"
+      icon: fa-home
       href: "index.html"
     - text: "Fietsroute"
+      icon: fa-bicycle
       menu:
         - text: "Detailkaart"
+          icon: fa-map-o
           href: "kaart.html"
         - text: "Routebeschrijving"
           href: "routebeschrijving.html"
+          icon: fa-file-text-o
     - text: "Stopplaatsen"
+      icon: fa-info
       menu:
         - text: "1. Malakoffdomein"
           href: "grote_zenne.html"
+          icon: fa-photo
         - text: "2. Kasteelpark Lembeek"
           href: "kasteelpark.html"
+          icon: fa-info
         - text: "3. Oude spoorwegbedding"
           href: "spoorwegbedding.html"
+          icon: fa-info-circle
         - text: "4. Bunker Colruyt"
           href: "bunker_colruyt.html"
+          icon: fa-eye
         - text: "5. Bunker kerkhof"
           href: "bunker_kerkhof.html"
+          icon: fa-binoculars
         - text: "6. Bunker Stroppen"
           href: "bunker_stroppen.html"
         - text: "7. Sint Vincentiuskerk"
           href: "sint_vincentius.html"
     - text: "Downloads"
+      icon: fa-download
       menu:
         - text: "Folder"
+          icon: fa-file-pdf-o
         - text: "GPX track"
           href: "route/route.gpx"
         - text: "Routebeschrijving"
+          icon: fa-file-pdf-o
     - text: "Over de fietsroute"
+      icon: fa-info
+      menu:
+        - text: "Vleermuizenwerkgroep Myotis"
+        - text: "Fietsersbond Halle"
+          icon: fa-bicycle
+        - text: "Den Herberg"
+          icon: fa-beer
+        - text: "Alsput"
+          icon: fa-cutlery
+
 output_dir: "_site"
 exclude: ["README.*", "*.yml"]
