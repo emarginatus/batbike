@@ -3,8 +3,9 @@ build:
   steps:
     - script:
         code: |
-          if [["${WERCKER_GIT_BRANCH}" == "gh-pages"]]; then
-            echo "gh-pages branch: nothing to do"
+          wrong_branch = "gh-pages"
+          if [ "${WERCKER_GIT_BRANCH}" == "$wrong_branch" ]; then
+            echo "$wrong_branch branch: nothing to do"
             exit 0
           fi
           apt-get update
