@@ -3,13 +3,11 @@ build:
   steps:
     - script:
         code: |
-          current_branch = "$WERCKER_GIT_BRANCH"
-          wrong_branch = "gh-pages"
-          if [ $current_branch == $wrong_branch ]; then
-            echo "$wrong_branch branch: nothing to do"
-            exit 0
+          if [[ $WERCKER_GIT_BRANCH == "gh-pages" ]]; then
+            success "nothing to do on $WERCKER_GIT_BRANCH branch"
+          else
+            Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
           fi
-          Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
 deploy:
   steps:
     - lukevivier/gh-pages:
