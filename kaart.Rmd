@@ -34,7 +34,8 @@ output: html_document
 library(knitr)
 opts_chunk$set(
   echo = FALSE,
-  message = FALSE
+  message = FALSE,
+  warning = FALSE
 )
 library(htmlwidgets)
 setWidgetIdSeed(1)
@@ -44,20 +45,20 @@ library(rgdal)
 ```
 
 ```{r map_data, results='hide'}
-route <- readOGR("route/Batbike.kml", "Route")
+route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
 route_kleur <- c(
   "red",
   "black", 
   "green", 
   "magenta"
 )
-partner <- readOGR("route/Batbike.kml", "Partners")
+partner <- readOGR("route/Batbike.kml", "Partners", verbose = FALSE)
 partner_icoon <- makeAwesomeIcon(icon = "beer", library = "fa")
-station <- readOGR("route/Batbike.kml", "Station")
+station <- readOGR("route/Batbike.kml", "Station", verbose = FALSE)
 station_icoon <- makeAwesomeIcon(icon = "train", library = "fa")
-infobord <- readOGR("route/Batbike.kml", "Infoborden")
+infobord <- readOGR("route/Batbike.kml", "Infoborden", verbose = FALSE)
 infobord_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
-object <- readOGR("route/Batbike.kml", "Objecten")
+object <- readOGR("route/Batbike.kml", "Objecten", verbose = FALSE)
 object$description <- factor(object$description)
 object_icoon <- awesomeIconList(
   bunker = makeAwesomeIcon(icon = "building", library = "fa"),

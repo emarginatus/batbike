@@ -7,31 +7,59 @@ output: html_document
 set.seed(1)
 library(knitr)
 opts_chunk$set(
-  echo = FALSE
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
 )
 library(htmlwidgets)
 setWidgetIdSeed(1)
 library(leaflet)
-library(plotKML)
 library(dplyr)
-library(sp)
+library(rgdal)
+library(raster)
 library(rgeos)
 library(ggvis)
 ```
 
-```{r map_data}
-route <- readGPX("route/route.gpx")$tracks[[1]][[1]]
+```{r lees_gegevens}
+route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
+route <- route[route$Name == "Fietsroute", ]
+if (!file_test("-f", "dem/srtm_37_02.tif")) {
+  location <- bbox(route) %>%
+    rowMeans()
+  getData(
+    "SRTM", 
+    lon = location["x"], 
+    lat = location["y"], 
+    path = "dem"
+  )
+}
+hoogte <- raster("dem/srtm_37_02.tif")
+```
+
+```{r bereken_profiel}
+lc <- route %>%
+  coordinates() %>%
+  unlist(recursive = FALSE)
 route_lambert <- route %>%
-  select(lon, lat) %>%
-  Line() %>%
-  list() %>%
-  Lines(ID = 1) %>%
-  list() %>%
-  SpatialLines(CRS("+proj=longlat +ellps=WGS84")) %>%
   spTransform(CRS("+init=epsg:31370"))
-afstand <- sprintf("%.0fkm", gLength(route_lambert) / 1e3)
-hoogteprofiel <- coordinates(route_lambert)[[1]][[1]] %>%
-  as.data.frame() %>%
+lc_lambert <- route_lambert %>%
+  coordinates() %>%
+  unlist(recursive = FALSE)
+hoogteprofiel <- lapply(
+  seq_along(lc),
+  function(i){
+    lc_lambert[[i]] %>%
+      cbind(route = i) %>%
+      as.data.frame() %>%
+      bind_cols(
+        extract(hoogte, lc[[i]], df = TRUE, method = "bilinear")
+      )
+  }
+) %>%
+  bind_rows() %>%
+  group_by(route) %>%
+  arrange(route, ID) %>%
   mutate(
     L1 = lag(V1), 
     L2 = lag(V2),
@@ -41,14 +69,14 @@ hoogteprofiel <- coordinates(route_lambert)[[1]][[1]] %>%
       sqrt((V1 - L1) ^ 2 + (V2 - L2) ^ 2)
     ),
     cum_afstand = cumsum(afstand) / 1e3,
-    hoogte = as.numeric(route$ele),
     stijging = ifelse(
       is.na(L1),
       0,
-      hoogte - lag(hoogte)
+      srtm_37_02 - lag(srtm_37_02)
     ),
     hoogtemeter = cumsum(pmax(stijging, 0))
   )
+afstand <- sprintf("%.0fkm", gLength(route_lambert) / 1e3)
 hoogtemeters <- sprintf("%.0fm", max(hoogteprofiel$hoogtemeter))
 ```
 
@@ -61,14 +89,14 @@ De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een
 ```{r overzicht_kaart}
 leaflet(data = route) %>%
   addProviderTiles("Thunderforest.OpenCycleMap") %>%
-  addPolylines(~lon, ~lat)
+  addPolylines()
 ```
 
 ## Hoogteprofiel
 
 ```{r hoogtemeters}
 hoogteprofiel %>%
-  ggvis(~cum_afstand, ~hoogte) %>%
+  ggvis(~cum_afstand, ~srtm_37_02) %>%
   layer_lines() %>%
   scale_numeric("x", label = "afstand (km)") %>%
   scale_numeric("y", label = "hoogte (m)")
