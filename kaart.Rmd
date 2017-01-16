@@ -33,42 +33,76 @@ output: html_document
 ```{r load_packages, include = FALSE}
 library(knitr)
 opts_chunk$set(
-  echo = FALSE
+  echo = FALSE,
+  message = FALSE
 )
 library(htmlwidgets)
 setWidgetIdSeed(1)
 library(leaflet)
 library(tibble)
-library(plotKML)
+library(rgdal)
 ```
 
-```{r map_data}
-iconen <- iconList(
-  infobord = makeIcon("images/icon_bat.png", iconWidth = 32, iconHeight = 32),
-  wegwijzer = makeIcon("images/icon_wegwijzer.png", iconWidth = 32, iconHeight = 32),
-  koffie = makeIcon("images/icon_koffie.png", iconWidth = 32, iconHeight = 32),
-  eten = makeIcon("images/icon_eten.png", iconWidth = 32, iconHeight = 32),
-  info = makeIcon("images/icon_info.png", iconWidth = 32, iconHeight = 32)
+```{r map_data, results='hide'}
+route <- readOGR("route/Batbike.kml", "Route")
+route_kleur <- c(
+  "red",
+  "black", 
+  "green", 
+  "magenta"
 )
-punten <- tribble(
-  ~omschrijving, ~lat, ~long, ~icoon,
-  "Grote Zenne", 50.708614, 4.230570, "infobord",  
-  "Kasteelpark Lembeek", 50.713455, 4.225291, "infobord", 
-  "Bunker Colruyt", 50.728402, 4.223548, "infobord", 
-  "Oude spoorweg", 50.730955, 4.219671, "infobord", 
-  "Bunker kerkhof", 50.746620, 4.229127, "infobord", 
-  "Bunker Jambonstraat", 50.748987, 4.237973, "infobord", 
-  "Sint Vincentiuskerk", 50.740913, 4.249800, "infobord", 
-  "Den Herberg", 50.741806, 4.250804, "koffie",
-  "Alsput", 50.750371, 4.231023, "eten",
-  "Toerisme Halle", 50.736003, 4.237707, "info"
+partner <- readOGR("route/Batbike.kml", "Partners")
+partner_icoon <- makeAwesomeIcon(icon = "beer", library = "fa")
+station <- readOGR("route/Batbike.kml", "Station")
+station_icoon <- makeAwesomeIcon(icon = "train", library = "fa")
+infobord <- readOGR("route/Batbike.kml", "Infoborden")
+infobord_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
+object <- readOGR("route/Batbike.kml", "Objecten")
+object$description <- factor(object$description)
+object_icoon <- awesomeIconList(
+  bunker = makeAwesomeIcon(icon = "building", library = "fa"),
+  bunker_weg = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "red"),
+  kelder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "green"),
+  zolder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
 )
-route <- readGPX("route/route.gpx")$tracks[[1]][[1]]
 ```
 
 ```{r detailkaart, out.width="100%"}
-leaflet(data = punten) %>%
+leaflet() %>%
   addProviderTiles("Thunderforest.OpenCycleMap") %>%
-  addPolylines(~lon, ~lat, data = route) %>%
-  addMarkers(~long, ~lat, popup = ~omschrijving, icon = ~iconen[icoon])
+  addPolylines(
+    data = route, 
+    label = ~Name,
+    color = ~route_kleur[Name]
+  ) %>%
+  addAwesomeMarkers(
+    data = infobord, 
+    icon = infobord_icoon, 
+    label = ~Name,
+    group = "Infoborden"
+  ) %>%
+  addAwesomeMarkers(
+    data = partner, 
+    icon = partner_icoon, 
+    label = ~Name,
+    group = "Afhaalpunt\nfolder"
+  ) %>%
+  addAwesomeMarkers(
+    data = station, 
+    icon = station_icoon,
+    label = ~Name,
+    group = "Transport"
+  ) %>%
+  addAwesomeMarkers(
+    data = object, 
+    icon = object_icoon[object$description],
+    label = ~Name,
+    clusterOptions = markerClusterOptions(),
+    group = "Gebouwen"
+  ) %>%
+  addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
+  addLayersControl(
+    overlayGroups = c("Transport", "Gebouwen", "Afhaalpunt\nfolder", "Infoborden"),
+    options = layersControlOptions(collapsed = FALSE)
+  )
 ```
