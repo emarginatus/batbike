@@ -1,0 +1,20 @@
+---
+title: "Oude spoorwegbedding"
+output: html_document
+---
+
+## Vleermuizen en kleine landschapselementen
+
+Lijnvormige landschapselementen zijn o.a. hagen, houtkanten, bermen, holle wegen, dijken, waterlopen, ... 
+
+
+
+- eigenaar: stad Halle? Openbaar domein?
+- nut voor vleermuizen: vliegroute/jachtgebied
+- inrichting: geen
+- geschiedenis: oude spoorweg. http://www.railations.net/oudespoorbeddingen.html
+- vleermuis toegelicht: gewone grootoorvleermuis
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nRbkZOgIeTA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YHZR4BWmQsQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

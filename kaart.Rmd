@@ -1,0 +1,109 @@
+---
+output: html_document
+---
+
+- welke achtergrond?
+    - nu een fietskaart (Thunderforest.OpenCyclemap)
+    - voor alle opties zie http://leaflet-extras.github.io/leaflet-providers/preview/index.html
+- fietsroute
+- extra lussen
+    - bunker Colruyt
+    - wandeling Grote Zenne
+    - wandeling Kasteelpark?
+- locaties infoborden
+- locaties sponsors / afhaalpunt folder
+    - toerismekantoor
+    - Den herberg?
+    - Belle-vue?
+    - Alsput?
+    - Conversion works?
+    - Colruyt?
+    - fietsenmakers? (AVA, Gouden spaak, Fietspunt Halle)
+- rustplaatsen
+    - relevante sponsors
+    - picnic plaatsen
+        - welke?
+    - speeltuinen? 
+        - kasteelpark Lembeek
+- extra interactiviteit
+    - keuze van achtergrondlaag
+    - keuze van voorgrondlagen
+        - standaard alles aan? of enkel specifieke lagen?
+
+```{r load_packages, include = FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+library(htmlwidgets)
+setWidgetIdSeed(1)
+library(leaflet)
+library(tibble)
+library(rgdal)
+```
+
+```{r map_data, results='hide'}
+route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
+route_kleur <- c(
+  "red",
+  "black", 
+  "green", 
+  "magenta"
+)
+partner <- readOGR("route/Batbike.kml", "Partners", verbose = FALSE)
+partner_icoon <- makeAwesomeIcon(icon = "beer", library = "fa")
+station <- readOGR("route/Batbike.kml", "Station", verbose = FALSE)
+station_icoon <- makeAwesomeIcon(icon = "train", library = "fa")
+infobord <- readOGR("route/Batbike.kml", "Infoborden", verbose = FALSE)
+infobord_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
+object <- readOGR("route/Batbike.kml", "Objecten", verbose = FALSE)
+object$description <- factor(object$description)
+object_icoon <- awesomeIconList(
+  bunker = makeAwesomeIcon(icon = "building", library = "fa"),
+  bunker_weg = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "red"),
+  kelder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "green"),
+  zolder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
+)
+```
+
+```{r detailkaart, out.width="100%"}
+leaflet() %>%
+  addProviderTiles("Thunderforest.OpenCycleMap") %>%
+  addPolylines(
+    data = route, 
+    label = ~Name,
+    color = ~route_kleur[Name]
+  ) %>%
+  addAwesomeMarkers(
+    data = infobord, 
+    icon = infobord_icoon, 
+    label = ~Name,
+    group = "Infoborden"
+  ) %>%
+  addAwesomeMarkers(
+    data = partner, 
+    icon = partner_icoon, 
+    label = ~Name,
+    group = "Afhaalpunt\nfolder"
+  ) %>%
+  addAwesomeMarkers(
+    data = station, 
+    icon = station_icoon,
+    label = ~Name,
+    group = "Transport"
+  ) %>%
+  addAwesomeMarkers(
+    data = object, 
+    icon = object_icoon[object$description],
+    label = ~Name,
+    clusterOptions = markerClusterOptions(),
+    group = "Gebouwen"
+  ) %>%
+  addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
+  addLayersControl(
+    overlayGroups = c("Transport", "Gebouwen", "Afhaalpunt\nfolder", "Infoborden"),
+    options = layersControlOptions(collapsed = FALSE)
+  )
+```

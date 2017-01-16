@@ -1,0 +1,14 @@
+---
+title: "Bunker Colruyt"
+output: html_document
+---
+
+- eigenaar: Colruyt
+- nut voor vleermuizen
+    - overwinteringsplaats
+- info over inrichting
+- geschiedenis
+    - vermomde bunker: http://www.bunkergordel.be/2-camouflage%20van%20de%20bunkers.htm
+    - http://www.kwlinie.be/
+    - http://i240.photobucket.com/albums/ff166/paten_01/lastscan-2.jpg
+- vleermuis toegelicht: gewone dwergvleermuis
