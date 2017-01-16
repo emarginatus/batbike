@@ -24,6 +24,8 @@ library(ggvis)
 ```{r lees_gegevens}
 route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
 route <- route[route$Name == "Fietsroute", ]
+route_lambert <- route %>%
+  spTransform(CRS("+init=epsg:31370"))
 if (!file_test("-f", "dem/srtm_37_02.tif")) {
   location <- bbox(route) %>%
     rowMeans()
@@ -33,6 +35,11 @@ if (!file_test("-f", "dem/srtm_37_02.tif")) {
     lat = location["y"], 
     path = "dem"
   )
+  route_lambert %>%
+    gBuffer(width = 1000) %>%
+    spTransform(CRS("+proj=longlat +ellps=WGS84")) %>%
+    crop(x = raster("dem/srtm_37_02.tif")) %>%
+    writeRaster("dem/srtm_37_02.tif", overwrite = TRUE)
 }
 hoogte <- raster("dem/srtm_37_02.tif")
 ```
@@ -41,8 +48,6 @@ hoogte <- raster("dem/srtm_37_02.tif")
 lc <- route %>%
   coordinates() %>%
   unlist(recursive = FALSE)
-route_lambert <- route %>%
-  spTransform(CRS("+init=epsg:31370"))
 lc_lambert <- route_lambert %>%
   coordinates() %>%
   unlist(recursive = FALSE)
