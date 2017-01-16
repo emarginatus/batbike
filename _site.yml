@@ -57,4 +57,5 @@ navbar:
           icon: fa-cutlery
 
 output_dir: "_site"
-exclude: ["README.*", "*.yml"]
+include: ["README.md"]
+exclude: ["*ME.html", "*.yml", "dem"]
