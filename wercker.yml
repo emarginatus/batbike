@@ -17,6 +17,6 @@ build:
           Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
 deploy:
   steps:
-    - gh-pages:
+    - uetchy/gh-pages:
       token: $GITHUB_TOKEN
-      base_dir: _site
+      path: _site
