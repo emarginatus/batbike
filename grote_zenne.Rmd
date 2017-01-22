@@ -6,10 +6,10 @@ output: html_document
 Op deze pagina:
 
 - Het [Malakoffdomein](#malakoffdomein).
-- Vleermuizen kunnen "[zien](#vleermuizen-kunnen-zien-in-het-donker)" in het donker
+- Vleermuizen kunnen [zien](#zien-in-het-donker) in het donker
 - Weetjes over de [watervleermuis](#watervleermuis).
 
-## Malakoffdomein
+## Malakoffdomein {#malakoffdomein}
 
 ### Vormgegeven door de Zenne en het kanaal
 
@@ -41,7 +41,83 @@ Eerst werd gestart met het herstel van de kelder en oorspronkelijke gang. De ing
 - foto van renovatie
 - cijfers van aantallen overwinterende vleermuizen
 
-## Vleermuizen kunnen "zien" in het donker
+### Wandelen in het Malakoffdomein
+
+```{r load_packages, include = FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+library(htmlwidgets)
+setWidgetIdSeed(1)
+library(leaflet)
+library(tibble)
+library(rgdal)
+library(rgeos)
+```
+
+```{r map_data, results='hide'}
+route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
+route_kleur <- c(
+  "red",
+  "black", 
+  "green", 
+  "magenta"
+)
+infobord <- readOGR("route/Batbike.kml", "Infoborden", verbose = FALSE)
+infobord_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
+object <- readOGR("route/Batbike.kml", "Objecten", verbose = FALSE)
+object$description <- factor(object$description)
+object_icoon <- awesomeIconList(
+  bunker = makeAwesomeIcon(icon = "building", library = "fa"),
+  bunker_weg = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "red"),
+  kelder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "green"),
+  zolder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
+)
+box <- bbox(wandeling <- route[route$Name == "Wandeling Malakoffdomein", ])
+lengte <- wandeling %>%
+  spTransform(CRS("+init=epsg:31370")) %>%
+  gLength() %>%
+  "/"(1000) %>%
+  sprintf(fmt = "%.2fkm")
+```
+
+In het gebied is een wandeling van `r lengte` uitgestippeld die je langs de Malakoffkelder, de oude Zenne arm en de Malakofftoren brengt.
+
+```{r detailkaart, out.width="100%", out.height="900px"}
+leaflet() %>%
+  addProviderTiles("Thunderforest.OpenCycleMap") %>%
+  addPolylines(
+    data = route, 
+    label = ~Name,
+    color = ~route_kleur[Name]
+  ) %>%
+  addAwesomeMarkers(
+    data = infobord, 
+    icon = infobord_icoon, 
+    label = ~Name,
+    group = "Infoborden"
+  ) %>%
+  addAwesomeMarkers(
+    data = object, 
+    icon = object_icoon[object$description],
+    label = ~Name,
+    clusterOptions = markerClusterOptions(),
+    group = "Gebouwen"
+  ) %>%
+  addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
+  addLayersControl(
+    overlayGroups = c("Gebouwen", "Infoborden"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  # setView(mean(box["x", ]), mean(box["y", ]), zoom = 14)
+  fitBounds(box["x", "min"], box["y", "min"], box["x", "max"], box["y", "max"])
+```
+
+
+## Vleermuizen kunnen "zien" in het donker {#zien-in-donker}
 
 <img style="float: left;" src="images/echo.gif">Vleermuizen maken gebruiken van _echolocatie_. Op sommige plaatsen in de bergen of bij een diepe put, hoor je je eigen stem iets later opnieuw nadien je iets riep. Wat er gebeurd is dat het geluid van jouw stem vertrekt vanaf je mond in de richting waar je roept. Wanneer het geluid ergens tegen bots (een bergwand of de bodem van de put) keert het terug en hoor je een echo. Geluid verplaatst zich tegen ongeveer 330 meter per seconde door de lucht. Dus als je de tijd meet tussen jouw roep en moment dat je de echo hoort, kan je afstand berekenen. Stel dat je de echo na 2 seconden hoort. Dan heeft het geluid $2s \times 330 m/s = 660 m$ afgelegd. Die afstand moeten we nog door twee delen, het geluid is immers heen en terug moeten gaan. Bijgevolg is het obstakel $330m$ van ons verwijderd.
 
@@ -57,7 +133,7 @@ Vleermuizen gebruiken geluiden met zeer hoge tonen, deze zijn zo hoog dat mensen
 ... sommige insecten kunnen luisteren naar de echolocatie van vleermuizen? Als ze horen dat een vleermuis vlakbij is, laten ze zich pardoes vallen in een poging te vleermuis te ontwijken.
 ... wanneer vleermuizen in grotten vliegen ze goed kennen doen ze dat soms zonder hun echolocatie te gebruiken.
 
-## Watervleermuis
+## Watervleermuis {#watervleermuis}
 
 **Foto van watervleermuis in een spechtenhol**
 
