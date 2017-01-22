@@ -59,3 +59,8 @@ navbar:
 output_dir: "_site"
 include: ["README.md"]
 exclude: ["*ME.html", "dem"]
+
+output:
+  html_document:
+    theme: flatly
+    css: css/markdown7.css

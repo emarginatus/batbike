@@ -3,7 +3,121 @@ title: "Malakoffdomein (Grote Zenne)"
 output: html_document
 ---
 
-## Vleermuizen kunnen "zien" in het donker
+Op deze pagina:
+
+- Het [Malakoffdomein](#malakoffdomein).
+- Vleermuizen kunnen [zien](#zien-in-het-donker) in het donker
+- Weetjes over de [watervleermuis](#watervleermuis).
+
+## Malakoffdomein {#malakoffdomein}
+
+### Vormgegeven door de Zenne en het kanaal
+
+Voor de aanleg van het kanaal Brussel-Charleroi was het Malakofdomein een deel van het park rond het kasteel van Lembeek. Tijdens de aanleg van het eerste kanaal (1827-1832) verkreeg hertog d'Ursel, heer van Lembeek, dat het kanaal ter hoogte van zijn park door een tunnel liep. Hierdoor konden slechts schepen tot 70 ton langs het kanaal varen. In 1857 werd het kanaal aangepast zodat schepen tot 280 ton konden varen en werd de tunnel noodgedwongen afgebroken.
+
+Het kanaal werd aangelegd in de vallei van de Zenne. Hierbij werd de oorspronkelijke loop van de Zenne op een aantal plaatsen doorsneden. Daarom werd de loop van de Zenne aangepast zodat ze in Lembeek steeds aan de linkeroever van het kanaal blijft. Het gevolg hiervan waren twee afgelopen armen. Een grote arm die we nu nog herkenen als de vijvers in het Malakoffdomein. Een tweede, kleinere, arm vinden we een 600-tal meter naar het noorden. Deze twee armen worden ook wel de Grote en de Kleine Zenne genaamd.
+
+Het reliëf van het gebied ziet er soms wat onnatuurlijk uit. Dat is het gevolg van het storten van de uitgegraven grond uit het kanaal. Hierdoor ligt de weide rond de Malakofftoren veel hoger dan oorspronkelijk.
+
+### Malakofftoren
+
+De Malakofftoren is de ietwat vreemde toren die zijn naam geeft aan het domein. Hoeveel het er uitziet als een middeleeuwse ruïne, is deze toren in werkelijkheid pas in 1854 gebouwd. En dat in de nagenoeg dezelfde toestand zodat je hem nu aantreft, enkel de betonnen wenteltrap is recenter. In die romantische periode stond het immers heel chique als je een ruïne in je kasteelpark had. Bij gebrek aan een echte ruïne werd dan wel eens een ruïne nagebouwd.
+
+De toren werd op een bepaald moment als decor gebruikt bij het naslepen van de [slag bij Malachov](https://nl.wikipedia.org/wiki/Slag_bij_Malachov). Dat was een veldslag in de Krimoorlog waarbij de Russen op 7 september 1855 verslagen werden door de Fransen en de Britten.
+
+### Malakoffkelder
+
+Een beetje verborgen op het terrein kan je de nieuwe ingang van de Malakoffkelder vinden. De  kelder bestaat uit een koepel met een diameter van ???m en ???m hoog. De koepel is gebouwd met lokale blauwe hardsteen en heeft bewust zeer ruwe randen gekregen. Daarom vermoeden we dat de kelder eerder als een imitatiegrot gebouwd is dan als een ijskelder. 
+
+Oorspronkelijk was de ingang een gang van ???m in het noordwesten. De kelder was op een bepaald moment behoorlijk vervallen. Een deel van de gang en het dak was ingestort. Op dat moment werd de kelder reeds door vleermuizen als winterverblijfplaats gebruikt. Herman Van Schepdael, Hugo Van Bochaute en Philippe Deschuyfeleer hebben eigen handig, en met financiële ondersteuning van het Agentschap voor Natuur en Bos, de kelder gerestaureerd en gelijkig aangepast zodat vleermuizen er ongestoord kunnen overwinteren.
+
+Eerst werd gestart met het herstel van de kelder en oorspronkelijke gang. De ingang van deze gang werd dichtgemetst. Aan de andere kant was immers een opening in de kelder die nu als nieuwe ingang gebruikt werd. Omdat vleermuizen graag een stabiel microklimaat hebben, werd voor de nieuwe ingang een gang van ???m lang gebouwd. Deze staat haaks op de ingang van de kelder en bevat drie binnendeuren die de instroom van koude buitenlucht beperken. De bezoekers aan het Malakoffdomein zien enkel de toegang van deze gang. Deze is afgesloten met een stevig hek om vandalisme en verstoring van de vleermuizen te vermijden. Zowel de nieuwe als oude gang en de kelder zelf werden met een dikke laag grond bedekt. Op die manier is het klimaat in de kelder goed gebufferd. De temperatuur schommelt tussen ???° in de winter en ???° in de zomer.
+
+### Te zoeken
+
+- foto van kanaaltunnel
+- foto interier kelder
+- grondplan kelder
+- foto van renovatie
+- cijfers van aantallen overwinterende vleermuizen
+
+### Wandelen in het Malakoffdomein
+
+```{r load_packages, include = FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+library(htmlwidgets)
+setWidgetIdSeed(1)
+library(leaflet)
+library(tibble)
+library(rgdal)
+library(rgeos)
+```
+
+```{r map_data, results='hide'}
+route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
+route_kleur <- c(
+  "red",
+  "black", 
+  "green", 
+  "magenta"
+)
+infobord <- readOGR("route/Batbike.kml", "Infoborden", verbose = FALSE)
+infobord_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
+object <- readOGR("route/Batbike.kml", "Objecten", verbose = FALSE)
+object$description <- factor(object$description)
+object_icoon <- awesomeIconList(
+  bunker = makeAwesomeIcon(icon = "building", library = "fa"),
+  bunker_weg = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "red"),
+  kelder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "green"),
+  zolder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
+)
+box <- bbox(wandeling <- route[route$Name == "Wandeling Malakoffdomein", ])
+lengte <- wandeling %>%
+  spTransform(CRS("+init=epsg:31370")) %>%
+  gLength() %>%
+  "/"(1000) %>%
+  sprintf(fmt = "%.2fkm")
+```
+
+In het gebied is een wandeling van `r lengte` uitgestippeld die je langs de Malakoffkelder, de oude Zenne arm en de Malakofftoren brengt.
+
+```{r detailkaart, out.width="100%", out.height="900px"}
+leaflet() %>%
+  addProviderTiles("Thunderforest.OpenCycleMap") %>%
+  addPolylines(
+    data = route, 
+    label = ~Name,
+    color = ~route_kleur[Name]
+  ) %>%
+  addAwesomeMarkers(
+    data = infobord, 
+    icon = infobord_icoon, 
+    label = ~Name,
+    group = "Infoborden"
+  ) %>%
+  addAwesomeMarkers(
+    data = object, 
+    icon = object_icoon[object$description],
+    label = ~Name,
+    clusterOptions = markerClusterOptions(),
+    group = "Gebouwen"
+  ) %>%
+  addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
+  addLayersControl(
+    overlayGroups = c("Gebouwen", "Infoborden"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  # setView(mean(box["x", ]), mean(box["y", ]), zoom = 14)
+  fitBounds(box["x", "min"], box["y", "min"], box["x", "max"], box["y", "max"])
+```
+
+
+## Vleermuizen kunnen "zien" in het donker {#zien-in-donker}
 
 <img style="float: left;" src="images/echo.gif">Vleermuizen maken gebruiken van _echolocatie_. Op sommige plaatsen in de bergen of bij een diepe put, hoor je je eigen stem iets later opnieuw nadien je iets riep. Wat er gebeurd is dat het geluid van jouw stem vertrekt vanaf je mond in de richting waar je roept. Wanneer het geluid ergens tegen bots (een bergwand of de bodem van de put) keert het terug en hoor je een echo. Geluid verplaatst zich tegen ongeveer 330 meter per seconde door de lucht. Dus als je de tijd meet tussen jouw roep en moment dat je de echo hoort, kan je afstand berekenen. Stel dat je de echo na 2 seconden hoort. Dan heeft het geluid $2s \times 330 m/s = 660 m$ afgelegd. Die afstand moeten we nog door twee delen, het geluid is immers heen en terug moeten gaan. Bijgevolg is het obstakel $330m$ van ons verwijderd.
 
@@ -19,7 +133,7 @@ Vleermuizen gebruiken geluiden met zeer hoge tonen, deze zijn zo hoog dat mensen
 ... sommige insecten kunnen luisteren naar de echolocatie van vleermuizen? Als ze horen dat een vleermuis vlakbij is, laten ze zich pardoes vallen in een poging te vleermuis te ontwijken.
 ... wanneer vleermuizen in grotten vliegen ze goed kennen doen ze dat soms zonder hun echolocatie te gebruiken.
 
-## Watervleermuis
+## Watervleermuis {#watervleermuis}
 
 **Foto van watervleermuis in een spechtenhol**
 
@@ -41,34 +155,3 @@ Watervleermuis jaagt boven een rivier (nachtkijker)
 
 Een kolonie watervleermuizen in een holle boom  
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/eZQ8q0isNYE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-
-# Op te kuizen info
-
-- eigenaar: Agentschap voor Natuur- en Bos
-- nut voor vleermuizen:
-    - winterverblijfplaats
-    - jachtgebied
-- inrichting:
-    - kelder
-        - filmpje met binnenzicht kelder. Eventueel te maken tijdens een volgende telling.
-- geschiedenis: 
-    - http://www.hallerbos.be/bezoekersinfo/verdronken-toren/
-    - http://www.gs-esf.be/downloads/topoguides/Lembeek05_NL_LOW_A4.pdf
-- vleermuis toegelicht: watervleermuis
-    - foto
-    - silhouet?
-    - beknopte levenswijze
-    - kenmerken voor leken
-        - jaagt vlak boven water
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kmq-aYFfD68?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-- detailkaart:
-    - fietsroute
-    - wandelroute
-    - infobord
-    - ingang kelder
-    - toren
-- meer info:
-    - https://www.natuurenbos.be/malakoffdomein

@@ -1,0 +1,14 @@
+@media screen and (min-width: 50px) {
+   body {
+      width: 100%;
+      margin:0 auto;
+   }
+}
+@media print {
+	 table, pre {
+		  page-break-inside: avoid;
+	 }
+	 pre {
+		  word-wrap: break-word;
+	 }
+}
