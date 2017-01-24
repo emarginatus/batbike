@@ -80,6 +80,9 @@ leaflet() %>%
   addLayersControl(
     overlayGroups = c("Transport", "Gebouwen", "Afhaalpunt\nfolder", "Infoborden"),
     options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  hideGroup(
+    c("Transport", "Gebouwen", "Afhaalpunt\nfolder")
   )
 ```
 
