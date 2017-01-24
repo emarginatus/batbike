@@ -45,7 +45,8 @@ object_icoon <- awesomeIconList(
 
 ```{r detailkaart, out.width="100%", out.height="900px"}
 leaflet() %>%
-  addProviderTiles("Thunderforest.OpenCycleMap") %>%
+  addTiles(group = "OpenStreetMap") %>%
+  addProviderTiles("Thunderforest.OpenCycleMap", group = "OpenCycleMap") %>%
   addPolylines(
     data = route, 
     label = ~Name,
@@ -78,6 +79,7 @@ leaflet() %>%
   ) %>%
   addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
   addLayersControl(
+    baseGroups = c("OpenCycleMap", "OpenStreetMap"),
     overlayGroups = c("Transport", "Gebouwen", "Afhaalpunt\nfolder", "Infoborden"),
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
