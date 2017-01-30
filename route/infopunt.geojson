@@ -1,0 +1,601 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "knoop",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.240127205848694,
+          50.733338351859004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.238147735595703,
+          50.732110933467425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.229827523231506,
+          50.71400150234108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.231399297714233,
+          50.71361937144478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2311471700668335,
+          50.71352086608646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.232812821865082,
+          50.71349878727086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.231831133365631,
+          50.710687899268756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2306965589523315,
+          50.70856306179672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225281178951263,
+          50.713435947507975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2272767424583435,
+          50.712299722127824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.220249354839325,
+          50.715113910104314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.209866523742676,
+          50.71733015526964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.216647148132324,
+          50.71304871683987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.206849038600922,
+          50.717623948485695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.205974638462067,
+          50.73226542358202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.219745099544525,
+          50.7309378105886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223379492759705,
+          50.72839622653556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.229017496109008,
+          50.746245518003235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.238598346710205,
+          50.74882177249146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.255485534667969,
+          50.75225316401874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.253854751586914,
+          50.746299827861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.251580238342285,
+          50.74148637209398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2444562911987305,
+          50.736815013878235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.263768196105957,
+          50.73844461036417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2310479283332825,
+          50.713542944891664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "station.html",
+        "categorie": "infopunt",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.239633679389954,
+          50.73305823846105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "grotezenne.html",
+        "categorie": "infopunt",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.230768978595734,
+          50.70858684148595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "kasteelpark.html",
+        "categorie": "infopunt",
+        "id": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225289225578308,
+          50.71337820278674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "spoorwegbedding.html",
+        "categorie": "infopunt",
+        "id": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.219675362110138,
+          50.73092932189339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "bunker_colruyt.html",
+        "categorie": "infopunt",
+        "id": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223408997058868,
+          50.72872220895228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "bunker_kerkhof.html",
+        "categorie": "infopunt",
+        "id": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.229044318199158,
+          50.74622515179033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "bunker_stroppen.html",
+        "categorie": "infopunt",
+        "id": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.238364994525909,
+          50.74889644442047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "sint_vincentius.html",
+        "categorie": "infopunt",
+        "id": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.249697327613831,
+          50.740917754196474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "id": "Lembeek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.221169352531433,
+          50.71469952006891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "id": "Halle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.240454435348511,
+          50.73376106527006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "id": "Buizingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.258419871330261,
+          50.75134697526809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.249257445335388,
+          50.74125553103381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.24271821975708,
+          50.73906078676139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "id": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.243834018707275,
+          50.73599170659376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "id": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.24783855676651,
+          50.732211097445976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "id": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.222974479198455,
+          50.713542944891664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "id": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.221756756305695,
+          50.71469952006891
+        ]
+      }
+    }
+  ]
+}
