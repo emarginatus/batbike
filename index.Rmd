@@ -14,16 +14,54 @@ opts_chunk$set(
 library(htmlwidgets)
 setWidgetIdSeed(1)
 library(leaflet)
-library(dplyr)
 library(rgdal)
 library(raster)
 library(rgeos)
 library(ggvis)
+library(readr)
+library(dplyr)
 ```
 
 ```{r lees_gegevens}
-route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
-route <- route[route$Name == "Fietsroute", ]
+route <- readOGR(
+  "route/route.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+)
+route <- read_csv("route/route.csv") %>%
+  filter(route == "Aanbevolen") %>%
+  mutate(
+    vorige = lag(knoop),
+    segment = sprintf("%i-%i", pmin(knoop, vorige), pmax(knoop, vorige)),
+    omkeren = vorige > knoop,
+    id = row_number()
+  ) %>%
+  filter(!is.na(vorige)) %>%
+  select(id, segment, omkeren) %>%
+  rowwise() %>%
+  mutate(
+    segment = ifelse(
+      omkeren,
+      route[route$id == segment, ] %>%
+        coordinates(),
+      route[route$id == segment, ] %>%
+        coordinates() %>%
+        rev()
+    ) %>%
+      as.data.frame() %>%
+      list()
+  ) %>%
+  "[["("segment") %>%
+  bind_rows() %>%
+  Line() %>%
+  list() %>%
+  Lines(1) %>%
+  list() %>%
+  SpatialLines(CRS("+proj=longlat +ellps=WGS84"))
+```
+
+```{r}
 route_lambert <- route %>%
   spTransform(CRS("+init=epsg:31370"))
 if (!file_test("-f", "dem/srtm_37_02.tif")) {
