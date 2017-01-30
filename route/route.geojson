@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "knoop",
-        "id": 1
+        "id": "1"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +18,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 2,
+        "id": "2",
         "categorie": "knoop"
       },
       "geometry": {
@@ -32,7 +32,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 3,
+        "id": "3",
         "categorie": "knoop"
       },
       "geometry": {
@@ -46,7 +46,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 4,
+        "id": "4",
         "categorie": "knoop"
       },
       "geometry": {
@@ -60,7 +60,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 5,
+        "id": "5",
         "categorie": "knoop"
       },
       "geometry": {
@@ -74,7 +74,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 6,
+        "id": "6",
         "categorie": "knoop"
       },
       "geometry": {
@@ -88,7 +88,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 7,
+        "id": "7",
         "categorie": "knoop"
       },
       "geometry": {
@@ -102,7 +102,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 8,
+        "id": "8",
         "categorie": "knoop"
       },
       "geometry": {
@@ -116,7 +116,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 9,
+        "id": "9",
         "categorie": "knoop"
       },
       "geometry": {
@@ -130,7 +130,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 10,
+        "id": "10",
         "categorie": "knoop"
       },
       "geometry": {
@@ -144,7 +144,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 11,
+        "id": "11",
         "categorie": "knoop"
       },
       "geometry": {
@@ -158,7 +158,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 12,
+        "id": "12",
         "categorie": "knoop"
       },
       "geometry": {
@@ -172,7 +172,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 13,
+        "id": "13",
         "categorie": "knoop"
       },
       "geometry": {
@@ -186,7 +186,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 14,
+        "id": "14",
         "categorie": "knoop"
       },
       "geometry": {
@@ -200,7 +200,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 15,
+        "id": "15",
         "categorie": "knoop"
       },
       "geometry": {
@@ -214,7 +214,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 16,
+        "id": "16",
         "categorie": "knoop"
       },
       "geometry": {
@@ -228,7 +228,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 17,
+        "id": "17",
         "categorie": "knoop"
       },
       "geometry": {
@@ -242,7 +242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 18,
+        "id": "18",
         "categorie": "knoop"
       },
       "geometry": {
@@ -256,7 +256,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 19,
+        "id": "19",
         "categorie": "knoop"
       },
       "geometry": {
@@ -270,7 +270,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 20,
+        "id": "20",
         "categorie": "knoop"
       },
       "geometry": {
@@ -284,7 +284,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 21,
+        "id": "21",
         "categorie": "knoop"
       },
       "geometry": {
@@ -298,7 +298,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 22,
+        "id": "22",
         "categorie": "knoop"
       },
       "geometry": {
@@ -312,7 +312,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 23,
+        "id": "23",
         "categorie": "knoop"
       },
       "geometry": {
@@ -326,7 +326,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 24,
+        "id": "24",
         "categorie": "knoop"
       },
       "geometry": {
@@ -340,7 +340,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 25,
+        "id": "25",
         "categorie": "knoop"
       },
       "geometry": {
@@ -354,7 +354,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "1-2",
+        "id": "1-2",
         "categorie": "fiets"
       },
       "geometry": {
@@ -378,7 +378,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "1-23",
+        "id": "1-23",
         "categorie": "fiets"
       },
       "geometry": {
@@ -434,7 +434,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "2-3",
+        "id": "2-3",
         "categorie": "fiets"
       },
       "geometry": {
@@ -590,7 +590,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "2-25",
+        "id": "2-25",
         "categorie": "beide"
       },
       "geometry": {
@@ -730,7 +730,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "3-4",
+        "id": "3-4",
         "categorie": "fiets"
       },
       "geometry": {
@@ -762,7 +762,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "3-9",
+        "id": "3-9",
         "categorie": "fiets"
       },
       "geometry": {
@@ -826,7 +826,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "4-5",
+        "id": "4-5",
         "categorie": "beide"
       },
       "geometry": {
@@ -846,7 +846,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "4-6",
+        "id": "4-6",
         "categorie": "beide"
       },
       "geometry": {
@@ -882,7 +882,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "5-7",
+        "id": "5-7",
         "categorie": "wandel"
       },
       "geometry": {
@@ -918,7 +918,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "5-25",
+        "id": "5-25",
         "categorie": "fiets"
       },
       "geometry": {
@@ -938,7 +938,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "6-7",
+        "id": "6-7",
         "categorie": "wandel"
       },
       "geometry": {
@@ -1022,7 +1022,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "6-8",
+        "id": "6-8",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1118,7 +1118,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "7-8",
+        "id": "7-8",
         "categorie": "wandel"
       },
       "geometry": {
@@ -1162,7 +1162,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "8-25",
+        "id": "8-25",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1294,7 +1294,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "9-10",
+        "id": "9-10",
         "categorie": "wandel"
       },
       "geometry": {
@@ -1314,7 +1314,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "9-11",
+        "id": "9-11",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1418,7 +1418,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "11-12",
+        "id": "11-12",
         "categorie": "fiets",
       },
       "geometry": {
@@ -1458,7 +1458,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "12-13",
+        "id": "12-13",
         "categorie": "fiets",
         "knoop": ""
       },
@@ -1531,7 +1531,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "12-14",
+        "id": "12-14",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1555,7 +1555,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "13-14",
+        "id": "13-14",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1731,7 +1731,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "14-15",
+        "id": "14-15",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1843,7 +1843,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "15-16",
+        "id": "15-16",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1939,7 +1939,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "16-17",
+        "id": "16-17",
         "categorie": "fiets"
       },
       "geometry": {
@@ -1991,7 +1991,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "16-18",
+        "id": "16-18",
         "categorie": "fiets"
       },
       "geometry": {
@@ -2195,7 +2195,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "18-19",
+        "id": "18-19",
         "categorie": "fiets"
       },
       "geometry": {
@@ -2295,7 +2295,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "19-20",
+        "id": "19-20",
         "categorie": "fiets"
       },
       "geometry": {
@@ -2439,7 +2439,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "20-21",
+        "id": "20-21",
         "categorie": "fiets"
       },
       "geometry": {
@@ -2523,7 +2523,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "21-22",
+        "id": "21-22",
         "categorie": "fiets"
       },
       "geometry": {
@@ -2623,7 +2623,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "21-24",
+        "id": "21-24",
         "categorie": "fiets"
       },
       "geometry": {
@@ -2727,7 +2727,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "22-23",
+        "id": "22-23",
         "categorie": "fiets"
       },
       "geometry": {
@@ -2819,7 +2819,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "22-24",
+        "id": "22-24",
         "categorie": "fiets"
       },
       "geometry": {
