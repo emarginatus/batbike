@@ -241,7 +241,7 @@
       "type": "Feature",
       "properties": {
         "id": "2-25",
-        "categorie": "beide"
+        "categorie": "fiets"
       },
       "geometry": {
         "type": "LineString",
