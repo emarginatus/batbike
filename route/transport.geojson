@@ -4,120 +4,126 @@
     {
       "type": "Feature",
       "properties": {
-        "url": "station.html",
-        "categorie": "infopunt",
+        "categorie": "station",
+        "id": "Lembeek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.221169352531433,
+          50.71469952006891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "id": "Halle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.240454435348511,
+          50.73376106527006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "id": "Buizingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.258419871330261,
+          50.75134697526809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
         "id": 1
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.239633679389954,
-          50.73305823846105
+          4.249257445335388,
+          50.74125553103381
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "url": "grotezenne.html",
-        "categorie": "infopunt",
+        "categorie": "parking",
         "id": 2
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.230768978595734,
-          50.70858684148595
+          4.24271821975708,
+          50.73906078676139
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "url": "kasteelpark.html",
-        "categorie": "infopunt",
+        "categorie": "parking",
         "id": 3
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.225289225578308,
-          50.71337820278674
+          4.243834018707275,
+          50.73599170659376
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "url": "spoorwegbedding.html",
-        "categorie": "infopunt",
+        "categorie": "parking",
         "id": 4
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.219675362110138,
-          50.73092932189339
+          4.24783855676651,
+          50.732211097445976
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "url": "bunker_colruyt.html",
-        "categorie": "infopunt",
+        "categorie": "parking",
         "id": 5
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.223408997058868,
-          50.72872220895228
+          4.222974479198455,
+          50.713542944891664
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "url": "bunker_kerkhof.html",
-        "categorie": "infopunt",
+        "categorie": "parking",
         "id": 6
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.229044318199158,
-          50.74622515179033
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "url": "bunker_stroppen.html",
-        "categorie": "infopunt",
-        "id": 7
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.238364994525909,
-          50.74889644442047
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "url": "sint_vincentius.html",
-        "categorie": "infopunt",
-        "id": 8
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.249697327613831,
-          50.740917754196474
+          4.221756756305695,
+          50.71469952006891
         ]
       }
     }
