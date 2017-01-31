@@ -20,9 +20,10 @@ library(rgeos)
 library(ggvis)
 library(readr)
 library(dplyr)
+library(tidyr)
 ```
 
-```{r lees_gegevens}
+```{r lees_gegevens_index}
 route <- readOGR(
   "route/route.geojson", 
   "OGRGeoJSON", 
@@ -43,19 +44,19 @@ route <- read_csv("route/route.csv") %>%
   mutate(
     segment = route[route$id == segment, ] %>%
       coordinates() %>%
-      "[["(1),
-    segment = ifelse(
-      omkeren,
-      segment[nrow(segment):1, ] %>%
-        as.data.frame() %>%
-        list(),
-      segment %>%
-        as.data.frame() %>%
-        list()
-    )
+      "[["(1) %>%
+      as.data.frame() %>%
+      list()
   ) %>%
-  "[["("segment") %>%
-  bind_rows() %>%
+  unnest(segment, .drop = FALSE) %>%
+  group_by(id) %>%
+  mutate(
+    volgorde = ifelse(omkeren, -1, 1) * row_number()
+  ) %>%
+  arrange(id, volgorde) %>%
+  ungroup() %>%
+  select(x = X1, y = X2) %>%
+  as.data.frame() %>%
   Line() %>%
   list() %>%
   Lines(1) %>%
@@ -63,7 +64,7 @@ route <- read_csv("route/route.csv") %>%
   SpatialLines(CRS("+proj=longlat +ellps=WGS84"))
 ```
 
-```{r}
+```{r bereken_hoogte}
 route_lambert <- route %>%
   spTransform(CRS("+init=epsg:31370"))
 if (!file_test("-f", "dem/srtm_37_02.tif")) {
@@ -98,7 +99,7 @@ hoogteprofiel <- lapply(
       cbind(route = i) %>%
       as.data.frame() %>%
       bind_cols(
-        extract(hoogte, lc[[i]], df = TRUE, method = "bilinear")
+        raster::extract(hoogte, lc[[i]], df = TRUE, method = "bilinear")
       )
   }
 ) %>%
