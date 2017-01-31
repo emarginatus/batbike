@@ -3,6 +3,25 @@ title: "Sint Vincentiuskerk"
 output: html_document
 ---
 
+## Sint Vincentiuskerk
+
+De kerk dateert van het begin van vorige eeuw, en werd gebouwd ter vervanging van de kleinere St. Vincentiuskerk die aan de overkant van het plein naast de Kasteelhoeve stond en die op haar beurt werd gebouwd ter vervanging van de kapel van het Kasteel van Buizingen.
+Op de huidige kerk is er nooit een toren gebouwd. Vandaar de naam “Kerk zonder toren”
+
+Meer info nodig?
+
+Buizingen zoals het vroeger was/ Guy Lernout en Erik Meeussen
+
+Of  digitaal:
+
+- http://www.kerkeninvlaanderen.be/pages/kerk_01370.htm
+- https://nl.wikipedia.org/wiki/Sint-Vincentiuskerk_(Buizingen)
+- http://www.bezieldverband.be/gemeenschap/don-boscoparochie-buizingen
+- https://nl.wikipedia.org/wiki/Buizingen
+- https://nl.wikipedia.org/wiki/Treinongeval_bij_Buizingen
+- http://www.nieuwsblad.be/cnt/blide_02528307
+
+
 ## Zomerkolonies van vleermuizen
 
 - eigenaar: kerkfabriek
