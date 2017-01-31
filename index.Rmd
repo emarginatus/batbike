@@ -42,7 +42,7 @@ route <- read_csv("route/route.csv") %>%
   select(id, segment, omkeren) %>%
   rowwise() %>%
   mutate(
-    segment = route[route$id == segment, ] %>%
+    segment = route[route$segment == segment, ] %>%
       coordinates() %>%
       "[["(1) %>%
       as.data.frame() %>%
