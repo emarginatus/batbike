@@ -58,7 +58,7 @@ library(rgdal)
 library(rgeos)
 ```
 
-```{r}
+```{r lees_geojson}
 route <- readOGR(
   "route/route.geojson", 
   "OGRGeoJSON", 
@@ -85,7 +85,7 @@ object$verblijf <- ifelse(
   )
 ```
 
-```{r}
+```{r stijlen}
 route_kleur <- c("red", "black", "magenta")
 object_icoon <- awesomeIconList(
   "geen vleermuizen" = makeAwesomeIcon(icon = "building-o", library = "fa"),
