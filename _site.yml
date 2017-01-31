@@ -18,7 +18,7 @@ navbar:
       icon: fa-info
       menu:
         - text: "1. Malakoffdomein"
-          href: "grote_zenne.html"
+          href: "malakoff.html"
           icon: fa-photo
         - text: "2. Kasteelpark Lembeek"
           href: "kasteelpark.html"
