@@ -63,6 +63,34 @@ basis <- read_csv("route/route.csv") %>%
       SpatialLines(CRS("+proj=longlat +ellps=WGS84")) %>%
       list()
   )
+infopunt <- readOGR(
+  "route/infopunt.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE
+)
+object <- readOGR(
+  "route/object.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE
+)
+object$verblijf <- ifelse(
+  object$vleermuis == 0,
+  0,
+  ifelse(object$winter == 1, 1, 2)
+) %>%
+  factor(
+    levels = 0:2, 
+    labels = c("geen vleermuizen", "winterverblijf", "zomerverblijf")
+  )
+```
+
+```{r stijlen}
+object_icoon <- awesomeIconList(
+  "geen vleermuizen" = makeAwesomeIcon(icon = "building-o", library = "fa"),
+  winterverblijf = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "green"),
+  zomerverblijf = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
+)
+infopunt_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
 ```
 
 ```{r detailkaart, out.width="100%", out.height="900px"}
@@ -71,23 +99,35 @@ leaflet() %>%
   addPolylines(
     data = basis$lijn[basis$route == "Wegwijzers"][[1]],
     color = "red",
-    group = "Maximaal bewegwijzerd"
+    group = "maximaal bewegwijzerd"
   ) %>%
   addPolylines(
     data = basis$lijn[basis$route == "Aanbevolen"][[1]],
     color = "blue",
-    group = "Aanbevolen"
+    group = "aanbevolen"
   ) %>%
   addAwesomeMarkers(
     data = knooppunt, 
     label = ~as.character(id),
-    group = "Knooppunt",
+    group = "knooppunt",
     clusterOptions = markerClusterOptions()
+  ) %>%
+  addAwesomeMarkers(
+    data = infopunt, 
+    icon = infopunt_icoon, 
+    group = "infopunt"
+  ) %>%
+  addAwesomeMarkers(
+    data = object, 
+    icon = ~object_icoon[verblijf], 
+    label = ~naam,
+    group = "object"
   ) %>%
   addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
   addLayersControl(
-    overlayGroups = c("Maximaal bewegwijzerd", "Aanbevolen", "Knooppunt"),
+    overlayGroups = c(
+      "maximaal bewegwijzerd", "aanbevolen", "knooppunt", "object", "infopunt"),
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
-  hideGroup(c("Maximaal bewegwijzerd", "Knooppunt"))
+  hideGroup(c("maximaal bewegwijzerd", "knooppunt", "object"))
 ```
