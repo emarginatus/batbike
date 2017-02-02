@@ -82,6 +82,11 @@ object$verblijf <- ifelse(
     levels = 0:2, 
     labels = c("geen vleermuizen", "winterverblijf", "zomerverblijf")
   )
+transport <- readOGR(
+  "route/transport.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE
+)
 ```
 
 ```{r stijlen}
@@ -91,6 +96,10 @@ object_icoon <- awesomeIconList(
   zomerverblijf = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
 )
 infopunt_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
+transport_icoon <- awesomeIconList(
+  "parking" = makeAwesomeIcon(icon = "car", library = "fa", markerColor = "blue"),
+  "station" = makeAwesomeIcon(icon = "train", library = "fa", markerColor = "blue")
+)
 ```
 
 ```{r detailkaart, out.width="100%", out.height="900px"}
@@ -113,6 +122,12 @@ leaflet() %>%
     clusterOptions = markerClusterOptions()
   ) %>%
   addAwesomeMarkers(
+    data = transport, 
+    icon = ~transport_icoon[categorie],
+    label = ~id,
+    group = "transport"
+  ) %>%
+  addAwesomeMarkers(
     data = infopunt, 
     icon = infopunt_icoon, 
     group = "infopunt"
@@ -126,7 +141,7 @@ leaflet() %>%
   addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
   addLayersControl(
     overlayGroups = c(
-      "maximaal bewegwijzerd", "aanbevolen", "knooppunt", "object", "infopunt"),
+      "maximaal bewegwijzerd", "aanbevolen", "knooppunt", "object", "transport", "infopunt"),
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
   hideGroup(c("maximaal bewegwijzerd", "knooppunt", "object"))
