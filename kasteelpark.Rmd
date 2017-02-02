@@ -1,7 +1,32 @@
 ---
-title: "Kasteelpark Lembeek"
+title: "Kasteel(park) Lembeek"
 output: html_document
 ---
+
+## Het kasteel weerspiegeld in Zenne.
+
+Gedurende 3 eeuwen was dit bouwwerk het statige machtssymbool van de heren van Lembeek. De families Richardot, Bornonville, d’Ursel.
+In 1853 kocht Paul Claes, die in Lembeek een grote jeneverstokerij had, het kasteel en liet het restaureren.
+In 1904 verkochten de erfgenamen van P. Claes het kasteeldomein aan de Broeders der Christelijke scholen. De congregatie voorheen gevestigd in Frankrijk, was op zoek naar een nieuwe vestigingsplaats in het buitenland voor haar administratieve hoofdzetel.
+Het kasteeldomein was evenwel niet voorzien op de grote toevloed van religieuzen. Er werd in spoedtempo werk gemaakt van aanpassingswerken. 
+De broeders respecteerden de oorspronkelijke constructie en gebruikten dezelfde materialen.
+De nieuwe gebouwen omvatten o.a. een klein en een tweede noviciaat met klaslokalen en de slaapzaal voor de novicen. Hier werden telkens een 50-tal Broeders van over de hele wereld (o.a. uit Frankrijk, V.S., Italië, Canada, Ierland, Duitsland, Spanje, Oostenrijk, Ceylon...) verder ingewijd in het gedachtengoed van J.-B. de la Salle gedurende 9 maanden. 
+Zo raakten Lembeek en zijn kasteel bekend in de 5 werelddelen en was het er een komen en gaan van mensen van over de hele wereld. Tot 1936 bleef Lembeek de administratieve hoofdzetel van de congregatie.
+
+
+In 1971 verkochten de Broeders hun domein in Lembeek aan de “Etablissementen Fr. Colruyt”. Die zouden er magazijnen bouwen!! Waarvoor ze toestemming kregen van het toenmalig gemeentebestuur... Nog geen jaar later was het grootste deel van het kasteel afgebroken.
+
+Wat er nu nog staat zijn o.a. het gerestaureerde klein noviciaat, grenzend aan de Bondgenotenstraat, en ernaast de toegangspoort tot het Kasteelpark. Hierin zijn nu het lokaal van de Chiromeisjes en de pingpongclub ondergebracht.
+In het dak van dit gebouw zijn er aan de kant van de Bondgenotenstraat invliegopeningen voor vleermuizen ondergebracht. 
+
+Bronnen:
+- Lembeek in oude prenten deel 1 en 2 / Dirk Vandenplas
+
+Info vind je ook op :
+- http://home.scarlet.be/~tsf13331/toenennu/ligging-infra.htm
+- https://berichtenuithetverleden.wordpress.com/2010/12/27/de-malakoff-toren-te-lembeek/
+
+
 
 ## Wat eten vleermuizen?
 

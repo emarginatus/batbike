@@ -58,62 +58,75 @@ library(rgdal)
 library(rgeos)
 ```
 
-```{r map_data, results='hide'}
-route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
-route_kleur <- c(
-  "red",
-  "black", 
-  "green", 
-  "magenta"
+```{r lees_geojson}
+route <- readOGR(
+  "route/route.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE
 )
-infobord <- readOGR("route/Batbike.kml", "Infoborden", verbose = FALSE)
-infobord_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
-object <- readOGR("route/Batbike.kml", "Objecten", verbose = FALSE)
-object$description <- factor(object$description)
-object_icoon <- awesomeIconList(
-  bunker = makeAwesomeIcon(icon = "building", library = "fa"),
-  bunker_weg = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "red"),
-  kelder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "green"),
-  zolder = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
+infopunt <- readOGR(
+  "route/infopunt.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE
 )
-box <- bbox(wandeling <- route[route$Name == "Wandeling Malakoffdomein", ])
-lengte <- wandeling %>%
-  spTransform(CRS("+init=epsg:31370")) %>%
-  gLength() %>%
-  "/"(1000) %>%
-  sprintf(fmt = "%.2fkm")
+object <- readOGR(
+  "route/object.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE
+)
+object$verblijf <- ifelse(
+  object$vleermuis == 0,
+  0,
+  ifelse(object$winter == 1, 1, 2)
+) %>%
+  factor(
+    levels = 0:2, 
+    labels = c("geen vleermuizen", "winterverblijf", "zomerverblijf")
+  )
 ```
 
-In het gebied is een wandeling van `r lengte` uitgestippeld die je langs de Malakoffkelder, de oude Zenne arm en de Malakofftoren brengt.
+```{r stijlen}
+route_kleur <- c("red", "black", "magenta")
+object_icoon <- awesomeIconList(
+  "geen vleermuizen" = makeAwesomeIcon(icon = "building-o", library = "fa"),
+  winterverblijf = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "green"),
+  zomerverblijf = makeAwesomeIcon(icon = "building", library = "fa", markerColor = "pink")
+)
+infopunt_icoon <- makeAwesomeIcon(icon = "info", library = "fa", markerColor = "red")
+```
+
+Je kan het Malakoffdomein te voet verkennen. De kaart duidt de wandelwegen aan die je naar de Malakofftoren, de Malakoffkelder en de oude Zennearm brengen.
 
 ```{r detailkaart, out.width="100%", out.height="900px"}
-leaflet() %>%
-  addProviderTiles("Thunderforest.OpenCycleMap") %>%
-  addPolylines(
-    data = route, 
-    label = ~Name,
-    color = ~route_kleur[Name]
-  ) %>%
+leaflet(route) %>%
+  addProviderTiles("Thunderforest.OpenCycleMap", group = "fietskaart") %>%
+  addProviderTiles("OpenTopoMap", group = "topokaart") %>%
+  addProviderTiles("Esri.WorldImagery", group = "sateliet") %>%
+  addPolylines(color = ~route_kleur[categorie], group = "route") %>%
   addAwesomeMarkers(
-    data = infobord, 
-    icon = infobord_icoon, 
-    label = ~Name,
-    group = "Infoborden"
+    data = infopunt, 
+    icon = infopunt_icoon, 
+    group = "infopunt"
   ) %>%
   addAwesomeMarkers(
     data = object, 
-    icon = object_icoon[object$description],
-    label = ~Name,
-    clusterOptions = markerClusterOptions(),
-    group = "Gebouwen"
+    icon = ~object_icoon[verblijf], 
+    label = ~naam,
+    group = "object"
   ) %>%
   addScaleBar(options = scaleBarOptions(maxWidth = 100, imperial = FALSE)) %>%
+  addLegend(
+    title = "type route",
+    colors = route_kleur, 
+    values = 1:3, 
+    labels = levels(route$categorie)
+  ) %>%
   addLayersControl(
-    overlayGroups = c("Gebouwen", "Infoborden"),
+    baseGroups = c("fietskaart", "topokaart", "sateliet"),
+    overlayGroups = c("route", "infopunt", "object"),
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
-  # setView(mean(box["x", ]), mean(box["y", ]), zoom = 14)
-  fitBounds(box["x", "min"], box["y", "min"], box["x", "max"], box["y", "max"])
+  setView(4.232, 50.7113, zoom = 17)
 ```
 
 

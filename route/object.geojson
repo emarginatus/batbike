@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Malakoffkelder",
+        "vleermuis": 1,
+        "winter": 1,
+        "type": "kelder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.231919646263123,
+          50.71078131517285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Malakofftoren",
+        "vleermuis": 0,
+        "winter": "",
+        "type": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.231039881706238,
+          50.71180378253556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Klooster",
+        "vleermuis": 1,
+        "winter": 0,
+        "type": "zolder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225423336029053,
+          50.71340537678207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Acetyleenkelder",
+        "vleermuis": 1,
+        "winter": 1,
+        "type": "kelder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.227330386638641,
+          50.71234218246552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Sint Veroonskerk",
+        "vleermuis": 1,
+        "winter": 0,
+        "type": "zolder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223513603210449,
+          50.713568420423236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Bunker Trilec",
+        "vleermuis": 1,
+        "winter": 1,
+        "type": "bunker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.228523969650268,
+          50.72729092552006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Bunker Colruyt",
+        "vleermuis": 1,
+        "winter": 1,
+        "type": "bunker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.22361820936203,
+          50.72835378074149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Bunker kerkhof",
+        "vleermuis": 1,
+        "winter": 1,
+        "type": "bunker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.22911673784256,
+          50.746603622466054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Bunker Jambonstraat",
+        "vleermuis": 1,
+        "winter": 1,
+        "type": "bunker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.238230884075165,
+          50.748887958979985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Bunker Stroppen",
+        "vleermuis": 1,
+        "winter": 1,
+        "type": "bunker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.241870641708374,
+          50.748492535747886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Sint Vincentiuskerk",
+        "vleermuis": 1,
+        "winter": 0,
+        "type": "zolder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.250005781650543,
+          50.7409296358351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "naam": "Baanwachterswoning",
+        "vleermuis": 0,
+        "winter": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.219897985458374,
+          50.73091064675858
+        ]
+      }
+    }
+  ]
+}

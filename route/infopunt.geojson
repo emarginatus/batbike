@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "station.html",
+        "categorie": "infopunt",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.239633679389954,
+          50.73305823846105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "grotezenne.html",
+        "categorie": "infopunt",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.230768978595734,
+          50.70858684148595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "kasteelpark.html",
+        "categorie": "infopunt",
+        "id": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225289225578308,
+          50.71337820278674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "spoorwegbedding.html",
+        "categorie": "infopunt",
+        "id": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.219675362110138,
+          50.73092932189339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "bunker_colruyt.html",
+        "categorie": "infopunt",
+        "id": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223408997058868,
+          50.72872220895228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "bunker_kerkhof.html",
+        "categorie": "infopunt",
+        "id": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.229044318199158,
+          50.74622515179033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "bunker_stroppen.html",
+        "categorie": "infopunt",
+        "id": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.238364994525909,
+          50.74889644442047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "url": "sint_vincentius.html",
+        "categorie": "infopunt",
+        "id": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.249697327613831,
+          50.740917754196474
+        ]
+      }
+    }
+  ]
+}

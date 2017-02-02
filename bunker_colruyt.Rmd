@@ -3,6 +3,20 @@ title: "Bunker Colruyt"
 output: html_document
 ---
 
+## Een vleermuis het jaar rond
+
+Vleermuizen eten insecten en andere geleedpotigen. Deze zijn niet altijd beschikbaar, dan denken we vooral aan de winterperiode. Om deze voedselvrije periode te overbruggen houden vleermuizen een winterslaap of ze trekken weg. Ze doen dit in winterverblijven dat kan  een grot, bunker, ijskelder, zolder of zelfs een boomholte zijn.
+
+De lichaamstemperatuur van een vleermuis ligt normaal rond de 37°C. Tijdens de winterslaap is er een daling tot ongeveer 10°C zo wordt energie gespaard voor het warm houden. Het hart-en ademhalingsritme wordt ook verlaagd. De hartslagfrequentie daalt  en de tijd tussen 2 ademhalingen duurt tot 90 minuten terwijl dat bij actieve dieren slechts 6 seconden is.
+
+In de lente wanneer het opnieuw warmer wordt verlaten de vleermuizen de winterverblijven om de zomerverblijfplaatsen op te zoeken. Hier worden kraamkolonies gevormd die enkel uit vrouwtjes bestaan. De geboorte van de jongen vindt plaats. Voor de meeste soorten valt de tijd van de geboorten in juni.  
+
+In juli/ augustus beginnen de jongen te vliegen maar ze worden nog door de moeder gezoogd. 
+Na het grootbrengen van de jongen begint de paartijd weer voor de vrouwtjes.
+De periode net voor de winterslaap (september/begin oktober) wordt gebruikt om  de nodige vetreserves op te bouwen om de lange winterperiode te overbrugeen. Ze  proberen dan ook zoveel mogelijk insecten te vangen. Daarna trekken ze naar de winterverblijven.
+
+
+
 - eigenaar: Colruyt
 - nut voor vleermuizen
     - overwinteringsplaats

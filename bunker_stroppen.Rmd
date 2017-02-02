@@ -3,7 +3,44 @@ title: "Bunkers stroppen"
 output: html_document
 ---
 
-## Winterslaap
+## Bunkers rond Halle
+
+In de periode 1939-1940 werd Halle uitgebouwd als één van de zes weerstandscentra op de zuidelijke verdedigingsstelling Wwavre-Halle-Ninove. 
+Volgens de legerplannen bevonden er zich in Halle negen bunkers. Sommige waren zwaar versterkte vestigingen zoals de hierboven afgebeelde bunker aan de Jambonstraat. De bunker op het kerkhof was dan weer een lichte vestiging. Er werden 8 van de 9 bunkers gelokaliseerd, waarvan er nog 5 bestaan. Wie de vleermuisroute fietst ontdekt 4 bunkers die allen nog in zeer goede staat zijn.
+
+Toen rond 1930 de oorlogsdreiging steeds groter werd, ontstond het idee om achter het Albertkanaal een extra verdedigingslinie te bouwen.  De gordel moest tussen Koningshooikt (Antwerpen) en Waver lopen.  Het werd de KW-linie genoemd.
+
+De KW linie was een bunkerlinie. Dit betekende dat de belangrijkste versperringen permanent waren, d.w.z.  bunkers (235) en anti-tankhindernissen (cointet elementen).  Er werden eveneens loopgraven en prikkeldraadversperringen aangelegd.  
+In 1940 werd de linie nog snel verder uitgebouwd tot in Namen.  Vanuit Waver vertrok een zijtak van de KW-linie over Waterloo, Halle Kester tot in Ninove.  Deze verdedigingsgordel bestond onder meer uit 38 kleine bunkers die gericht waren op het zuiden (Frankrijk).  Dit kaderde binnen de neutraliteitspolitiek van koning Leopold III.  Hij wilde ten alle prijs voorkomen dat Duitsland aanstoot zou nemen aan de bouw van de KW-linie die duidelijk tegen de Duitsers was gericht.
+
+De bunkers werden meestal bewapend met 2 mitrailleurs.  De standaardmitrailleur was 26 kg zwaar.  Acht mannen verdedigden de bunkers, een sectiechef en twee stukoversten, twee laders en 2 schutters.  De rest van het peloton bevond zich in de omliggende loopgraven of versterkingen.
+
+De bunkers zelf bestonden uit gewapend beton en hadden muren tot 1.3meter dik.  Ze waren bestand tegen inslagen van 150mm houwitsers.  Het betreden van de bunker gebeurde via een sas: de buitendeur was een traliedeur met een stalen plaat erachter.
+
+De camouflage was aangepast aan de omgeving. Er werden bunkers in camouflage kleuren geschilderd of met netten overspannen.  Sommige bunkers kregen valse deuren en ramen opgeschilderd en soms werd er zelfs een stal of een huisje omheen gebouwd.  
+ De schietgaten verstopte men dan vaak nepramen of deuren.  In sommige gevallen ging men zo ver dat men gordijntjes ging schilderen op de raampjes of de luiken.    
+De huisjes werden in de meeste gevallen voorzien van een vals dak met puntgevels en dakbedekking in boomse pannen, leien of golfplaten.   De bunker Colruyt is een voorbeeld van een camouflagebunker, al is daar niet veel van te merken gezien de dichte begroeiing.
+
+###  Bunkers en vleermuizen
+
+Bunkers zijn geschikte overwinteringsplaatsen voor vleermuizen.
+De ligging van de bunkers is belangrijk. Bunkers gelegen in de directe omgeving van een bos zijn interessanter dan bunkers  in een open veld . Grote bunkers genieten de voorkeur op kleinere bunkers.
+De vochtigste bunkers zijn het meest geschikt. Om niet uit te drogen hebben vleermuizen immers  nood aan een hoge luchtvochtigheid, tot 90%
+
+Het inrichten van een bunker voor vleermuizen is eenvoudig en kan vaak met een beperkt budget. Het plaatsen van een toegangsdeur dient om verstoring te vermijden maar helpt eveneens om in de bunker een stabiele temperatuur te creëren.  Het is belangrijk de luchtcirculatie tot een minimum te herleiden.
+De deur moet voorzien zijn van een invliegopening.  Het plaatsen van een tweede veroorzaakt een saswerking zodat de koude buitenlucht eerst wordt opgewarmd vooraleer  het binnen gedeelte van de bunker bereikt worden.
+
+Vleermuizen hebben kleine pootjes en kunnen aan de kleinste oneffenheden vasthaken. Ze kruipen ook graag weg in kleine spleten en holtes. Gladde wanden stellen een echter probleem. 
+Door het ophangen van bakstenen en snelbouwstenen tegen muur en plafond worden ideale schuilplaatsen gecreëerd.
+
+## Vleermuizen houden een winterslaap
+
+De belangrijkste voedselbron voor vleermuizen zijn insecten en andere geleedpotigen. De herfst en winter betekent onvoldoende voedselaanbod.  Om deze periode te overbruggen gaan ze in winterslaap. Dit doen ze in  geschikte en veilige winterverblijfplaatsen waar geen predatoren aanwezig zijn. Dit kan in een boomholte zijn. Inderdaad, er zijn vleermuizen die zowel in de zomer als in de winter in een boom verblijven. Het kan ook in ijskelders, bunkers, forten en woningen. Dit is afhankelijk van de soort.  
+
+Vleermuizen hebben het vermogen ontwikkeld hun lichaamstemperatuur te verlagen, dit betekent een enorme besparing van energie. Behalve het verlagen van de lichaamstemperatuur wordt het hart- en ademhalingsritme ook verlaagd. De tijd tussden twee ademhalingen kan tot 90 minuten oplopen, terwijl dit bij actieve dieren om de 6 seconden is.
+
+De winterslaap begint bij daling van de temperatuur, meestal begin oktober en duurt ongeveer tot einde maart al kan dit sterk variëren aangezien dit afhankelijk is van de temperatuur.
+
 
 - eigenaar: Conversion Works
 - nut voor vleermuizen

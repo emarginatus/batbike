@@ -14,16 +14,57 @@ opts_chunk$set(
 library(htmlwidgets)
 setWidgetIdSeed(1)
 library(leaflet)
-library(dplyr)
 library(rgdal)
 library(raster)
 library(rgeos)
 library(ggvis)
+library(readr)
+library(dplyr)
+library(tidyr)
 ```
 
-```{r lees_gegevens}
-route <- readOGR("route/Batbike.kml", "Route", verbose = FALSE)
-route <- route[route$Name == "Fietsroute", ]
+```{r lees_gegevens_index}
+route <- readOGR(
+  "route/route.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+)
+route <- read_csv("route/route.csv") %>%
+  filter(route == "Aanbevolen") %>%
+  mutate(
+    vorige = lag(knoop),
+    segment = sprintf("%i-%i", pmin(knoop, vorige), pmax(knoop, vorige)),
+    omkeren = vorige > knoop,
+    id = row_number()
+  ) %>%
+  filter(!is.na(vorige)) %>%
+  select(id, segment, omkeren) %>%
+  rowwise() %>%
+  mutate(
+    segment = route[route$segment == segment, ] %>%
+      coordinates() %>%
+      "[["(1) %>%
+      as.data.frame() %>%
+      list()
+  ) %>%
+  unnest(segment, .drop = FALSE) %>%
+  group_by(id) %>%
+  mutate(
+    volgorde = ifelse(omkeren, -1, 1) * row_number()
+  ) %>%
+  arrange(id, volgorde) %>%
+  ungroup() %>%
+  select(x = X1, y = X2) %>%
+  as.data.frame() %>%
+  Line() %>%
+  list() %>%
+  Lines(1) %>%
+  list() %>%
+  SpatialLines(CRS("+proj=longlat +ellps=WGS84"))
+```
+
+```{r bereken_hoogte}
 route_lambert <- route %>%
   spTransform(CRS("+init=epsg:31370"))
 if (!file_test("-f", "dem/srtm_37_02.tif")) {
@@ -58,7 +99,7 @@ hoogteprofiel <- lapply(
       cbind(route = i) %>%
       as.data.frame() %>%
       bind_cols(
-        extract(hoogte, lc[[i]], df = TRUE, method = "bilinear")
+        raster::extract(hoogte, lc[[i]], df = TRUE, method = "bilinear")
       )
   }
 ) %>%
@@ -84,6 +125,7 @@ hoogteprofiel <- lapply(
 afstand <- sprintf("%.0fkm", gLength(route_lambert) / 1e3)
 hoogtemeters <- sprintf("%.0fm", max(hoogteprofiel$hoogtemeter))
 ```
+
 
 **Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen** en hoe ze gebruik maken van de verschillende historische gebouwen en elementen in het landschap. 
 
