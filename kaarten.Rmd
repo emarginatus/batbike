@@ -1,0 +1,131 @@
+---
+title: "Afdrukbare kaarten"
+output: html_document
+---
+
+Klik op de kaartjes om de bijhorende pdf te downloaden.
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  dev = c("png", "pdf"),
+  dpi = 20,
+  fig.width = 297 / 25.4,
+  fig.height = 420 / 25.4,
+  message = FALSE
+)
+library(ggplot2)
+theme_set(  
+  theme_minimal() +
+  theme(
+    panel.grid = element_blank(),
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    title = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    legend.position = "bottom",
+    plot.background = element_blank(),
+    plot.margin = unit(c(0, 0, 0, 0), "mm")
+  )
+)
+mm <- 25.4 / 72.27
+library(dplyr)
+library(readr)
+library(tibble)
+library(osmar)
+library(rgdal)
+```
+
+```{r lees_route}
+infopunt <- readOGR(
+  "route/infopunt.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+) %>%
+  as.data.frame()
+basis <- readOGR(
+  "route/route.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+)
+segment <- basis@data %>%
+  rownames_to_column("id") %>%
+  inner_join(
+    fortify(basis),
+    by = "id"
+  ) %>%
+  semi_join(
+    read_csv("route/route.csv") %>%
+      filter(route == "Wegwijzers") %>%
+      mutate(
+        vorige = lag(knoop),
+        segment = sprintf("%i-%i", pmin(knoop, vorige), pmax(knoop, vorige))
+      ) %>%
+      filter(!is.na(vorige)),
+    by = "segment"
+  )
+# bb <- basis %>%
+#   spTransform(CRS("+init=epsg:3857")) %>%
+#   bbox()
+# delta <- apply(bb, 1, diff) %>%
+#   min()
+# rbind(
+#   rowMeans(bb) - delta * 0.5 * 1.05 * (c(1, sqrt(2))),
+#   rowMeans(bb) + delta * 0.5 * 1.05 * (c(1, sqrt(2)))
+# ) %>%
+#   SpatialPoints(CRS("+init=epsg:3857")) %>%
+#   spTransform(CRS("+proj=longlat"))
+```
+
+```{r lees_openstreetmap}
+snelweg.osm <- basis %>%
+  as_osmar_bbox() %>%
+  get_osm(source = osmsource_file("osm/snelweg.osm"))
+hoofdweg.osm <- basis %>%
+  as_osmar_bbox() %>%
+  get_osm(source = osmsource_file("osm/hoofdweg.osm"))
+lokaleweg.osm <- basis %>%
+  as_osmar_bbox() %>%
+  get_osm(source = osmsource_file("osm/lokale_weg.osm"))
+waterweg.osm <- basis %>%
+  as_osmar_bbox() %>%
+  get_osm(source = osmsource_file("osm/waterweg.osm"))
+```
+
+```{r omzetten_naar_sp}
+snelweg <- snelweg.osm %>%
+  as_sp(what = "lines") %>%
+  "["("id")
+hoofdweg <- hoofdweg.osm %>%
+  as_sp(what = "lines") %>%
+  "["("id")
+lokaleweg <- lokaleweg.osm %>%
+  as_sp(what = "lines") %>%
+  "["("id")
+waterweg <- waterweg.osm %>%
+  as_sp(what = "lines") %>%
+  "["("id")
+```
+
+```{r omzetten_naar_dataframe}
+snelweg.f <- fortify(snelweg)
+waterweg.f <- fortify(waterweg)
+hoofdweg.f <- fortify(hoofdweg)
+lokaleweg.f <- fortify(lokaleweg)
+```
+
+<a href="kaarten_files/figure-html/folder-1.pdf">
+```{r folder, fig.cap = "Kaart uit de folder"}
+ggplot(segment, aes(x = long, y = lat, group = group)) +
+  geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
+  geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
+  geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
+  geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
+  geom_path() +
+  coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
+```
+</a>

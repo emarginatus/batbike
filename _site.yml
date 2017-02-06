@@ -5,16 +5,16 @@ navbar:
     - text: "Start"
       icon: fa-home
       href: "index.html"
-    - text: "Fietsroute"
-      icon: fa-bicycle
+    - text: "Kaart"
+      icon: fa-map-o
       menu:
-        - text: "Detailkaart"
+        - text: "Interactieve kaart"
           icon: fa-map-o
           href: "kaart.html"
-        - text: "Routebeschrijving"
-          href: "routebeschrijving.html"
-          icon: fa-file-text-o
-    - text: "Stopplaatsen"
+        - text: "Afdrukbare kaarten"
+          href: "kaarten.html"
+          icon: fa-map-o
+    - text: "Infopunten"
       icon: fa-info
       menu:
         - text: "1. Malakoffdomein"
