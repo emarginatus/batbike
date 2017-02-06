@@ -350,6 +350,34 @@
           50.713542944891664
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.249611496925353,
+          50.740695397260104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "categorie": "knoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.244815707206726,
+          50.736983068638075
+        ]
+      }
     }
   ]
 }
