@@ -94,6 +94,9 @@ lokaleweg.osm <- basis %>%
 waterweg.osm <- basis %>%
   as_osmar_bbox() %>%
   get_osm(source = osmsource_file("osm/waterweg.osm"))
+spoorweg.osm <- basis %>%
+  as_osmar_bbox() %>%
+  get_osm(source = osmsource_file("osm/spoorweg.osm"))
 ```
 
 ```{r omzetten_naar_sp}
@@ -109,19 +112,24 @@ lokaleweg <- lokaleweg.osm %>%
 waterweg <- waterweg.osm %>%
   as_sp(what = "lines") %>%
   "["("id")
+spoorweg <- spoorweg.osm %>%
+  as_sp(what = "lines") %>%
+  "["("id")
 ```
 
 ```{r omzetten_naar_dataframe}
 snelweg.f <- fortify(snelweg)
-waterweg.f <- fortify(waterweg)
 hoofdweg.f <- fortify(hoofdweg)
 lokaleweg.f <- fortify(lokaleweg)
+waterweg.f <- fortify(waterweg)
+spoorweg.f <- fortify(spoorweg)
 ```
 
 <a href="kaarten_files/figure-html/folder-1.pdf">
 ```{r folder, fig.cap = "Kaart uit de folder"}
 ggplot(segment, aes(x = long, y = lat, group = group)) +
   geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
+  geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
   geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
   geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
   geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +

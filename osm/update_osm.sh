@@ -31,3 +31,10 @@ osmosis \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
   --write-xml osm/waterweg.osm
+osmosis \
+  --rbf osm/halle.pbf \
+  --tag-filter reject-relations \
+  --tag-filter accept-ways railway=rail \
+  --used-node \
+  --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
+  --write-xml osm/spoorweg.osm
