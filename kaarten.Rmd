@@ -13,6 +13,7 @@ opts_chunk$set(
   dpi = 20,
   fig.width = 297 / 25.4,
   fig.height = 420 / 25.4,
+  warning = FALSE,
   message = FALSE
 )
 library(ggplot2)
@@ -34,7 +35,6 @@ mm <- 25.4 / 72.27
 library(dplyr)
 library(readr)
 library(tibble)
-library(osmar)
 library(rgdal)
 ```
 
@@ -82,39 +82,11 @@ segment <- basis@data %>%
 ```
 
 ```{r lees_openstreetmap}
-snelweg.osm <- basis %>%
-  as_osmar_bbox() %>%
-  get_osm(source = osmsource_file("osm/snelweg.osm"))
-hoofdweg.osm <- basis %>%
-  as_osmar_bbox() %>%
-  get_osm(source = osmsource_file("osm/hoofdweg.osm"))
-lokaleweg.osm <- basis %>%
-  as_osmar_bbox() %>%
-  get_osm(source = osmsource_file("osm/lokale_weg.osm"))
-waterweg.osm <- basis %>%
-  as_osmar_bbox() %>%
-  get_osm(source = osmsource_file("osm/waterweg.osm"))
-spoorweg.osm <- basis %>%
-  as_osmar_bbox() %>%
-  get_osm(source = osmsource_file("osm/spoorweg.osm"))
-```
-
-```{r omzetten_naar_sp}
-snelweg <- snelweg.osm %>%
-  as_sp(what = "lines") %>%
-  "["("id")
-hoofdweg <- hoofdweg.osm %>%
-  as_sp(what = "lines") %>%
-  "["("id")
-lokaleweg <- lokaleweg.osm %>%
-  as_sp(what = "lines") %>%
-  "["("id")
-waterweg <- waterweg.osm %>%
-  as_sp(what = "lines") %>%
-  "["("id")
-spoorweg <- spoorweg.osm %>%
-  as_sp(what = "lines") %>%
-  "["("id")
+snelweg <- readOGR("osm/snelweg.osm", "lines", verbose = FALSE)
+hoofdweg <- readOGR("osm/hoofdweg.osm", "lines", verbose = FALSE)
+lokaleweg <- readOGR("osm/lokale_weg.osm", "lines", verbose = FALSE)
+waterweg <- readOGR("osm/waterweg.osm", "lines", verbose = FALSE)
+spoorweg <- readOGR("osm/spoorweg.osm", "lines", verbose = FALSE)
 ```
 
 ```{r omzetten_naar_dataframe}
