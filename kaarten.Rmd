@@ -59,16 +59,17 @@ segment <- basis@data %>%
     fortify(basis),
     by = "id"
   ) %>%
-  semi_join(
+  inner_join(
     read_csv("route/route.csv") %>%
-      filter(route == "Wegwijzers") %>%
+      filter(grepl("Wegwijzers", route)) %>%
       mutate(
         vorige = lag(knoop),
         segment = sprintf("%i-%i", pmin(knoop, vorige), pmax(knoop, vorige))
       ) %>%
       filter(!is.na(vorige)),
     by = "segment"
-  )
+  ) %>%
+  mutate(group = interaction(group, route))
 # bb <- basis %>%
 #   spTransform(CRS("+init=epsg:3857")) %>%
 #   bbox()
@@ -129,7 +130,7 @@ ggplot(segment, aes(x = long, y = lat, group = group)) +
   geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
   geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
   geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
-  geom_path() +
+  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
   geom_label(
     data = fietsknooppunt.f, 
     aes(label = knooppunt), 
