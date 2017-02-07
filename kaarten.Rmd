@@ -85,6 +85,7 @@ segment <- basis@data %>%
 snelweg <- readOGR("osm/snelweg.osm", "lines", verbose = FALSE)
 hoofdweg <- readOGR("osm/hoofdweg.osm", "lines", verbose = FALSE)
 lokaleweg <- readOGR("osm/lokale_weg.osm", "lines", verbose = FALSE)
+pad <- readOGR("osm/pad.osm", "lines", verbose = FALSE)
 waterweg <- readOGR("osm/waterweg.osm", "lines", verbose = FALSE)
 spoorweg <- readOGR("osm/spoorweg.osm", "lines", verbose = FALSE)
 fietsknooppunt_route <- readOGR("osm/fietsknooppunt.osm", "lines", verbose = FALSE)
@@ -95,6 +96,7 @@ fietsknooppunt <- readOGR("osm/fietsknooppunt.osm", "points", verbose = FALSE)
 snelweg.f <- fortify(snelweg)
 hoofdweg.f <- fortify(hoofdweg)
 lokaleweg.f <- fortify(lokaleweg)
+pad.f <- fortify(pad)
 waterweg.f <- fortify(waterweg)
 spoorweg.f <- fortify(spoorweg)
 fietsknooppunt.f <- as.data.frame(fietsknooppunt) %>%
@@ -116,6 +118,7 @@ ggplot(segment, aes(x = long, y = lat, group = group)) +
   geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
   geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
   geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
+  geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
   geom_path() +
   geom_label(
     data = fietsknooppunt.f, 

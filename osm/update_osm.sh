@@ -20,10 +20,17 @@ osmosis \
 osmosis \
   --rbf osm/halle.pbf \
   --tag-filter reject-relations \
-  --tag-filter accept-ways highway=tertiary,tertiary_link,unclassified,residential,living_street \
+  --tag-filter accept-ways highway=tertiary,tertiary_link,unclassified,residential,living_street,service \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
   --write-xml osm/lokale_weg.osm
+osmosis \
+  --rbf osm/halle.pbf \
+  --tag-filter reject-relations \
+  --tag-filter accept-ways highway=pedestrian,track,footway,bridleway,cycleway,steps,path \
+  --used-node \
+  --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
+  --write-xml osm/pad.osm
 osmosis \
   --rbf osm/halle.pbf \
   --tag-filter accept-relations name=Canal%sCharleroi-Bruxelles,Senne \
