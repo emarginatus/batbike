@@ -91,6 +91,7 @@ waterweg <- readOGR("osm/waterweg.osm", "lines", verbose = FALSE)
 spoorweg <- readOGR("osm/spoorweg.osm", "lines", verbose = FALSE)
 fietsknooppunt_route <- readOGR("osm/fietsknooppunt.osm", "lines", verbose = FALSE)
 fietsknooppunt <- readOGR("osm/fietsknooppunt.osm", "points", verbose = FALSE)
+park <- readOGR("osm/park.osm", "multipolygons", verbose = FALSE)
 ```
 
 ```{r omzetten_naar_dataframe}
@@ -108,11 +109,13 @@ fietsknooppunt.f <- as.data.frame(fietsknooppunt) %>%
     long = mean(coords.x1),
     lat = mean(coords.x2)
   )
+park.f <- fortify(park)
 ```
 
 <a href="kaarten_files/figure-html/folder-1.pdf">
 ```{r folder, fig.cap = "Kaart uit de folder"}
 ggplot(segment, aes(x = long, y = lat, group = group)) +
+  geom_polygon(data = park, fill = "#aed1a0") +
   geom_path(data = fietsknooppunt_route, colour = "#e9c1ff", size = 5 * mm) +
   geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
   geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
