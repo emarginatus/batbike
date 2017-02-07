@@ -55,7 +55,21 @@ osmosis \
 osmosis \
   --rbf osm/halle.pbf \
   --tag-filter reject-relations \
-  --tag-filter accept-ways landuse=forest,cemetery leisure=park\
+  --tag-filter accept-ways landuse=forest,cemetery leisure=park natural=wood \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
   --write-xml osm/park.osm
+osmosis \
+  --rbf osm/halle.pbf \
+  --tag-filter reject-relations \
+  --tag-filter accept-ways landuse=meadow,grass landcover=grass natural=grassland\
+  --used-node \
+  --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
+  --write-xml osm/gras.osm
+osmosis \
+  --rbf osm/halle.pbf \
+  --tag-filter reject-relations \
+  --tag-filter accept-ways natural=water\
+  --used-node \
+  --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
+  --write-xml osm/water.osm
