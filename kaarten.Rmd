@@ -45,7 +45,8 @@ infopunt <- readOGR(
   verbose = FALSE, 
   stringsAsFactors = FALSE
 ) %>%
-  as.data.frame()
+  as.data.frame() %>%
+  rename(long = coords.x1, lat = coords.x2)
 basis <- readOGR(
   "route/route.geojson", 
   "OGRGeoJSON", 
@@ -126,6 +127,15 @@ ggplot(segment, aes(x = long, y = lat, group = group)) +
     group = NA, 
     colour = "darkgreen",
     size = 6 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_label(
+    data = infopunt, 
+    aes(label = id), 
+    group = NA, 
+    colour = "red",
+    size = 8 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
