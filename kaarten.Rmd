@@ -206,3 +206,34 @@ ggplot(aanbevolen, aes(x = long, y = lat, group = group)) +
   coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
 ```
 </a>
+
+<a href="kaarten_files/figure-html/infobord-1.pdf">
+```{r infobord, fig.cap = "Kaart voor infobord"}
+ggplot(segment, aes(x = long, y = lat, group = group)) +
+  geom_path(data = fietsknooppunt_route, colour = "#e9c1ff", size = 5 * mm) +
+  geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
+  geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
+  geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
+  geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
+  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
+  geom_label(
+    data = fietsknooppunt.f, 
+    aes(label = knooppunt), 
+    group = NA, 
+    colour = "darkgreen",
+    size = 6 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_label(
+    data = infopunt, 
+    aes(label = id), 
+    group = NA, 
+    colour = "red",
+    size = 8 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
+```
+</a>
