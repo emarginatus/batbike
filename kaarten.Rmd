@@ -1,0 +1,239 @@
+---
+title: "Afdrukbare kaarten"
+output: html_document
+---
+
+Klik op de kaartjes om de bijhorende pdf te downloaden.
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE,
+  dev = c("png", "pdf"),
+  dpi = 20,
+  fig.width = 297 / 25.4,
+  fig.height = 420 / 25.4,
+  warning = FALSE,
+  message = FALSE
+)
+library(ggplot2)
+theme_set(  
+  theme_minimal() +
+  theme(
+    panel.grid = element_blank(),
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    title = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    legend.position = "bottom",
+    plot.background = element_blank(),
+    plot.margin = unit(c(0, 0, 0, 0), "mm")
+  )
+)
+mm <- 25.4 / 72.27
+library(dplyr)
+library(readr)
+library(tibble)
+library(rgdal)
+```
+
+```{r lees_route}
+infopunt <- readOGR(
+  "route/infopunt.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+) %>%
+  as.data.frame() %>%
+  rename(long = coords.x1, lat = coords.x2)
+basis <- readOGR(
+  "route/route.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+)
+segment <- basis@data %>%
+  rownames_to_column("id") %>%
+  inner_join(
+    fortify(basis),
+    by = "id"
+  ) %>%
+  inner_join(
+    read_csv("route/route.csv") %>%
+      filter(grepl("Wegwijzers", route)) %>%
+      mutate(
+        vorige = lag(knoop),
+        segment = sprintf("%i-%i", pmin(knoop, vorige), pmax(knoop, vorige))
+      ) %>%
+      filter(!is.na(vorige)),
+    by = "segment"
+  ) %>%
+  mutate(group = interaction(group, route))
+aanbevolen <- basis@data %>%
+  rownames_to_column("id") %>%
+  inner_join(
+    fortify(basis),
+    by = "id"
+  ) %>%
+  inner_join(
+    read_csv("route/route.csv") %>%
+      filter(grepl("Aanbevolen", route)) %>%
+      mutate(
+        vorige = lag(knoop),
+        segment = sprintf("%i-%i", pmin(knoop, vorige), pmax(knoop, vorige))
+      ) %>%
+      filter(!is.na(vorige)),
+    by = "segment"
+  ) %>%
+  mutate(group = interaction(group, route))
+# bb <- basis %>%
+#   spTransform(CRS("+init=epsg:3857")) %>%
+#   bbox()
+# delta <- apply(bb, 1, diff) %>%
+#   min()
+# rbind(
+#   rowMeans(bb) - delta * 0.5 * 1.05 * (c(1, sqrt(2))),
+#   rowMeans(bb) + delta * 0.5 * 1.05 * (c(1, sqrt(2)))
+# ) %>%
+#   SpatialPoints(CRS("+init=epsg:3857")) %>%
+#   spTransform(CRS("+proj=longlat"))
+```
+
+```{r lees_openstreetmap}
+snelweg <- readOGR("osm/snelweg.osm", "lines", verbose = FALSE)
+hoofdweg <- readOGR("osm/hoofdweg.osm", "lines", verbose = FALSE)
+lokaleweg <- readOGR("osm/lokale_weg.osm", "lines", verbose = FALSE)
+pad <- readOGR("osm/pad.osm", "lines", verbose = FALSE)
+waterweg <- readOGR("osm/waterweg.osm", "lines", verbose = FALSE)
+spoorweg <- readOGR("osm/spoorweg.osm", "lines", verbose = FALSE)
+fietsknooppunt_route <- readOGR("osm/fietsknooppunt.osm", "lines", verbose = FALSE)
+fietsknooppunt <- readOGR("osm/fietsknooppunt.osm", "points", verbose = FALSE)
+park <- readOGR("osm/park.osm", "multipolygons", verbose = FALSE)
+gras <- readOGR("osm/gras.osm", "multipolygons", verbose = FALSE)
+water <- readOGR("osm/water.osm", "multipolygons", verbose = FALSE)
+```
+
+```{r omzetten_naar_dataframe}
+snelweg.f <- fortify(snelweg)
+hoofdweg.f <- fortify(hoofdweg)
+lokaleweg.f <- fortify(lokaleweg)
+pad.f <- fortify(pad)
+waterweg.f <- fortify(waterweg)
+spoorweg.f <- fortify(spoorweg)
+fietsknooppunt.f <- as.data.frame(fietsknooppunt) %>%
+  filter(grepl("rcn_ref", other_tags)) %>%
+  mutate(knooppunt = gsub(".*\"([[:digit:]]*)\"", "\\1", other_tags)) %>%
+  group_by(knooppunt) %>%
+  summarise(
+    long = mean(coords.x1),
+    lat = mean(coords.x2)
+  )
+park.f <- fortify(park)
+gras.f <- fortify(gras)
+water.f <- fortify(water)
+```
+
+<a href="kaarten_files/figure-html/folder-1.pdf">
+```{r folder, fig.cap = "Kaart uit de folder"}
+ggplot(segment, aes(x = long, y = lat, group = group)) +
+  geom_polygon(data = water, fill = "#addeff") +
+  geom_polygon(data = gras, fill = "#bcde93") +
+  geom_polygon(data = park, fill = "#aed1a0") +
+  geom_path(data = fietsknooppunt_route, colour = "#e9c1ff", size = 5 * mm) +
+  geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
+  geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
+  geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
+  geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
+  geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
+  geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
+  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
+  geom_label(
+    data = fietsknooppunt.f, 
+    aes(label = knooppunt), 
+    group = NA, 
+    colour = "darkgreen",
+    size = 6 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_label(
+    data = infopunt, 
+    aes(label = id), 
+    group = NA, 
+    colour = "red",
+    size = 8 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
+```
+</a>
+
+
+<a href="kaarten_files/figure-html/aanbevolen-1.pdf">
+```{r aanbevolen, fig.cap = "Kaart met huidige aanbevolen route"}
+ggplot(aanbevolen, aes(x = long, y = lat, group = group)) +
+  geom_polygon(data = water, fill = "#addeff") +
+  geom_polygon(data = gras, fill = "#bcde93") +
+  geom_polygon(data = park, fill = "#aed1a0") +
+  geom_path(data = fietsknooppunt_route, colour = "#e9c1ff", size = 5 * mm) +
+  geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
+  geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
+  geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
+  geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
+  geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
+  geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
+  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
+  geom_label(
+    data = fietsknooppunt.f, 
+    aes(label = knooppunt), 
+    group = NA, 
+    colour = "darkgreen",
+    size = 6 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_label(
+    data = infopunt, 
+    aes(label = id), 
+    group = NA, 
+    colour = "red",
+    size = 8 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
+```
+</a>
+
+<a href="kaarten_files/figure-html/infobord-1.pdf">
+```{r infobord, fig.cap = "Kaart voor infobord"}
+ggplot(segment, aes(x = long, y = lat, group = group)) +
+  geom_path(data = fietsknooppunt_route, colour = "#e9c1ff", size = 5 * mm) +
+  geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
+  geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
+  geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
+  geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
+  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
+  geom_label(
+    data = fietsknooppunt.f, 
+    aes(label = knooppunt), 
+    group = NA, 
+    colour = "darkgreen",
+    size = 6 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_label(
+    data = infopunt, 
+    aes(label = id), 
+    group = NA, 
+    colour = "red",
+    size = 8 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
+```
+</a>
