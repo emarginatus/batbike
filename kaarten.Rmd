@@ -179,7 +179,7 @@ ggplot(segment, aes(x = long, y = lat, group = group)) +
     aes(label = id), 
     group = NA, 
     colour = "red",
-    size = 8 * mm,
+    size = 18 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
@@ -216,7 +216,7 @@ ggplot(aanbevolen, aes(x = long, y = lat, group = group)) +
     aes(label = id), 
     group = NA, 
     colour = "red",
-    size = 8 * mm,
+    size = 18 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
@@ -243,7 +243,7 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     aes(label = knooppunt), 
     group = NA, 
     colour = "darkgreen",
-    size = 6 * mm,
+    size = 12 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
@@ -252,7 +252,7 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     aes(label = id), 
     group = NA, 
     colour = "red",
-    size = 8 * mm,
+    size = 14 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
