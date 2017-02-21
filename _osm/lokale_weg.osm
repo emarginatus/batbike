@@ -4371,7 +4371,6 @@
   <node id="2631761529" version="1" timestamp="2014-01-21T22:35:58Z" uid="138772" user="lodde1949" changeset="20131731" lat="50.7594928" lon="4.196865"/>
   <node id="2631761530" version="1" timestamp="2014-01-21T22:35:58Z" uid="138772" user="lodde1949" changeset="20131731" lat="50.759498" lon="4.1959151"/>
   <node id="2631761536" version="2" timestamp="2014-01-22T11:19:08Z" uid="138772" user="lodde1949" changeset="20139368" lat="50.759616" lon="4.1981591"/>
-  <node id="2632196126" version="1" timestamp="2014-01-22T11:18:57Z" uid="138772" user="lodde1949" changeset="20139368" lat="50.759505" lon="4.19583"/>
   <node id="2632237106" version="1" timestamp="2014-01-22T12:17:43Z" uid="138772" user="lodde1949" changeset="20140214" lat="50.7429548" lon="4.2253459"/>
   <node id="2632237108" version="1" timestamp="2014-01-22T12:17:43Z" uid="138772" user="lodde1949" changeset="20140214" lat="50.7429962" lon="4.2249132"/>
   <node id="2632237273" version="1" timestamp="2014-01-22T12:17:46Z" uid="138772" user="lodde1949" changeset="20140214" lat="50.7472775" lon="4.2261062"/>
@@ -8630,6 +8629,8 @@
   <node id="4665595221" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7025633" lon="4.1972945"/>
   <node id="4665595222" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7025743" lon="4.1973441"/>
   <node id="4665595223" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7027626" lon="4.1977792"/>
+  <node id="4676659578" version="1" timestamp="2017-02-09T14:01:39Z" uid="67832" user="joost schouppe" changeset="45947961" lat="50.7401699" lon="4.2141742"/>
+  <node id="4676659579" version="1" timestamp="2017-02-09T14:01:39Z" uid="67832" user="joost schouppe" changeset="45947961" lat="50.7399901" lon="4.2160238"/>
   <way id="14884947" version="7" timestamp="2016-02-28T16:15:53Z" uid="3624994" user="bosboer" changeset="37501738">
     <nd ref="147057587"/>
     <nd ref="3908332224"/>
@@ -8956,8 +8957,8 @@
     <nd ref="2301820199"/>
     <nd ref="4659127429"/>
     <nd ref="2301820197"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Weerstandsstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142762" version="12" timestamp="2016-07-30T10:11:39Z" uid="2895652" user="Serge600" changeset="41124725">
     <nd ref="317709424"/>
@@ -9000,9 +9001,9 @@
     <nd ref="4665435952"/>
     <nd ref="249930600"/>
     <nd ref="249931132"/>
+    <tag k="name" v="Heidestraat"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Heidestraat"/>
   </way>
   <way id="23142773" version="3" timestamp="2014-01-20T01:31:13Z" uid="15188" user="Polyglot" changeset="20096226">
     <nd ref="249930583"/>
@@ -9073,8 +9074,8 @@
     <nd ref="4330855505"/>
     <nd ref="249931563"/>
     <nd ref="249931565"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Paassoldatenstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142791" version="5" timestamp="2016-08-01T12:48:19Z" uid="2403313" user="Jakka" changeset="41167002">
     <nd ref="249931569"/>
@@ -9151,8 +9152,8 @@
     <nd ref="3939280303"/>
     <nd ref="3939279625"/>
     <nd ref="249931147"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Esdoornstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142814" version="3" timestamp="2012-06-03T05:14:36Z" uid="42033" user="Tbj" changeset="11782605">
     <nd ref="249932583"/>
@@ -9173,19 +9174,19 @@
     <nd ref="410516815"/>
     <nd ref="4665534207"/>
     <nd ref="4665534206"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="motorcar" v="no"/>
     <tag k="name" v="Brouwerijgang"/>
     <tag k="oneway" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="motorcar" v="no"/>
   </way>
   <way id="23142819" version="4" timestamp="2017-02-05T14:15:57Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="249932603"/>
     <nd ref="4665435988"/>
     <nd ref="249932710"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Verbindingsstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142820" version="4" timestamp="2017-02-05T14:15:57Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="249932745"/>
@@ -9194,8 +9195,8 @@
     <nd ref="4665446903"/>
     <nd ref="4665435959"/>
     <nd ref="249932750"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Luxemburgstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142826" version="5" timestamp="2017-02-05T14:15:57Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="249932583"/>
@@ -9203,8 +9204,8 @@
     <nd ref="4665435970"/>
     <nd ref="318302985"/>
     <nd ref="249932950"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Sterrestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142831" version="6" timestamp="2011-07-14T10:49:04Z" uid="385466" user="RoRay" changeset="8720822">
     <nd ref="249930295"/>
@@ -9226,8 +9227,8 @@
     <nd ref="268616349"/>
     <nd ref="317187772"/>
     <nd ref="268616350"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Kruiskensheide"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142844" version="6" timestamp="2008-12-21T06:30:45Z" uid="42033" user="Tbj" changeset="528541">
     <nd ref="249933329"/>
@@ -9250,8 +9251,8 @@
     <nd ref="4665510173"/>
     <nd ref="4665510165"/>
     <nd ref="249933363"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Veroonskouter"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142859" version="6" timestamp="2017-02-05T14:46:46Z" uid="428001" user="wegspotter" changeset="45830917">
     <nd ref="249933940"/>
@@ -9270,8 +9271,8 @@
     <nd ref="4665510170"/>
     <nd ref="4665510171"/>
     <nd ref="249933363"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Steengroefstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142866" version="7" timestamp="2017-02-04T12:16:51Z" uid="428001" user="wegspotter" changeset="45803616">
     <nd ref="249934227"/>
@@ -9283,8 +9284,8 @@
     <nd ref="249934373"/>
     <nd ref="2663545197"/>
     <nd ref="249934374"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Borreweidestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142873" version="3" timestamp="2014-02-09T18:34:45Z" uid="138772" user="lodde1949" changeset="20470669">
     <nd ref="249934374"/>
@@ -9374,8 +9375,8 @@
     <nd ref="1116528098"/>
     <nd ref="4357198156"/>
     <nd ref="249936596"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Stationsstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23142921" version="3" timestamp="2009-05-25T04:45:37Z" uid="42033" user="Tbj" changeset="1312666">
     <nd ref="249936693"/>
@@ -9430,8 +9431,8 @@
     <nd ref="4665534220"/>
     <nd ref="2630386187"/>
     <nd ref="249939671"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="name" v="Klabbeeksesteenweg"/>
+    <tag k="highway" v="tertiary"/>
   </way>
   <way id="23146534" version="6" timestamp="2017-02-03T10:27:34Z" uid="428001" user="wegspotter" changeset="45774210">
     <nd ref="250043311"/>
@@ -9449,8 +9450,8 @@
     <nd ref="3913254624"/>
     <nd ref="3913256475"/>
     <nd ref="300215043"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Noordestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23146698" version="5" timestamp="2016-02-28T16:15:54Z" uid="3624994" user="bosboer" changeset="37501738">
     <nd ref="147060796"/>
@@ -9803,9 +9804,9 @@
     <nd ref="4649742053"/>
     <nd ref="250051054"/>
     <nd ref="250050996"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Louis VanBeverenstraat"/>
     <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23147170" version="9" timestamp="2014-09-24T07:45:07Z" uid="318227" user="swift11" changeset="25639584">
     <nd ref="462249382"/>
@@ -9893,8 +9894,8 @@
     <nd ref="250055394"/>
     <nd ref="250055395"/>
     <nd ref="250055396"/>
-    <tag k="highway" v="unclassified"/>
     <tag k="name" v="Raymond Vogeleerstraat"/>
+    <tag k="highway" v="unclassified"/>
   </way>
   <way id="23147659" version="9" timestamp="2013-05-12T21:06:20Z" uid="15188" user="Polyglot" changeset="16102873">
     <nd ref="147071091"/>
@@ -10232,9 +10233,9 @@
     <nd ref="4649971145"/>
     <nd ref="3902571415"/>
     <nd ref="250068727"/>
+    <tag k="name" v="Kerkhoflaan"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Kerkhoflaan"/>
   </way>
   <way id="23148890" version="5" timestamp="2016-04-05T13:34:27Z" uid="67832" user="joost schouppe" changeset="38317477">
     <nd ref="1016665437"/>
@@ -10711,8 +10712,8 @@
     <nd ref="4665571081"/>
     <nd ref="269289981"/>
     <nd ref="252828765"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Rue du Merchin"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="23401436" version="12" timestamp="2010-12-17T16:27:01Z" uid="351205" user="Daniel44" changeset="6687196">
     <nd ref="249938974"/>
@@ -10786,8 +10787,8 @@
     <nd ref="4659250893"/>
     <nd ref="254377563"/>
     <nd ref="3919294404"/>
-    <tag k="highway" v="unclassified"/>
     <tag k="name" v="Pijpaenshoek"/>
+    <tag k="highway" v="unclassified"/>
   </way>
   <way id="23490112" version="10" timestamp="2017-02-03T11:13:09Z" uid="428001" user="wegspotter" changeset="45775271">
     <nd ref="254378518"/>
@@ -10804,8 +10805,8 @@
     <nd ref="305725977"/>
     <nd ref="4659271508"/>
     <nd ref="254378521"/>
-    <tag k="highway" v="unclassified"/>
     <tag k="name" v="Vlasmarktdreef"/>
+    <tag k="highway" v="unclassified"/>
   </way>
   <way id="23492032" version="15" timestamp="2016-07-25T13:23:09Z" uid="67832" user="joost schouppe" changeset="41012026">
     <nd ref="249561317"/>
@@ -11139,8 +11140,8 @@
     <nd ref="249934379"/>
     <nd ref="4663148548"/>
     <nd ref="249934380"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Wittendreef"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="24713416" version="10" timestamp="2015-12-26T13:17:18Z" uid="67832" user="joost schouppe" changeset="36176211">
     <nd ref="268616189"/>
@@ -11177,8 +11178,8 @@
     <nd ref="268616311"/>
     <nd ref="4658874769"/>
     <nd ref="268616312"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Wilgenveld"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="24713430" version="5" timestamp="2017-02-05T14:15:57Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="268616321"/>
@@ -11187,8 +11188,8 @@
     <nd ref="4665446913"/>
     <nd ref="3939302765"/>
     <nd ref="268616323"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Arthur Puesstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="24713435" version="5" timestamp="2016-01-10T12:51:17Z" uid="67832" user="joost schouppe" changeset="36482126">
     <nd ref="268616351"/>
@@ -11234,8 +11235,8 @@
     <nd ref="4665571076"/>
     <nd ref="252828765"/>
     <nd ref="268816335"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Rue du Merchin"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="24948944" version="9" timestamp="2016-12-06T15:40:44Z" uid="67832" user="joost schouppe" changeset="44212875">
     <nd ref="267467027"/>
@@ -11352,10 +11353,10 @@
     <nd ref="271110571"/>
     <nd ref="271110572"/>
     <nd ref="271110573"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="30"/>
     <tag k="name" v="L A Sluysstr"/>
     <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="30"/>
   </way>
   <way id="24949007" version="4" timestamp="2014-09-08T12:11:46Z" uid="2319207" user="stof013" changeset="25306079">
     <nd ref="271110569"/>
@@ -11369,10 +11370,10 @@
     <nd ref="271110574"/>
     <nd ref="4649722722"/>
     <nd ref="271110579"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="30"/>
     <tag k="name" v="Lamme-Guiche-Erf"/>
     <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="30"/>
   </way>
   <way id="24949010" version="6" timestamp="2017-01-31T20:46:40Z" uid="428001" user="wegspotter" changeset="45697401">
     <nd ref="271110574"/>
@@ -11380,11 +11381,11 @@
     <nd ref="271110575"/>
     <nd ref="4649722717"/>
     <nd ref="271110576"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="30"/>
     <tag k="name" v="Lamme-Guiche-Erf"/>
     <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30"/>
   </way>
   <way id="24949013" version="6" timestamp="2016-07-26T11:07:27Z" uid="67832" user="joost schouppe" changeset="41034925">
     <nd ref="271110595"/>
@@ -11413,7 +11414,7 @@
     <nd ref="271110612"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="24949021" version="7" timestamp="2017-01-31T20:30:09Z" uid="428001" user="wegspotter" changeset="45696931">
+  <way id="24949021" version="8" timestamp="2017-02-09T14:01:39Z" uid="67832" user="joost schouppe" changeset="45947961">
     <nd ref="271110620"/>
     <nd ref="3238941246"/>
     <nd ref="3238941243"/>
@@ -11422,6 +11423,7 @@
     <nd ref="271110888"/>
     <nd ref="271110847"/>
     <nd ref="271110872"/>
+    <nd ref="4676659579"/>
     <nd ref="3910415930"/>
     <nd ref="4649625847"/>
     <nd ref="271110848"/>
@@ -11602,8 +11604,8 @@
     <nd ref="1313022147"/>
     <nd ref="4609526947"/>
     <nd ref="249939706"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="name" v="Rue des Déportés"/>
+    <tag k="highway" v="tertiary"/>
   </way>
   <way id="26131785" version="6" timestamp="2017-01-15T11:43:28Z" uid="591881" user="Patchi" changeset="45188449">
     <nd ref="2451393475"/>
@@ -11747,8 +11749,8 @@
     <nd ref="4665534218"/>
     <nd ref="4665534217"/>
     <nd ref="249939671"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="service"/>
     <tag k="motorcycle" v="no"/>
     <tag k="motor_vehicle" v="no"/>
@@ -11785,8 +11787,8 @@
     <nd ref="4659271505"/>
     <nd ref="305725705"/>
     <nd ref="305725706"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Sentier de Beauvegnies"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="27845989" version="5" timestamp="2017-02-03T11:13:09Z" uid="428001" user="wegspotter" changeset="45775271">
     <nd ref="305725774"/>
@@ -11838,8 +11840,8 @@
     <nd ref="4665595210"/>
     <nd ref="4665595211"/>
     <tag k="access" v="no"/>
-    <tag k="highway" v="service"/>
     <tag k="noexit" v="yes"/>
+    <tag k="highway" v="service"/>
   </way>
   <way id="28850860" version="3" timestamp="2014-02-09T18:34:45Z" uid="138772" user="lodde1949" changeset="20470669">
     <nd ref="249934586"/>
@@ -11931,9 +11933,9 @@
     <nd ref="4659267286"/>
     <nd ref="305725778"/>
     <nd ref="250056116"/>
+    <tag k="name" v="Kasteelbrakelsesteenweg"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Kasteelbrakelsesteenweg"/>
   </way>
   <way id="28903529" version="3" timestamp="2009-05-25T16:02:33Z" uid="42033" user="Tbj" changeset="1317129">
     <nd ref="317709424"/>
@@ -11984,10 +11986,10 @@
     <nd ref="249932594"/>
     <nd ref="249932596"/>
     <nd ref="249933487"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxweight" v="5"/>
     <tag k="name" v="Sterrestraat"/>
     <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxweight" v="5"/>
   </way>
   <way id="28982121" version="7" timestamp="2015-08-20T08:54:53Z" uid="42033" user="Tbj" changeset="33457478">
     <nd ref="300215039"/>
@@ -12046,8 +12048,8 @@
     <nd ref="249933953"/>
     <nd ref="249933955"/>
     <nd ref="249933191"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Veroonslinde"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="29126193" version="4" timestamp="2017-02-05T14:46:46Z" uid="428001" user="wegspotter" changeset="45830917">
     <nd ref="249933363"/>
@@ -12062,9 +12064,9 @@
     <nd ref="4665510159"/>
     <nd ref="4155449662"/>
     <nd ref="252660727"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Steengroefstraat"/>
     <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
     <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="30175169" version="2" timestamp="2009-02-22T07:39:48Z" uid="42033" user="Tbj" changeset="607928">
@@ -12148,10 +12150,10 @@
     <nd ref="2632314260"/>
     <nd ref="2632314262"/>
     <nd ref="335889758"/>
-    <tag k="highway" v="residential"/>
-    <tag k="motor_vehicle" v="destination"/>
     <tag k="name" v="Den Booien"/>
+    <tag k="highway" v="residential"/>
     <tag k="surface" v="compacted"/>
+    <tag k="motor_vehicle" v="destination"/>
   </way>
   <way id="30436396" version="6" timestamp="2015-04-27T11:05:24Z" uid="436365" user="escada" changeset="30535021">
     <nd ref="267329800"/>
@@ -12174,8 +12176,8 @@
     <nd ref="4645791896"/>
     <nd ref="335889788"/>
     <nd ref="1541119453"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Vlieringendreef"/>
+    <tag k="highway" v="residential"/>
     <tag k="surface" v="cobblestone"/>
   </way>
   <way id="30436400" version="6" timestamp="2017-01-30T21:23:08Z" uid="428001" user="wegspotter" changeset="45665910">
@@ -12205,9 +12207,9 @@
     <nd ref="2632313846"/>
     <nd ref="335889856"/>
     <nd ref="335889788"/>
+    <tag k="name" v="Ter Bukeveld"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Ter Bukeveld"/>
   </way>
   <way id="30436425" version="2" timestamp="2016-09-17T01:00:56Z" uid="178186" user="mdk" changeset="42218173">
     <nd ref="267329785"/>
@@ -12518,9 +12520,9 @@
     <nd ref="410808320"/>
     <nd ref="4665552977"/>
     <nd ref="300215039"/>
+    <tag k="name" v="Zuiderstraat"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Zuiderstraat"/>
   </way>
   <way id="35000822" version="1" timestamp="2009-05-24T13:21:11Z" uid="42033" user="Tbj" changeset="1304936">
     <nd ref="410516785"/>
@@ -12568,8 +12570,8 @@
     <nd ref="4665534202"/>
     <nd ref="410516799"/>
     <nd ref="1116528098"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="service"/>
     <tag k="motorcar" v="no"/>
   </way>
@@ -12590,9 +12592,9 @@
     <nd ref="410516813"/>
     <nd ref="4665534204"/>
     <nd ref="249935837"/>
+    <tag k="name" v="Zuiderstraat"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Zuiderstraat"/>
   </way>
   <way id="35024734" version="4" timestamp="2017-02-05T14:57:24Z" uid="428001" user="wegspotter" changeset="45831199">
     <nd ref="410808321"/>
@@ -12601,8 +12603,8 @@
     <nd ref="249936155"/>
     <nd ref="4665527008"/>
     <nd ref="249936156"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Heldenstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="35024736" version="4" timestamp="2016-08-19T08:36:06Z" uid="67832" user="joost schouppe" changeset="41551054">
     <nd ref="249930017"/>
@@ -12642,9 +12644,9 @@
     <nd ref="4665526996"/>
     <nd ref="249935836"/>
     <nd ref="410516813"/>
+    <tag k="name" v="Zuiderstraat"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Zuiderstraat"/>
   </way>
   <way id="35321686" version="2" timestamp="2016-03-20T20:40:51Z" uid="526137" user="Van Heddegem Roeland" changeset="37963661">
     <nd ref="337796240"/>
@@ -13143,18 +13145,18 @@
     <nd ref="471168853"/>
     <nd ref="4645791768"/>
     <nd ref="471168865"/>
+    <tag k="name" v="Ter Bukeveld"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Ter Bukeveld"/>
   </way>
   <way id="39327055" version="4" timestamp="2017-01-30T21:23:09Z" uid="428001" user="wegspotter" changeset="45665910">
     <nd ref="471168870"/>
     <nd ref="4645791779"/>
     <nd ref="471168875"/>
     <nd ref="471168893"/>
+    <tag k="name" v="Ter Bukeveld"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Ter Bukeveld"/>
   </way>
   <way id="39327064" version="4" timestamp="2016-07-25T11:29:16Z" uid="318227" user="swift11" changeset="41009575">
     <nd ref="335889848"/>
@@ -13191,11 +13193,11 @@
     <nd ref="4649764226"/>
     <nd ref="267329793"/>
     <nd ref="335889999"/>
-    <tag k="cycleway:buffer" v="1"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="name" v="Sint-Pieters-Leeuwsesteenweg"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:buffer" v="1"/>
   </way>
   <way id="39327108" version="5" timestamp="2017-01-30T21:23:09Z" uid="428001" user="wegspotter" changeset="45665910">
     <nd ref="471169250"/>
@@ -13204,9 +13206,9 @@
     <nd ref="471169272"/>
     <nd ref="2632313899"/>
     <nd ref="471169242"/>
+    <tag k="name" v="Ter Bukeveld"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Ter Bukeveld"/>
   </way>
   <way id="39327115" version="6" timestamp="2017-01-31T21:11:55Z" uid="428001" user="wegspotter" changeset="45697951">
     <nd ref="267329751"/>
@@ -13219,11 +13221,11 @@
     <nd ref="267329801"/>
     <nd ref="2632314059"/>
     <nd ref="267329800"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="destination:forward" v="Brussel"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="name" v="Sint-Pieters-Leeuwsesteenweg"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="destination:forward" v="Brussel"/>
   </way>
   <way id="39327117" version="15" timestamp="2017-01-30T21:47:57Z" uid="428001" user="wegspotter" changeset="45666631">
     <nd ref="267329751"/>
@@ -13251,13 +13253,13 @@
     <nd ref="250047341"/>
     <nd ref="4645887656"/>
     <nd ref="335889833"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="destination:forward" v="Halle"/>
+    <tag k="name" v="Lenniksesteenweg"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Lenniksesteenweg"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="source:maxspeed" v="BE:urban"/>
+    <tag k="destination:forward" v="Halle"/>
   </way>
   <way id="39327137" version="8" timestamp="2017-01-20T12:53:47Z" uid="672253" user="JanFi" changeset="45325955">
     <nd ref="250051618"/>
@@ -13585,8 +13587,8 @@
     <nd ref="4658745907"/>
     <nd ref="2114226395"/>
     <nd ref="268616230"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Beertsestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="40773410" version="10" timestamp="2016-09-12T19:35:37Z" uid="67832" user="joost schouppe" changeset="42108803">
     <nd ref="147071109"/>
@@ -13764,8 +13766,8 @@
     <nd ref="4645932658"/>
     <nd ref="557374482"/>
     <nd ref="557374399"/>
-    <tag k="highway" v="unclassified"/>
     <tag k="name" v="Manebroek"/>
+    <tag k="highway" v="unclassified"/>
   </way>
   <way id="44488203" version="2" timestamp="2017-02-05T14:57:24Z" uid="428001" user="wegspotter" changeset="45831199">
     <nd ref="410808322"/>
@@ -13774,10 +13776,10 @@
     <nd ref="249936791"/>
     <nd ref="249936790"/>
     <nd ref="249936720"/>
-    <tag k="cycleway" v="opposite_lane"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Fonteinstraat"/>
     <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway" v="opposite_lane"/>
   </way>
   <way id="45096384" version="1" timestamp="2009-11-27T05:47:38Z" uid="42033" user="Tbj" changeset="3225583">
     <nd ref="252828672"/>
@@ -13854,8 +13856,8 @@
     <nd ref="305773868"/>
     <nd ref="305773869"/>
     <nd ref="305725774"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Rue Mathias"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="53589039" version="4" timestamp="2016-07-25T08:19:15Z" uid="67832" user="joost schouppe" changeset="41005497">
     <nd ref="249937569"/>
@@ -14129,8 +14131,8 @@
     <nd ref="4299918690"/>
     <nd ref="4665526989"/>
     <nd ref="937783064"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Kazerneweg"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="80358223" version="4" timestamp="2016-08-19T08:36:06Z" uid="67832" user="joost schouppe" changeset="41551054">
     <nd ref="937783064"/>
@@ -14149,8 +14151,8 @@
     <nd ref="937803523"/>
     <nd ref="4658874776"/>
     <nd ref="268616312"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Wilgenveld"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="81114547" version="6" timestamp="2015-12-30T20:09:36Z" uid="67832" user="joost schouppe" changeset="36270041">
     <nd ref="420269458"/>
@@ -14186,8 +14188,8 @@
     <nd ref="2330636612"/>
     <nd ref="2330636613"/>
     <nd ref="765752068"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Krekelenberg"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="84404033" version="4" timestamp="2013-06-03T14:20:13Z" uid="42033" user="Tbj" changeset="16406943">
     <nd ref="765752068"/>
@@ -14317,9 +14319,9 @@
     <nd ref="4649971147"/>
     <nd ref="4649971146"/>
     <nd ref="250068727"/>
+    <tag k="name" v="Dorekensveld"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Dorekensveld"/>
   </way>
   <way id="87433205" version="3" timestamp="2016-04-05T13:34:27Z" uid="67832" user="joost schouppe" changeset="38317477">
     <nd ref="250068718"/>
@@ -15020,8 +15022,8 @@
     <nd ref="249933971"/>
     <nd ref="249933973"/>
     <nd ref="252828746"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Veroonslinde"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="121670670" version="2" timestamp="2014-02-09T18:34:45Z" uid="138772" user="lodde1949" changeset="20470669">
     <nd ref="249932960"/>
@@ -15058,8 +15060,8 @@
     <nd ref="249932745"/>
     <nd ref="2663545203"/>
     <nd ref="249932603"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Sterrestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="121670672" version="3" timestamp="2017-02-05T14:15:58Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="4665435967"/>
@@ -15073,8 +15075,8 @@
     <nd ref="4665435972"/>
     <nd ref="4665446912"/>
     <nd ref="249933057"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Vredelaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="121670673" version="2" timestamp="2017-02-03T10:27:35Z" uid="428001" user="wegspotter" changeset="45774210">
     <nd ref="249937131"/>
@@ -15082,9 +15084,9 @@
     <nd ref="249930012"/>
     <nd ref="4659127425"/>
     <nd ref="249936529"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Weerstandsstraat"/>
     <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="121670674" version="2" timestamp="2017-01-16T13:17:04Z" uid="67832" user="joost schouppe" changeset="45215500">
     <nd ref="249937130"/>
@@ -15112,8 +15114,8 @@
     <nd ref="4663165000"/>
     <nd ref="249930303"/>
     <nd ref="249930305"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="name" v="Arthur Puesstraat"/>
+    <tag k="highway" v="tertiary"/>
   </way>
   <way id="121670678" version="2" timestamp="2016-08-19T08:36:06Z" uid="67832" user="joost schouppe" changeset="41551054">
     <nd ref="937782122"/>
@@ -15172,8 +15174,8 @@
     <nd ref="249932603"/>
     <nd ref="4665446889"/>
     <nd ref="249932583"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Sterrestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="125088900" version="1" timestamp="2011-08-07T20:22:51Z" uid="116644" user="p-h" changeset="8951471">
     <nd ref="1137597060"/>
@@ -15383,8 +15385,8 @@
     <nd ref="4649722690"/>
     <nd ref="418153766"/>
     <nd ref="250051259"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Groeningenstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="140829024" version="1" timestamp="2011-12-12T09:44:29Z" uid="400464" user="Regio Antwerpen-Brabant Deltamedia" changeset="10097220">
     <nd ref="250051355"/>
@@ -15445,8 +15447,8 @@
     <nd ref="250051138"/>
     <nd ref="250051139"/>
     <nd ref="250051140"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Elbeekstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="140830091" version="1" timestamp="2011-12-12T09:48:31Z" uid="400464" user="Regio Antwerpen-Brabant Deltamedia" changeset="10097220">
     <nd ref="250050996"/>
@@ -15497,8 +15499,8 @@
     <nd ref="3910365004"/>
     <nd ref="3910303583"/>
     <nd ref="3909139316"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="140837129" version="6" timestamp="2016-02-28T16:15:50Z" uid="3624994" user="bosboer" changeset="37501738">
     <nd ref="2301820956"/>
@@ -15603,8 +15605,8 @@
     <nd ref="4658874712"/>
     <nd ref="1630624493"/>
     <nd ref="250045993"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Beertsestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="141086667" version="3" timestamp="2014-05-21T16:25:32Z" uid="1015136" user="Vlendert" changeset="22468528">
     <nd ref="271110959"/>
@@ -15627,8 +15629,8 @@
     <nd ref="4658874787"/>
     <nd ref="4658874773"/>
     <nd ref="937803523"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Beertsestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="141087615" version="4" timestamp="2014-10-21T08:38:42Z" uid="678643" user="kbaker" changeset="26229652">
     <nd ref="271111300"/>
@@ -16200,8 +16202,8 @@
     <nd ref="1630624552"/>
     <nd ref="1630624550"/>
     <nd ref="1630624549"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="150145511" version="4" timestamp="2015-12-24T15:45:21Z" uid="67832" user="joost schouppe" changeset="36146713">
     <nd ref="250045948"/>
@@ -16420,10 +16422,10 @@
     <nd ref="250047354"/>
     <nd ref="250047353"/>
     <nd ref="1739207853"/>
-    <tag k="cycleway:right" v="track"/>
+    <tag k="name" v="Lenniksesteenweg"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="70"/>
-    <tag k="name" v="Lenniksesteenweg"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="source:maxspeed" v="traffic_sign"/>
   </way>
@@ -16944,8 +16946,8 @@
     <nd ref="250051420"/>
     <nd ref="2301821023"/>
     <nd ref="250046939"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Astridlaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="221123689" version="1" timestamp="2013-05-12T21:00:19Z" uid="15188" user="Polyglot" changeset="16102873">
     <nd ref="250056960"/>
@@ -17642,10 +17644,10 @@
     <nd ref="2527158251"/>
     <nd ref="2527158246"/>
     <nd ref="2161184410"/>
-    <tag k="cycleway:right" v="track"/>
+    <tag k="name" v="Lenniksesteenweg"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="70"/>
-    <tag k="name" v="Lenniksesteenweg"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="236982149" version="2" timestamp="2016-01-03T07:43:26Z" uid="67832" user="joost schouppe" changeset="36332449">
@@ -17694,8 +17696,8 @@
     <nd ref="249939680"/>
     <nd ref="250044505"/>
     <nd ref="577886202"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="name" v="Klabbeeksesteenweg"/>
+    <tag k="highway" v="tertiary"/>
   </way>
   <way id="246815853" version="1" timestamp="2013-11-18T15:33:11Z" uid="67832" user="joost schouppe" changeset="18975014">
     <nd ref="2538088853"/>
@@ -17849,8 +17851,8 @@
     <nd ref="2629317075"/>
     <nd ref="2629317072"/>
     <nd ref="249937558"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Boslaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="257376309" version="1" timestamp="2014-01-20T01:29:43Z" uid="15188" user="Polyglot" changeset="20096226">
     <nd ref="254397984"/>
@@ -17946,10 +17948,10 @@
     <nd ref="4649719783"/>
     <nd ref="250046941"/>
     <nd ref="250046940"/>
-    <tag k="cycleway:right" v="track"/>
+    <tag k="name" v="Lenniksesteenweg"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Lenniksesteenweg"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="257539005" version="1" timestamp="2014-01-20T21:08:03Z" uid="15188" user="Polyglot" changeset="20111870">
@@ -18004,9 +18006,9 @@
     <nd ref="4645791751"/>
     <nd ref="2632313984"/>
     <nd ref="471169258"/>
+    <tag k="name" v="Ter Bukeveld"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Ter Bukeveld"/>
   </way>
   <way id="257760200" version="3" timestamp="2017-01-30T21:23:09Z" uid="428001" user="wegspotter" changeset="45665910">
     <nd ref="2632313846"/>
@@ -18014,9 +18016,9 @@
     <nd ref="2632313836"/>
     <nd ref="2632313838"/>
     <nd ref="2632313842"/>
+    <tag k="name" v="Ter Bukeveld"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Ter Bukeveld"/>
   </way>
   <way id="258377597" version="4" timestamp="2016-08-01T12:12:30Z" uid="2403313" user="Jakka" changeset="41166054">
     <nd ref="249926295"/>
@@ -18209,10 +18211,10 @@
     <nd ref="250046948"/>
     <nd ref="2448069778"/>
     <nd ref="1630624880"/>
-    <tag k="cycleway:right" v="track"/>
+    <tag k="name" v="Lenniksesteenweg"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Lenniksesteenweg"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="258428447" version="4" timestamp="2016-03-02T14:02:55Z" uid="3624994" user="bosboer" changeset="37567047">
@@ -18256,8 +18258,8 @@
     <nd ref="2683740556"/>
     <nd ref="2683740557"/>
     <nd ref="249933057"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Beneluxlaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="265006333" version="1" timestamp="2014-03-08T07:50:05Z" uid="15188" user="Polyglot" changeset="20982824">
     <nd ref="2630386205"/>
@@ -18283,8 +18285,8 @@
     <nd ref="249936454"/>
     <nd ref="249936455"/>
     <nd ref="318687931"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="name" v="Perregatstraat"/>
+    <tag k="highway" v="tertiary"/>
   </way>
   <way id="272233112" version="1" timestamp="2014-04-06T08:02:09Z" uid="42033" user="Tbj" changeset="21526862">
     <nd ref="2771890577"/>
@@ -18342,8 +18344,8 @@
     <nd ref="250051141"/>
     <nd ref="4658874709"/>
     <nd ref="250051142"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Elbeekstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="283436370" version="3" timestamp="2016-12-02T18:15:29Z" uid="67832" user="joost schouppe" changeset="44120497">
     <nd ref="147057641"/>
@@ -18716,8 +18718,8 @@
     <nd ref="3095003266"/>
     <nd ref="3095003267"/>
     <nd ref="250051156"/>
-    <tag k="highway" v="service"/>
     <tag k="oneway" v="yes"/>
+    <tag k="highway" v="service"/>
   </way>
   <way id="305107247" version="1" timestamp="2014-09-26T08:38:33Z" uid="318227" user="swift11" changeset="25680788">
     <nd ref="3096892274"/>
@@ -19123,7 +19125,7 @@
     <nd ref="3404492429"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="337376196" version="2" timestamp="2016-11-07T19:37:20Z" uid="428001" user="wegspotter" changeset="43471580">
+  <way id="337376196" version="3" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899">
     <nd ref="1390136405"/>
     <nd ref="3444675814"/>
     <nd ref="3444675815"/>
@@ -19144,7 +19146,8 @@
     <nd ref="3444675829"/>
     <nd ref="3444675830"/>
     <nd ref="3444675831"/>
-    <tag k="highway" v="service"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Scheyssingen"/>
   </way>
   <way id="340579672" version="2" timestamp="2017-01-30T21:23:09Z" uid="428001" user="wegspotter" changeset="45665910">
     <nd ref="3478213470"/>
@@ -20616,8 +20619,8 @@
     <nd ref="3404338129"/>
     <nd ref="268616254"/>
     <nd ref="250051142"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Victor Demesmaekerstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="387828664" version="2" timestamp="2017-02-03T09:21:26Z" uid="428001" user="wegspotter" changeset="45772587">
     <nd ref="4658874719"/>
@@ -20976,10 +20979,10 @@
     <nd ref="1573334271"/>
     <nd ref="4659250919"/>
     <nd ref="1137595184"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Voetweg A80"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="388914206" version="1" timestamp="2015-12-31T16:45:48Z" uid="67832" user="joost schouppe" changeset="36286235">
     <nd ref="3920945348"/>
@@ -21159,8 +21162,8 @@
     <nd ref="249932213"/>
     <nd ref="249932214"/>
     <nd ref="249930757"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Populierenstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="390793565" version="1" timestamp="2016-01-11T10:19:39Z" uid="67832" user="joost schouppe" changeset="36499732">
     <nd ref="3939280202"/>
@@ -21194,8 +21197,8 @@
     <nd ref="249931151"/>
     <nd ref="4665435951"/>
     <nd ref="249931132"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Olmenstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="390793589" version="3" timestamp="2017-02-05T14:15:59Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="4665435957"/>
@@ -21204,8 +21207,8 @@
     <nd ref="3939280166"/>
     <nd ref="3939280270"/>
     <nd ref="249931461"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Felix Wouterserf"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="390794833" version="3" timestamp="2017-01-16T14:31:37Z" uid="67832" user="joost schouppe" changeset="45217297">
     <nd ref="3939289763"/>
@@ -22455,8 +22458,8 @@
     <nd ref="2632314208"/>
     <nd ref="4649764219"/>
     <nd ref="250051618"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Gaasbeeksesteenweg"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="432720769" version="1" timestamp="2016-07-23T07:06:11Z" uid="67832" user="joost schouppe" changeset="40965569">
     <nd ref="267467032"/>
@@ -22488,10 +22491,10 @@
     <nd ref="250051615"/>
     <nd ref="250051616"/>
     <nd ref="470286739"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="70"/>
     <tag k="name" v="Gaasbeeksesteenweg"/>
+    <tag k="highway" v="residential"/>
     <tag k="surface" v="cobblestone"/>
+    <tag k="maxspeed" v="70"/>
   </way>
   <way id="432720774" version="2" timestamp="2017-01-10T09:10:00Z" uid="67832" user="joost schouppe" changeset="45045842">
     <nd ref="271110224"/>
@@ -22661,8 +22664,8 @@
     <nd ref="4659250903"/>
     <nd ref="4659250905"/>
     <nd ref="254377569"/>
-    <tag k="highway" v="unclassified"/>
     <tag k="name" v="Pijpaenshoek"/>
+    <tag k="highway" v="unclassified"/>
   </way>
   <way id="432993925" version="2" timestamp="2016-07-25T14:00:25Z" uid="67832" user="joost schouppe" changeset="41012923">
     <nd ref="1313022153"/>
@@ -22789,8 +22792,8 @@
     <nd ref="2629317066"/>
     <nd ref="249937580"/>
     <nd ref="249938539"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Kasteelbrakelsesteenweg"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="432993938" version="2" timestamp="2017-01-10T10:59:19Z" uid="67832" user="joost schouppe" changeset="45047728">
     <nd ref="256854979"/>
@@ -23190,10 +23193,10 @@
     <nd ref="4655232724"/>
     <nd ref="250068201"/>
     <nd ref="1033003901"/>
+    <tag k="name" v="Kluisbos"/>
     <tag k="highway" v="residential"/>
     <tag k="incline" v="13%"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Kluisbos"/>
   </way>
   <way id="436280082" version="1" timestamp="2016-08-08T18:23:33Z" uid="67832" user="joost schouppe" changeset="41330055">
     <nd ref="4341530155"/>
@@ -23560,9 +23563,9 @@
     <nd ref="249929171"/>
     <nd ref="4659127432"/>
     <nd ref="249928902"/>
+    <tag k="name" v="Prinsenbos"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Prinsenbos"/>
   </way>
   <way id="450218688" version="1" timestamp="2016-10-30T14:12:44Z" uid="67832" user="joost schouppe" changeset="43284379">
     <nd ref="4471409656"/>
@@ -25115,11 +25118,11 @@
     <nd ref="250055424"/>
     <nd ref="250055425"/>
     <nd ref="4659250890"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="unclassified"/>
     <tag k="name" v="Houtveld"/>
     <tag k="oneway" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="466396196" version="1" timestamp="2017-01-16T14:31:36Z" uid="67832" user="joost schouppe" changeset="45217297">
@@ -25408,8 +25411,8 @@
   <way id="470770311" version="1" timestamp="2017-01-31T20:30:09Z" uid="428001" user="wegspotter" changeset="45696931">
     <nd ref="4649625838"/>
     <nd ref="3910414755"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Kareelveld"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="470770312" version="1" timestamp="2017-01-31T20:30:09Z" uid="428001" user="wegspotter" changeset="45696931">
     <nd ref="4649625845"/>
@@ -25435,8 +25438,8 @@
     <nd ref="250051607"/>
     <nd ref="418174098"/>
     <nd ref="3258737395"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Gaasbeeksesteenweg"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="470781687" version="1" timestamp="2017-01-31T20:46:39Z" uid="428001" user="wegspotter" changeset="45697401">
     <nd ref="4649719783"/>
@@ -25508,8 +25511,8 @@
     <nd ref="4657750343"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="471627213" version="1" timestamp="2017-02-02T21:45:30Z" uid="428001" user="wegspotter" changeset="45760972">
-    <nd ref="2632196126"/>
+  <way id="471627213" version="2" timestamp="2017-02-10T18:18:19Z" uid="474183" user="ratrun" changeset="45980433">
+    <nd ref="2631761530"/>
     <nd ref="4657903671"/>
     <tag k="highway" v="unclassified"/>
     <tag k="name" v="Permekestraat"/>
@@ -25571,8 +25574,8 @@
     <nd ref="4659127431"/>
     <nd ref="4659127430"/>
     <nd ref="4659127429"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Weerstandsstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="471755373" version="1" timestamp="2017-02-03T10:27:32Z" uid="428001" user="wegspotter" changeset="45774210">
     <nd ref="4659127442"/>
@@ -25609,17 +25612,17 @@
   <way id="471755383" version="1" timestamp="2017-02-03T10:27:33Z" uid="428001" user="wegspotter" changeset="45774210">
     <nd ref="250074076"/>
     <nd ref="4659127469"/>
+    <tag k="name" v="Europalaan"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Europalaan"/>
   </way>
   <way id="471755385" version="1" timestamp="2017-02-03T10:27:33Z" uid="428001" user="wegspotter" changeset="45774210">
     <nd ref="250074290"/>
     <nd ref="4659127471"/>
     <nd ref="4659127470"/>
+    <tag k="name" v="Europalaan"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Europalaan"/>
   </way>
   <way id="471769199" version="1" timestamp="2017-02-03T11:02:50Z" uid="428001" user="wegspotter" changeset="45775031">
     <nd ref="4659250890"/>
@@ -25634,11 +25637,11 @@
     <nd ref="3919310596"/>
     <nd ref="420269456"/>
     <nd ref="420269458"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="unclassified"/>
     <tag k="name" v="Houtveld"/>
     <tag k="oneway" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
   </way>
   <way id="471769212" version="1" timestamp="2017-02-03T11:02:50Z" uid="428001" user="wegspotter" changeset="45775031">
@@ -25671,8 +25674,8 @@
   <way id="471791713" version="1" timestamp="2017-02-03T12:32:43Z" uid="428001" user="wegspotter" changeset="45777102">
     <nd ref="4659473275"/>
     <nd ref="4659473274"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Krekelenberg"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="471791714" version="1" timestamp="2017-02-03T12:32:43Z" uid="428001" user="wegspotter" changeset="45777102">
     <nd ref="4659473277"/>
@@ -25685,8 +25688,8 @@
     <nd ref="4659497674"/>
     <nd ref="4659497673"/>
     <nd ref="4659497672"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Kasteelbrakelsesteenweg"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="471793838" version="1" timestamp="2017-02-03T12:46:52Z" uid="428001" user="wegspotter" changeset="45777399">
     <nd ref="4659497687"/>
@@ -25734,8 +25737,8 @@
     <nd ref="4663150684"/>
     <nd ref="4663150685"/>
     <nd ref="4663164995"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Populierenstraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="472080605" version="1" timestamp="2017-02-04T12:28:29Z" uid="428001" user="wegspotter" changeset="45803901">
     <nd ref="4663164999"/>
@@ -25755,15 +25758,15 @@
     <nd ref="4665435955"/>
     <nd ref="4665435954"/>
     <nd ref="4665435953"/>
+    <tag k="name" v="Heidestraat"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Heidestraat"/>
   </way>
   <way id="472332586" version="1" timestamp="2017-02-05T14:15:55Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="3939280270"/>
     <nd ref="4665435956"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Felix Wouterserf"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="472332587" version="1" timestamp="2017-02-05T14:15:55Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="2683740552"/>
@@ -25771,20 +25774,20 @@
     <nd ref="4665435962"/>
     <nd ref="4665435961"/>
     <nd ref="4665435960"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Beneluxlaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="472332591" version="1" timestamp="2017-02-05T14:15:55Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="249932950"/>
     <nd ref="4665435969"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Vredelaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="472332594" version="1" timestamp="2017-02-05T14:15:55Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="4665435970"/>
     <nd ref="2683740551"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Sterrestraat"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="472332605" version="1" timestamp="2017-02-05T14:15:55Z" uid="428001" user="wegspotter" changeset="45830189">
     <nd ref="4665446897"/>
@@ -25868,17 +25871,17 @@
     <nd ref="4665534224"/>
     <nd ref="4665525286"/>
     <nd ref="4665525285"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Boslaan"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Boslaan"/>
   </way>
   <way id="472340948" version="1" timestamp="2017-02-05T14:57:23Z" uid="428001" user="wegspotter" changeset="45831199">
     <nd ref="4665525288"/>
     <nd ref="4665525287"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Boslaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="472340949" version="2" timestamp="2017-02-05T15:03:06Z" uid="428001" user="wegspotter" changeset="45831340">
     <nd ref="4665525285"/>
@@ -25886,8 +25889,8 @@
     <nd ref="4665534222"/>
     <nd ref="4665525283"/>
     <nd ref="249938100"/>
-    <tag k="highway" v="residential"/>
     <tag k="name" v="Boslaan"/>
+    <tag k="highway" v="residential"/>
   </way>
   <way id="472344924" version="1" timestamp="2017-02-05T15:13:28Z" uid="428001" user="wegspotter" changeset="45831588">
     <nd ref="1833493469"/>
@@ -25897,8 +25900,8 @@
   <way id="472344932" version="2" timestamp="2017-02-05T15:16:30Z" uid="428001" user="wegspotter" changeset="45831652">
     <nd ref="4665552962"/>
     <nd ref="4665552961"/>
-    <tag k="highway" v="service"/>
     <tag k="name" v="Ouden Molenweg"/>
+    <tag k="highway" v="service"/>
   </way>
   <way id="472344936" version="1" timestamp="2017-02-05T15:13:28Z" uid="428001" user="wegspotter" changeset="45831588">
     <nd ref="4665552977"/>
@@ -25937,15 +25940,15 @@
     <nd ref="316631217"/>
     <nd ref="408887488"/>
     <nd ref="252828726"/>
-    <tag k="highway" v="service"/>
     <tag k="noexit" v="yes"/>
+    <tag k="highway" v="service"/>
   </way>
   <way id="472349538" version="1" timestamp="2017-02-05T15:37:49Z" uid="428001" user="wegspotter" changeset="45832162">
     <nd ref="316631217"/>
     <nd ref="4665595201"/>
     <nd ref="4665595202"/>
-    <tag k="highway" v="service"/>
     <tag k="noexit" v="yes"/>
+    <tag k="highway" v="service"/>
   </way>
   <way id="472349541" version="1" timestamp="2017-02-05T15:37:49Z" uid="428001" user="wegspotter" changeset="45832162">
     <nd ref="4665595223"/>
@@ -25955,5 +25958,11 @@
     <nd ref="4665595219"/>
     <nd ref="4665595218"/>
     <tag k="highway" v="service"/>
+  </way>
+  <way id="473585516" version="1" timestamp="2017-02-09T14:01:39Z" uid="67832" user="joost schouppe" changeset="45947961">
+    <nd ref="4676659578"/>
+    <nd ref="4676659579"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="driveway"/>
   </way>
 </osm>

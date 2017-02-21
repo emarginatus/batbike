@@ -1986,7 +1986,7 @@
     <nd ref="4655232718"/>
     <nd ref="4655232719"/>
     <nd ref="4655232716"/>
-    <tag k="natural" v="water"/>
     <tag k="water" v="pond"/>
+    <tag k="natural" v="water"/>
   </way>
 </osm>

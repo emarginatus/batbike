@@ -1,4 +1,4 @@
-wget http://download.geofabrik.de/europe/belgium-latest.osm.pbf
+wget http://download.geofabrik.de/europe/belgium-latest.osm.pbf -N
 osmosis \
   --read-pbf-fast belgium-latest.osm.pbf \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \

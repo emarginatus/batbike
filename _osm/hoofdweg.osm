@@ -55,7 +55,7 @@
   <node id="60610742" version="3" timestamp="2013-05-12T21:08:23Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7435164" lon="4.2078032">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="60610743" version="3" timestamp="2013-05-12T21:08:23Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7434633" lon="4.2091871"/>
+  <node id="60610743" version="4" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7434752" lon="4.2092193"/>
   <node id="60610744" version="3" timestamp="2013-05-12T21:08:23Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7435107" lon="4.2103237"/>
   <node id="60610745" version="3" timestamp="2013-05-12T21:08:23Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7435935" lon="4.212092"/>
   <node id="60610746" version="3" timestamp="2013-05-12T21:08:23Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7435992" lon="4.2124009"/>
@@ -1175,6 +1175,8 @@
   <node id="4665594383" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7056989" lon="4.1936131"/>
   <node id="4665595194" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7043432" lon="4.1955218"/>
   <node id="4665595223" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7027626" lon="4.1977792"/>
+  <node id="4695629609" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.743491" lon="4.2082633"/>
+  <node id="4695629614" version="1" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7434709" lon="4.2089539"/>
   <way id="8242609" version="27" timestamp="2016-04-06T11:22:31Z" uid="67832" user="joost schouppe" changeset="38348136">
     <nd ref="250046370"/>
     <nd ref="8697741"/>
@@ -1386,8 +1388,8 @@
     <nd ref="252828739"/>
     <nd ref="4665594314"/>
     <nd ref="268814130"/>
-    <tag k="highway" v="secondary"/>
     <tag k="name" v="Chaussée d&apos;Hondzocht"/>
+    <tag k="highway" v="secondary"/>
   </way>
   <way id="23841920" version="6" timestamp="2015-01-14T12:10:02Z" uid="15188" user="Polyglot" changeset="28132843">
     <nd ref="250057317"/>
@@ -1462,9 +1464,9 @@
     <nd ref="249934227"/>
     <nd ref="1116520044"/>
     <nd ref="317187768"/>
-    <tag k="highway" v="primary"/>
-    <tag k="name" v="Edingensesteenweg"/>
     <tag k="ref" v="N7"/>
+    <tag k="name" v="Edingensesteenweg"/>
+    <tag k="highway" v="primary"/>
   </way>
   <way id="27442852" version="7" timestamp="2013-05-12T21:06:43Z" uid="15188" user="Polyglot" changeset="16102873">
     <nd ref="147071013"/>
@@ -1708,13 +1710,13 @@
     <nd ref="4649719748"/>
     <nd ref="250051013"/>
     <nd ref="250051261"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="highway" v="primary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Ninoofsesteenweg"/>
-    <tag k="oneway:bicycle" v="no"/>
     <tag k="ref" v="N28"/>
+    <tag k="name" v="Ninoofsesteenweg"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="41855193" version="6" timestamp="2016-11-07T14:27:36Z" uid="67832" user="joost schouppe" changeset="43465480">
     <nd ref="150597814"/>
@@ -2082,10 +2084,10 @@
     <nd ref="249933329"/>
     <nd ref="8697982"/>
     <nd ref="410447414"/>
+    <tag k="ref" v="N6"/>
+    <tag k="name" v="Bergensesteenweg"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Bergensesteenweg"/>
-    <tag k="ref" v="N6"/>
   </way>
   <way id="221123693" version="4" timestamp="2016-07-25T18:37:12Z" uid="67832" user="joost schouppe" changeset="41019679">
     <nd ref="8697755"/>
@@ -2228,13 +2230,13 @@
     <nd ref="3919310661"/>
     <nd ref="147071138"/>
     <nd ref="420269707"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="70"/>
-    <tag k="name" v="Nijvelsesteenweg"/>
     <tag k="ref" v="N28"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Nijvelsesteenweg"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="maxspeed" v="70"/>
     <tag k="zone:traffic" v="BE:rural"/>
   </way>
   <way id="221123755" version="1" timestamp="2013-05-12T21:00:32Z" uid="15188" user="Polyglot" changeset="16102873">
@@ -2610,10 +2612,10 @@
     <nd ref="60608986"/>
     <nd ref="4330803446"/>
     <nd ref="250075031"/>
+    <tag k="ref" v="N7"/>
+    <tag k="name" v="Edingensesteenweg"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed:backward" v="70"/>
-    <tag k="name" v="Edingensesteenweg"/>
-    <tag k="ref" v="N7"/>
   </way>
   <way id="257376297" version="1" timestamp="2014-01-20T01:29:42Z" uid="15188" user="Polyglot" changeset="20096226">
     <nd ref="517707375"/>
@@ -2637,12 +2639,12 @@
     <nd ref="880784885"/>
     <nd ref="60610734"/>
     <nd ref="268616107"/>
-    <tag k="cycleway" v="track"/>
-    <tag k="highway" v="primary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="maxspeed" v="70"/>
-    <tag k="name" v="Ninoofsesteenweg"/>
     <tag k="ref" v="N28"/>
+    <tag k="name" v="Ninoofsesteenweg"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway" v="track"/>
+    <tag k="maxspeed" v="70"/>
   </way>
   <way id="257538994" version="1" timestamp="2014-01-20T21:08:01Z" uid="15188" user="Polyglot" changeset="20111870">
     <nd ref="252828727"/>
@@ -2718,10 +2720,10 @@
     <nd ref="4599561571"/>
     <nd ref="249929354"/>
     <nd ref="249928902"/>
+    <tag k="ref" v="N6"/>
+    <tag k="name" v="Bergensesteenweg"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Bergensesteenweg"/>
-    <tag k="ref" v="N6"/>
   </way>
   <way id="258377625" version="1" timestamp="2014-01-25T22:14:03Z" uid="15188" user="Polyglot" changeset="20201516">
     <nd ref="1630624295"/>
@@ -2872,13 +2874,13 @@
     <nd ref="3066326691"/>
     <nd ref="4649751661"/>
     <nd ref="250051012"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="highway" v="primary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Ninoofsesteenweg"/>
-    <tag k="oneway:bicycle" v="no"/>
     <tag k="ref" v="N28"/>
+    <tag k="name" v="Ninoofsesteenweg"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="317612904" version="2" timestamp="2016-03-31T13:44:32Z" uid="67832" user="joost schouppe" changeset="38198220">
     <nd ref="3238941237"/>
@@ -3421,10 +3423,10 @@
     <nd ref="3908316037"/>
     <nd ref="4659030378"/>
     <nd ref="250075604"/>
+    <tag k="ref" v="N6"/>
+    <tag k="name" v="Bergensesteenweg"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed" v="70"/>
-    <tag k="name" v="Bergensesteenweg"/>
-    <tag k="ref" v="N6"/>
   </way>
   <way id="414383588" version="1" timestamp="2016-04-29T10:34:34Z" uid="67832" user="joost schouppe" changeset="38977959">
     <nd ref="4155385491"/>
@@ -3442,10 +3444,10 @@
     <nd ref="4665552962"/>
     <nd ref="1445209580"/>
     <nd ref="252112041"/>
+    <tag k="ref" v="N6"/>
+    <tag k="name" v="Bergensesteenweg"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed" v="70"/>
-    <tag k="name" v="Bergensesteenweg"/>
-    <tag k="ref" v="N6"/>
   </way>
   <way id="432089968" version="1" timestamp="2016-07-20T11:17:22Z" uid="67832" user="joost schouppe" changeset="40893837">
     <nd ref="4312548716"/>
@@ -3481,21 +3483,23 @@
     <tag k="cycleway" v="track"/>
     <tag k="maxspeed" v="50"/>
   </way>
-  <way id="432720775" version="1" timestamp="2016-07-23T07:06:12Z" uid="67832" user="joost schouppe" changeset="40965569">
+  <way id="432720775" version="2" timestamp="2017-02-20T15:20:16Z" uid="67832" user="joost schouppe" changeset="46246899">
     <nd ref="1498778115"/>
     <nd ref="60610742"/>
+    <nd ref="4695629609"/>
     <nd ref="2301821038"/>
+    <nd ref="4695629614"/>
     <nd ref="60610743"/>
     <nd ref="60610744"/>
     <nd ref="60610745"/>
     <nd ref="60610746"/>
     <nd ref="470820715"/>
-    <tag k="ref" v="N28"/>
-    <tag k="name" v="Ninoofsesteenweg"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="primary"/>
     <tag k="cycleway" v="track"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
     <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Ninoofsesteenweg"/>
+    <tag k="ref" v="N28"/>
   </way>
   <way id="432721467" version="2" timestamp="2016-07-25T18:37:12Z" uid="67832" user="joost schouppe" changeset="41019679">
     <nd ref="489411336"/>
@@ -3587,9 +3591,9 @@
     <nd ref="3937501634"/>
     <nd ref="4330812949"/>
     <nd ref="249930586"/>
+    <tag k="ref" v="N7"/>
+    <tag k="name" v="Edingensesteenweg"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed:backward" v="70"/>
-    <tag k="name" v="Edingensesteenweg"/>
-    <tag k="ref" v="N7"/>
   </way>
 </osm>

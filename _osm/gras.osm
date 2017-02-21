@@ -4946,7 +4946,7 @@
   <node id="3940384081" version="1" timestamp="2016-01-11T20:34:09Z" uid="67832" user="joost schouppe" changeset="36512555" lat="50.7422758" lon="4.2105113"/>
   <node id="3940384082" version="1" timestamp="2016-01-11T20:34:09Z" uid="67832" user="joost schouppe" changeset="36512555" lat="50.7406768" lon="4.2123045"/>
   <node id="3940384083" version="1" timestamp="2016-01-11T20:34:09Z" uid="67832" user="joost schouppe" changeset="36512555" lat="50.740901" lon="4.2106481"/>
-  <node id="3940384090" version="1" timestamp="2016-01-11T20:34:10Z" uid="67832" user="joost schouppe" changeset="36512555" lat="50.7415152" lon="4.2082329"/>
+  <node id="3940384090" version="2" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7416136" lon="4.2103411"/>
   <node id="3940384092" version="1" timestamp="2016-01-11T20:34:10Z" uid="67832" user="joost schouppe" changeset="36512555" lat="50.7389081" lon="4.2043759"/>
   <node id="3940384093" version="1" timestamp="2016-01-11T20:34:10Z" uid="67832" user="joost schouppe" changeset="36512555" lat="50.7412982" lon="4.2111068"/>
   <node id="3940384095" version="1" timestamp="2016-01-11T20:34:10Z" uid="67832" user="joost schouppe" changeset="36512555" lat="50.7389974" lon="4.2109088"/>
@@ -5849,6 +5849,8 @@
   <node id="4663107338" version="1" timestamp="2017-02-04T11:39:39Z" uid="428001" user="wegspotter" changeset="45802776" lat="50.6961062" lon="4.2278848"/>
   <node id="4665446914" version="1" timestamp="2017-02-05T14:15:54Z" uid="428001" user="wegspotter" changeset="45830189" lat="50.7174178" lon="4.2178297"/>
   <node id="4665446915" version="1" timestamp="2017-02-05T14:15:54Z" uid="428001" user="wegspotter" changeset="45830189" lat="50.7169534" lon="4.2172056"/>
+  <node id="4695629615" version="1" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7423713" lon="4.2098019"/>
+  <node id="4695629616" version="1" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7416564" lon="4.2096745"/>
   <way id="43217736" version="2" timestamp="2016-01-10T12:03:52Z" uid="67832" user="joost schouppe" changeset="36480509">
     <nd ref="541965347"/>
     <nd ref="3937501653"/>
@@ -11910,8 +11912,10 @@
     <nd ref="3940384047"/>
     <tag k="landuse" v="meadow"/>
   </way>
-  <way id="390886686" version="2" timestamp="2017-01-31T20:30:10Z" uid="428001" user="wegspotter" changeset="45696931">
+  <way id="390886686" version="3" timestamp="2017-02-20T15:20:16Z" uid="67832" user="joost schouppe" changeset="46246899">
     <nd ref="3940384090"/>
+    <nd ref="4695629616"/>
+    <nd ref="4695629615"/>
     <nd ref="697295948"/>
     <nd ref="697295949"/>
     <nd ref="697295950"/>
