@@ -118,8 +118,8 @@ origineel <- basis@data %>%
 ```
 
 ```{r lees_openstreetmap}
-snelweg <- readOGR("_osm/snelweg.osm", "lines", verbose = FALSE)
-hoofdweg <- readOGR("_osm/hoofdweg.osm", "lines", verbose = FALSE)
+snelweg <- readOGR("_osm/snelweg.osm", "lines", verbose = FALSE, stringsAsFactors = FALSE)
+hoofdweg <- readOGR("_osm/hoofdweg.osm", "lines", verbose = FALSE, stringsAsFactors = FALSE)
 lokaleweg <- readOGR("_osm/lokale_weg.osm", "lines", verbose = FALSE)
 pad <- readOGR("_osm/pad.osm", "lines", verbose = FALSE)
 waterweg <- readOGR("_osm/waterweg.osm", "lines", verbose = FALSE)
@@ -150,6 +150,37 @@ park.f <- fortify(park)
 gras.f <- fortify(gras)
 water.f <- fortify(water)
 ```
+
+```{r}
+snelweg_label <- snelweg@data %>%
+  filter(!is.na(name)) %>%
+  select(id = osm_id, name) %>%
+  inner_join(snelweg.f, by = "id")
+snelweg_label <- snelweg_label %>%
+  group_by(name) %>%
+  summarise_at(c("long", "lat"), median) %>%
+  rename(mlong = long, mlat = lat) %>%
+  inner_join(snelweg_label, by = "name") %>%
+  arrange((mlong - long) ^ 2 + (mlat - lat) ^ 2) %>%
+  group_by(name) %>%
+  slice(1) %>%
+  select(name, group, morder = order) %>%
+  inner_join(
+    snelweg_label %>%
+      select(name, group, order, long, lat), 
+    by = c("name", "group")
+  ) %>% 
+  filter(abs(order - morder) <= 1) %>%
+  arrange(order) %>%
+  slice(1:2) %>%
+  summarise(
+    hoek = atan2(diff(lat), diff(long)) * 180 / pi,
+    long = mean(long),
+    lat = mean(lat)
+  ) %>%
+  mutate(hoek = ifelse(abs(hoek) > 90, hoek - 180, hoek))
+```
+
 
 <a href="kaarten_files/figure-html/folder-1.pdf">
 ```{r folder, fig.cap = "Kaart uit de folder"}
@@ -246,6 +277,11 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     size = 12 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
+  ) +
+  geom_text(
+    data = snelweg_label, 
+    aes(label = name, angle = hoek), 
+    group = NA
   ) +
   geom_label(
     data = infopunt, 
