@@ -151,67 +151,9 @@ gras.f <- fortify(gras)
 water.f <- fortify(water)
 ```
 
-```{r}
-snelweg_label <- snelweg@data %>%
-  filter(!is.na(name)) %>%
-  select(id = osm_id, name) %>%
-  inner_join(snelweg.f, by = "id")
-snelweg_label <- snelweg_label %>%
-  group_by(name) %>%
-  summarise_at(c("long", "lat"), median) %>%
-  rename(mlong = long, mlat = lat) %>%
-  inner_join(snelweg_label, by = "name") %>%
-  arrange((mlong - long) ^ 2 + (mlat - lat) ^ 2) %>%
-  group_by(name) %>%
-  slice(1) %>%
-  select(name, group, morder = order) %>%
-  inner_join(
-    snelweg_label %>%
-      select(name, group, order, long, lat), 
-    by = c("name", "group")
-  ) %>% 
-  filter(abs(order - morder) <= 1) %>%
-  arrange(order) %>%
-  slice(1:2) %>%
-  summarise(
-    hoek = atan2(diff(lat), diff(long)) * 180 / pi,
-    long = mean(long),
-    lat = mean(lat)
-  ) %>%
-  mutate(hoek = ifelse(abs(hoek) > 90, hoek - 180, hoek))
-hoofdweg_label <- hoofdweg@data %>%
-  filter(grepl("steenweg", name)) %>%
-  select(id = osm_id, name) %>%
-  inner_join(hoofdweg.f, by = "id")
-hoofdweg_label <- hoofdweg_label %>%
-  group_by(name) %>%
-  summarise_at(c("long", "lat"), median) %>%
-  rename(mlong = long, mlat = lat) %>%
-  inner_join(hoofdweg_label, by = "name") %>%
-  arrange((mlong - long) ^ 2 + (mlat - lat) ^ 2) %>%
-  group_by(name) %>%
-  slice(1) %>%
-  select(name, group, morder = order) %>%
-  inner_join(
-    hoofdweg_label %>%
-      select(name, group, order, long, lat), 
-    by = c("name", "group")
-  ) %>% 
-  filter(abs(order - morder) <= 1) %>%
-  arrange(order) %>%
-  slice(1:2) %>%
-  summarise(
-    hoek = atan2(diff(lat), diff(long)) * 180 / pi,
-    long = mean(long),
-    lat = mean(lat)
-  ) %>%
-  mutate(hoek = ifelse(abs(hoek) > 90, hoek - 180, hoek))
-```
-
-
 <a href="kaarten_files/figure-html/folder-1.pdf">
 ```{r folder, fig.cap = "Kaart uit de folder"}
-ggplot(segment, aes(x = long, y = lat, group = group)) +
+ggplot(origineel, aes(x = long, y = lat, group = group)) +
   geom_polygon(data = water, fill = "#addeff") +
   geom_polygon(data = gras, fill = "#bcde93") +
   geom_polygon(data = park, fill = "#aed1a0") +
@@ -228,16 +170,21 @@ ggplot(segment, aes(x = long, y = lat, group = group)) +
     aes(label = knooppunt), 
     group = NA, 
     colour = "darkgreen",
-    size = 6 * mm,
+    size = 12 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
+  ) +
+  geom_text(
+    data = read_csv("_osm/labels.csv"), 
+    aes(label = naam, angle = hoek), 
+    group = NA
   ) +
   geom_label(
     data = infopunt, 
     aes(label = id), 
     group = NA, 
     colour = "red",
-    size = 18 * mm,
+    size = 14 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
@@ -275,52 +222,6 @@ ggplot(aanbevolen, aes(x = long, y = lat, group = group)) +
     group = NA, 
     colour = "red",
     size = 18 * mm,
-    label.padding = unit(1, "mm"),
-    label.r = unit(2, "mm")
-  ) +
-  coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
-```
-</a>
-
-<a href="kaarten_files/figure-html/origineel-1.pdf">
-```{r origineel, fig.cap = "Kaart met oorspronkelijke route"}
-ggplot(origineel, aes(x = long, y = lat, group = group)) +
-  geom_polygon(data = water, fill = "#addeff") +
-  geom_polygon(data = gras, fill = "#bcde93") +
-  geom_polygon(data = park, fill = "#aed1a0") +
-  geom_path(data = fietsknooppunt_route, colour = "#e9c1ff", size = 5 * mm) +
-  geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
-  geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
-  geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
-  geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
-  geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
-  geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
-  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
-  geom_label(
-    data = fietsknooppunt.f, 
-    aes(label = knooppunt), 
-    group = NA, 
-    colour = "darkgreen",
-    size = 12 * mm,
-    label.padding = unit(1, "mm"),
-    label.r = unit(2, "mm")
-  ) +
-  geom_text(
-    data = hoofdweg_label, 
-    aes(label = name, angle = hoek), 
-    group = NA
-  ) +
-  geom_text(
-    data = snelweg_label, 
-    aes(label = name, angle = hoek), 
-    group = NA
-  ) +
-  geom_label(
-    data = infopunt, 
-    aes(label = id), 
-    group = NA, 
-    colour = "red",
-    size = 14 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
