@@ -179,6 +179,33 @@ snelweg_label <- snelweg_label %>%
     lat = mean(lat)
   ) %>%
   mutate(hoek = ifelse(abs(hoek) > 90, hoek - 180, hoek))
+hoofdweg_label <- hoofdweg@data %>%
+  filter(grepl("steenweg", name)) %>%
+  select(id = osm_id, name) %>%
+  inner_join(hoofdweg.f, by = "id")
+hoofdweg_label <- hoofdweg_label %>%
+  group_by(name) %>%
+  summarise_at(c("long", "lat"), median) %>%
+  rename(mlong = long, mlat = lat) %>%
+  inner_join(hoofdweg_label, by = "name") %>%
+  arrange((mlong - long) ^ 2 + (mlat - lat) ^ 2) %>%
+  group_by(name) %>%
+  slice(1) %>%
+  select(name, group, morder = order) %>%
+  inner_join(
+    hoofdweg_label %>%
+      select(name, group, order, long, lat), 
+    by = c("name", "group")
+  ) %>% 
+  filter(abs(order - morder) <= 1) %>%
+  arrange(order) %>%
+  slice(1:2) %>%
+  summarise(
+    hoek = atan2(diff(lat), diff(long)) * 180 / pi,
+    long = mean(long),
+    lat = mean(lat)
+  ) %>%
+  mutate(hoek = ifelse(abs(hoek) > 90, hoek - 180, hoek))
 ```
 
 
@@ -277,6 +304,11 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     size = 12 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
+  ) +
+  geom_text(
+    data = hoofdweg_label, 
+    aes(label = name, angle = hoek), 
+    group = NA
   ) +
   geom_text(
     data = snelweg_label, 
