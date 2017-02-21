@@ -118,17 +118,17 @@ origineel <- basis@data %>%
 ```
 
 ```{r lees_openstreetmap}
-snelweg <- readOGR("osm/snelweg.osm", "lines", verbose = FALSE)
-hoofdweg <- readOGR("osm/hoofdweg.osm", "lines", verbose = FALSE)
-lokaleweg <- readOGR("osm/lokale_weg.osm", "lines", verbose = FALSE)
-pad <- readOGR("osm/pad.osm", "lines", verbose = FALSE)
-waterweg <- readOGR("osm/waterweg.osm", "lines", verbose = FALSE)
-spoorweg <- readOGR("osm/spoorweg.osm", "lines", verbose = FALSE)
-fietsknooppunt_route <- readOGR("osm/fietsknooppunt.osm", "lines", verbose = FALSE)
-fietsknooppunt <- readOGR("osm/fietsknooppunt.osm", "points", verbose = FALSE)
-park <- readOGR("osm/park.osm", "multipolygons", verbose = FALSE)
-gras <- readOGR("osm/gras.osm", "multipolygons", verbose = FALSE)
-water <- readOGR("osm/water.osm", "multipolygons", verbose = FALSE)
+snelweg <- readOGR("_osm/snelweg.osm", "lines", verbose = FALSE)
+hoofdweg <- readOGR("_osm/hoofdweg.osm", "lines", verbose = FALSE)
+lokaleweg <- readOGR("_osm/lokale_weg.osm", "lines", verbose = FALSE)
+pad <- readOGR("_osm/pad.osm", "lines", verbose = FALSE)
+waterweg <- readOGR("_osm/waterweg.osm", "lines", verbose = FALSE)
+spoorweg <- readOGR("_osm/spoorweg.osm", "lines", verbose = FALSE)
+fietsknooppunt_route <- readOGR("_osm/fietsknooppunt.osm", "lines", verbose = FALSE)
+fietsknooppunt <- readOGR("_osm/fietsknooppunt.osm", "points", verbose = FALSE)
+park <- readOGR("_osm/park.osm", "multipolygons", verbose = FALSE)
+gras <- readOGR("_osm/gras.osm", "multipolygons", verbose = FALSE)
+water <- readOGR("_osm/water.osm", "multipolygons", verbose = FALSE)
 ```
 
 ```{r omzetten_naar_dataframe}
