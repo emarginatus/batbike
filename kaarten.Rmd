@@ -188,6 +188,38 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +
+  geom_rect(
+    data = data.frame(
+      long = NA_integer_,
+      lat = NA_integer_,
+      group = NA_integer_,
+      xmin = 4.195542, 
+      xmax = 4.212,
+      ymin = 50.754,
+      ymax = 50.76322
+    ),
+    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
+    alpha = 0.5,
+    colour = "black",
+    fill = "white"
+  ) +
+  geom_label(
+    data = read_csv("_osm/legende_infopunt.csv"), 
+    aes(label = nummer), 
+    group = NA, 
+    colour = "red",
+    size = 14 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_text(
+    data = read_csv("_osm/legende_infopunt.csv"), 
+    aes(x = long + 0.001, label = naam), 
+    group = NA, 
+    colour = "black",
+    size = 14 * mm,
+    hjust = 0
+  ) +
   coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
 ```
 </a>
