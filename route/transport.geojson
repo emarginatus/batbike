@@ -5,6 +5,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "station",
+        "label": "🚆",
         "id": "Lembeek"
       },
       "geometry": {
@@ -19,6 +20,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "station",
+        "label": "🚆",
         "id": "Halle"
       },
       "geometry": {
@@ -33,6 +35,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "station",
+        "label": "🚆",
         "id": "Buizingen"
       },
       "geometry": {
@@ -47,6 +50,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
+        "label": "🚗",
         "id": 1
       },
       "geometry": {
@@ -61,6 +65,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
+        "label": "🚗",
         "id": 2
       },
       "geometry": {
@@ -75,6 +80,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
+        "label": "🚗",
         "id": 3
       },
       "geometry": {
@@ -89,6 +95,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
+        "label": "🚗",
         "id": 4
       },
       "geometry": {
@@ -103,6 +110,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
+        "label": "🚗",
         "id": 5
       },
       "geometry": {
@@ -117,13 +125,134 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
+        "label": "🚗",
         "id": 6
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.221756756305695,
-          50.71469952006891
+          4.222263693809509,
+          50.71519373071488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "fietsenmaker",
+        "label": "🚲",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2336443066596985,
+          50.73505294887661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "fietsenmaker",
+        "label": "🚲",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.233003258705139,
+          50.735765931139746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223272204399109,
+          50.709159248936984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223787188529968,
+          50.71387752243614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.222711622714996,
+          50.71360068940997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225560128688812,
+          50.74029820743334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2312973737716675,
+          50.750288035849145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.250780940055847,
+          50.74184281561346
         ]
       }
     }

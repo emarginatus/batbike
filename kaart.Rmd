@@ -86,7 +86,8 @@ transport <- readOGR(
   "route/transport.geojson", 
   "OGRGeoJSON", 
   verbose = FALSE
-)
+) %>%
+  subset(categorie %in% c("parking", "station"))
 ```
 
 ```{r stijlen}

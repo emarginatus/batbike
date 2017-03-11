@@ -9,7 +9,7 @@ Klik op de kaartjes om de bijhorende pdf te downloaden.
 library(knitr)
 opts_chunk$set(
   echo = FALSE,
-  dev = c("png", "pdf"),
+  dev = c("png", "cairo_pdf"),
   dpi = 20,
   fig.width = 297 / 25.4,
   fig.height = 420 / 25.4,
@@ -41,6 +41,14 @@ library(rgdal)
 ```{r lees_route}
 infopunt <- readOGR(
   "route/infopunt.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+) %>%
+  as.data.frame() %>%
+  rename(long = coords.x1, lat = coords.x2)
+transport <- readOGR(
+  "route/transport.geojson", 
   "OGRGeoJSON", 
   verbose = FALSE, 
   stringsAsFactors = FALSE
@@ -179,6 +187,13 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     aes(label = naam, angle = hoek), 
     group = NA
   ) +
+  geom_text(
+    data = transport, 
+    aes(label = label), 
+    group = NA, 
+    colour = "blue",
+    size = 14 * mm
+  ) +
   geom_label(
     data = infopunt, 
     aes(label = id), 
@@ -194,7 +209,7 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
       lat = NA_integer_,
       group = NA_integer_,
       xmin = 4.195542, 
-      xmax = 4.212,
+      xmax = 4.221,
       ymin = 50.754,
       ymax = 50.76322
     ),
@@ -217,6 +232,14 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     aes(x = long + 0.001, label = naam), 
     group = NA, 
     colour = "black",
+    size = 14 * mm,
+    hjust = 0
+  ) +
+  geom_text(
+    data = read_csv("_osm/legende_extra.csv"), 
+    aes(label = label), 
+    group = NA, 
+    colour = "blue",
     size = 14 * mm,
     hjust = 0
   ) +
