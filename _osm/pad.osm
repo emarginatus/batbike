@@ -562,7 +562,7 @@
   <node id="470286850" version="1" timestamp="2009-08-18T12:03:15Z" uid="246" user="moyogo" changeset="2188486" lat="50.7586243" lon="4.2260565"/>
   <node id="470286852" version="2" timestamp="2011-12-11T16:56:59Z" uid="116644" user="p-h" changeset="10091652" lat="50.7590112" lon="4.2272246"/>
   <node id="470820715" version="2" timestamp="2013-05-12T21:08:18Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7435882" lon="4.2126218"/>
-  <node id="470820716" version="1" timestamp="2009-08-19T06:09:37Z" uid="246" user="moyogo" changeset="2196947" lat="50.743763" lon="4.2126643"/>
+  <node id="470820716" version="2" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7437053" lon="4.2126536"/>
   <node id="470820717" version="1" timestamp="2009-08-19T06:09:37Z" uid="246" user="moyogo" changeset="2196947" lat="50.7441975" lon="4.2124498"/>
   <node id="470820718" version="1" timestamp="2009-08-19T06:09:37Z" uid="246" user="moyogo" changeset="2196947" lat="50.7444473" lon="4.212321"/>
   <node id="470820719" version="2" timestamp="2014-01-22T12:18:03Z" uid="138772" user="lodde1949" changeset="20140214" lat="50.7452077" lon="4.212095"/>
@@ -5371,6 +5371,16 @@
   <node id="4665595216" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7033604" lon="4.1962108"/>
   <node id="4665595217" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7035702" lon="4.1959762"/>
   <node id="4665595218" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7027111" lon="4.1968707"/>
+  <node id="4695629483" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.743077" lon="4.2081319"/>
+  <node id="4695629602" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.743178" lon="4.2079361"/>
+  <node id="4695629603" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7431721" lon="4.2080286"/>
+  <node id="4695629604" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7431161" lon="4.2081171"/>
+  <node id="4695629605" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7431025" lon="4.2081547"/>
+  <node id="4695629606" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7430668" lon="4.2083491"/>
+  <node id="4695629607" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7430999" lon="4.2083639"/>
+  <node id="4695629608" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.743318" lon="4.2082459"/>
+  <node id="4695629609" version="1" timestamp="2017-02-20T15:20:14Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.743491" lon="4.2082633"/>
+  <node id="4695629617" version="1" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899" lat="50.7439616" lon="4.2125571"/>
   <way id="14885963" version="8" timestamp="2016-08-17T15:27:08Z" uid="67832" user="joost schouppe" changeset="41514666">
     <nd ref="147070950"/>
     <nd ref="4354154180"/>
@@ -5437,8 +5447,8 @@
     <nd ref="4659127473"/>
     <nd ref="4659127472"/>
     <nd ref="252659698"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="paved"/>
   </way>
@@ -5449,8 +5459,8 @@
     <nd ref="1717958864"/>
     <nd ref="4659030387"/>
     <nd ref="250073943"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="cycleway"/>
     <tag k="surface" v="asphalt"/>
   </way>
@@ -5620,9 +5630,9 @@
     <nd ref="4665481815"/>
     <nd ref="4665481814"/>
     <nd ref="4665481813"/>
+    <tag k="note" v="FIXME"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="track"/>
-    <tag k="note" v="FIXME"/>
   </way>
   <way id="28850862" version="3" timestamp="2013-09-07T12:06:39Z" uid="42033" user="Tbj" changeset="17717139">
     <nd ref="268616346"/>
@@ -5649,12 +5659,12 @@
     <nd ref="462302921"/>
     <nd ref="462303683"/>
     <nd ref="462303687"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
     <tag k="name" v="Pajottenlandstraat"/>
-    <tag k="segregated" v="no"/>
+    <tag k="bicycle" v="designated"/>
+    <tag k="highway" v="cycleway"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="segregated" v="no"/>
   </way>
   <way id="28887110" version="11" timestamp="2016-07-25T08:19:14Z" uid="67832" user="joost schouppe" changeset="41005497">
     <nd ref="249938966"/>
@@ -5790,13 +5800,17 @@
     <tag k="motorcar" v="no"/>
     <tag k="segregated" v="no"/>
   </way>
-  <way id="33421389" version="2" timestamp="2010-06-03T09:25:06Z" uid="42033" user="Tbj" changeset="4890687">
+  <way id="33421389" version="3" timestamp="2017-02-12T23:52:32Z" uid="3099091" user="Vincent H" changeset="46033116">
     <nd ref="380276018"/>
     <nd ref="380276021"/>
     <nd ref="763079395"/>
     <nd ref="380276035"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="lit" v="no"/>
     <tag k="motorcar" v="no"/>
+    <tag k="width" v="1"/>
   </way>
   <way id="33421390" version="2" timestamp="2012-04-15T15:52:43Z" uid="351205" user="Daniel44" changeset="11311503">
     <nd ref="380275980"/>
@@ -6056,9 +6070,10 @@
     <tag k="maxspeed" v="50"/>
     <tag k="tracktype" v="grade2"/>
   </way>
-  <way id="39289374" version="5" timestamp="2017-01-30T20:47:23Z" uid="428001" user="wegspotter" changeset="45664658">
+  <way id="39289374" version="6" timestamp="2017-02-20T15:20:17Z" uid="67832" user="joost schouppe" changeset="46246899">
     <nd ref="470820715"/>
     <nd ref="470820716"/>
+    <nd ref="4695629617"/>
     <nd ref="470820717"/>
     <nd ref="470820718"/>
     <nd ref="2632237123"/>
@@ -6068,7 +6083,7 @@
     <nd ref="2632237156"/>
     <nd ref="2527158224"/>
     <tag k="highway" v="track"/>
-    <tag k="name" v="papestraat"/>
+    <tag k="name" v="Papestraat"/>
   </way>
   <way id="39326988" version="2" timestamp="2014-01-20T16:35:11Z" uid="15188" user="Polyglot" changeset="20106655">
     <nd ref="250045077"/>
@@ -6323,8 +6338,8 @@
     <nd ref="4649625843"/>
     <nd ref="4649625842"/>
     <nd ref="271110851"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Mierenberg"/>
+    <tag k="highway" v="track"/>
     <tag k="tracktype" v="grade2"/>
   </way>
   <way id="47387966" version="4" timestamp="2017-02-03T11:02:52Z" uid="428001" user="wegspotter" changeset="45775031">
@@ -6362,12 +6377,12 @@
     <nd ref="3920496605"/>
     <nd ref="305726180"/>
     <nd ref="305726181"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="track"/>
-    <tag k="horse" v="no"/>
-    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Pijpaenshoek"/>
+    <tag k="horse" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="no"/>
   </way>
   <way id="47387976" version="1" timestamp="2010-01-02T20:37:36Z" uid="212118" user="mottefred" changeset="3522431">
     <nd ref="603246680"/>
@@ -6380,7 +6395,7 @@
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
   </way>
-  <way id="49806679" version="3" timestamp="2017-01-27T23:23:53Z" uid="591881" user="Patchi" changeset="45577867">
+  <way id="49806679" version="4" timestamp="2017-02-12T23:52:33Z" uid="3099091" user="Vincent H" changeset="46033116">
     <nd ref="763079396"/>
     <nd ref="632861365"/>
     <nd ref="632861367"/>
@@ -6404,8 +6419,15 @@
     <nd ref="632861384"/>
     <nd ref="4638776946"/>
     <nd ref="380276035"/>
-    <tag k="highway" v="track"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="horse" v="yes"/>
+    <tag k="lit" v="no"/>
+    <tag k="motor_vehicle" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="surface" v="paved"/>
+    <tag k="width" v="2"/>
   </way>
   <way id="53589043" version="7" timestamp="2017-02-03T12:22:15Z" uid="428001" user="wegspotter" changeset="45776836">
     <nd ref="676958435"/>
@@ -6416,10 +6438,10 @@
     <nd ref="676958439"/>
     <nd ref="4659454845"/>
     <nd ref="676958441"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Voetweg F38"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="track"/>
   </way>
   <way id="60957258" version="1" timestamp="2010-06-03T09:25:03Z" uid="42033" user="Tbj" changeset="4890687">
     <nd ref="763079369"/>
@@ -6518,8 +6540,8 @@
     <nd ref="285941031"/>
     <nd ref="285941032"/>
     <nd ref="1313022158"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Reststraat"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="dirt"/>
   </way>
   <way id="79424237" version="3" timestamp="2016-01-02T11:43:02Z" uid="67832" user="joost schouppe" changeset="36316022">
@@ -6630,8 +6652,8 @@
     <nd ref="937781870"/>
     <nd ref="4307398561"/>
     <nd ref="937783064"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="cycleway"/>
     <tag k="segregated" v="no"/>
   </way>
@@ -6673,12 +6695,12 @@
     <nd ref="3919307350"/>
     <nd ref="621048167"/>
     <nd ref="250055396"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="footway"/>
-    <tag k="motor_vehicle" v="no"/>
     <tag k="name" v="Voetweg A79"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="footway"/>
     <tag k="surface" v="gravel"/>
+    <tag k="motor_vehicle" v="no"/>
   </way>
   <way id="81114887" version="4" timestamp="2015-12-30T19:53:25Z" uid="67832" user="joost schouppe" changeset="36270041">
     <nd ref="945309009"/>
@@ -6844,8 +6866,8 @@
     <nd ref="981160424"/>
     <nd ref="1075360656"/>
     <nd ref="2119155053"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="track"/>
     <tag k="surface" v="paved"/>
   </way>
@@ -6867,8 +6889,8 @@
     <nd ref="981181371"/>
     <nd ref="1573334262"/>
     <nd ref="981181373"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Pijpaensweg"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="grass"/>
     <tag k="vicinal_ref" v="79"/>
     <tag k="vicinal_type" v="path"/>
@@ -6994,8 +7016,8 @@
     <nd ref="1011216871"/>
     <nd ref="1011216873"/>
     <nd ref="1011216875"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Kruiskensheide"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="paved"/>
   </way>
   <way id="86925048" version="6" timestamp="2017-02-04T12:28:29Z" uid="428001" user="wegspotter" changeset="45803901">
@@ -7007,8 +7029,8 @@
     <nd ref="3939280254"/>
     <nd ref="1011219800"/>
     <nd ref="4663165006"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="track"/>
     <tag k="surface" v="grass"/>
   </way>
@@ -7526,10 +7548,10 @@
     <nd ref="4659250917"/>
     <nd ref="4659250915"/>
     <nd ref="1137595184"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
     <tag k="name" v="Voetweg A80"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="path"/>
     <tag k="surface" v="gravel"/>
   </way>
   <way id="98324363" version="3" timestamp="2011-02-14T17:21:09Z" uid="351205" user="Daniel44" changeset="7287290">
@@ -7694,11 +7716,11 @@
     <nd ref="1313022149"/>
     <nd ref="4657753233"/>
     <nd ref="317522376"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Lembeekbos"/>
     <tag k="access" v="permissive"/>
     <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
     <tag k="highway" v="track"/>
-    <tag k="name" v="Lembeekbos"/>
   </way>
   <way id="121411502" version="5" timestamp="2016-11-09T08:06:01Z" uid="67832" user="joost schouppe" changeset="43506358">
     <nd ref="250071104"/>
@@ -7977,8 +7999,8 @@
     <nd ref="249930610"/>
     <nd ref="4460170382"/>
     <nd ref="4460170383"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="asphalt"/>
   </way>
@@ -8112,8 +8134,8 @@
     <nd ref="1765652437"/>
     <nd ref="1765652439"/>
     <nd ref="1765652443"/>
-    <tag k="highway" v="path"/>
     <tag k="name" v="Molenstraat"/>
+    <tag k="highway" v="path"/>
   </way>
   <way id="164973980" version="1" timestamp="2012-05-25T22:54:16Z" uid="683726" user="leonlapin" changeset="11702695">
     <nd ref="1765652447"/>
@@ -8121,13 +8143,14 @@
     <nd ref="1765653859"/>
     <tag k="highway" v="path"/>
   </way>
-  <way id="172445967" version="3" timestamp="2017-01-27T23:23:54Z" uid="591881" user="Patchi" changeset="45577867">
+  <way id="172445967" version="4" timestamp="2017-02-12T23:52:33Z" uid="3099091" user="Vincent H" changeset="46033116">
     <nd ref="380276031"/>
     <nd ref="4638776939"/>
-    <tag k="layer" v="1"/>
     <tag k="access" v="no"/>
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="layer" v="1"/>
+    <tag k="lit" v="no"/>
     <tag k="motorcar" v="no"/>
   </way>
   <way id="172446313" version="2" timestamp="2012-07-21T20:01:15Z" uid="683726" user="leonlapin" changeset="12418324">
@@ -8234,10 +8257,10 @@
     <nd ref="2110826185"/>
     <nd ref="3919307305"/>
     <nd ref="2110826186"/>
-    <tag k="bicycle" v="no"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="bridleway"/>
     <tag k="name" v="Voetweg A79"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="highway" v="bridleway"/>
     <tag k="surface" v="grass"/>
   </way>
   <way id="201129977" version="3" timestamp="2017-02-03T12:32:45Z" uid="428001" user="wegspotter" changeset="45777102">
@@ -8255,8 +8278,8 @@
     <nd ref="4659473281"/>
     <nd ref="4659473278"/>
     <nd ref="765752099"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="path"/>
     <tag k="motor_vehicle" v="no"/>
   </way>
@@ -8275,10 +8298,10 @@
     <nd ref="250051141"/>
     <nd ref="2114226391"/>
     <nd ref="2114226393"/>
-    <tag k="bicycle" v="no"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
     <tag k="name" v="Onze Vrouweweg"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="highway" v="path"/>
     <tag k="surface" v="grass"/>
     <tag k="vicinal_ref" v="58"/>
     <tag k="vicinal_type" v="path"/>
@@ -8294,8 +8317,8 @@
     <nd ref="4649719749"/>
     <nd ref="4649719748"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Onze-Lieve-Vrouwweg"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="gravel"/>
     <tag k="tracktype" v="grade1"/>
   </way>
@@ -8809,8 +8832,8 @@
     <nd ref="4658874826"/>
     <nd ref="3909139347"/>
     <nd ref="2114195744"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="gravel"/>
   </way>
@@ -9163,13 +9186,13 @@
     <nd ref="3353634151"/>
     <nd ref="3678741511"/>
     <nd ref="1390136435"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="track"/>
-    <tag k="horse" v="yes"/>
-    <tag k="motor_vehicle" v="destination"/>
     <tag k="name" v="Termeeren"/>
+    <tag k="horse" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="fine_gravel"/>
+    <tag k="motor_vehicle" v="destination"/>
   </way>
   <way id="333316585" version="1" timestamp="2015-03-17T19:17:44Z" uid="2046386" user="thebonnetplume" changeset="29548511">
     <nd ref="3404337886"/>
@@ -9300,10 +9323,10 @@
     <nd ref="3353634152"/>
     <nd ref="3353634153"/>
     <nd ref="557368679"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="track"/>
     <tag k="horse" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="track"/>
     <tag k="motor_vehicle" v="no"/>
   </way>
   <way id="342368197" version="1" timestamp="2015-05-02T19:53:31Z" uid="436365" user="escada" changeset="30730634">
@@ -9828,10 +9851,10 @@
     <nd ref="4659250895"/>
     <nd ref="621048183"/>
     <nd ref="3919294404"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
     <tag k="name" v="Voetweg A80"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="path"/>
     <tag k="surface" v="gravel"/>
   </way>
   <way id="388756080" version="2" timestamp="2016-03-20T17:42:04Z" uid="591881" user="Patchi" changeset="37960263">
@@ -10013,8 +10036,8 @@
     <nd ref="765752112"/>
     <nd ref="765752095"/>
     <nd ref="765752081"/>
-    <tag k="bicycle" v="no"/>
     <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="no"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="dirt"/>
   </way>
@@ -11265,8 +11288,8 @@
     <nd ref="301501162"/>
     <nd ref="2451393473"/>
     <nd ref="256705496"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="path"/>
   </way>
   <way id="426353482" version="1" timestamp="2016-06-21T14:59:43Z" uid="67832" user="joost schouppe" changeset="40182870">
@@ -12030,8 +12053,8 @@
     <nd ref="2872978989"/>
     <nd ref="4658874708"/>
     <nd ref="2872978991"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="gravel"/>
   </way>
@@ -12167,10 +12190,10 @@
     <nd ref="676958445"/>
     <nd ref="676958446"/>
     <nd ref="1796281922"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Voetweg F38"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="track"/>
   </way>
   <way id="432993921" version="1" timestamp="2016-07-25T08:19:10Z" uid="67832" user="joost schouppe" changeset="41005497">
     <nd ref="928217864"/>
@@ -12221,11 +12244,11 @@
     <nd ref="765752122"/>
     <nd ref="4659473287"/>
     <nd ref="765752119"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="footway"/>
-    <tag k="motor_vehicle" v="no"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="motor_vehicle" v="no"/>
   </way>
   <way id="433041601" version="1" timestamp="2016-07-25T14:00:25Z" uid="67832" user="joost schouppe" changeset="41012923">
     <nd ref="983434370"/>
@@ -12578,10 +12601,10 @@
     <nd ref="4659250925"/>
     <nd ref="420269968"/>
     <nd ref="981197022"/>
-    <tag k="bicycle" v="no"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
     <tag k="name" v="Voetweg A77"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="highway" v="path"/>
     <tag k="surface" v="grass"/>
   </way>
   <way id="436352069" version="1" timestamp="2016-08-09T07:53:10Z" uid="4351319" user="Rik Houthuys" changeset="41339447">
@@ -12791,8 +12814,8 @@
     <nd ref="305725712"/>
     <nd ref="305725713"/>
     <nd ref="305725714"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Sentier de Beauvegnies"/>
+    <tag k="highway" v="track"/>
     <tag k="tracktype" v="grade1"/>
   </way>
   <way id="443250517" version="1" timestamp="2016-09-19T20:09:08Z" uid="67832" user="joost schouppe" changeset="42281200">
@@ -13575,10 +13598,10 @@
     <nd ref="3909139306"/>
     <nd ref="3909139303"/>
     <nd ref="2114195745"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="footway"/>
     <tag k="name" v="Halleweg de Brages"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="footway"/>
     <tag k="surface" v="gravel"/>
     <tag k="vicinal_ref" v="49"/>
     <tag k="vicinal_type" v="path"/>
@@ -13771,16 +13794,16 @@
   <way id="470377055" version="1" timestamp="2017-01-30T21:23:07Z" uid="428001" user="wegspotter" changeset="45665910">
     <nd ref="4645791740"/>
     <nd ref="4645791739"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Craeyenweg"/>
+    <tag k="highway" v="track"/>
     <tag k="vicinal_ref" v="57"/>
     <tag k="vicinal_type" v="path"/>
   </way>
   <way id="470377056" version="1" timestamp="2017-01-30T21:23:07Z" uid="428001" user="wegspotter" changeset="45665910">
     <nd ref="335889949"/>
     <nd ref="4645791746"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Craeyenweg"/>
+    <tag k="highway" v="track"/>
     <tag k="vicinal_ref" v="57"/>
     <tag k="vicinal_type" v="path"/>
   </way>
@@ -13916,8 +13939,8 @@
     <nd ref="2114267592"/>
     <nd ref="4649719741"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Elbeekstraat"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="gravel"/>
     <tag k="tracktype" v="grade1"/>
   </way>
@@ -13929,8 +13952,8 @@
     <nd ref="4649747217"/>
     <nd ref="4649747220"/>
     <nd ref="4649719739"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Nikkenberg"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="gravel"/>
     <tag k="tracktype" v="grade1"/>
   </way>
@@ -13944,8 +13967,8 @@
     <nd ref="4649719745"/>
     <nd ref="2114267589"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="footway"/>
     <tag k="name" v="Elbeekstraat"/>
+    <tag k="highway" v="footway"/>
     <tag k="surface" v="gravel"/>
   </way>
   <way id="470781686" version="1" timestamp="2017-01-31T20:46:39Z" uid="428001" user="wegspotter" changeset="45697401">
@@ -14158,9 +14181,10 @@
     <tag k="access" v="private"/>
     <tag k="highway" v="steps"/>
   </way>
-  <way id="471369548" version="1" timestamp="2017-02-02T07:31:56Z" uid="67832" user="joost schouppe" changeset="45738144">
+  <way id="471369548" version="2" timestamp="2017-02-10T20:47:22Z" uid="67832" user="joost schouppe" changeset="45983927">
     <nd ref="4655232894"/>
     <nd ref="4655232895"/>
+    <tag k="access" v="private"/>
     <tag k="highway" v="footway"/>
   </way>
   <way id="471369549" version="2" timestamp="2017-02-02T17:29:58Z" uid="67832" user="joost schouppe" changeset="45753995">
@@ -14216,8 +14240,8 @@
     <nd ref="4655232927"/>
     <nd ref="3919191187"/>
     <nd ref="4655232925"/>
-    <tag k="access" v="private"/>
     <tag k="area" v="yes"/>
+    <tag k="access" v="private"/>
     <tag k="highway" v="footway"/>
   </way>
   <way id="471369562" version="2" timestamp="2017-02-02T17:29:58Z" uid="67832" user="joost schouppe" changeset="45753995">
@@ -14292,8 +14316,8 @@
     <nd ref="1739222437"/>
     <nd ref="1739222434"/>
     <nd ref="3481190784"/>
-    <tag k="highway" v="cycleway"/>
     <tag k="oneway" v="yes"/>
+    <tag k="highway" v="cycleway"/>
     <tag k="surface" v="concrete"/>
   </way>
   <way id="471731546" version="1" timestamp="2017-02-03T09:21:17Z" uid="428001" user="wegspotter" changeset="45772587">
@@ -14607,10 +14631,10 @@
     <nd ref="945307753"/>
     <nd ref="3919310666"/>
     <nd ref="2105769208"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Voetweg A79"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="gravel"/>
   </way>
   <way id="471791715" version="1" timestamp="2017-02-03T12:32:43Z" uid="428001" user="wegspotter" changeset="45777102">
@@ -14703,8 +14727,8 @@
     <nd ref="1011219808"/>
     <nd ref="1116515947"/>
     <nd ref="332498299"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="track"/>
     <tag k="surface" v="grass"/>
   </way>
@@ -14904,8 +14928,8 @@
     <nd ref="4665552956"/>
     <nd ref="4665552955"/>
     <nd ref="3939314199"/>
-    <tag k="highway" v="track"/>
     <tag k="name" v="Ouden Molenweg"/>
+    <tag k="highway" v="track"/>
     <tag k="tracktype" v="grade5"/>
     <tag k="vicinal_ref" v="50"/>
     <tag k="vicinal_type" v="path"/>
@@ -14973,5 +14997,21 @@
     <nd ref="4665595218"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="grass"/>
+  </way>
+  <way id="475879008" version="1" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899">
+    <nd ref="4695629602"/>
+    <nd ref="4695629603"/>
+    <nd ref="4695629604"/>
+    <nd ref="4695629605"/>
+    <nd ref="4695629606"/>
+    <nd ref="4695629607"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <way id="475879009" version="1" timestamp="2017-02-20T15:20:15Z" uid="67832" user="joost schouppe" changeset="46246899">
+    <nd ref="4695629483"/>
+    <nd ref="4695629605"/>
+    <nd ref="4695629608"/>
+    <nd ref="4695629609"/>
+    <tag k="highway" v="path"/>
   </way>
 </osm>

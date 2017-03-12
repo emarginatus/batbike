@@ -9,7 +9,7 @@ Klik op de kaartjes om de bijhorende pdf te downloaden.
 library(knitr)
 opts_chunk$set(
   echo = FALSE,
-  dev = c("png", "pdf"),
+  dev = c("png", "cairo_pdf"),
   dpi = 20,
   fig.width = 297 / 25.4,
   fig.height = 420 / 25.4,
@@ -41,6 +41,14 @@ library(rgdal)
 ```{r lees_route}
 infopunt <- readOGR(
   "route/infopunt.geojson", 
+  "OGRGeoJSON", 
+  verbose = FALSE, 
+  stringsAsFactors = FALSE
+) %>%
+  as.data.frame() %>%
+  rename(long = coords.x1, lat = coords.x2)
+transport <- readOGR(
+  "route/transport.geojson", 
   "OGRGeoJSON", 
   verbose = FALSE, 
   stringsAsFactors = FALSE
@@ -118,17 +126,17 @@ origineel <- basis@data %>%
 ```
 
 ```{r lees_openstreetmap}
-snelweg <- readOGR("osm/snelweg.osm", "lines", verbose = FALSE)
-hoofdweg <- readOGR("osm/hoofdweg.osm", "lines", verbose = FALSE)
-lokaleweg <- readOGR("osm/lokale_weg.osm", "lines", verbose = FALSE)
-pad <- readOGR("osm/pad.osm", "lines", verbose = FALSE)
-waterweg <- readOGR("osm/waterweg.osm", "lines", verbose = FALSE)
-spoorweg <- readOGR("osm/spoorweg.osm", "lines", verbose = FALSE)
-fietsknooppunt_route <- readOGR("osm/fietsknooppunt.osm", "lines", verbose = FALSE)
-fietsknooppunt <- readOGR("osm/fietsknooppunt.osm", "points", verbose = FALSE)
-park <- readOGR("osm/park.osm", "multipolygons", verbose = FALSE)
-gras <- readOGR("osm/gras.osm", "multipolygons", verbose = FALSE)
-water <- readOGR("osm/water.osm", "multipolygons", verbose = FALSE)
+snelweg <- readOGR("_osm/snelweg.osm", "lines", verbose = FALSE, stringsAsFactors = FALSE)
+hoofdweg <- readOGR("_osm/hoofdweg.osm", "lines", verbose = FALSE, stringsAsFactors = FALSE)
+lokaleweg <- readOGR("_osm/lokale_weg.osm", "lines", verbose = FALSE)
+pad <- readOGR("_osm/pad.osm", "lines", verbose = FALSE)
+waterweg <- readOGR("_osm/waterweg.osm", "lines", verbose = FALSE)
+spoorweg <- readOGR("_osm/spoorweg.osm", "lines", verbose = FALSE)
+fietsknooppunt_route <- readOGR("_osm/fietsknooppunt.osm", "lines", verbose = FALSE)
+fietsknooppunt <- readOGR("_osm/fietsknooppunt.osm", "points", verbose = FALSE)
+park <- readOGR("_osm/park.osm", "multipolygons", verbose = FALSE)
+gras <- readOGR("_osm/gras.osm", "multipolygons", verbose = FALSE)
+water <- readOGR("_osm/water.osm", "multipolygons", verbose = FALSE)
 ```
 
 ```{r omzetten_naar_dataframe}
@@ -153,7 +161,7 @@ water.f <- fortify(water)
 
 <a href="kaarten_files/figure-html/folder-1.pdf">
 ```{r folder, fig.cap = "Kaart uit de folder"}
-ggplot(segment, aes(x = long, y = lat, group = group)) +
+ggplot(origineel, aes(x = long, y = lat, group = group)) +
   geom_polygon(data = water, fill = "#addeff") +
   geom_polygon(data = gras, fill = "#bcde93") +
   geom_polygon(data = park, fill = "#aed1a0") +
@@ -170,18 +178,70 @@ ggplot(segment, aes(x = long, y = lat, group = group)) +
     aes(label = knooppunt), 
     group = NA, 
     colour = "darkgreen",
-    size = 6 * mm,
+    size = 12 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
+  ) +
+  geom_text(
+    data = read_csv("_osm/labels.csv"), 
+    aes(label = naam, angle = hoek), 
+    group = NA
+  ) +
+  geom_text(
+    data = transport, 
+    aes(label = label), 
+    group = NA, 
+    colour = "blue",
+    size = 14 * mm
   ) +
   geom_label(
     data = infopunt, 
     aes(label = id), 
     group = NA, 
     colour = "red",
-    size = 8 * mm,
+    size = 14 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
+  ) +
+  geom_rect(
+    data = data.frame(
+      long = NA_integer_,
+      lat = NA_integer_,
+      group = NA_integer_,
+      xmin = 4.195542, 
+      xmax = 4.221,
+      ymin = 50.754,
+      ymax = 50.76322
+    ),
+    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
+    alpha = 0.5,
+    colour = "black",
+    fill = "white"
+  ) +
+  geom_label(
+    data = read_csv("_osm/legende_infopunt.csv"), 
+    aes(label = nummer), 
+    group = NA, 
+    colour = "red",
+    size = 14 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_text(
+    data = read_csv("_osm/legende_infopunt.csv"), 
+    aes(x = long + 0.001, label = naam), 
+    group = NA, 
+    colour = "black",
+    size = 14 * mm,
+    hjust = 0
+  ) +
+  geom_text(
+    data = read_csv("_osm/legende_extra.csv"), 
+    aes(label = label), 
+    group = NA, 
+    colour = "blue",
+    size = 14 * mm,
+    hjust = 0
   ) +
   coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
 ```
@@ -216,43 +276,7 @@ ggplot(aanbevolen, aes(x = long, y = lat, group = group)) +
     aes(label = id), 
     group = NA, 
     colour = "red",
-    size = 8 * mm,
-    label.padding = unit(1, "mm"),
-    label.r = unit(2, "mm")
-  ) +
-  coord_map(xlim = c(4.195542, 4.268620), ylim = c(50.69780, 50.76322))
-```
-</a>
-
-<a href="kaarten_files/figure-html/origineel-1.pdf">
-```{r origineel, fig.cap = "Kaart met oorspronkelijke route"}
-ggplot(origineel, aes(x = long, y = lat, group = group)) +
-  geom_polygon(data = water, fill = "#addeff") +
-  geom_polygon(data = gras, fill = "#bcde93") +
-  geom_polygon(data = park, fill = "#aed1a0") +
-  geom_path(data = fietsknooppunt_route, colour = "#e9c1ff", size = 5 * mm) +
-  geom_path(data = waterweg.f, colour = "#abdbfb", size = 0.75 * mm) +
-  geom_path(data = spoorweg.f, colour = "black", size = 0.75 * mm, linetype = "55") +
-  geom_path(data = snelweg.f, colour = "#c8d8c8", size = 3.5 * mm) +
-  geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
-  geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
-  geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
-  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
-  geom_label(
-    data = fietsknooppunt.f, 
-    aes(label = knooppunt), 
-    group = NA, 
-    colour = "darkgreen",
-    size = 6 * mm,
-    label.padding = unit(1, "mm"),
-    label.r = unit(2, "mm")
-  ) +
-  geom_label(
-    data = infopunt, 
-    aes(label = id), 
-    group = NA, 
-    colour = "red",
-    size = 8 * mm,
+    size = 18 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
   ) +

@@ -1,75 +1,75 @@
-wget http://download.geofabrik.de/europe/belgium-latest.osm.pbf
+wget http://download.geofabrik.de/europe/belgium-latest.osm.pbf -N
 osmosis \
   --read-pbf-fast belgium-latest.osm.pbf \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-pbf osm/halle.pbf compress=none
+  --write-pbf halle.pbf compress=none
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways highway=motorway,motorway_link,trunk,trunk_link \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/snelweg.osm
+  --write-xml snelweg.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways highway=primary,primary_link,secondary,secondary_link \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/hoofdweg.osm
+  --write-xml hoofdweg.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways highway=tertiary,tertiary_link,unclassified,residential,living_street,service \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/lokale_weg.osm
+  --write-xml lokale_weg.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways highway=pedestrian,track,footway,bridleway,cycleway,steps,path \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/pad.osm
+  --write-xml pad.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter accept-relations name=Canal%sCharleroi-Bruxelles,Senne \
   --used-way \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/waterweg.osm
+  --write-xml waterweg.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways railway=rail \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/spoorweg.osm
+  --write-xml spoorweg.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter accept-relations network=rcn \
   --used-way \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/fietsknooppunt.osm
+  --write-xml fietsknooppunt.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways landuse=forest,cemetery leisure=park natural=wood \
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/park.osm
+  --write-xml park.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways landuse=meadow,grass landcover=grass natural=grassland\
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/gras.osm
+  --write-xml gras.osm
 osmosis \
-  --rbf osm/halle.pbf \
+  --rbf halle.pbf \
   --tag-filter reject-relations \
   --tag-filter accept-ways natural=water\
   --used-node \
   --bounding-box left=4.195542 bottom=50.69780 right=4.268620 top=50.76322 completeWays=yes \
-  --write-xml osm/water.osm
+  --write-xml water.osm
