@@ -10,6 +10,5 @@ build:
           fi
 deploy:
   steps:
-    - lukevivier/gh-pages:
-      token: $GITHUB_TOKEN
-      basedir: _site
+    - emarginatus/ftp-deploy:
+        subfolder: "_site"
