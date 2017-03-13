@@ -58,7 +58,7 @@ navbar:
 
 output_dir: "_site"
 include: ["README.md"]
-exclude: ["*ME.html", "dem"]
+exclude: ["*ME.html", "dem", "wercker.yml"]
 
 output:
   html_document:
