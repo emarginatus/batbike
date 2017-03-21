@@ -187,11 +187,13 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     aes(label = naam, angle = hoek), 
     group = NA
   ) +
-  geom_text(
+  geom_label(
     data = transport, 
     aes(label = label), 
     group = NA, 
     colour = "blue",
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm"),
     size = 14 * mm
   ) +
   geom_label(
@@ -214,7 +216,6 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
       ymax = 50.76322
     ),
     aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
-    alpha = 0.5,
     colour = "black",
     fill = "white"
   ) +
