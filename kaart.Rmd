@@ -106,7 +106,11 @@ transport_icoon <- awesomeIconList(
 ```{r detailkaart, out.width="100%", out.height="900px"}
 leaflet() %>%
   addTiles(group = "OpenStreetMap") %>%
-  addProviderTiles("Thunderforest.OpenCycleMap", group = "OpenCycleMap") %>%
+  addProviderTiles(
+    "Thunderforest.OpenCycleMap", 
+    group = "OpenCycleMap", 
+    options = providerTileOptions(apikey = Sys.getenv("OCM_API"))
+  ) %>%
   addPolylines(
     data = basis$lijn[basis$route == "Wegwijzers"][[1]],
     color = "red",

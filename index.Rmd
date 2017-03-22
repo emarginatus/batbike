@@ -135,13 +135,16 @@ De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een
 
 ```{r overzicht_kaart}
 leaflet(data = route) %>%
-  addProviderTiles("Thunderforest.OpenCycleMap") %>%
+  addProviderTiles(
+    "Thunderforest.OpenCycleMap", 
+    options = providerTileOptions(apikey = Sys.getenv("OCM_API"))
+  ) %>%
   addPolylines()
 ```
 
 ## Hoogteprofiel
 
-```{r hoogtemeters}
+```{r hoogtemeters, fig.height = 2}
 hoogteprofiel %>%
   ggvis(~cum_afstand, ~srtm_37_02) %>%
   layer_lines() %>%

@@ -50,7 +50,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
-        "label": "🚗",
+        "label": "P",
         "id": 1
       },
       "geometry": {
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
-        "label": "🚗",
+        "label": "P",
         "id": 2
       },
       "geometry": {
@@ -80,7 +80,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
-        "label": "🚗",
+        "label": "P",
         "id": 3
       },
       "geometry": {
@@ -95,7 +95,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
-        "label": "🚗",
+        "label": "P",
         "id": 4
       },
       "geometry": {
@@ -110,7 +110,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
-        "label": "🚗",
+        "label": "P",
         "id": 5
       },
       "geometry": {
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "categorie": "parking",
-        "label": "🚗",
+        "label": "P",
         "id": 6
       },
       "geometry": {
