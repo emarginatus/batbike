@@ -124,7 +124,8 @@ origineel <- basis@data %>%
       vorige > knoop,
       -order,
       order
-    )
+    ),
+    route = factor(categorie == "wandel")
   ) %>%
   arrange(group, order)
 ```
