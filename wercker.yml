@@ -8,13 +8,15 @@ build:
           else
             Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
           fi
-deploy:
+ftp:
   steps:
     - emarginatus/ftp-deploy:
         subfolder: "_site"
         destination: $WERCKER_FTP_DEPLOY_DESTINATION
         username: $WERCKER_FTP_DEPLOY_USERNAME
         password: $WERCKER_FTP_DEPLOY_PASSWORD
+ghpages:
+  steps:
     - lukevivier/gh-pages:
        token: $GITHUB_TOKEN
        basedir: _site
