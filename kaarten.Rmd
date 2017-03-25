@@ -94,7 +94,14 @@ aanbevolen <- basis@data %>%
       filter(!is.na(vorige)),
     by = "segment"
   ) %>%
-  mutate(group = interaction(group, route))
+  mutate(
+    group = interaction(group, route),
+    order = ifelse(
+      vorige > knoop,
+      -order,
+      order
+    )
+  )
 origineel <- basis@data %>%
   rownames_to_column("id") %>%
   inner_join(
@@ -111,18 +118,16 @@ origineel <- basis@data %>%
       filter(!is.na(vorige)),
     by = "segment"
   ) %>%
-  mutate(group = interaction(group, route))
-# bb <- basis %>%
-#   spTransform(CRS("+init=epsg:3857")) %>%
-#   bbox()
-# delta <- apply(bb, 1, diff) %>%
-#   min()
-# rbind(
-#   rowMeans(bb) - delta * 0.5 * 1.05 * (c(1, sqrt(2))),
-#   rowMeans(bb) + delta * 0.5 * 1.05 * (c(1, sqrt(2)))
-# ) %>%
-#   SpatialPoints(CRS("+init=epsg:3857")) %>%
-#   spTransform(CRS("+proj=longlat"))
+  mutate(
+    group = interaction(group, route),
+    order = ifelse(
+      vorige > knoop,
+      -order,
+      order
+    ),
+    route = factor(categorie == "wandel")
+  ) %>%
+  arrange(group, order)
 ```
 
 ```{r lees_openstreetmap}
@@ -172,7 +177,12 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
   geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
   geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
   geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
-  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
+  geom_path(
+    aes(linetype = route), 
+    size = 2.5 * mm, 
+    show.legend = FALSE, 
+    arrow = arrow(length = unit(6, "mm"))
+  ) +
   geom_label(
     data = fietsknooppunt.f, 
     aes(label = knooppunt), 
@@ -262,7 +272,12 @@ ggplot(aanbevolen, aes(x = long, y = lat, group = group)) +
   geom_path(data = hoofdweg.f, colour = "#f1e4e4", size = 3 * mm) +
   geom_path(data = lokaleweg.f, colour = "grey75", size = 1 * mm) +
   geom_path(data = pad.f, colour = "grey75", size = 1 * mm, linetype = "33") +
-  geom_path(aes(linetype = route), size = 2.5 * mm, show.legend = FALSE) +
+  geom_path(
+    aes(linetype = route), 
+    size = 2.5 * mm, 
+    show.legend = FALSE,
+    arrow = arrow(length = unit(6, "mm"))
+  ) +
   geom_label(
     data = fietsknooppunt.f, 
     aes(label = knooppunt), 
