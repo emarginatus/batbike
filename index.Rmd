@@ -135,9 +135,11 @@ De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een
 
 ```{r overzicht_kaart}
 leaflet(data = route) %>%
-  addProviderTiles(
-    "Thunderforest.OpenCycleMap", 
-    options = providerTileOptions(apikey = Sys.getenv("OCM_API"))
+  addTiles(
+    paste0(
+      "https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=", 
+      Sys.getenv("OCM_API")
+    )
   ) %>%
   addPolylines()
 ```
