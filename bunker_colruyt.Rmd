@@ -1,7 +1,10 @@
 ---
-title: "Bunker Colruyt"
+title: "Bunker Colruyt Group"
 output: html_document
 ---
+
+**eigenaar:** Colruyt Group  
+**toegankelijkheid:** deze bunker is enkel toegankelijk voor vleermuizen
 
 ## Bunkers rond Halle
 
@@ -73,14 +76,3 @@ De winterslaap begint bij daling van de temperatuur, meestal begin oktober en du
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/zarxmJ6xqa4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/sj_wMAP45jc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-
-- eigenaar: Colruyt
-- nut voor vleermuizen
-    - overwinteringsplaats
-- info over inrichting
-- geschiedenis
-    - vermomde bunker: http://www.bunkergordel.be/2-camouflage%20van%20de%20bunkers.htm
-    - http://www.kwlinie.be/
-    - http://i240.photobucket.com/albums/ff166/paten_01/lastscan-2.jpg
-- vleermuis toegelicht: gewone dwergvleermuis
