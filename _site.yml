@@ -26,7 +26,7 @@ navbar:
         - text: "3. Oude spoorwegbedding"
           href: "spoorwegbedding.html"
           icon: fa-info-circle
-        - text: "4. Bunker Colruyt"
+        - text: "4. Bunker Colruyt Group"
           href: "bunker_colruyt.html"
           icon: fa-eye
         - text: "5. Bunker kerkhof"
