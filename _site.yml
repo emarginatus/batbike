@@ -14,6 +14,9 @@ navbar:
         - text: "Afdrukbare kaarten"
           href: "kaarten.html"
           icon: fa-map-o
+        - text: "Afdrukbare kaarten infoborden"
+          href: "kaarten_infobord.html"
+          icon: fa-map-o
     - text: "Infopunten"
       icon: fa-info
       menu:
@@ -51,10 +54,10 @@ navbar:
         - text: "Vleermuizenwerkgroep Myotis"
         - text: "Fietsersbond Halle"
           icon: fa-bicycle
-        - text: "Den Herberg"
-          icon: fa-beer
-        - text: "Alsput"
-          icon: fa-cutlery
+        - text: "Stad Halle"
+        - text: "Provincie Vlaams Brabant"
+        - text: "Plan Boommarter"
+        - text: "Agentschap voor Natuur- en Bos"
 
 output_dir: "_site"
 include: ["README.md"]
