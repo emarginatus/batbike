@@ -244,6 +244,21 @@
     {
       "type": "Feature",
       "properties": {
+        "categorie": "VVV",
+        "label": "🛈",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.237632751464844,
+          50.73592550187417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "categorie": "cafe",
         "label": "☕",
         "id": 6
