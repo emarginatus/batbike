@@ -1,5 +1,6 @@
-label,           long,   lat
-P parking,       4.2115, 50.762
-🚆 station,      4.2115, 50.761
-☕ cafe,         4.2115, 50.760
-🚲 fietsenmaker, 4.2115, 50.759
+label,             long,   lat
+P parking,         4.2115, 50.762
+🚆 station,        4.2115, 50.761
+☕ cafe,           4.2115, 50.760
+🚲 fietsenmaker,   4.2115, 50.759
+🛈 toerisme Halle, 4.2115, 50.758

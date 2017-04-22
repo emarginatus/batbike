@@ -51,6 +51,8 @@ navbar:
     - text: "Over de fietsroute"
       icon: fa-info
       menu:
+        - text: "Inschrijven voor opening"
+          href: "https://docs.google.com/a/muscardinus.be/forms/d/e/1FAIpQLSemFGxn4_9ltFJXKktX3Jjx5h0YlN8ToA9IpAnANYPsNpSVKg/viewform"
         - text: "Vleermuizenwerkgroep Myotis"
         - text: "Fietsersbond Halle"
           icon: fa-bicycle
