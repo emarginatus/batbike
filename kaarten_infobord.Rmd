@@ -8,8 +8,6 @@ Klik op de kaartjes om de bijhorende pdf te downloaden.
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(
-  cache = TRUE,
-  autodep = TRUE,
   echo = FALSE,
   dev = c("png", "cairo_pdf"),
   dpi = 600,
