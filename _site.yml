@@ -20,24 +20,27 @@ navbar:
     - text: "Infopunten"
       icon: fa-info
       menu:
-        - text: "1. Malakoffdomein"
+        - text: "1. Station"
+          href: "station.html"
+          icon: fa-photo
+        - text: "2. Malakoffdomein"
           href: "malakoff.html"
           icon: fa-photo
-        - text: "2. Kasteelpark Lembeek"
+        - text: "3. Kasteelpark Lembeek"
           href: "kasteelpark.html"
           icon: fa-info
-        - text: "3. Oude spoorwegbedding"
+        - text: "4. Oude spoorwegbedding"
           href: "spoorwegbedding.html"
           icon: fa-info-circle
-        - text: "4. Bunker Colruyt Group"
+        - text: "5. Bunker Colruyt Group"
           href: "bunker_colruyt.html"
           icon: fa-eye
-        - text: "5. Bunker kerkhof"
+        - text: "6. Bunker kerkhof"
           href: "bunker_kerkhof.html"
           icon: fa-binoculars
-        - text: "6. Bunker Stroppen"
+        - text: "7. Bunker Stroppen"
           href: "bunker_stroppen.html"
-        - text: "7. Sint Vincentiuskerk"
+        - text: "8. Sint Vincentiuskerk"
           href: "sint_vincentius.html"
     - text: "Downloads"
       icon: fa-download

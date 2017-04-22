@@ -1,0 +1,15 @@
+---
+title: "Station Halle"
+output: html_document
+---
+
+## Route
+
+Het station van Halle is het startpunt en het eindpunt van de fietsroute. De volledige route is bewegwijzerd met onderstaande symbool.
+
+![](images/wegwijzer.png)
+
+## Erfgoedapp
+
+Extra informatie over de fietsroute is beschikbaar via de erfgoedapp. Je kan deze downloaden via http://www.erfgoedapp.be/
+
