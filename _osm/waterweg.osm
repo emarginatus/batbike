@@ -20,7 +20,7 @@
   <node id="34826848" version="3" timestamp="2008-09-23T16:25:47Z" uid="42033" user="Tbj" changeset="686313" lat="50.7106725" lon="4.225044"/>
   <node id="34826849" version="3" timestamp="2008-09-23T16:25:48Z" uid="42033" user="Tbj" changeset="686313" lat="50.7104268" lon="4.2242745"/>
   <node id="34826850" version="2" timestamp="2008-09-22T16:54:24Z" uid="42033" user="Tbj" changeset="679678" lat="50.7098476" lon="4.2230474"/>
-  <node id="34826851" version="6" timestamp="2010-02-23T13:42:24Z" uid="83557" user="Esperanza36" changeset="3953479" lat="50.7048389" lon="4.2161206"/>
+  <node id="34826851" version="7" timestamp="2017-03-28T20:06:38Z" uid="71942" user="henke54" changeset="47241000" lat="50.7047084" lon="4.2160064"/>
   <node id="34826856" version="3" timestamp="2010-02-23T13:42:24Z" uid="83557" user="Esperanza36" changeset="3953479" lat="50.699261" lon="4.2116508"/>
   <node id="34826868" version="3" timestamp="2010-02-23T13:42:27Z" uid="83557" user="Esperanza36" changeset="3953479" lat="50.6618701" lon="4.2211221"/>
   <node id="34826871" version="3" timestamp="2010-02-23T13:42:28Z" uid="83557" user="Esperanza36" changeset="3953479" lat="50.6575777" lon="4.2240035"/>
@@ -1275,7 +1275,26 @@
     <tag k="wikipedia" v="fr:Senne (rivière)"/>
     <tag k="wikipedia:nl" v="Zenne"/>
   </way>
-  <way id="255050550" version="8" timestamp="2017-02-05T14:46:46Z" uid="428001" user="wegspotter" changeset="45830917">
+  <way id="255050550" version="9" timestamp="2017-03-28T20:06:40Z" uid="71942" user="henke54" changeset="47241000">
+    <nd ref="309676338"/>
+    <nd ref="4609526193"/>
+    <nd ref="4609526212"/>
+    <nd ref="4609526211"/>
+    <nd ref="4609526210"/>
+    <nd ref="4609526209"/>
+    <nd ref="4609526208"/>
+    <nd ref="4609526207"/>
+    <nd ref="4609526206"/>
+    <nd ref="4609526205"/>
+    <nd ref="4609526204"/>
+    <nd ref="4609526203"/>
+    <nd ref="4609526202"/>
+    <nd ref="4609526201"/>
+    <nd ref="4609526200"/>
+    <nd ref="4609526199"/>
+    <nd ref="4609526198"/>
+    <nd ref="4609526197"/>
+    <nd ref="4609526196"/>
     <nd ref="4609526195"/>
     <nd ref="250077435"/>
     <nd ref="250077434"/>
@@ -1358,9 +1377,12 @@
     <nd ref="3913254609"/>
     <nd ref="250076317"/>
     <tag k="boat" v="no"/>
-    <tag k="name" v="Zenne"/>
+    <tag k="name" v="Zenne / Senne"/>
+    <tag k="name:fr" v="Senne"/>
+    <tag k="name:nl" v="Zenne"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="nl:Zenne"/>
+    <tag k="wikipedia" v="nl:Zenne;fr:Senne (rivière)"/>
+    <tag k="wikipedia:nl" v="Zenne"/>
   </way>
   <way id="316439713" version="1" timestamp="2014-12-08T20:42:52Z" uid="2403313" user="Jakka" changeset="27342740">
     <nd ref="3225548820"/>
@@ -1496,35 +1518,6 @@
     <tag k="waterway" v="river"/>
     <tag k="wikipedia" v="nl:Zenne"/>
   </way>
-  <way id="466063764" version="1" timestamp="2017-01-15T11:43:02Z" uid="591881" user="Patchi" changeset="45188449">
-    <nd ref="309676338"/>
-    <nd ref="4609526193"/>
-    <nd ref="4609526212"/>
-    <nd ref="4609526211"/>
-    <nd ref="4609526210"/>
-    <nd ref="4609526209"/>
-    <nd ref="4609526208"/>
-    <nd ref="4609526207"/>
-    <nd ref="4609526206"/>
-    <nd ref="4609526205"/>
-    <nd ref="4609526204"/>
-    <nd ref="4609526203"/>
-    <nd ref="4609526202"/>
-    <nd ref="4609526201"/>
-    <nd ref="4609526200"/>
-    <nd ref="4609526199"/>
-    <nd ref="4609526198"/>
-    <nd ref="4609526197"/>
-    <nd ref="4609526196"/>
-    <nd ref="4609526195"/>
-    <tag k="boat" v="no"/>
-    <tag k="name" v="Senne - Zenne"/>
-    <tag k="name:fr" v="Senne"/>
-    <tag k="name:nl" v="Zenne"/>
-    <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="fr:Senne (rivière)"/>
-    <tag k="wikipedia:nl" v="Zenne"/>
-  </way>
   <relation id="1968244" version="22" timestamp="2016-11-22T17:41:45Z" uid="66391" user="geozeisig" changeset="43876514">
     <member type="way" ref="123494618" role="main_stream"/>
     <member type="way" ref="40892526" role="main_stream"/>
@@ -1563,7 +1556,7 @@
     <tag k="wikidata" v="Q1723575"/>
     <tag k="wikipedia" v="fr:Canal Bruxelles-Charleroi"/>
   </relation>
-  <relation id="2430630" version="45" timestamp="2017-01-15T11:44:23Z" uid="591881" user="Patchi" changeset="45188449">
+  <relation id="2430630" version="46" timestamp="2017-03-28T20:06:41Z" uid="71942" user="henke54" changeset="47241000">
     <member type="way" ref="114823867" role="main_stream"/>
     <member type="way" ref="398739704" role="main_stream"/>
     <member type="way" ref="398739703" role="main_stream"/>
@@ -1605,7 +1598,6 @@
     <member type="way" ref="220233453" role="main_stream"/>
     <member type="way" ref="368132163" role="main_stream"/>
     <member type="way" ref="368132164" role="main_stream"/>
-    <member type="way" ref="466063764" role="main_stream"/>
     <member type="way" ref="255050550" role="main_stream"/>
     <member type="way" ref="26449521" role="main_stream"/>
     <member type="way" ref="26449520" role="main_stream"/>
@@ -1658,14 +1650,14 @@
     <member type="way" ref="389357259" role="main_stream"/>
     <member type="way" ref="53875406" role="main_stream"/>
     <member type="relation" ref="6837652" role="tributary"/>
-    <tag k="name" v="Senne"/>
-    <tag k="type" v="waterway"/>
+    <tag k="destination" v="Dyle - Dijle"/>
     <tag k="FIXME" v="under construction"/>
+    <tag k="name" v="Senne"/>
     <tag k="name:fr" v="Senne"/>
     <tag k="name:nl" v="Zenne"/>
+    <tag k="type" v="waterway"/>
     <tag k="waterway" v="river"/>
     <tag k="wikidata" v="Q845920"/>
     <tag k="wikipedia" v="nl:Zenne"/>
-    <tag k="destination" v="Dyle - Dijle"/>
   </relation>
 </osm>

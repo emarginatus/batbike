@@ -160,7 +160,7 @@
   <node id="250074756" version="7" timestamp="2014-01-20T01:31:31Z" uid="15188" user="Polyglot" changeset="20096226" lat="50.7268258" lon="4.2175102">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="250075030" version="4" timestamp="2013-09-27T10:23:47Z" uid="164096" user="osm_contrib" changeset="18059085" lat="50.7262971" lon="4.2155598"/>
+  <node id="250075030" version="5" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7262971" lon="4.2155598"/>
   <node id="250075389" version="1" timestamp="2008-03-02T14:24:22Z" uid="13865" user="fcauwe" changeset="254861" lat="50.7260516" lon="4.213556"/>
   <node id="250075390" version="3" timestamp="2012-01-21T22:49:58Z" uid="393102" user="franceosm" changeset="10460635" lat="50.7254707" lon="4.2073061"/>
   <node id="250075400" version="3" timestamp="2012-01-21T22:49:58Z" uid="393102" user="franceosm" changeset="10460635" lat="50.726799" lon="4.2152329"/>
@@ -669,27 +669,29 @@
     <tag k="nat_ref" v="N203"/>
     <tag k="maxspeed" v="90"/>
   </way>
-  <way id="23333484" version="17" timestamp="2016-07-05T19:49:01Z" uid="1016290" user="Amaroussi" changeset="40508459">
+  <way id="23333484" version="18" timestamp="2017-04-05T16:27:44Z" uid="4990820" user="Ilona_S" changeset="47481818">
     <nd ref="252660201"/>
     <nd ref="252660199"/>
     <nd ref="1600592967"/>
     <nd ref="252660197"/>
     <nd ref="252660267"/>
+    <tag k="highway" v="trunk"/>
     <tag k="lit" v="yes"/>
-    <tag k="ref" v="E429"/>
+    <tag k="maxspeed" v="70"/>
     <tag k="name" v="E429"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
+    <tag k="ref" v="E429"/>
   </way>
-  <way id="23333495" version="8" timestamp="2016-07-05T19:49:00Z" uid="1016290" user="Amaroussi" changeset="40508459">
+  <way id="23333495" version="9" timestamp="2017-04-05T16:27:25Z" uid="4990820" user="Ilona_S" changeset="47481810">
     <nd ref="252660606"/>
     <nd ref="252660605"/>
     <nd ref="252660604"/>
     <nd ref="252660267"/>
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="E429"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="E429"/>
   </way>
   <way id="23841922" version="19" timestamp="2016-07-06T20:40:33Z" uid="67832" user="joost schouppe" changeset="40529346">
     <nd ref="250057125"/>
@@ -915,21 +917,22 @@
     <tag k="int_ref" v="E 429"/>
     <tag k="nat_ref" v="N203a"/>
   </way>
-  <way id="38343230" version="9" timestamp="2017-01-10T10:39:09Z" uid="67832" user="joost schouppe" changeset="45047375">
+  <way id="38343230" version="10" timestamp="2017-04-05T16:25:34Z" uid="4990820" user="Ilona_S" changeset="47481753">
     <nd ref="250075549"/>
     <nd ref="1600592981"/>
     <nd ref="250075600"/>
     <nd ref="1205671068"/>
     <nd ref="250075601"/>
     <nd ref="1416449235"/>
-    <tag k="lit" v="yes"/>
-    <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk_link"/>
     <tag k="incline" v="10%"/>
+    <tag k="layer" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="38343231" version="5" timestamp="2016-07-05T19:49:02Z" uid="1016290" user="Amaroussi" changeset="40508459">
+  <way id="38343231" version="6" timestamp="2017-04-05T16:26:31Z" uid="4990820" user="Ilona_S" changeset="47481785">
     <nd ref="252660190"/>
     <nd ref="252660189"/>
     <nd ref="1205671064"/>
@@ -937,22 +940,24 @@
     <nd ref="252660187"/>
     <nd ref="452867009"/>
     <nd ref="252659977"/>
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="E429"/>
-    <tag k="name" v="E429"/>
-    <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="layer" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="name" v="E429"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="E429"/>
   </way>
-  <way id="128110890" version="2" timestamp="2016-07-05T19:49:05Z" uid="1016290" user="Amaroussi" changeset="40508459">
+  <way id="128110890" version="3" timestamp="2017-04-05T16:24:35Z" uid="4990820" user="Ilona_S" changeset="47481721">
     <nd ref="1416449235"/>
     <nd ref="250075602"/>
     <nd ref="250075603"/>
     <nd ref="250075604"/>
-    <tag k="lit" v="yes"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk_link"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="145573765" version="6" timestamp="2016-07-05T19:49:05Z" uid="1016290" user="Amaroussi" changeset="40508459">
     <nd ref="58761278"/>
@@ -1111,7 +1116,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="70"/>
   </way>
-  <way id="258377608" version="3" timestamp="2017-02-03T10:05:08Z" uid="428001" user="wegspotter" changeset="45773687">
+  <way id="258377608" version="4" timestamp="2017-04-05T16:27:07Z" uid="4990820" user="Ilona_S" changeset="47481797">
     <nd ref="252660267"/>
     <nd ref="4659030380"/>
     <nd ref="252660196"/>
@@ -1125,11 +1130,12 @@
     <nd ref="252660191"/>
     <nd ref="1205671066"/>
     <nd ref="252660190"/>
+    <tag k="highway" v="trunk"/>
     <tag k="lit" v="yes"/>
-    <tag k="ref" v="E429"/>
+    <tag k="maxspeed" v="70"/>
     <tag k="name" v="E429"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
+    <tag k="ref" v="E429"/>
   </way>
   <way id="285391844" version="5" timestamp="2016-07-05T19:49:03Z" uid="1016290" user="Amaroussi" changeset="40508459">
     <nd ref="250057243"/>
