@@ -67,7 +67,7 @@
   <node id="147060906" version="3" timestamp="2012-02-12T23:35:39Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7368754" lon="4.2398765"/>
   <node id="147060921" version="2" timestamp="2012-02-12T23:35:39Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7370743" lon="4.2393714"/>
   <node id="147060936" version="4" timestamp="2016-12-02T18:15:27Z" uid="67832" user="joost schouppe" changeset="44120497" lat="50.7377131" lon="4.2378009"/>
-  <node id="147070964" version="2" timestamp="2009-08-12T15:44:15Z" uid="246" user="moyogo" changeset="2119544" lat="50.7350725" lon="4.23592"/>
+  <node id="147070964" version="3" timestamp="2017-03-13T14:49:36Z" uid="67832" user="joost schouppe" changeset="46815052" lat="50.7350725" lon="4.2358744"/>
   <node id="147070989" version="3" timestamp="2015-01-13T15:57:51Z" uid="2403313" user="Jakka" changeset="28114838" lat="50.7326184" lon="4.2372829">
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -180,19 +180,19 @@
   <node id="249560487" version="1" timestamp="2008-02-28T13:53:30Z" uid="246" user="moyogo" changeset="220669" lat="50.7526636" lon="4.259519"/>
   <node id="249560488" version="2" timestamp="2009-08-12T12:38:13Z" uid="246" user="moyogo" changeset="2117745" lat="50.7509254" lon="4.2575842"/>
   <node id="249561313" version="5" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7387313" lon="4.2420618"/>
-  <node id="249561314" version="4" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7387654" lon="4.2422469"/>
-  <node id="249561315" version="4" timestamp="2014-12-26T23:59:00Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7388035" lon="4.2422782">
+  <node id="249561314" version="5" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7387654" lon="4.2422468"/>
+  <node id="249561315" version="5" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7388035" lon="4.2422782">
     <tag k="rcn_ref" v="65"/>
   </node>
-  <node id="249561316" version="4" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7389183" lon="4.2422179"/>
-  <node id="249561317" version="5" timestamp="2014-12-26T23:59:00Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7389292" lon="4.242041">
+  <node id="249561316" version="5" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7389183" lon="4.2422179"/>
+  <node id="249561317" version="6" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7389293" lon="4.242041">
     <tag k="rcn_ref" v="65"/>
   </node>
-  <node id="249561318" version="4" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7389115" lon="4.2420001"/>
-  <node id="249561319" version="5" timestamp="2014-12-26T23:59:00Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7388265" lon="4.2419464">
+  <node id="249561318" version="5" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7389115" lon="4.2420001"/>
+  <node id="249561319" version="6" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7388265" lon="4.2419464">
     <tag k="rcn_ref" v="65"/>
   </node>
-  <node id="249561320" version="4" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7387857" lon="4.2419634"/>
+  <node id="249561320" version="5" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7387857" lon="4.2419634"/>
   <node id="249561333" version="4" timestamp="2013-05-12T21:08:01Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7370022" lon="4.2450254"/>
   <node id="249561334" version="4" timestamp="2013-05-12T21:08:01Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7370069" lon="4.2449661"/>
   <node id="249561335" version="4" timestamp="2013-05-12T21:08:01Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.736892" lon="4.2447688"/>
@@ -219,7 +219,7 @@
   <node id="249561510" version="1" timestamp="2008-02-28T14:10:40Z" uid="246" user="moyogo" changeset="220669" lat="50.7382821" lon="4.2419151"/>
   <node id="249561511" version="1" timestamp="2008-02-28T14:10:40Z" uid="246" user="moyogo" changeset="220669" lat="50.7379182" lon="4.2419237"/>
   <node id="249561512" version="2" timestamp="2013-05-12T21:08:01Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7368885" lon="4.2421118"/>
-  <node id="249561513" version="3" timestamp="2013-05-12T21:08:01Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7363988" lon="4.2422275"/>
+  <node id="249561513" version="4" timestamp="2017-02-25T18:12:44Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7364943" lon="4.2421988"/>
   <node id="249561514" version="2" timestamp="2013-03-05T17:10:32Z" uid="6072" user="Eimai" changeset="15260895" lat="50.7361717" lon="4.2422375"/>
   <node id="249561515" version="2" timestamp="2013-03-05T17:10:32Z" uid="6072" user="Eimai" changeset="15260895" lat="50.7360495" lon="4.2422525"/>
   <node id="249561516" version="2" timestamp="2013-03-05T17:10:32Z" uid="6072" user="Eimai" changeset="15260895" lat="50.7359886" lon="4.2423637"/>
@@ -719,14 +719,14 @@
   <node id="250043323" version="6" timestamp="2016-04-29T10:34:34Z" uid="67832" user="joost schouppe" changeset="38977959" lat="50.7220461" lon="4.2260446">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="250044505" version="2" timestamp="2009-12-02T17:12:10Z" uid="42033" user="Tbj" changeset="3273562" lat="50.7041359" lon="4.2173548"/>
+  <node id="250044505" version="3" timestamp="2017-03-28T20:06:38Z" uid="71942" user="henke54" changeset="47241000" lat="50.7041516" lon="4.2173884"/>
   <node id="250044873" version="3" timestamp="2013-05-12T21:08:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7343523" lon="4.234949"/>
   <node id="250044874" version="4" timestamp="2013-05-12T21:08:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7342968" lon="4.2350142"/>
   <node id="250044885" version="1" timestamp="2008-03-02T09:56:11Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7356234" lon="4.2341744"/>
-  <node id="250044886" version="1" timestamp="2008-03-02T09:56:11Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7357483" lon="4.2345177"/>
-  <node id="250044887" version="1" timestamp="2008-03-02T09:56:11Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7358352" lon="4.2348954"/>
-  <node id="250044888" version="1" timestamp="2008-03-02T09:56:11Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7359004" lon="4.2353589"/>
-  <node id="250044889" version="2" timestamp="2016-08-19T06:40:44Z" uid="67832" user="joost schouppe" changeset="41549580" lat="50.7359571" lon="4.235872"/>
+  <node id="250044886" version="2" timestamp="2017-03-13T14:49:36Z" uid="67832" user="joost schouppe" changeset="46815052" lat="50.7357466" lon="4.2345365"/>
+  <node id="250044887" version="2" timestamp="2017-03-13T14:49:36Z" uid="67832" user="joost schouppe" changeset="46815052" lat="50.7358131" lon="4.2348605"/>
+  <node id="250044888" version="2" timestamp="2017-03-13T14:49:36Z" uid="67832" user="joost schouppe" changeset="46815052" lat="50.7358817" lon="4.2353669"/>
+  <node id="250044889" version="3" timestamp="2017-03-13T14:49:36Z" uid="67832" user="joost schouppe" changeset="46815052" lat="50.7359486" lon="4.23588"/>
   <node id="250044890" version="3" timestamp="2016-08-19T06:40:43Z" uid="67832" user="joost schouppe" changeset="41549580" lat="50.7360496" lon="4.2362061"/>
   <node id="250044891" version="3" timestamp="2016-08-19T06:40:43Z" uid="67832" user="joost schouppe" changeset="41549580" lat="50.7361042" lon="4.2364052"/>
   <node id="250044893" version="5" timestamp="2015-01-13T14:51:26Z" uid="2403313" user="Jakka" changeset="28113529" lat="50.7357703" lon="4.2303363"/>
@@ -753,7 +753,6 @@
   <node id="250045464" version="1" timestamp="2008-03-02T10:01:07Z" uid="13865" user="fcauwe" changeset="249336" lat="50.736134" lon="4.2414443"/>
   <node id="250045465" version="2" timestamp="2017-01-09T15:28:40Z" uid="67832" user="joost schouppe" changeset="45028752" lat="50.7368178" lon="4.241514"/>
   <node id="250045466" version="2" timestamp="2017-01-09T15:28:40Z" uid="67832" user="joost schouppe" changeset="45028752" lat="50.7372999" lon="4.2414432"/>
-  <node id="250045467" version="2" timestamp="2016-12-03T19:22:16Z" uid="67832" user="joost schouppe" changeset="44144317" lat="50.7380324" lon="4.241272"/>
   <node id="250045487" version="1" timestamp="2008-03-02T10:01:24Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7359004" lon="4.2463624"/>
   <node id="250045488" version="1" timestamp="2008-03-02T10:01:24Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7332712" lon="4.2502934"/>
   <node id="250045839" version="2" timestamp="2013-05-12T21:08:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7315" lon="4.2365799"/>
@@ -785,7 +784,7 @@
   <node id="250046213" version="2" timestamp="2012-02-12T23:35:57Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7347161" lon="4.2340474"/>
   <node id="250046221" version="2" timestamp="2012-02-12T23:35:57Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7348083" lon="4.2344247"/>
   <node id="250046222" version="3" timestamp="2013-05-12T21:08:03Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7341159" lon="4.2342396"/>
-  <node id="250046281" version="2" timestamp="2013-05-12T21:08:03Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7341053" lon="4.2358944"/>
+  <node id="250046281" version="3" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005" lat="50.7341219" lon="4.2358763"/>
   <node id="250046285" version="2" timestamp="2013-05-12T21:08:03Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7342277" lon="4.2363975"/>
   <node id="250046286" version="3" timestamp="2017-01-10T09:59:25Z" uid="67832" user="joost schouppe" changeset="45046744" lat="50.734408" lon="4.2369703"/>
   <node id="250046287" version="3" timestamp="2017-01-10T09:59:25Z" uid="67832" user="joost schouppe" changeset="45046744" lat="50.7344913" lon="4.2371253"/>
@@ -1029,16 +1028,8 @@
   <node id="250055528" version="4" timestamp="2013-05-12T21:08:04Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7189367" lon="4.2685565"/>
   <node id="250055529" version="4" timestamp="2013-05-12T21:08:04Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7191572" lon="4.2689328"/>
   <node id="250055530" version="4" timestamp="2013-05-12T21:08:04Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7200142" lon="4.2699919"/>
-  <node id="250055531" version="3" timestamp="2010-12-17T15:47:41Z" uid="351205" user="Daniel44" changeset="6687196" lat="50.7208994" lon="4.2710867"/>
-  <node id="250055532" version="4" timestamp="2016-09-29T11:50:53Z" uid="67832" user="joost schouppe" changeset="42516938" lat="50.7213435" lon="4.2715922"/>
-  <node id="250055533" version="3" timestamp="2010-12-17T15:47:41Z" uid="351205" user="Daniel44" changeset="6687196" lat="50.7219454" lon="4.2720737"/>
-  <node id="250055534" version="4" timestamp="2013-05-12T21:08:04Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7227364" lon="4.2725629"/>
-  <node id="250055535" version="4" timestamp="2013-05-12T21:08:04Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7234175" lon="4.272851"/>
-  <node id="250055536" version="3" timestamp="2013-05-12T21:08:04Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7245704" lon="4.2733042">
-    <tag k="bus" v="yes"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
-  <node id="250055537" version="7" timestamp="2013-05-12T21:08:05Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7250498" lon="4.2734808"/>
+  <node id="250055531" version="4" timestamp="2017-03-22T19:39:11Z" uid="71942" user="henke54" changeset="47077018" lat="50.7209182" lon="4.271032"/>
+  <node id="250055532" version="5" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7213467" lon="4.2716072"/>
   <node id="250055583" version="1" timestamp="2008-03-02T12:01:58Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7170586" lon="4.261707"/>
   <node id="250055584" version="1" timestamp="2008-03-02T12:01:58Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7166999" lon="4.26078"/>
   <node id="250055585" version="1" timestamp="2008-03-02T12:01:58Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7164228" lon="4.2600333"/>
@@ -1102,10 +1093,10 @@
   <node id="250056110" version="1" timestamp="2008-03-02T12:05:00Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7019758" lon="4.2567288"/>
   <node id="250056111" version="1" timestamp="2008-03-02T12:05:00Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7014594" lon="4.2582394"/>
   <node id="250056112" version="1" timestamp="2008-03-02T12:05:00Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7004972" lon="4.2613808"/>
-  <node id="250056113" version="1" timestamp="2008-03-02T12:05:00Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7001275" lon="4.2629"/>
+  <node id="250056113" version="2" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7001597" lon="4.2628077"/>
   <node id="250056114" version="1" timestamp="2008-03-02T12:05:00Z" uid="13865" user="fcauwe" changeset="249336" lat="50.7000514" lon="4.2635437"/>
-  <node id="250056115" version="3" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.7000269" lon="4.2638171"/>
-  <node id="250056116" version="5" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.7001193" lon="4.2642785"/>
+  <node id="250056115" version="4" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7000188" lon="4.2638198"/>
+  <node id="250056116" version="6" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7001036" lon="4.2642805"/>
   <node id="250056656" version="3" timestamp="2013-05-12T21:08:05Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7262681" lon="4.2455638"/>
   <node id="250056713" version="2" timestamp="2012-02-12T23:36:06Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7272447" lon="4.2472309"/>
   <node id="250056714" version="2" timestamp="2012-02-12T23:36:06Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7277259" lon="4.2478539"/>
@@ -1510,7 +1501,7 @@
   <node id="250075353" version="1" timestamp="2008-03-02T14:24:13Z" uid="13865" user="fcauwe" changeset="254861" lat="50.7275023" lon="4.2139508"/>
   <node id="250075354" version="2" timestamp="2012-01-21T22:49:58Z" uid="393102" user="franceosm" changeset="10460635" lat="50.7267168" lon="4.2153828"/>
   <node id="250075355" version="2" timestamp="2012-01-21T22:49:58Z" uid="393102" user="franceosm" changeset="10460635" lat="50.7265388" lon="4.2156355"/>
-  <node id="250075356" version="4" timestamp="2013-09-27T10:23:47Z" uid="164096" user="osm_contrib" changeset="18059085" lat="50.7264449" lon="4.215699"/>
+  <node id="250075356" version="5" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7264448" lon="4.2156991"/>
   <node id="250075400" version="3" timestamp="2012-01-21T22:49:58Z" uid="393102" user="franceosm" changeset="10460635" lat="50.726799" lon="4.2152329"/>
   <node id="250080348" version="1" timestamp="2008-03-02T14:48:18Z" uid="13865" user="fcauwe" changeset="254861" lat="50.6963364" lon="4.2008542"/>
   <node id="250080349" version="1" timestamp="2008-03-02T14:48:18Z" uid="13865" user="fcauwe" changeset="254861" lat="50.6969943" lon="4.1989059"/>
@@ -1564,7 +1555,7 @@
   <node id="253359955" version="1" timestamp="2008-03-22T16:35:03Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6998691" lon="4.2320061"/>
   <node id="253359957" version="1" timestamp="2008-03-22T16:35:03Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6995701" lon="4.2316027"/>
   <node id="253359958" version="1" timestamp="2008-03-22T16:35:03Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6991352" lon="4.2313623"/>
-  <node id="253359959" version="3" timestamp="2013-09-09T08:38:48Z" uid="42033" user="Tbj" changeset="17745859" lat="50.6986358" lon="4.2312646"/>
+  <node id="253359959" version="4" timestamp="2017-03-28T20:06:38Z" uid="71942" user="henke54" changeset="47241000" lat="50.6986397" lon="4.2312258"/>
   <node id="253359960" version="1" timestamp="2008-03-22T16:35:03Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6981023" lon="4.2315426"/>
   <node id="253359961" version="1" timestamp="2008-03-22T16:35:03Z" uid="13865" user="fcauwe" changeset="372401" lat="50.69714" lon="4.2320833"/>
   <node id="253359962" version="1" timestamp="2008-03-22T16:35:03Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6968138" lon="4.2321434"/>
@@ -1575,19 +1566,17 @@
   <node id="253359968" version="1" timestamp="2008-03-22T16:35:03Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6930677" lon="4.2330961"/>
   <node id="253359969" version="2" timestamp="2017-01-15T11:43:10Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6923243" lon="4.2330234"/>
   <node id="253359970" version="2" timestamp="2017-01-15T11:43:10Z" uid="591881" user="Patchi" changeset="45188449" lat="50.692159" lon="4.2330164"/>
-  <node id="253361451" version="2" timestamp="2011-06-05T13:13:32Z" uid="42033" user="Tbj" changeset="8349024" lat="50.6972781" lon="4.2577405"/>
   <node id="253361452" version="2" timestamp="2011-06-05T13:13:33Z" uid="42033" user="Tbj" changeset="8349024" lat="50.6976437" lon="4.2582011"/>
-  <node id="253361453" version="1" timestamp="2008-03-22T16:39:52Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6981566" lon="4.2587938"/>
-  <node id="253361455" version="1" timestamp="2008-03-22T16:39:52Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6986785" lon="4.259592"/>
-  <node id="253361456" version="1" timestamp="2008-03-22T16:39:52Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6992004" lon="4.2602615"/>
-  <node id="253361457" version="1" timestamp="2008-03-22T16:39:52Z" uid="13865" user="fcauwe" changeset="372401" lat="50.6996571" lon="4.2608795"/>
-  <node id="253361458" version="2" timestamp="2009-04-02T14:39:25Z" uid="42033" user="Tbj" changeset="61295" lat="50.7004392" lon="4.261609"/>
+  <node id="253361453" version="2" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.6981266" lon="4.2587258"/>
+  <node id="253361455" version="2" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.6986476" lon="4.2595412"/>
+  <node id="253361456" version="2" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.6992267" lon="4.2602715"/>
+  <node id="253361457" version="2" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.6996698" lon="4.2608601"/>
+  <node id="253361458" version="3" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7004388" lon="4.2615709"/>
   <node id="254372361" version="2" timestamp="2008-03-28T07:32:49Z" uid="246" user="moyogo" changeset="411308" lat="50.7230828" lon="4.2359403"/>
   <node id="254372363" version="2" timestamp="2017-01-10T10:44:48Z" uid="67832" user="joost schouppe" changeset="45047460" lat="50.7236761" lon="4.2359139"/>
   <node id="254372365" version="4" timestamp="2013-05-12T21:08:10Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.722292" lon="4.2492456"/>
   <node id="254372367" version="3" timestamp="2017-01-08T16:21:28Z" uid="67832" user="joost schouppe" changeset="45005140" lat="50.7233274" lon="4.2510465"/>
-  <node id="254376387" version="3" timestamp="2013-05-12T21:08:10Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7244074" lon="4.2732495"/>
-  <node id="254376555" version="4" timestamp="2016-09-29T11:50:53Z" uid="67832" user="joost schouppe" changeset="42516938" lat="50.7214663" lon="4.2717518"/>
+  <node id="254376555" version="5" timestamp="2017-03-22T19:39:12Z" uid="71942" user="henke54" changeset="47077018" lat="50.7214707" lon="4.2717541"/>
   <node id="254376849" version="4" timestamp="2013-05-12T21:08:10Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7187817" lon="4.268246"/>
   <node id="254376963" version="2" timestamp="2013-05-12T21:08:11Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.718405" lon="4.2686837"/>
   <node id="254376964" version="2" timestamp="2013-05-12T21:08:11Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7176804" lon="4.2695334"/>
@@ -1693,7 +1682,7 @@
   <node id="256854990" version="1" timestamp="2008-04-11T11:00:41Z" uid="246" user="moyogo" changeset="112683" lat="50.7203605" lon="4.2354194"/>
   <node id="256854991" version="2" timestamp="2008-04-11T11:01:49Z" uid="246" user="moyogo" changeset="112683" lat="50.7204421" lon="4.2352649"/>
   <node id="256854992" version="2" timestamp="2010-11-28T08:34:43Z" uid="42033" user="Tbj" changeset="6475899" lat="50.7209303" lon="4.23457"/>
-  <node id="256855115" version="1" timestamp="2008-04-11T11:02:03Z" uid="246" user="moyogo" changeset="112683" lat="50.7208822" lon="4.2358657"/>
+  <node id="256855115" version="2" timestamp="2017-04-10T12:55:37Z" uid="67832" user="joost schouppe" changeset="47622260" lat="50.7209009" lon="4.2358416"/>
   <node id="256855116" version="1" timestamp="2008-04-11T11:02:03Z" uid="246" user="moyogo" changeset="112683" lat="50.7210398" lon="4.236106"/>
   <node id="256855117" version="1" timestamp="2008-04-11T11:02:03Z" uid="246" user="moyogo" changeset="112683" lat="50.7218223" lon="4.2366382"/>
   <node id="256855118" version="2" timestamp="2016-03-09T15:06:12Z" uid="67832" user="joost schouppe" changeset="37710560" lat="50.7223416" lon="4.236721"/>
@@ -2221,7 +2210,6 @@
   <node id="300564465" version="9" timestamp="2017-01-15T11:43:13Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6918286" lon="4.2179541"/>
   <node id="300564466" version="9" timestamp="2017-01-15T11:43:13Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6916193" lon="4.2188823"/>
   <node id="300564537" version="9" timestamp="2017-01-15T11:43:13Z" uid="591881" user="Patchi" changeset="45188449" lat="50.691911" lon="4.2176638"/>
-  <node id="300564538" version="15" timestamp="2016-01-03T18:48:41Z" uid="67832" user="joost schouppe" changeset="36344867" lat="50.7046603" lon="4.2163528"/>
   <node id="300880398" version="2" timestamp="2017-01-15T11:43:14Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6916672" lon="4.2330289"/>
   <node id="300880422" version="2" timestamp="2017-01-15T11:43:14Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6911189" lon="4.2330365"/>
   <node id="301501173" version="4" timestamp="2016-01-04T12:57:15Z" uid="67832" user="joost schouppe" changeset="36359009" lat="50.7018452" lon="4.2437786"/>
@@ -2239,7 +2227,7 @@
   <node id="305725775" version="2" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6991161" lon="4.2643739"/>
   <node id="305725776" version="2" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6992938" lon="4.2641989"/>
   <node id="305725777" version="2" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6995373" lon="4.2641049"/>
-  <node id="305725778" version="5" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.7000372" lon="4.2640343"/>
+  <node id="305725778" version="6" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7000236" lon="4.264043"/>
   <node id="305725977" version="6" timestamp="2016-10-22T07:58:40Z" uid="591881" user="Patchi" changeset="43075754" lat="50.6997233" lon="4.2661252"/>
   <node id="305773836" version="3" timestamp="2017-02-03T13:16:47Z" uid="428001" user="wegspotter" changeset="45778116" lat="50.6910466" lon="4.2587865"/>
   <node id="305773837" version="2" timestamp="2008-10-19T21:10:15Z" uid="52697" user="Luc Moreau" changeset="467033" lat="50.691569" lon="4.258283"/>
@@ -2248,8 +2236,8 @@
   <node id="305773840" version="2" timestamp="2008-10-19T21:10:15Z" uid="52697" user="Luc Moreau" changeset="467033" lat="50.692101" lon="4.258976"/>
   <node id="305773841" version="2" timestamp="2008-10-19T21:10:15Z" uid="52697" user="Luc Moreau" changeset="467033" lat="50.692299" lon="4.259547"/>
   <node id="305773842" version="2" timestamp="2008-10-19T21:10:16Z" uid="52697" user="Luc Moreau" changeset="467033" lat="50.692743" lon="4.260019"/>
-  <node id="305773843" version="2" timestamp="2008-10-19T21:10:16Z" uid="52697" user="Luc Moreau" changeset="467033" lat="50.693012" lon="4.260156"/>
-  <node id="305773844" version="2" timestamp="2008-10-19T21:10:16Z" uid="52697" user="Luc Moreau" changeset="467033" lat="50.693305" lon="4.260158"/>
+  <node id="305773843" version="3" timestamp="2017-04-14T12:45:38Z" uid="67832" user="joost schouppe" changeset="47779103" lat="50.6931629" lon="4.2601261"/>
+  <node id="305773844" version="3" timestamp="2017-04-14T12:45:38Z" uid="67832" user="joost schouppe" changeset="47779103" lat="50.6933201" lon="4.2601599"/>
   <node id="305773845" version="2" timestamp="2008-10-19T21:10:16Z" uid="52697" user="Luc Moreau" changeset="467033" lat="50.693433" lon="4.26023"/>
   <node id="305773846" version="4" timestamp="2016-09-12T19:35:37Z" uid="67832" user="joost schouppe" changeset="42108803" lat="50.6936804" lon="4.2606244"/>
   <node id="305773847" version="4" timestamp="2016-09-12T19:35:37Z" uid="67832" user="joost schouppe" changeset="42108803" lat="50.6937738" lon="4.2606299"/>
@@ -2729,8 +2717,8 @@
   <node id="462277964" version="3" timestamp="2016-08-17T15:27:08Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.7334738" lon="4.2342601"/>
   <node id="462277965" version="3" timestamp="2016-08-17T15:27:08Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.7340381" lon="4.2345912"/>
   <node id="462277966" version="2" timestamp="2013-05-12T21:08:17Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7340652" lon="4.234764"/>
-  <node id="462277968" version="3" timestamp="2013-05-12T21:08:17Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.734001" lon="4.2353133"/>
-  <node id="462277969" version="2" timestamp="2013-05-12T21:08:17Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7339969" lon="4.235457"/>
+  <node id="462277968" version="4" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005" lat="50.7340137" lon="4.2353247"/>
+  <node id="462277969" version="3" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005" lat="50.7340062" lon="4.2354617"/>
   <node id="462277971" version="2" timestamp="2012-02-12T23:36:27Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7335007" lon="4.2335906"/>
   <node id="462277972" version="3" timestamp="2013-05-12T21:08:17Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7340432" lon="4.2350219"/>
   <node id="462278034" version="2" timestamp="2013-05-12T21:08:17Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7337619" lon="4.2352496"/>
@@ -2809,7 +2797,7 @@
   <node id="472464171" version="3" timestamp="2013-03-05T17:10:33Z" uid="6072" user="Eimai" changeset="15260895" lat="50.7358782" lon="4.2423594"/>
   <node id="472472536" version="3" timestamp="2016-10-21T14:14:40Z" uid="67832" user="joost schouppe" changeset="43060738" lat="50.7590922" lon="4.2605241"/>
   <node id="472472542" version="2" timestamp="2011-08-07T20:23:29Z" uid="116644" user="p-h" changeset="8951471" lat="50.7604861" lon="4.2520076"/>
-  <node id="472472546" version="2" timestamp="2011-08-07T20:23:29Z" uid="116644" user="p-h" changeset="8951471" lat="50.7604146" lon="4.2518764"/>
+  <node id="472472546" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7604141" lon="4.2518826"/>
   <node id="472473786" version="4" timestamp="2014-07-14T09:53:26Z" uid="15188" user="Polyglot" changeset="24136734" lat="50.7557787" lon="4.2315311">
     <tag k="bus" v="yes"/>
     <tag k="public_transport" v="stop_position"/>
@@ -2858,9 +2846,9 @@
   <node id="517528014" version="2" timestamp="2012-02-12T23:36:33Z" uid="138772" user="lodde1949" changeset="10669317" lat="50.7359924" lon="4.24384"/>
   <node id="517528017" version="1" timestamp="2009-10-02T13:27:23Z" uid="246" user="moyogo" changeset="2711894" lat="50.7360869" lon="4.2437973"/>
   <node id="517528021" version="1" timestamp="2009-10-02T13:27:23Z" uid="246" user="moyogo" changeset="2711894" lat="50.7362173" lon="4.2438659"/>
-  <node id="517528029" version="1" timestamp="2009-10-02T13:27:24Z" uid="246" user="moyogo" changeset="2711894" lat="50.7367551" lon="4.2445354"/>
-  <node id="517528031" version="1" timestamp="2009-10-02T13:27:24Z" uid="246" user="moyogo" changeset="2711894" lat="50.7367605" lon="4.2446212"/>
-  <node id="517528034" version="1" timestamp="2009-10-02T13:27:24Z" uid="246" user="moyogo" changeset="2711894" lat="50.7367062" lon="4.2446899"/>
+  <node id="517528029" version="2" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7367317" lon="4.244504"/>
+  <node id="517528031" version="2" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7367676" lon="4.244614"/>
+  <node id="517528034" version="2" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7366543" lon="4.2446746"/>
   <node id="517528065" version="2" timestamp="2013-03-05T17:10:33Z" uid="6072" user="Eimai" changeset="15260895" lat="50.7352936" lon="4.2416972"/>
   <node id="517528075" version="3" timestamp="2013-03-05T17:10:33Z" uid="6072" user="Eimai" changeset="15260895" lat="50.7349547" lon="4.2428571"/>
   <node id="517528078" version="3" timestamp="2014-09-08T10:37:36Z" uid="2319207" user="stof013" changeset="25302691" lat="50.7346342" lon="4.2435411"/>
@@ -2897,7 +2885,7 @@
   <node id="571237547" version="2" timestamp="2016-01-02T11:03:29Z" uid="67832" user="joost schouppe" changeset="36315305" lat="50.7164026" lon="4.2359379"/>
   <node id="571237548" version="1" timestamp="2009-11-25T21:36:22Z" uid="246" user="moyogo" changeset="3216398" lat="50.7163747" lon="4.2353739"/>
   <node id="574254845" version="2" timestamp="2011-09-29T07:51:34Z" uid="42033" user="Tbj" changeset="9425141" lat="50.7040211" lon="4.2005565"/>
-  <node id="577886202" version="1" timestamp="2009-12-02T17:12:09Z" uid="42033" user="Tbj" changeset="3273562" lat="50.7040259" lon="4.2172904"/>
+  <node id="577886202" version="2" timestamp="2017-03-28T20:06:38Z" uid="71942" user="henke54" changeset="47241000" lat="50.7040379" lon="4.2173255"/>
   <node id="603148446" version="2" timestamp="2017-02-03T13:16:48Z" uid="428001" user="wegspotter" changeset="45778116" lat="50.6916188" lon="4.2582617"/>
   <node id="603148462" version="3" timestamp="2017-02-03T12:22:14Z" uid="428001" user="wegspotter" changeset="45776836" lat="50.6952689" lon="4.261177"/>
   <node id="613657571" version="3" timestamp="2017-02-03T12:22:14Z" uid="428001" user="wegspotter" changeset="45776836" lat="50.6945503" lon="4.2605628"/>
@@ -3121,9 +3109,9 @@
   <node id="1116539819" version="1" timestamp="2011-01-23T09:44:47Z" uid="42033" user="Tbj" changeset="7058847" lat="50.7251335" lon="4.2129985"/>
   <node id="1117174740" version="4" timestamp="2017-01-10T10:59:19Z" uid="67832" user="joost schouppe" changeset="45047728" lat="50.7211271" lon="4.2343621"/>
   <node id="1137595184" version="3" timestamp="2017-02-03T11:02:51Z" uid="428001" user="wegspotter" changeset="45775031" lat="50.7052102" lon="4.2681733"/>
-  <node id="1137597060" version="1" timestamp="2011-02-05T15:23:43Z" uid="351205" user="Daniel44" changeset="7193532" lat="50.7222204" lon="4.2687552"/>
-  <node id="1137597061" version="1" timestamp="2011-02-05T15:23:43Z" uid="351205" user="Daniel44" changeset="7193532" lat="50.7220709" lon="4.2683905"/>
-  <node id="1137597063" version="1" timestamp="2011-02-05T15:23:43Z" uid="351205" user="Daniel44" changeset="7193532" lat="50.7217721" lon="4.2681115"/>
+  <node id="1137597060" version="2" timestamp="2017-03-22T19:39:13Z" uid="71942" user="henke54" changeset="47077018" lat="50.7222485" lon="4.268798"/>
+  <node id="1137597061" version="2" timestamp="2017-03-22T19:39:13Z" uid="71942" user="henke54" changeset="47077018" lat="50.722123" lon="4.2684875"/>
+  <node id="1137597063" version="2" timestamp="2017-03-22T19:39:13Z" uid="71942" user="henke54" changeset="47077018" lat="50.7217997" lon="4.2681567"/>
   <node id="1137597064" version="1" timestamp="2011-02-05T15:23:43Z" uid="351205" user="Daniel44" changeset="7193532" lat="50.7210249" lon="4.2678326"/>
   <node id="1137597065" version="1" timestamp="2011-02-05T15:23:43Z" uid="351205" user="Daniel44" changeset="7193532" lat="50.7202234" lon="4.2676394"/>
   <node id="1137597067" version="4" timestamp="2011-02-14T17:22:03Z" uid="351205" user="Daniel44" changeset="7287290" lat="50.7201555" lon="4.2676394"/>
@@ -3149,7 +3137,6 @@
   <node id="1152954418" version="1" timestamp="2011-02-14T17:11:32Z" uid="351205" user="Daniel44" changeset="7287290" lat="50.7167587" lon="4.2609319"/>
   <node id="1152960420" version="2" timestamp="2017-01-06T10:44:29Z" uid="67832" user="joost schouppe" changeset="44949390" lat="50.7180058" lon="4.2651923"/>
   <node id="1152967296" version="2" timestamp="2016-09-29T11:50:53Z" uid="67832" user="joost schouppe" changeset="42516938" lat="50.7212255" lon="4.2714673"/>
-  <node id="1152968827" version="2" timestamp="2013-05-12T21:07:39Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7237575" lon="4.2729943"/>
   <node id="1162526943" version="1" timestamp="2011-02-20T00:22:25Z" uid="15188" user="Polyglot" changeset="7338057" lat="50.7219282" lon="4.2448497"/>
   <node id="1162526946" version="1" timestamp="2011-02-20T00:22:25Z" uid="15188" user="Polyglot" changeset="7338057" lat="50.7216648" lon="4.2445242"/>
   <node id="1163030920" version="2" timestamp="2016-10-22T07:58:38Z" uid="591881" user="Patchi" changeset="43075754" lat="50.7135176" lon="4.2672544"/>
@@ -3180,7 +3167,7 @@
   <node id="1163355041" version="2" timestamp="2011-02-20T14:07:12Z" uid="351205" user="Daniel44" changeset="7342703" lat="50.7463239" lon="4.254575"/>
   <node id="1163355045" version="2" timestamp="2011-02-20T14:07:12Z" uid="351205" user="Daniel44" changeset="7342703" lat="50.7467991" lon="4.2558839"/>
   <node id="1186987547" version="2" timestamp="2015-12-31T17:40:31Z" uid="67832" user="joost schouppe" changeset="36287191" lat="50.7132933" lon="4.2540214"/>
-  <node id="1231088151" version="1" timestamp="2011-04-03T16:34:17Z" uid="116644" user="p-h" changeset="7756192" lat="50.6983676" lon="4.2591165"/>
+  <node id="1231088151" version="2" timestamp="2017-03-24T17:36:40Z" uid="71942" user="henke54" changeset="47130435" lat="50.6983672" lon="4.2591021"/>
   <node id="1246793928" version="1" timestamp="2011-04-16T11:44:46Z" uid="69418" user="TAA" changeset="7877574" lat="50.7568996" lon="4.2722654"/>
   <node id="1248262749" version="1" timestamp="2011-04-17T12:06:48Z" uid="69418" user="TAA" changeset="7885872" lat="50.7567795" lon="4.2724542">
     <tag k="foot" v="no"/>
@@ -3197,7 +3184,7 @@
   <node id="1313022147" version="2" timestamp="2017-01-15T11:43:19Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6906406" lon="4.2226975"/>
   <node id="1313022151" version="1" timestamp="2011-06-05T13:13:24Z" uid="42033" user="Tbj" changeset="8349024" lat="50.7018073" lon="4.2449896"/>
   <node id="1313022152" version="2" timestamp="2017-01-15T11:43:19Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6915005" lon="4.219071"/>
-  <node id="1313022153" version="1" timestamp="2011-06-05T13:13:24Z" uid="42033" user="Tbj" changeset="8349024" lat="50.6971581" lon="4.2575828"/>
+  <node id="1313022153" version="2" timestamp="2017-03-24T17:36:40Z" uid="71942" user="henke54" changeset="47130435" lat="50.6971651" lon="4.2575801"/>
   <node id="1313022158" version="2" timestamp="2016-01-03T18:48:41Z" uid="67832" user="joost schouppe" changeset="36344867" lat="50.7052964" lon="4.2181309"/>
   <node id="1313022171" version="1" timestamp="2011-06-05T13:13:25Z" uid="42033" user="Tbj" changeset="8349024" lat="50.6936567" lon="4.2211002"/>
   <node id="1390136405" version="3" timestamp="2014-01-22T12:18:00Z" uid="138772" user="lodde1949" changeset="20140214" lat="50.745399" lon="4.2042399"/>
@@ -3223,16 +3210,16 @@
   <node id="1427516100" version="1" timestamp="2011-09-08T22:55:04Z" uid="15188" user="Polyglot" changeset="9250359" lat="50.7386619" lon="4.2420391">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="1427516101" version="2" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7387262" lon="4.2421292"/>
-  <node id="1427516102" version="2" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7387382" lon="4.2421944"/>
-  <node id="1427516103" version="2" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7387523" lon="4.242004"/>
+  <node id="1427516101" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7387262" lon="4.2421292"/>
+  <node id="1427516102" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7387382" lon="4.2421944"/>
+  <node id="1427516103" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7387523" lon="4.242004"/>
   <node id="1427516104" version="1" timestamp="2011-09-08T22:55:05Z" uid="15188" user="Polyglot" changeset="9250359" lat="50.7387864" lon="4.2423851">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="1427516105" version="2" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7388479" lon="4.2422831"/>
-  <node id="1427516106" version="2" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7388578" lon="4.2419506"/>
-  <node id="1427516107" version="2" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7388869" lon="4.2419691"/>
-  <node id="1427516108" version="2" timestamp="2014-12-26T23:59:01Z" uid="15188" user="Polyglot" changeset="27721102" lat="50.7389358" lon="4.2421635"/>
+  <node id="1427516105" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7388479" lon="4.2422831"/>
+  <node id="1427516106" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7388578" lon="4.2419506"/>
+  <node id="1427516107" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7388869" lon="4.2419691"/>
+  <node id="1427516108" version="3" timestamp="2017-02-25T18:12:45Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7389358" lon="4.2421635"/>
   <node id="1427516109" version="1" timestamp="2011-09-08T22:55:06Z" uid="15188" user="Polyglot" changeset="9250359" lat="50.7389943" lon="4.2419919">
     <tag k="highway" v="crossing"/>
   </node>
@@ -4014,7 +4001,6 @@
     <tag k="highway" v="give_way"/>
   </node>
   <node id="2301820344" version="1" timestamp="2013-05-12T20:59:56Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7230177" lon="4.2488721"/>
-  <node id="2301820346" version="1" timestamp="2013-05-12T20:59:56Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7230659" lon="4.2727314"/>
   <node id="2301820355" version="1" timestamp="2013-05-12T20:59:56Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7235937" lon="4.2498796"/>
   <node id="2301820359" version="1" timestamp="2013-05-12T20:59:56Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7241403" lon="4.2485776"/>
   <node id="2301820363" version="1" timestamp="2013-05-12T20:59:56Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7245502" lon="4.2488913"/>
@@ -4121,10 +4107,7 @@
     <tag k="bus" v="yes"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="2301820907" version="1" timestamp="2013-05-12T21:00:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7340799" lon="4.2357644"/>
-  <node id="2301820915" version="1" timestamp="2013-05-12T21:00:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7340921" lon="4.2358394">
-    <tag k="highway" v="crossing"/>
-  </node>
+  <node id="2301820907" version="2" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005" lat="50.7340532" lon="4.2355652"/>
   <node id="2301820916" version="1" timestamp="2013-05-12T21:00:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7340931" lon="4.2412958"/>
   <node id="2301820919" version="1" timestamp="2013-05-12T21:00:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7341097" lon="4.2416014"/>
   <node id="2301820924" version="1" timestamp="2013-05-12T21:00:02Z" uid="15188" user="Polyglot" changeset="16102873" lat="50.7341302" lon="4.2414505">
@@ -4232,7 +4215,7 @@
   <node id="2448069778" version="1" timestamp="2013-09-06T12:54:01Z" uid="164096" user="osm_contrib" changeset="17702680" lat="50.7457353" lon="4.2198346"/>
   <node id="2449344317" version="1" timestamp="2013-09-07T12:06:38Z" uid="42033" user="Tbj" changeset="17717139" lat="50.7087367" lon="4.2366952"/>
   <node id="2449344318" version="1" timestamp="2013-09-07T12:06:38Z" uid="42033" user="Tbj" changeset="17717139" lat="50.708865" lon="4.2373606"/>
-  <node id="2451393475" version="1" timestamp="2013-09-09T08:38:47Z" uid="42033" user="Tbj" changeset="17745859" lat="50.6987932" lon="4.2313018"/>
+  <node id="2451393475" version="2" timestamp="2017-03-28T20:06:39Z" uid="71942" user="henke54" changeset="47241000" lat="50.6988476" lon="4.2313018"/>
   <node id="2473321710" version="1" timestamp="2013-09-27T10:23:46Z" uid="164096" user="osm_contrib" changeset="18059085" lat="50.7265423" lon="4.216864"/>
   <node id="2484195969" version="1" timestamp="2013-10-05T20:41:18Z" uid="526137" user="Van Heddegem Roeland" changeset="18202661" lat="50.7163129" lon="4.2422746"/>
   <node id="2484195974" version="1" timestamp="2013-10-05T20:41:18Z" uid="526137" user="Van Heddegem Roeland" changeset="18202661" lat="50.7155504" lon="4.2434835"/>
@@ -5519,7 +5502,7 @@
   <node id="3910303583" version="1" timestamp="2015-12-26T09:08:02Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.734582" lon="4.2285373"/>
   <node id="3910303585" version="1" timestamp="2015-12-26T09:08:02Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7348371" lon="4.229626"/>
   <node id="3910316868" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.736763" lon="4.230664"/>
-  <node id="3910316869" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7366323" lon="4.2306077"/>
+  <node id="3910316869" version="2" timestamp="2017-02-28T08:57:23Z" uid="683726" user="leonlapin" changeset="46462014" lat="50.7366185" lon="4.2306339"/>
   <node id="3910316870" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7367749" lon="4.2311817"/>
   <node id="3910316871" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7368182" lon="4.2305071"/>
   <node id="3910316872" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7368139" lon="4.2312004"/>
@@ -5527,11 +5510,11 @@
   <node id="3910316874" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7368665" lon="4.2302161"/>
   <node id="3910316875" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.736791" lon="4.2307431"/>
   <node id="3910316876" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7368996" lon="4.2309094"/>
-  <node id="3910316877" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7367155" lon="4.2305795"/>
-  <node id="3910316878" version="1" timestamp="2015-12-26T09:20:11Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7367672" lon="4.2306989"/>
+  <node id="3910316877" version="2" timestamp="2017-02-28T08:57:23Z" uid="683726" user="leonlapin" changeset="46462014" lat="50.7367236" lon="4.2306317"/>
+  <node id="3910316878" version="2" timestamp="2017-02-28T08:57:23Z" uid="683726" user="leonlapin" changeset="46462014" lat="50.7367701" lon="4.23072"/>
   <node id="3910316879" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7368377" lon="4.2311897"/>
   <node id="3910316880" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7365122" lon="4.2308462"/>
-  <node id="3910316881" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7367664" lon="4.2303783"/>
+  <node id="3910316881" version="2" timestamp="2017-02-28T08:57:24Z" uid="683726" user="leonlapin" changeset="46462014" lat="50.7367068" lon="4.2303524"/>
   <node id="3910316882" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7367876" lon="4.2305835"/>
   <node id="3910316883" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7364535" lon="4.2309628"/>
   <node id="3910316884" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7369501" lon="4.2306092"/>
@@ -5541,7 +5524,7 @@
   <node id="3910316888" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7368496" lon="4.2304065"/>
   <node id="3910316889" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7368377" lon="4.2308088"/>
   <node id="3910316890" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.736903" lon="4.231069"/>
-  <node id="3910316891" version="1" timestamp="2015-12-26T09:20:12Z" uid="67832" user="joost schouppe" changeset="36172720" lat="50.7366569" lon="4.2305822"/>
+  <node id="3910316891" version="2" timestamp="2017-02-28T08:57:24Z" uid="683726" user="leonlapin" changeset="46462014" lat="50.7366667" lon="4.2306184"/>
   <node id="3910364759" version="1" timestamp="2015-12-26T10:02:37Z" uid="67832" user="joost schouppe" changeset="36173404" lat="50.736387" lon="4.2267453"/>
   <node id="3910364760" version="1" timestamp="2015-12-26T10:02:37Z" uid="67832" user="joost schouppe" changeset="36173404" lat="50.7350867" lon="4.228832"/>
   <node id="3910364761" version="1" timestamp="2015-12-26T10:02:37Z" uid="67832" user="joost schouppe" changeset="36173404" lat="50.7357587" lon="4.227201"/>
@@ -5973,7 +5956,6 @@
   <node id="3927232975" version="1" timestamp="2016-01-04T15:32:59Z" uid="67832" user="joost schouppe" changeset="36361314" lat="50.7028846" lon="4.2482924"/>
   <node id="3927233007" version="1" timestamp="2016-01-04T15:33:00Z" uid="67832" user="joost schouppe" changeset="36361314" lat="50.7035147" lon="4.2474817"/>
   <node id="3927233177" version="1" timestamp="2016-01-04T15:33:01Z" uid="67832" user="joost schouppe" changeset="36361314" lat="50.7039071" lon="4.2510491"/>
-  <node id="3928399828" version="1" timestamp="2016-01-05T10:35:08Z" uid="67832" user="joost schouppe" changeset="36376634" lat="50.7220582" lon="4.2721435"/>
   <node id="3934060487" version="1" timestamp="2016-01-08T16:00:19Z" uid="67832" user="joost schouppe" changeset="36447679" lat="50.7253617" lon="4.214092"/>
   <node id="3934060503" version="1" timestamp="2016-01-08T16:00:19Z" uid="67832" user="joost schouppe" changeset="36447679" lat="50.7249105" lon="4.2144476"/>
   <node id="3935649297" version="1" timestamp="2016-01-09T10:55:32Z" uid="67832" user="joost schouppe" changeset="36461217" lat="50.7256127" lon="4.2157059"/>
@@ -6335,8 +6317,8 @@
   <node id="4256115425" version="1" timestamp="2016-06-21T10:33:27Z" uid="67832" user="joost schouppe" changeset="40177613" lat="50.7425665" lon="4.2683768"/>
   <node id="4256662733" version="2" timestamp="2017-01-15T11:43:24Z" uid="591881" user="Patchi" changeset="45188449" lat="50.6971427" lon="4.2417509"/>
   <node id="4256662738" version="2" timestamp="2017-02-03T12:22:15Z" uid="428001" user="wegspotter" changeset="45776836" lat="50.7017072" lon="4.2575194"/>
-  <node id="4258324052" version="1" timestamp="2016-06-22T09:37:59Z" uid="67832" user="joost schouppe" changeset="40200383" lat="50.6991617" lon="4.2602119"/>
-  <node id="4258324053" version="1" timestamp="2016-06-22T09:37:59Z" uid="67832" user="joost schouppe" changeset="40200383" lat="50.6988649" lon="4.2607609"/>
+  <node id="4258324052" version="2" timestamp="2017-03-24T17:36:40Z" uid="71942" user="henke54" changeset="47130435" lat="50.6991736" lon="4.2601958"/>
+  <node id="4258324053" version="2" timestamp="2017-03-24T17:36:40Z" uid="71942" user="henke54" changeset="47130435" lat="50.6988912" lon="4.2607462"/>
   <node id="4260096807" version="1" timestamp="2016-06-23T08:53:55Z" uid="67832" user="joost schouppe" changeset="40223389" lat="50.732752" lon="4.241498"/>
   <node id="4260096808" version="1" timestamp="2016-06-23T08:53:55Z" uid="67832" user="joost schouppe" changeset="40223389" lat="50.7334318" lon="4.2407218"/>
   <node id="4286657220" version="1" timestamp="2016-07-06T20:22:56Z" uid="67832" user="joost schouppe" changeset="40529033" lat="50.7324139" lon="4.2379379"/>
@@ -6926,8 +6908,8 @@
   <node id="4354147210" version="1" timestamp="2016-08-17T15:21:42Z" uid="67832" user="joost schouppe" changeset="41514552" lat="50.7304664" lon="4.2371078"/>
   <node id="4354147211" version="1" timestamp="2016-08-17T15:21:42Z" uid="67832" user="joost schouppe" changeset="41514552" lat="50.73061" lon="4.2372674"/>
   <node id="4354154163" version="1" timestamp="2016-08-17T15:27:07Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.7336613" lon="4.2343357"/>
-  <node id="4354154164" version="1" timestamp="2016-08-17T15:27:07Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.7337315" lon="4.2343788"/>
-  <node id="4354154165" version="1" timestamp="2016-08-17T15:27:07Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.733882" lon="4.2344411"/>
+  <node id="4354154164" version="2" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005" lat="50.7337213" lon="4.2344418"/>
+  <node id="4354154165" version="2" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005" lat="50.733882" lon="4.2345068"/>
   <node id="4354154166" version="1" timestamp="2016-08-17T15:27:07Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.7340651" lon="4.2346705"/>
   <node id="4354154167" version="1" timestamp="2016-08-17T15:27:07Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.733569" lon="4.2348396"/>
   <node id="4354154168" version="1" timestamp="2016-08-17T15:27:07Z" uid="67832" user="joost schouppe" changeset="41514666" lat="50.7333371" lon="4.2351032"/>
@@ -6950,7 +6932,7 @@
   <node id="4355293011" version="1" timestamp="2016-08-18T09:36:56Z" uid="318227" user="swift11" changeset="41529912" lat="50.7614981" lon="4.2206394"/>
   <node id="4355293012" version="1" timestamp="2016-08-18T09:36:56Z" uid="318227" user="swift11" changeset="41529912" lat="50.7614598" lon="4.2207331"/>
   <node id="4357101575" version="1" timestamp="2016-08-19T06:40:43Z" uid="67832" user="joost schouppe" changeset="41549580" lat="50.7361343" lon="4.2363093"/>
-  <node id="4357101576" version="1" timestamp="2016-08-19T06:40:43Z" uid="67832" user="joost schouppe" changeset="41549580" lat="50.7359186" lon="4.2356154"/>
+  <node id="4357101576" version="2" timestamp="2017-03-13T14:49:36Z" uid="67832" user="joost schouppe" changeset="46815052" lat="50.7359237" lon="4.2357549"/>
   <node id="4357198128" version="1" timestamp="2016-08-19T08:36:02Z" uid="67832" user="joost schouppe" changeset="41551054" lat="50.7141232" lon="4.2244209"/>
   <node id="4357198131" version="1" timestamp="2016-08-19T08:36:02Z" uid="67832" user="joost schouppe" changeset="41551054" lat="50.7136473" lon="4.2242393"/>
   <node id="4357198132" version="1" timestamp="2016-08-19T08:36:03Z" uid="67832" user="joost schouppe" changeset="41551054" lat="50.7137404" lon="4.2242078"/>
@@ -8365,7 +8347,7 @@
   <node id="4659250923" version="1" timestamp="2017-02-03T11:02:49Z" uid="428001" user="wegspotter" changeset="45775031" lat="50.704107" lon="4.2677501"/>
   <node id="4659250924" version="1" timestamp="2017-02-03T11:02:49Z" uid="428001" user="wegspotter" changeset="45775031" lat="50.7036433" lon="4.2672298"/>
   <node id="4659250925" version="1" timestamp="2017-02-03T11:02:49Z" uid="428001" user="wegspotter" changeset="45775031" lat="50.7032571" lon="4.2667942"/>
-  <node id="4659267286" version="1" timestamp="2017-02-03T11:13:07Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.7000205" lon="4.2639521"/>
+  <node id="4659267286" version="2" timestamp="2017-03-24T17:36:40Z" uid="71942" user="henke54" changeset="47130435" lat="50.7000133" lon="4.2639541"/>
   <node id="4659271491" version="1" timestamp="2017-02-03T11:13:07Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.696626" lon="4.2645556"/>
   <node id="4659271492" version="1" timestamp="2017-02-03T11:13:07Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6961639" lon="4.2643732"/>
   <node id="4659271493" version="1" timestamp="2017-02-03T11:13:07Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6964324" lon="4.2644403"/>
@@ -8384,7 +8366,7 @@
   <node id="4659271507" version="1" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6991999" lon="4.2642632"/>
   <node id="4659271508" version="1" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6998387" lon="4.2647595"/>
   <node id="4659271509" version="1" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6999678" lon="4.2640648"/>
-  <node id="4659271511" version="1" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6998115" lon="4.2640835"/>
+  <node id="4659271511" version="2" timestamp="2017-03-24T17:36:40Z" uid="71942" user="henke54" changeset="47130435" lat="50.6997903" lon="4.2640862"/>
   <node id="4659271512" version="1" timestamp="2017-02-03T11:13:08Z" uid="428001" user="wegspotter" changeset="45775271" lat="50.6994174" lon="4.2641399"/>
   <node id="4659455194" version="1" timestamp="2017-02-03T12:22:13Z" uid="428001" user="wegspotter" changeset="45776836" lat="50.695571" lon="4.2630629"/>
   <node id="4659455195" version="1" timestamp="2017-02-03T12:22:13Z" uid="428001" user="wegspotter" changeset="45776836" lat="50.6955625" lon="4.2624085"/>
@@ -8631,6 +8613,54 @@
   <node id="4665595223" version="1" timestamp="2017-02-05T15:37:48Z" uid="428001" user="wegspotter" changeset="45832162" lat="50.7027626" lon="4.1977792"/>
   <node id="4676659578" version="1" timestamp="2017-02-09T14:01:39Z" uid="67832" user="joost schouppe" changeset="45947961" lat="50.7401699" lon="4.2141742"/>
   <node id="4676659579" version="1" timestamp="2017-02-09T14:01:39Z" uid="67832" user="joost schouppe" changeset="45947961" lat="50.7399901" lon="4.2160238"/>
+  <node id="4705505243" version="1" timestamp="2017-02-25T18:12:40Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7367669" lon="4.2445761"/>
+  <node id="4705505244" version="1" timestamp="2017-02-25T18:12:40Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7367583" lon="4.2446493"/>
+  <node id="4705505245" version="1" timestamp="2017-02-25T18:12:40Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7367557" lon="4.2445432"/>
+  <node id="4705505246" version="1" timestamp="2017-02-25T18:12:40Z" uid="672253" user="JanFi" changeset="46399464" lat="50.736743" lon="4.2446694"/>
+  <node id="4705505247" version="1" timestamp="2017-02-25T18:12:40Z" uid="672253" user="JanFi" changeset="46399464" lat="50.7366997" lon="4.2446871"/>
+  <node id="4732311083" version="1" timestamp="2017-03-13T14:49:35Z" uid="67832" user="joost schouppe" changeset="46815052" lat="50.7354922" lon="4.2352553"/>
+  <node id="4732313608" version="1" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005" lat="50.7341455" lon="4.2360571"/>
+  <node id="4749452340" version="1" timestamp="2017-03-22T19:39:04Z" uid="71942" user="henke54" changeset="47077018" lat="50.7218841" lon="4.2682216"/>
+  <node id="4749452341" version="1" timestamp="2017-03-22T19:39:04Z" uid="71942" user="henke54" changeset="47077018" lat="50.722046" lon="4.2683811"/>
+  <node id="4749452342" version="1" timestamp="2017-03-22T19:39:04Z" uid="71942" user="henke54" changeset="47077018" lat="50.7219585" lon="4.2682923"/>
+  <node id="4749452343" version="1" timestamp="2017-03-22T19:39:04Z" uid="71942" user="henke54" changeset="47077018" lat="50.722173" lon="4.2685974"/>
+  <node id="4749452374" version="1" timestamp="2017-03-22T19:39:04Z" uid="71942" user="henke54" changeset="47077018" lat="50.7210356" lon="4.271229"/>
+  <node id="4753310012" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6974077" lon="4.2579163"/>
+  <node id="4753310015" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6979505" lon="4.2585474"/>
+  <node id="4753310016" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6985095" lon="4.2593474"/>
+  <node id="4753310020" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6995835" lon="4.2607666"/>
+  <node id="4753313226" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6993668" lon="4.2604631"/>
+  <node id="4753313229" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6990727" lon="4.260064"/>
+  <node id="4753313230" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6989172" lon="4.2598694"/>
+  <node id="4753313231" version="1" timestamp="2017-03-24T17:36:38Z" uid="71942" user="henke54" changeset="47130435" lat="50.6995159" lon="4.2606744"/>
+  <node id="4753313233" version="1" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.6998583" lon="4.26105"/>
+  <node id="4753313234" version="1" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7003447" lon="4.2615089"/>
+  <node id="4753313235" version="1" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7000468" lon="4.2612253"/>
+  <node id="4753313244" version="1" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7000909" lon="4.2631987"/>
+  <node id="4753313245" version="1" timestamp="2017-03-24T17:36:39Z" uid="71942" user="henke54" changeset="47130435" lat="50.7001188" lon="4.262998"/>
+  <node id="4760532096" version="1" timestamp="2017-03-28T20:06:38Z" uid="71942" user="henke54" changeset="47241000" lat="50.7045737" lon="4.2162319"/>
+  <node id="4760532101" version="1" timestamp="2017-03-28T20:06:38Z" uid="71942" user="henke54" changeset="47241000" lat="50.6987446" lon="4.2312739"/>
+  <node id="4766542457" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7382006" lon="4.2048041"/>
+  <node id="4766542458" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7382639" lon="4.2047176"/>
+  <node id="4766542459" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7385007" lon="4.2043917"/>
+  <node id="4766542460" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.738398" lon="4.2042415"/>
+  <node id="4766542461" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7383726" lon="4.2041436"/>
+  <node id="4766542462" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7383412" lon="4.2040779"/>
+  <node id="4766542463" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7382919" lon="4.2040645"/>
+  <node id="4766542464" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7381298" lon="4.2041624"/>
+  <node id="4766542465" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7380534" lon="4.2042102"/>
+  <node id="4766542466" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7381027" lon="4.2023344"/>
+  <node id="4766542467" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7380755" lon="4.2023787"/>
+  <node id="4766542468" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7380662" lon="4.2024203"/>
+  <node id="4766542469" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7380746" lon="4.2024659"/>
+  <node id="4766542470" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7381154" lon="4.2025209"/>
+  <node id="4766542471" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7381926" lon="4.2026228"/>
+  <node id="4766542472" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7382418" lon="4.2026845"/>
+  <node id="4766542473" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7383106" lon="4.202781"/>
+  <node id="4766542474" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7383641" lon="4.2028736"/>
+  <node id="4766542475" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975" lat="50.7384223" lon="4.20297"/>
+  <node id="4786185025" version="1" timestamp="2017-04-10T12:55:37Z" uid="67832" user="joost schouppe" changeset="47622260" lat="50.7209585" lon="4.2359765"/>
+  <node id="4793347980" version="1" timestamp="2017-04-14T12:45:36Z" uid="67832" user="joost schouppe" changeset="47779103" lat="50.6932374" lon="4.2601305"/>
   <way id="14884947" version="7" timestamp="2016-02-28T16:15:53Z" uid="3624994" user="bosboer" changeset="37501738">
     <nd ref="147057587"/>
     <nd ref="3908332224"/>
@@ -8668,7 +8698,7 @@
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30"/>
   </way>
-  <way id="14885166" version="8" timestamp="2016-12-02T18:15:28Z" uid="67832" user="joost schouppe" changeset="44120497">
+  <way id="14885166" version="9" timestamp="2017-03-12T21:01:56Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="147060906"/>
     <nd ref="4534630896"/>
     <nd ref="906793372"/>
@@ -8678,10 +8708,10 @@
     <nd ref="906793357"/>
     <nd ref="906793364"/>
     <nd ref="147060936"/>
-    <tag k="name" v="Monseigneur Senciestraat"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="name" v="Monseigneur Senciestraat"/>
   </way>
   <way id="14885167" version="6" timestamp="2016-02-28T16:15:53Z" uid="3624994" user="bosboer" changeset="37501738">
     <nd ref="147057593"/>
@@ -8804,18 +8834,19 @@
     <tag k="name" v="A. Vaucampslaan"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="23115859" version="2" timestamp="2013-09-11T19:06:18Z" uid="684642" user="Anfif" changeset="17788454">
+  <way id="23115859" version="3" timestamp="2017-03-12T21:01:58Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="249560138"/>
     <nd ref="249560071"/>
-    <tag k="foot" v="permissive"/>
-    <tag k="name" v="Kortestraat"/>
-    <tag k="access" v="permissive"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="permissive"/>
+    <tag k="access" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="50"/>
     <tag k="motor_vehicle" v="yes"/>
+    <tag k="name" v="Kortestraat"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="23115864" version="4" timestamp="2016-03-04T16:53:16Z" uid="67832" user="joost schouppe" changeset="37612489">
     <nd ref="249559630"/>
@@ -8849,27 +8880,30 @@
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="70"/>
   </way>
-  <way id="23116060" version="7" timestamp="2015-12-24T15:52:05Z" uid="67832" user="joost schouppe" changeset="36146713">
+  <way id="23116060" version="8" timestamp="2017-02-25T18:12:48Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561319"/>
     <nd ref="298983591"/>
     <nd ref="3220248474"/>
     <nd ref="249561408"/>
-    <tag k="name" v="Fons Vandemaelestraat"/>
     <tag k="bridge" v="yes"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Fons Vandemaelestraat"/>
   </way>
-  <way id="23116065" version="10" timestamp="2017-01-09T15:28:41Z" uid="67832" user="joost schouppe" changeset="45028752">
-    <nd ref="249561313"/>
-    <nd ref="1427516100"/>
-    <nd ref="249561510"/>
-    <nd ref="4427926405"/>
-    <nd ref="249561511"/>
-    <nd ref="2889046494"/>
-    <nd ref="249561512"/>
-    <nd ref="4598181037"/>
+  <way id="23116065" version="11" timestamp="2017-02-25T18:12:49Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="2301820982"/>
-    <tag k="name" v="Graankaai"/>
+    <nd ref="4598181037"/>
+    <nd ref="249561512"/>
+    <nd ref="2889046494"/>
+    <nd ref="249561511"/>
+    <nd ref="4427926405"/>
+    <nd ref="249561510"/>
+    <nd ref="1427516100"/>
+    <nd ref="249561313"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="23142666" version="15" timestamp="2017-01-10T10:59:20Z" uid="67832" user="joost schouppe" changeset="45047728">
     <nd ref="252625265"/>
@@ -9388,14 +9422,15 @@
     <tag k="maxspeed" v="30"/>
     <tag k="created_by" v="Potlatch 0.7b"/>
   </way>
-  <way id="23142925" version="12" timestamp="2017-01-16T13:17:03Z" uid="67832" user="joost schouppe" changeset="45215500">
+  <way id="23142925" version="13" timestamp="2017-03-18T09:34:51Z" uid="672253" user="JanFi" changeset="46951317">
     <nd ref="249936594"/>
     <nd ref="249936919"/>
     <nd ref="249937130"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="highway" v="residential"/>
     <tag k="name" v="de Lannoystraat"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="cycleway" v="opposite"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="23142929" version="3" timestamp="2017-01-16T13:27:27Z" uid="67832" user="joost schouppe" changeset="45215709">
     <nd ref="249937130"/>
@@ -9484,12 +9519,7 @@
     <tag k="name" v="Albrecht Ardevelstraat"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="23146715" version="11" timestamp="2016-02-28T16:15:51Z" uid="3624994" user="bosboer" changeset="37501738">
-    <nd ref="8697760"/>
-    <nd ref="3285963322"/>
-    <nd ref="250045026"/>
-    <nd ref="250046003"/>
-    <nd ref="3908315962"/>
+  <way id="23146715" version="13" timestamp="2017-03-12T21:01:56Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="2301820577"/>
     <nd ref="2301820579"/>
     <nd ref="250045008"/>
@@ -9497,10 +9527,10 @@
     <nd ref="1630624551"/>
     <nd ref="3286018376"/>
     <nd ref="250045027"/>
-    <tag k="name" v="Bergensesteenweg"/>
-    <tag k="highway" v="tertiary"/>
     <tag k="cycleway" v="track"/>
+    <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Bergensesteenweg"/>
   </way>
   <way id="23146724" version="7" timestamp="2017-01-10T09:59:26Z" uid="67832" user="joost schouppe" changeset="45046744">
     <nd ref="250045027"/>
@@ -9670,7 +9700,7 @@
     <tag k="maxspeed" v="30"/>
     <tag k="oneway:bicycle" v="no"/>
   </way>
-  <way id="23146845" version="8" timestamp="2016-12-03T19:22:16Z" uid="67832" user="joost schouppe" changeset="44144317">
+  <way id="23146845" version="9" timestamp="2017-03-12T21:01:55Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="147060880"/>
     <nd ref="1630624649"/>
     <nd ref="250046335"/>
@@ -9682,10 +9712,11 @@
     <nd ref="4536308343"/>
     <nd ref="250046340"/>
     <nd ref="250046341"/>
-    <tag k="name" v="Slingerweg"/>
+    <tag k="cycleway" v="track"/>
+    <tag k="cycleway:both" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="30"/>
-    <tag k="cycleway:both" v="track"/>
+    <tag k="name" v="Slingerweg"/>
   </way>
   <way id="23146851" version="8" timestamp="2016-02-28T16:15:52Z" uid="3624994" user="bosboer" changeset="37501738">
     <nd ref="147060936"/>
@@ -9808,7 +9839,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="23147170" version="9" timestamp="2014-09-24T07:45:07Z" uid="318227" user="swift11" changeset="25639584">
+  <way id="23147170" version="10" timestamp="2017-03-12T21:01:56Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="462249382"/>
     <nd ref="462249381"/>
     <nd ref="250051156"/>
@@ -9821,9 +9852,10 @@
     <nd ref="462249388"/>
     <nd ref="250051160"/>
     <nd ref="250051162"/>
-    <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="highway" v="residential"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Ziekenhuislaan"/>
   </way>
   <way id="23147173" version="8" timestamp="2016-10-18T13:36:19Z" uid="67832" user="joost schouppe" changeset="42984214">
     <nd ref="250051275"/>
@@ -10282,7 +10314,7 @@
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30"/>
   </way>
-  <way id="23148936" version="8" timestamp="2016-07-20T09:57:17Z" uid="67832" user="joost schouppe" changeset="40892304">
+  <way id="23148936" version="9" timestamp="2017-03-09T15:14:46Z" uid="67832" user="joost schouppe" changeset="46712245">
     <nd ref="250069093"/>
     <nd ref="250069095"/>
     <nd ref="250069096"/>
@@ -10294,9 +10326,9 @@
     <nd ref="410182934"/>
     <nd ref="3902608564"/>
     <nd ref="4312430759"/>
-    <tag k="name" v="Kastanjelaan"/>
     <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="90"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="name" v="Kastanjelaan"/>
   </way>
   <way id="23148969" version="5" timestamp="2016-07-26T09:24:06Z" uid="67832" user="joost schouppe" changeset="41032814">
     <nd ref="250069255"/>
@@ -10645,10 +10677,7 @@
     <tag k="name" v="Baesberg"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="23149568" version="9" timestamp="2015-03-17T20:35:25Z" uid="2046386" user="thebonnetplume" changeset="29550302">
-    <nd ref="250075350"/>
-    <nd ref="3404491347"/>
-    <nd ref="3404491336"/>
+  <way id="23149568" version="10" timestamp="2017-02-25T18:12:49Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="3404492417"/>
     <nd ref="462303687"/>
     <nd ref="3404492426"/>
@@ -10662,15 +10691,17 @@
     <nd ref="250075354"/>
     <nd ref="250075355"/>
     <nd ref="250075356"/>
-    <tag k="name" v="Zinkstraat"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Zinkstraat"/>
   </way>
-  <way id="23149896" version="14" timestamp="2009-11-15T07:02:35Z" uid="42033" user="Tbj" changeset="3119360">
+  <way id="23149896" version="15" timestamp="2017-04-17T07:07:27Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="252828666"/>
     <nd ref="252828672"/>
     <nd ref="252828667"/>
-    <tag k="name" v="Rue du Midi"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Rue du Midi"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="23329959" version="8" timestamp="2016-04-29T09:46:59Z" uid="67832" user="joost schouppe" changeset="38977159">
     <nd ref="9574131"/>
@@ -10693,14 +10724,15 @@
     <tag k="name" v="Kerkhofdreef"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="23349278" version="6" timestamp="2009-11-15T07:02:31Z" uid="42033" user="Tbj" changeset="3119360">
+  <way id="23349278" version="7" timestamp="2017-04-17T07:04:35Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="252828668"/>
     <nd ref="252828671"/>
     <nd ref="252828669"/>
     <nd ref="252828670"/>
     <nd ref="250080351"/>
-    <tag k="name" v="Rue de l&apos;Aurore"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Rue de l&apos;Aurore"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="23349295" version="12" timestamp="2017-02-05T15:23:25Z" uid="428001" user="wegspotter" changeset="45831817">
     <nd ref="252828728"/>
@@ -10752,20 +10784,22 @@
     <tag k="name" v="Hallerbosstraat"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="23489948" version="5" timestamp="2010-12-17T15:39:08Z" uid="351205" user="Daniel44" changeset="6687196">
+  <way id="23489948" version="6" timestamp="2017-02-25T18:12:49Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="250055526"/>
     <nd ref="250055527"/>
     <nd ref="254376849"/>
-    <tag k="name" v="Arenbergstraat"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Arenbergstraat"/>
   </way>
-  <way id="23489951" version="4" timestamp="2014-01-20T16:35:10Z" uid="15188" user="Polyglot" changeset="20106655">
+  <way id="23489951" version="5" timestamp="2017-02-25T18:12:50Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="250055525"/>
     <nd ref="250055526"/>
-    <tag k="name" v="Arenbergstraat"/>
-    <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Arenbergstraat"/>
   </way>
   <way id="23489958" version="9" timestamp="2016-07-25T08:19:14Z" uid="67832" user="joost schouppe" changeset="41005497">
     <nd ref="250055527"/>
@@ -10808,7 +10842,7 @@
     <tag k="name" v="Vlasmarktdreef"/>
     <tag k="highway" v="unclassified"/>
   </way>
-  <way id="23492032" version="15" timestamp="2016-07-25T13:23:09Z" uid="67832" user="joost schouppe" changeset="41012026">
+  <way id="23492032" version="16" timestamp="2017-02-25T18:12:50Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561317"/>
     <nd ref="3220248468"/>
     <nd ref="1427516109"/>
@@ -10825,11 +10859,12 @@
     <nd ref="3523909507"/>
     <nd ref="2004240830"/>
     <nd ref="1149745974"/>
-    <tag k="name" v="Jean Laroystraat"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="concrete:plates"/>
-    <tag k="maxspeed" v="50"/>
     <tag k="cycleway:right" v="track"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Jean Laroystraat"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="surface" v="concrete:plates"/>
   </way>
   <way id="23492034" version="2" timestamp="2016-10-21T11:23:04Z" uid="67832" user="joost schouppe" changeset="43056839">
     <nd ref="250046685"/>
@@ -11088,7 +11123,7 @@
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="24707082" version="10" timestamp="2009-11-15T07:02:28Z" uid="42033" user="Tbj" changeset="3119360">
+  <way id="24707082" version="11" timestamp="2017-04-17T07:06:20Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="252828631"/>
     <nd ref="250080348"/>
     <nd ref="278110786"/>
@@ -11100,14 +11135,16 @@
     <nd ref="252828665"/>
     <nd ref="281165266"/>
     <nd ref="250080351"/>
-    <tag k="name" v="Rue de Stierbecq"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Rue de Stierbecq"/>
+    <tag k="surface" v="asphalt"/>
   </way>
-  <way id="24708609" version="4" timestamp="2009-11-15T07:02:28Z" uid="42033" user="Tbj" changeset="3119360">
+  <way id="24708609" version="5" timestamp="2017-04-17T07:08:24Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="268548568"/>
     <nd ref="252828665"/>
-    <tag k="name" v="Rue de la Démocratie"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Rue de la Démocratie"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="24708610" version="4" timestamp="2009-11-15T07:02:28Z" uid="42033" user="Tbj" changeset="3119360">
     <nd ref="250080351"/>
@@ -11117,16 +11154,17 @@
     <tag k="noexit" v="yes"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="24708611" version="4" timestamp="2008-08-18T16:33:43Z" uid="42033" user="Tbj" changeset="314467">
+  <way id="24708611" version="5" timestamp="2017-04-17T07:08:46Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="268548568"/>
     <nd ref="268555274"/>
     <nd ref="289113408"/>
     <nd ref="268555275"/>
     <nd ref="289113422"/>
     <nd ref="252828664"/>
+    <tag k="highway" v="residential"/>
     <tag k="name" v="Rue de la Démocratie"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="24713343" version="5" timestamp="2017-02-05T14:30:22Z" uid="428001" user="wegspotter" changeset="45830513">
     <nd ref="249934374"/>
@@ -11210,12 +11248,13 @@
     <tag k="note" v="FIXME"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="24723435" version="9" timestamp="2009-11-15T07:02:27Z" uid="42033" user="Tbj" changeset="3119360">
+  <way id="24723435" version="10" timestamp="2017-04-17T07:05:31Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="250080351"/>
     <nd ref="281165269"/>
+    <tag k="highway" v="residential"/>
     <tag k="name" v="Rue Bel Air"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="24723484" version="7" timestamp="2009-11-27T05:47:38Z" uid="42033" user="Tbj" changeset="3225583">
     <nd ref="252828671"/>
@@ -11555,13 +11594,14 @@
     <tag k="noexit" v="yes"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="25777276" version="1" timestamp="2008-07-26T10:28:36Z" uid="42033" user="Tbj" changeset="601589">
+  <way id="25777276" version="2" timestamp="2017-04-17T07:07:49Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="281165269"/>
     <nd ref="281165267"/>
     <nd ref="281165266"/>
+    <tag k="highway" v="residential"/>
     <tag k="name" v="Rue Bel Air"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="26131784" version="7" timestamp="2017-02-04T11:39:41Z" uid="428001" user="wegspotter" changeset="45802776">
     <nd ref="577886202"/>
@@ -11607,8 +11647,9 @@
     <tag k="name" v="Rue des Déportés"/>
     <tag k="highway" v="tertiary"/>
   </way>
-  <way id="26131785" version="6" timestamp="2017-01-15T11:43:28Z" uid="591881" user="Patchi" changeset="45188449">
+  <way id="26131785" version="7" timestamp="2017-03-28T20:06:39Z" uid="71942" user="henke54" changeset="47241000">
     <nd ref="2451393475"/>
+    <nd ref="4760532101"/>
     <nd ref="253359959"/>
     <nd ref="765752114"/>
     <nd ref="765752096"/>
@@ -11628,8 +11669,8 @@
     <nd ref="300880422"/>
     <nd ref="4609527084"/>
     <nd ref="253358998"/>
-    <tag k="name" v="Avenue des Mésanges"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Avenue des Mésanges"/>
   </way>
   <way id="26264223" version="2" timestamp="2017-01-10T09:01:35Z" uid="67832" user="joost schouppe" changeset="45045683">
     <nd ref="249926487"/>
@@ -11718,15 +11759,16 @@
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
   </way>
-  <way id="27356068" version="6" timestamp="2016-11-24T07:48:11Z" uid="67832" user="joost schouppe" changeset="43912975">
+  <way id="27356068" version="7" timestamp="2017-02-25T18:12:52Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="300319610"/>
     <nd ref="249561340"/>
-    <tag k="name" v="Nederhem"/>
-    <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Nederhem"/>
   </way>
-  <way id="27356070" version="6" timestamp="2016-11-24T07:48:11Z" uid="67832" user="joost schouppe" changeset="43912975">
+  <way id="27356070" version="7" timestamp="2017-02-25T18:12:52Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561340"/>
     <nd ref="1032932241"/>
     <nd ref="249561341"/>
@@ -11736,11 +11778,12 @@
     <nd ref="4432829047"/>
     <nd ref="1427516104"/>
     <nd ref="249561315"/>
-    <tag k="name" v="Nederhem"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Nederhem"/>
   </way>
-  <way id="27379896" version="7" timestamp="2017-02-05T15:03:05Z" uid="428001" user="wegspotter" changeset="45831340">
-    <nd ref="300564538"/>
+  <way id="27379896" version="8" timestamp="2017-03-28T20:06:39Z" uid="71942" user="henke54" changeset="47241000">
+    <nd ref="4760532096"/>
     <nd ref="416944196"/>
     <nd ref="3925857293"/>
     <nd ref="300564458"/>
@@ -11749,8 +11792,8 @@
     <nd ref="4665534218"/>
     <nd ref="4665534217"/>
     <nd ref="249939671"/>
-    <tag k="foot" v="yes"/>
     <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="service"/>
     <tag k="motorcycle" v="no"/>
     <tag k="motor_vehicle" v="no"/>
@@ -11906,7 +11949,7 @@
     <tag k="name" v="Mussenberg"/>
     <tag k="highway" v="unclassified"/>
   </way>
-  <way id="28887204" version="10" timestamp="2017-02-03T11:13:09Z" uid="428001" user="wegspotter" changeset="45775271">
+  <way id="28887204" version="11" timestamp="2017-03-24T17:36:40Z" uid="71942" user="henke54" changeset="47130435">
     <nd ref="249937584"/>
     <nd ref="250056102"/>
     <nd ref="765752072"/>
@@ -11928,14 +11971,16 @@
     <nd ref="250056112"/>
     <nd ref="253361458"/>
     <nd ref="250056113"/>
+    <nd ref="4753313245"/>
+    <nd ref="4753313244"/>
     <nd ref="250056114"/>
     <nd ref="250056115"/>
     <nd ref="4659267286"/>
     <nd ref="305725778"/>
     <nd ref="250056116"/>
-    <tag k="name" v="Kasteelbrakelsesteenweg"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Kasteelbrakelsesteenweg"/>
   </way>
   <way id="28903529" version="3" timestamp="2009-05-25T16:02:33Z" uid="42033" user="Tbj" changeset="1317129">
     <nd ref="317709424"/>
@@ -12498,14 +12543,14 @@
     <tag k="name" v="Joseph Possozplein"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="33421402" version="4" timestamp="2016-04-29T08:50:22Z" uid="67832" user="joost schouppe" changeset="38976042">
+  <way id="33421402" version="5" timestamp="2017-02-25T18:12:55Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="250046341"/>
-    <nd ref="250045467"/>
     <nd ref="4155155541"/>
     <nd ref="3220248665"/>
     <nd ref="249561408"/>
-    <tag k="name" v="Willamekaai"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Willamekaai"/>
   </way>
   <way id="33421404" version="7" timestamp="2016-07-23T06:57:07Z" uid="67832" user="joost schouppe" changeset="40965365">
     <nd ref="249561408"/>
@@ -12889,7 +12934,7 @@
     <nd ref="1833493456"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="38910198" version="3" timestamp="2016-11-08T08:18:09Z" uid="67832" user="joost schouppe" changeset="43481291">
+  <way id="38910198" version="4" timestamp="2017-02-25T18:12:56Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="150597830"/>
     <nd ref="462233176"/>
     <nd ref="462233177"/>
@@ -12901,7 +12946,6 @@
     <nd ref="1390136452"/>
     <nd ref="472472536"/>
     <tag k="highway" v="service"/>
-    <tag k="service" v="alley"/>
   </way>
   <way id="38910217" version="2" timestamp="2011-07-12T14:22:03Z" uid="385466" user="RoRay" changeset="8703622">
     <nd ref="249560488"/>
@@ -12974,7 +13018,7 @@
     <nd ref="462244988"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="38911570" version="5" timestamp="2015-12-26T10:02:43Z" uid="67832" user="joost schouppe" changeset="36173404">
+  <way id="38911570" version="7" timestamp="2017-03-19T04:19:52Z" uid="672253" user="JanFi" changeset="46971668">
     <nd ref="462249382"/>
     <nd ref="3910364853"/>
     <nd ref="462249391"/>
@@ -12985,13 +13029,11 @@
     <nd ref="3287456224"/>
     <nd ref="3287456225"/>
     <nd ref="462249394"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="highway" v="service"/>
+    <tag k="motor_vehicle" v="yes"/>
   </way>
-  <way id="38911572" version="5" timestamp="2013-05-12T21:07:21Z" uid="15188" user="Polyglot" changeset="16102873">
-    <nd ref="462249395"/>
-    <nd ref="462249416"/>
-    <nd ref="462249415"/>
-    <nd ref="462249414"/>
+  <way id="38911572" version="6" timestamp="2017-03-19T04:19:52Z" uid="672253" user="JanFi" changeset="46971668">
     <nd ref="462249413"/>
     <nd ref="462249412"/>
     <nd ref="462249411"/>
@@ -13003,7 +13045,7 @@
     <nd ref="462249405"/>
     <nd ref="462249404"/>
     <tag k="highway" v="service"/>
-    <tag k="junction" v="roundabout"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="38911701" version="7" timestamp="2017-01-16T13:39:25Z" uid="67832" user="joost schouppe" changeset="45216000">
     <nd ref="268616210"/>
@@ -13036,13 +13078,14 @@
     <tag k="name" v="Handbooghof"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="38914779" version="4" timestamp="2016-12-15T10:28:12Z" uid="4351319" user="Rik Houthuys" changeset="44419628">
+  <way id="38914779" version="5" timestamp="2017-03-13T14:49:36Z" uid="67832" user="joost schouppe" changeset="46815052">
     <nd ref="147070964"/>
     <nd ref="462276973"/>
+    <nd ref="4732311083"/>
     <nd ref="250044887"/>
-    <tag k="name" v="Nieuwstraat"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Nieuwstraat"/>
   </way>
   <way id="38914899" version="5" timestamp="2016-02-28T16:15:51Z" uid="3624994" user="bosboer" changeset="37501738">
     <nd ref="250044874"/>
@@ -13280,7 +13323,7 @@
     <tag k="oneway:bicycle" v="no"/>
     <tag k="destination:forward" v="Sint-Pieters-Leeuw"/>
   </way>
-  <way id="39447099" version="4" timestamp="2014-01-14T23:58:19Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="39447099" version="5" timestamp="2017-03-12T21:01:58Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="249302509"/>
     <nd ref="2188685516"/>
     <nd ref="2188685522"/>
@@ -13291,8 +13334,9 @@
     <nd ref="249302673"/>
     <nd ref="249302674"/>
     <nd ref="249302675"/>
-    <tag k="name" v="Guido Gezellestraat"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Guido Gezellestraat"/>
   </way>
   <way id="39447100" version="1" timestamp="2009-08-23T22:12:38Z" uid="246" user="moyogo" changeset="2236863">
     <nd ref="249560140"/>
@@ -13353,18 +13397,19 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="39447346" version="4" timestamp="2014-01-14T22:09:31Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="39447346" version="5" timestamp="2017-02-25T18:12:56Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1630624629"/>
     <nd ref="1630624633"/>
     <nd ref="1630624638"/>
     <nd ref="1630624643"/>
     <nd ref="249561333"/>
-    <tag k="name" v="Vandenpeereboomstraat"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Vandenpeereboomstraat"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="39447348" version="5" timestamp="2014-03-08T07:51:56Z" uid="15188" user="Polyglot" changeset="20982824">
+  <way id="39447348" version="6" timestamp="2017-02-25T18:12:56Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561315"/>
     <nd ref="1427516105"/>
     <nd ref="1149746049"/>
@@ -13372,10 +13417,11 @@
     <nd ref="1427516108"/>
     <nd ref="1149745972"/>
     <nd ref="249561317"/>
-    <tag k="name" v="Graankaai"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="39447591" version="7" timestamp="2016-07-06T20:22:58Z" uid="67832" user="joost schouppe" changeset="40529033">
     <nd ref="472464162"/>
@@ -13390,27 +13436,29 @@
     <tag k="cycleway" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
   </way>
-  <way id="39447592" version="3" timestamp="2014-03-08T07:51:56Z" uid="15188" user="Polyglot" changeset="20982824">
+  <way id="39447592" version="4" timestamp="2017-02-25T18:12:56Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561313"/>
     <nd ref="1427516101"/>
     <nd ref="1427516102"/>
     <nd ref="249561314"/>
     <nd ref="249561315"/>
-    <tag k="name" v="Graankaai"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="39447593" version="3" timestamp="2014-03-08T07:51:56Z" uid="15188" user="Polyglot" changeset="20982824">
+  <way id="39447593" version="4" timestamp="2017-02-25T18:12:56Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561317"/>
     <nd ref="249561318"/>
     <nd ref="1427516107"/>
     <nd ref="1427516106"/>
     <nd ref="249561319"/>
-    <tag k="name" v="Graankaai"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="39447629" version="3" timestamp="2013-04-16T12:30:43Z" uid="551296" user="JeroenVu" changeset="15749200">
     <nd ref="249561513"/>
@@ -13424,7 +13472,7 @@
     <tag k="name" v="Graankaai"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="39447630" version="3" timestamp="2013-04-16T12:30:43Z" uid="551296" user="JeroenVu" changeset="15749200">
+  <way id="39447630" version="4" timestamp="2017-02-25T18:12:56Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561517"/>
     <nd ref="2187356603"/>
     <nd ref="2187356607"/>
@@ -13433,8 +13481,10 @@
     <nd ref="249561519"/>
     <nd ref="2187356623"/>
     <nd ref="249561513"/>
-    <tag k="name" v="Graankaai"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="39448415" version="2" timestamp="2014-01-14T23:58:18Z" uid="15188" user="Polyglot" changeset="20001357">
     <nd ref="254397908"/>
@@ -13631,16 +13681,21 @@
     <tag k="name" v="Gemeenteplein"/>
     <tag k="highway" v="tertiary"/>
   </way>
-  <way id="41856202" version="2" timestamp="2016-07-06T20:40:33Z" uid="67832" user="joost schouppe" changeset="40529346">
+  <way id="41856202" version="3" timestamp="2017-02-25T18:13:01Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="517528034"/>
+    <nd ref="4705505247"/>
+    <nd ref="4705505246"/>
+    <nd ref="4705505244"/>
     <nd ref="517528031"/>
+    <nd ref="4705505243"/>
+    <nd ref="4705505245"/>
     <nd ref="517528029"/>
     <nd ref="517528021"/>
     <nd ref="517528017"/>
     <nd ref="517528014"/>
     <nd ref="250068508"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="service"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="41856210" version="3" timestamp="2011-04-26T12:04:11Z" uid="444808" user="JohanDeWitte" changeset="7974032">
     <nd ref="517528075"/>
@@ -13781,14 +13836,15 @@
     <tag k="highway" v="residential"/>
     <tag k="cycleway" v="opposite_lane"/>
   </way>
-  <way id="45096384" version="1" timestamp="2009-11-27T05:47:38Z" uid="42033" user="Tbj" changeset="3225583">
+  <way id="45096384" version="2" timestamp="2017-04-17T07:05:58Z" uid="42033" user="Tbj" changeset="47858653">
     <nd ref="252828672"/>
     <nd ref="268718426"/>
+    <tag k="highway" v="residential"/>
     <tag k="name" v="Rue de la Briqueterie"/>
     <tag k="noexit" v="yes"/>
-    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
   </way>
-  <way id="47853541" version="11" timestamp="2017-02-03T13:16:48Z" uid="428001" user="wegspotter" changeset="45778116">
+  <way id="47853541" version="12" timestamp="2017-04-14T12:45:39Z" uid="67832" user="joost schouppe" changeset="47779103">
     <nd ref="305773836"/>
     <nd ref="4659589287"/>
     <nd ref="4659589286"/>
@@ -13803,6 +13859,7 @@
     <nd ref="305773842"/>
     <nd ref="4659589268"/>
     <nd ref="305773843"/>
+    <nd ref="4793347980"/>
     <nd ref="305773844"/>
     <nd ref="305773845"/>
     <nd ref="4398021001"/>
@@ -13856,8 +13913,8 @@
     <nd ref="305773868"/>
     <nd ref="305773869"/>
     <nd ref="305725774"/>
-    <tag k="name" v="Rue Mathias"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Rue Mathias"/>
   </way>
   <way id="53589039" version="4" timestamp="2016-07-25T08:19:15Z" uid="67832" user="joost schouppe" changeset="41005497">
     <nd ref="249937569"/>
@@ -14273,11 +14330,12 @@
     <nd ref="991062939"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="86814096" version="2" timestamp="2012-01-17T08:52:54Z" uid="400464" user="Regio Antwerpen-Brabant Deltamedia" changeset="10415516">
+  <way id="86814096" version="3" timestamp="2017-04-10T12:55:37Z" uid="67832" user="joost schouppe" changeset="47622260">
     <nd ref="256854992"/>
     <nd ref="252625265"/>
-    <tag k="name" v="Rodenemplein"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Rodenemplein"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="86814098" version="2" timestamp="2010-12-17T16:14:23Z" uid="351205" user="Daniel44" changeset="6687196">
     <nd ref="972417020"/>
@@ -14418,28 +14476,6 @@
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
   </way>
-  <way id="89977822" version="6" timestamp="2016-01-05T10:35:11Z" uid="67832" user="joost schouppe" changeset="36376634">
-    <nd ref="254376849"/>
-    <nd ref="250055528"/>
-    <nd ref="250055529"/>
-    <nd ref="250055530"/>
-    <nd ref="2301820323"/>
-    <nd ref="250055531"/>
-    <nd ref="1152967296"/>
-    <nd ref="250055532"/>
-    <nd ref="254376555"/>
-    <nd ref="250055533"/>
-    <nd ref="3928399828"/>
-    <nd ref="250055534"/>
-    <nd ref="2301820346"/>
-    <nd ref="250055535"/>
-    <nd ref="1152968827"/>
-    <nd ref="254376387"/>
-    <nd ref="250055536"/>
-    <nd ref="250055537"/>
-    <tag k="name" v="Krabos"/>
-    <tag k="highway" v="tertiary"/>
-  </way>
   <way id="89980065" version="3" timestamp="2016-04-29T09:46:59Z" uid="67832" user="joost schouppe" changeset="38977159">
     <nd ref="250057690"/>
     <nd ref="250055083"/>
@@ -14456,14 +14492,15 @@
     <tag k="name" v="Driepikkel"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="89981420" version="2" timestamp="2010-12-17T16:09:19Z" uid="351205" user="Daniel44" changeset="6687196">
+  <way id="89981420" version="3" timestamp="2017-04-10T12:55:37Z" uid="67832" user="joost schouppe" changeset="47622260">
     <nd ref="948264364"/>
     <nd ref="256855115"/>
+    <nd ref="4786185025"/>
     <nd ref="256855116"/>
     <nd ref="256855117"/>
     <nd ref="256855118"/>
-    <tag k="name" v="Resteleurs"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Resteleurs"/>
   </way>
   <way id="89981457" version="3" timestamp="2010-12-17T16:12:12Z" uid="351205" user="Daniel44" changeset="6687196">
     <nd ref="256854985"/>
@@ -14677,30 +14714,28 @@
     <tag k="name" v="Volderstraat"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="108890691" version="7" timestamp="2016-03-20T20:26:13Z" uid="67832" user="joost schouppe" changeset="37963398">
-    <nd ref="1248287747"/>
-    <nd ref="4070423480"/>
-    <nd ref="249560050"/>
-    <nd ref="249560051"/>
-    <nd ref="249560151"/>
-    <nd ref="249560052"/>
-    <nd ref="249560053"/>
-    <nd ref="249560054"/>
-    <nd ref="249560055"/>
-    <nd ref="249560056"/>
-    <nd ref="249560057"/>
-    <nd ref="249560058"/>
-    <nd ref="249560059"/>
-    <nd ref="249560060"/>
-    <nd ref="249560061"/>
-    <nd ref="4038399954"/>
-    <nd ref="249560062"/>
-    <nd ref="4038400063"/>
-    <nd ref="249560063"/>
+  <way id="108890691" version="9" timestamp="2017-03-19T04:19:55Z" uid="672253" user="JanFi" changeset="46971668">
     <nd ref="249560064"/>
-    <tag k="name" v="Gustave Demeurslaan"/>
-    <tag k="oneway" v="no"/>
+    <nd ref="249560063"/>
+    <nd ref="4038400063"/>
+    <nd ref="249560062"/>
+    <nd ref="4038399954"/>
+    <nd ref="249560061"/>
+    <nd ref="249560060"/>
+    <nd ref="249560059"/>
+    <nd ref="249560058"/>
+    <nd ref="249560057"/>
+    <nd ref="249560056"/>
+    <nd ref="249560055"/>
+    <nd ref="249560054"/>
+    <nd ref="249560053"/>
+    <nd ref="249560052"/>
+    <nd ref="249560151"/>
+    <nd ref="249560051"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Gustave Demeurslaan"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="121410125" version="4" timestamp="2016-07-26T13:14:40Z" uid="67832" user="joost schouppe" changeset="41037808">
     <nd ref="250069255"/>
@@ -14861,15 +14896,16 @@
     <tag k="name" v="Octave de Kerchove d&apos;Exaerderstraat"/>
     <tag k="highway" v="tertiary"/>
   </way>
-  <way id="121412758" version="7" timestamp="2015-12-28T09:35:08Z" uid="67832" user="joost schouppe" changeset="36215154">
+  <way id="121412758" version="8" timestamp="2017-02-25T18:13:05Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="254397779"/>
     <nd ref="1763105798"/>
     <nd ref="1763105665"/>
     <nd ref="1763105668"/>
     <nd ref="462233730"/>
-    <tag k="name" v="Felix Roggemanskaai"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="70"/>
+    <tag k="name" v="Felix Roggemanskaai"/>
   </way>
   <way id="121412759" version="3" timestamp="2013-03-05T18:25:27Z" uid="6072" user="Eimai" changeset="15261835">
     <nd ref="462232443"/>
@@ -14945,7 +14981,7 @@
     <tag k="name" v="Dokter Spitaelslaan"/>
     <tag k="highway" v="tertiary"/>
   </way>
-  <way id="121661713" version="3" timestamp="2014-01-20T21:08:19Z" uid="15188" user="Polyglot" changeset="20111870">
+  <way id="121661713" version="4" timestamp="2017-03-12T21:01:57Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="249938111"/>
     <nd ref="1833503313"/>
     <nd ref="1833503406"/>
@@ -14967,8 +15003,9 @@
     <nd ref="249938099"/>
     <nd ref="249938098"/>
     <nd ref="249937726"/>
-    <tag k="name" v="Dokter Spitaelslaan"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Dokter Spitaelslaan"/>
   </way>
   <way id="121661714" version="3" timestamp="2016-01-04T15:33:08Z" uid="67832" user="joost schouppe" changeset="36361314">
     <nd ref="249938539"/>
@@ -15140,20 +15177,21 @@
     <tag k="surface" v="concrete"/>
     <tag k="smoothness" v="bad"/>
   </way>
-  <way id="121671626" version="7" timestamp="2016-11-07T19:18:07Z" uid="428001" user="wegspotter" changeset="43471255">
+  <way id="121671626" version="8" timestamp="2017-03-31T08:54:09Z" uid="428001" user="wegspotter" changeset="47317975">
     <nd ref="268616183"/>
     <nd ref="1609029453"/>
     <nd ref="1609029444"/>
     <nd ref="268616184"/>
+    <nd ref="4766542475"/>
     <nd ref="268616185"/>
     <nd ref="1609029435"/>
     <nd ref="4487446147"/>
     <nd ref="268616243"/>
     <nd ref="1582833710"/>
-    <tag k="name" v="Beertsestraat"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="concrete"/>
+    <tag k="name" v="Beertsestraat"/>
     <tag k="smoothness" v="bad"/>
+    <tag k="surface" v="concrete"/>
   </way>
   <way id="121671627" version="2" timestamp="2014-09-23T10:53:53Z" uid="318227" user="swift11" changeset="25622371">
     <nd ref="271111097"/>
@@ -15177,16 +15215,20 @@
     <tag k="name" v="Sterrestraat"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="125088900" version="1" timestamp="2011-08-07T20:22:51Z" uid="116644" user="p-h" changeset="8951471">
+  <way id="125088900" version="2" timestamp="2017-03-22T19:39:18Z" uid="71942" user="henke54" changeset="47077018">
     <nd ref="1137597060"/>
+    <nd ref="4749452343"/>
     <nd ref="1137597061"/>
+    <nd ref="4749452341"/>
+    <nd ref="4749452342"/>
+    <nd ref="4749452340"/>
     <nd ref="1137597063"/>
     <nd ref="1137597064"/>
     <nd ref="1137597065"/>
     <nd ref="1137597067"/>
     <nd ref="517870192"/>
-    <tag k="name" v="Hazenberg"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Hazenberg"/>
   </way>
   <way id="126341159" version="3" timestamp="2015-12-22T15:38:52Z" uid="67832" user="joost schouppe" changeset="36108015">
     <nd ref="1400818215"/>
@@ -15502,19 +15544,19 @@
     <tag k="name" v="Ziekenhuislaan"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="140837129" version="6" timestamp="2016-02-28T16:15:50Z" uid="3624994" user="bosboer" changeset="37501738">
+  <way id="140837129" version="7" timestamp="2017-03-13T14:47:52Z" uid="67832" user="joost schouppe" changeset="46815005">
     <nd ref="2301820956"/>
     <nd ref="250046285"/>
+    <nd ref="4732313608"/>
     <nd ref="250046281"/>
-    <nd ref="2301820915"/>
     <nd ref="2301820907"/>
     <nd ref="462277969"/>
     <nd ref="462277968"/>
     <nd ref="462277972"/>
-    <tag k="name" v="Vuurkruisenstraat"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Vuurkruisenstraat"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="140871298" version="3" timestamp="2016-07-23T06:57:06Z" uid="67832" user="joost schouppe" changeset="40965365">
     <nd ref="249561411"/>
@@ -15789,16 +15831,18 @@
     <tag k="name" v="Vosholenweg"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="144782845" version="4" timestamp="2014-09-25T10:00:12Z" uid="318227" user="swift11" changeset="25661449">
+  <way id="144782845" version="5" timestamp="2017-03-31T08:54:09Z" uid="428001" user="wegspotter" changeset="47317975">
     <nd ref="1582833710"/>
+    <nd ref="4766542465"/>
     <nd ref="1582833717"/>
     <nd ref="1582833723"/>
+    <nd ref="4766542457"/>
     <nd ref="1609029436"/>
     <nd ref="1582833727"/>
     <nd ref="1582833729"/>
     <nd ref="1498778133"/>
-    <tag k="name" v="Elbeekdries"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Elbeekdries"/>
   </way>
   <way id="146362627" version="3" timestamp="2016-01-11T10:19:42Z" uid="67832" user="joost schouppe" changeset="36499732">
     <nd ref="249931147"/>
@@ -16191,7 +16235,7 @@
     <tag k="name" v="Windmolenstraat"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="150145510" version="5" timestamp="2017-02-03T09:21:23Z" uid="428001" user="wegspotter" changeset="45772587">
+  <way id="150145510" version="6" timestamp="2017-02-25T18:13:08Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="250051162"/>
     <nd ref="462249087"/>
     <nd ref="4658874829"/>
@@ -16202,8 +16246,9 @@
     <nd ref="1630624552"/>
     <nd ref="1630624550"/>
     <nd ref="1630624549"/>
-    <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Ziekenhuislaan"/>
   </way>
   <way id="150145511" version="4" timestamp="2015-12-24T15:45:21Z" uid="67832" user="joost schouppe" changeset="36146713">
     <nd ref="250045948"/>
@@ -16215,7 +16260,7 @@
     <tag k="highway" v="residential"/>
     <tag k="turn:lanes:backward" v="left|none"/>
   </way>
-  <way id="150145513" version="1" timestamp="2012-02-12T23:33:30Z" uid="138772" user="lodde1949" changeset="10669317">
+  <way id="150145513" version="2" timestamp="2017-03-12T21:01:56Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="147060880"/>
     <nd ref="1630624632"/>
     <nd ref="1630624636"/>
@@ -16228,10 +16273,11 @@
     <nd ref="1630624611"/>
     <nd ref="1630624606"/>
     <nd ref="147060898"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
   </way>
-  <way id="150145514" version="1" timestamp="2012-02-12T23:33:30Z" uid="138772" user="lodde1949" changeset="10669317">
+  <way id="150145514" version="2" timestamp="2017-03-12T21:01:56Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="147060898"/>
     <nd ref="1630624604"/>
     <nd ref="1630624602"/>
@@ -16246,15 +16292,17 @@
     <nd ref="147060884"/>
     <nd ref="1630624623"/>
     <nd ref="147060880"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
   </way>
-  <way id="150145516" version="2" timestamp="2014-01-20T01:31:11Z" uid="15188" user="Polyglot" changeset="20096226">
+  <way id="150145516" version="3" timestamp="2017-02-25T18:13:08Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1630624644"/>
     <nd ref="1630624657"/>
     <nd ref="300319610"/>
-    <tag k="name" v="Nederheim"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Nederheim"/>
   </way>
   <way id="150145518" version="6" timestamp="2017-01-10T10:44:48Z" uid="67832" user="joost schouppe" changeset="45047460">
     <nd ref="249926114"/>
@@ -16336,15 +16384,16 @@
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30"/>
   </way>
-  <way id="155420175" version="2" timestamp="2014-03-08T07:51:56Z" uid="15188" user="Polyglot" changeset="20982824">
+  <way id="155420175" version="3" timestamp="2017-02-25T18:13:10Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561319"/>
     <nd ref="249561320"/>
     <nd ref="1427516103"/>
     <nd ref="249561313"/>
-    <tag k="name" v="Graankaai"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="158168350" version="5" timestamp="2017-01-16T13:27:26Z" uid="67832" user="joost schouppe" changeset="45215709">
     <nd ref="250057035"/>
@@ -16755,13 +16804,14 @@
     <tag k="highway" v="service"/>
     <tag k="service" v="driveway"/>
   </way>
-  <way id="179276468" version="2" timestamp="2014-01-14T22:54:44Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="179276468" version="3" timestamp="2017-02-25T18:13:10Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="462233730"/>
     <nd ref="254397781"/>
     <nd ref="254397782"/>
     <nd ref="150597829"/>
-    <tag k="name" v="Felix Roggemanskaai"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Felix Roggemanskaai"/>
   </way>
   <way id="179301414" version="2" timestamp="2017-02-05T15:23:54Z" uid="428001" user="wegspotter" changeset="45831826">
     <nd ref="1833493470"/>
@@ -16801,7 +16851,7 @@
     <tag k="highway" v="service"/>
     <tag k="service" v="parking_aisle"/>
   </way>
-  <way id="189818705" version="7" timestamp="2016-04-11T18:24:11Z" uid="287979" user="Matthieu Gaillet" changeset="38481832">
+  <way id="189818705" version="8" timestamp="2017-02-25T18:13:11Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1149745974"/>
     <nd ref="254397776"/>
     <nd ref="3902960686"/>
@@ -16812,10 +16862,11 @@
     <nd ref="254397778"/>
     <nd ref="3903109341"/>
     <nd ref="254397779"/>
-    <tag k="name" v="Felix Roggemanskaai"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="70"/>
-    <tag k="cycleway:right" v="track"/>
+    <tag k="name" v="Felix Roggemanskaai"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="195760431" version="2" timestamp="2016-08-01T13:23:22Z" uid="2403313" user="Jakka" changeset="41167837">
     <nd ref="2061770117"/>
@@ -16896,26 +16947,29 @@
     <tag k="name" v="A. Vaucampslaan"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="217639531" version="2" timestamp="2014-05-31T08:02:58Z" uid="2099210" user="rtae" changeset="22651381">
-    <nd ref="472464168"/>
+  <way id="217639531" version="3" timestamp="2017-02-25T18:13:11Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="517528065"/>
     <nd ref="472464169"/>
     <nd ref="472464170"/>
     <nd ref="472464171"/>
     <nd ref="249561517"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="highway" v="residential"/>
     <tag k="name" v="Graankaai"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
-  <way id="221123678" version="2" timestamp="2016-04-29T09:46:57Z" uid="67832" user="joost schouppe" changeset="38977159">
+  <way id="221123678" version="3" timestamp="2017-02-25T18:13:11Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="343123576"/>
     <nd ref="250055524"/>
     <nd ref="1152960420"/>
     <nd ref="1062403723"/>
     <nd ref="250055525"/>
-    <tag k="name" v="Arenbergstraat"/>
+    <tag k="cycleway" v="track"/>
+    <tag k="cycleway:buffer" v="1.5"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="70"/>
+    <tag k="name" v="Arenbergstraat"/>
   </way>
   <way id="221123679" version="6" timestamp="2016-07-25T16:39:16Z" uid="67832" user="joost schouppe" changeset="41017034">
     <nd ref="147060836"/>
@@ -17494,12 +17548,17 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="221123861" version="2" timestamp="2015-01-14T12:12:49Z" uid="15188" user="Polyglot" changeset="28132843">
+  <way id="221123861" version="3" timestamp="2017-03-19T04:20:00Z" uid="672253" user="JanFi" changeset="46971668">
     <nd ref="462249394"/>
     <nd ref="1047523773"/>
     <nd ref="462249395"/>
-    <tag k="oneway" v="yes"/>
+    <nd ref="462249416"/>
+    <nd ref="462249415"/>
+    <nd ref="462249414"/>
+    <nd ref="462249413"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="highway" v="service"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="221123863" version="1" timestamp="2013-05-12T21:00:45Z" uid="15188" user="Polyglot" changeset="16102873">
     <nd ref="489411960"/>
@@ -17509,67 +17568,72 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="221123868" version="2" timestamp="2014-01-14T22:04:27Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="221123868" version="3" timestamp="2017-02-25T18:13:13Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1630624608"/>
     <nd ref="1630624609"/>
     <nd ref="2301820983"/>
     <nd ref="1630624613"/>
-    <tag k="name" v="Vandenpeereboomstraat"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Vandenpeereboomstraat"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="221123869" version="2" timestamp="2014-01-14T22:06:07Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="221123869" version="3" timestamp="2017-02-25T18:13:13Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="249561333"/>
     <nd ref="249561334"/>
     <nd ref="1630624646"/>
     <nd ref="1630624644"/>
-    <tag k="name" v="Vandenpeereboomstraat"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Vandenpeereboomstraat"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="221123871" version="2" timestamp="2014-01-14T22:55:01Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="221123871" version="3" timestamp="2017-02-25T18:13:13Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1630624644"/>
     <nd ref="1630624639"/>
     <nd ref="1630624634"/>
     <nd ref="249561335"/>
     <nd ref="1630624622"/>
-    <tag k="name" v="Vandenpeereboomstraat"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Vandenpeereboomstraat"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="221123872" version="2" timestamp="2014-01-14T22:15:10Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="221123872" version="3" timestamp="2017-02-25T18:13:13Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1630624613"/>
     <nd ref="2301820984"/>
     <nd ref="1630624620"/>
     <nd ref="1630624624"/>
     <nd ref="1630624629"/>
-    <tag k="name" v="Vandenpeereboomstraat"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Vandenpeereboomstraat"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="221123874" version="2" timestamp="2014-01-14T22:55:36Z" uid="15188" user="Polyglot" changeset="20001357">
+  <way id="221123874" version="3" timestamp="2017-02-25T18:13:13Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1630624622"/>
     <nd ref="1630624619"/>
     <nd ref="1630624614"/>
     <nd ref="1630624612"/>
     <nd ref="1630624610"/>
     <nd ref="1630624608"/>
-    <tag k="name" v="Vandenpeereboomstraat"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Vandenpeereboomstraat"/>
+    <tag k="oneway" v="yes"/>
   </way>
-  <way id="221123875" version="2" timestamp="2015-01-14T12:12:49Z" uid="15188" user="Polyglot" changeset="28132843">
+  <way id="221123875" version="3" timestamp="2017-03-19T04:20:00Z" uid="672253" user="JanFi" changeset="46971668">
     <nd ref="462249404"/>
     <nd ref="462249403"/>
     <nd ref="462249402"/>
     <nd ref="462249401"/>
     <tag k="highway" v="service"/>
-    <tag k="junction" v="roundabout"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="221123876" version="1" timestamp="2013-05-12T21:00:46Z" uid="15188" user="Polyglot" changeset="16102873">
     <nd ref="2301820935"/>
@@ -17583,7 +17647,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="service"/>
   </way>
-  <way id="221123879" version="3" timestamp="2014-09-24T07:47:28Z" uid="318227" user="swift11" changeset="25639616">
+  <way id="221123879" version="4" timestamp="2017-03-12T21:01:56Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="250051162"/>
     <nd ref="250051159"/>
     <nd ref="462249387"/>
@@ -17592,9 +17656,10 @@
     <nd ref="462249384"/>
     <nd ref="250051157"/>
     <nd ref="462249382"/>
-    <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="highway" v="residential"/>
     <tag k="junction" v="roundabout"/>
+    <tag k="name" v="Ziekenhuislaan"/>
   </way>
   <way id="233985325" version="2" timestamp="2013-08-19T05:41:22Z" uid="233248" user="zors1843" changeset="17405579">
     <nd ref="2422961324"/>
@@ -17914,14 +17979,15 @@
     <tag k="name" v="Dokter Spitaelslaan"/>
     <tag k="highway" v="tertiary"/>
   </way>
-  <way id="257538998" version="1" timestamp="2014-01-20T21:08:02Z" uid="15188" user="Polyglot" changeset="20111870">
+  <way id="257538998" version="2" timestamp="2017-03-12T21:01:57Z" uid="3624994" user="bosboer" changeset="46795459">
     <nd ref="2630386265"/>
     <nd ref="249938113"/>
     <nd ref="256855326"/>
     <nd ref="249938112"/>
     <nd ref="249938111"/>
-    <tag k="name" v="Dokter Spitaelslaan"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Dokter Spitaelslaan"/>
   </way>
   <way id="257539001" version="1" timestamp="2014-01-20T21:08:02Z" uid="15188" user="Polyglot" changeset="20111870">
     <nd ref="249936359"/>
@@ -18180,13 +18246,14 @@
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
   </way>
-  <way id="258428444" version="3" timestamp="2016-04-05T13:34:26Z" uid="67832" user="joost schouppe" changeset="38317477">
+  <way id="258428444" version="4" timestamp="2017-03-09T15:14:11Z" uid="67832" user="joost schouppe" changeset="46712245">
     <nd ref="250068727"/>
     <nd ref="250068728"/>
     <nd ref="250068692"/>
-    <tag k="name" v="Kerkhoflaan"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Kerkhoflaan"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="258428445" version="2" timestamp="2017-01-20T12:53:58Z" uid="672253" user="JanFi" changeset="45325955">
     <nd ref="1630624880"/>
@@ -18526,7 +18593,7 @@
     <tag k="name" v="Kolveniersstraat"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="285709124" version="4" timestamp="2017-01-15T11:43:52Z" uid="591881" user="Patchi" changeset="45188449">
+  <way id="285709124" version="5" timestamp="2017-03-28T20:06:41Z" uid="71942" user="henke54" changeset="47241000">
     <nd ref="1313022152"/>
     <nd ref="4609526913"/>
     <nd ref="300564466"/>
@@ -18554,7 +18621,7 @@
     <nd ref="4609526933"/>
     <nd ref="4609526935"/>
     <nd ref="3925857284"/>
-    <nd ref="300564538"/>
+    <nd ref="4760532096"/>
     <tag k="highway" v="service"/>
   </way>
   <way id="293281292" version="2" timestamp="2016-03-03T13:20:12Z" uid="67832" user="joost schouppe" changeset="37586908">
@@ -18738,15 +18805,14 @@
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="cobblestone"/>
   </way>
-  <way id="305669772" version="4" timestamp="2016-11-07T20:54:24Z" uid="67832" user="joost schouppe" changeset="43473273">
+  <way id="305669772" version="5" timestamp="2017-02-25T18:13:22Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="150597830"/>
     <nd ref="3103354735"/>
     <nd ref="4487588788"/>
     <nd ref="3103354732"/>
     <nd ref="3103354733"/>
-    <tag k="name" v="Vaartkant"/>
     <tag k="highway" v="service"/>
-    <tag k="service" v="alley"/>
+    <tag k="name" v="Vaartkant"/>
   </way>
   <way id="305670032" version="3" timestamp="2017-01-16T13:39:25Z" uid="67832" user="joost schouppe" changeset="45216000">
     <nd ref="3103355400"/>
@@ -18867,23 +18933,25 @@
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30"/>
   </way>
-  <way id="321824401" version="2" timestamp="2015-01-14T12:12:47Z" uid="15188" user="Polyglot" changeset="28132843">
+  <way id="321824401" version="3" timestamp="2017-02-25T18:13:26Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="1630624549"/>
     <nd ref="1630624547"/>
     <nd ref="3285939069"/>
-    <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="cycleway" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Ziekenhuislaan"/>
     <tag k="turn:lanes:backward" v="left|none"/>
   </way>
-  <way id="321824402" version="2" timestamp="2015-01-13T15:22:44Z" uid="2403313" user="Jakka" changeset="28114244">
+  <way id="321824402" version="3" timestamp="2017-02-25T18:13:26Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="3285939069"/>
     <nd ref="3285939068"/>
     <nd ref="1630624546"/>
     <nd ref="3285939067"/>
     <nd ref="3285963327"/>
     <nd ref="1630624545"/>
-    <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Ziekenhuislaan"/>
     <tag k="turn:lanes:forward" v="left|right"/>
   </way>
   <way id="321979563" version="3" timestamp="2016-06-20T19:30:51Z" uid="67832" user="joost schouppe" changeset="40165097">
@@ -18925,7 +18993,7 @@
     <tag k="surface" v="cobblestone"/>
     <tag k="maxspeed" v="50"/>
   </way>
-  <way id="321979574" version="1" timestamp="2015-01-14T12:02:51Z" uid="15188" user="Polyglot" changeset="28132843">
+  <way id="321979574" version="2" timestamp="2017-02-25T18:13:27Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="3285939070"/>
     <nd ref="3287456221"/>
     <nd ref="3287456220"/>
@@ -18934,10 +19002,11 @@
     <nd ref="3287456217"/>
     <nd ref="3287456216"/>
     <nd ref="3285939069"/>
-    <tag k="name" v="Ziekenhuislaan"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="lanes" v="1"/>
+    <tag k="name" v="Ziekenhuislaan"/>
+    <tag k="oneway" v="yes"/>
   </way>
   <way id="321979580" version="1" timestamp="2015-01-14T12:02:52Z" uid="15188" user="Polyglot" changeset="28132843">
     <nd ref="462249401"/>
@@ -21619,7 +21688,7 @@
     <tag k="highway" v="service"/>
     <tag k="service" v="driveway"/>
   </way>
-  <way id="413274294" version="4" timestamp="2016-08-27T07:40:29Z" uid="4351319" user="Rik Houthuys" changeset="41729729">
+  <way id="413274294" version="5" timestamp="2017-03-09T15:15:24Z" uid="67832" user="joost schouppe" changeset="46712245">
     <nd ref="250057040"/>
     <nd ref="4155294423"/>
     <nd ref="290343806"/>
@@ -21630,10 +21699,10 @@
     <nd ref="250068681"/>
     <nd ref="250068182"/>
     <nd ref="1163044642"/>
-    <tag k="name" v="Bleukenstraat"/>
     <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="90"/>
-    <tag k="maxweight" v="3.5"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="name" v="Bleukenstraat"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="413274295" version="3" timestamp="2016-08-27T07:40:30Z" uid="4351319" user="Rik Houthuys" changeset="41729729">
     <nd ref="250068194"/>
@@ -22089,15 +22158,15 @@
     <tag k="highway" v="service"/>
     <tag k="service" v="alley"/>
   </way>
-  <way id="432075979" version="2" timestamp="2016-11-09T12:59:10Z" uid="67832" user="joost schouppe" changeset="43511400">
+  <way id="432075979" version="3" timestamp="2017-03-09T15:14:53Z" uid="67832" user="joost schouppe" changeset="46712245">
     <nd ref="3902608564"/>
     <nd ref="410182935"/>
     <nd ref="4490525614"/>
     <nd ref="3902607805"/>
     <nd ref="410182936"/>
-    <tag k="name" v="Kastanjelaan"/>
     <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="90"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="name" v="Kastanjelaan"/>
   </way>
   <way id="432089962" version="1" timestamp="2016-07-20T11:17:21Z" uid="67832" user="joost schouppe" changeset="40893837">
     <nd ref="4312548693"/>
@@ -22538,11 +22607,13 @@
     <tag k="name" v="Beertsestraat"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="432721472" version="1" timestamp="2016-07-23T07:18:55Z" uid="67832" user="joost schouppe" changeset="40965761">
+  <way id="432721472" version="2" timestamp="2017-02-25T18:13:32Z" uid="672253" user="JanFi" changeset="46399464">
     <nd ref="2301820982"/>
     <nd ref="249561513"/>
-    <tag k="name" v="Graankaai"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway:bicycle" v="no"/>
   </way>
   <way id="432721473" version="3" timestamp="2016-10-05T14:51:58Z" uid="67832" user="joost schouppe" changeset="42659714">
     <nd ref="2889046495"/>
@@ -22600,15 +22671,16 @@
     <tag k="name" v="Kasteelbrakelsesteenweg"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="432993917" version="2" timestamp="2016-08-27T07:40:29Z" uid="4351319" user="Rik Houthuys" changeset="41729729">
+  <way id="432993917" version="4" timestamp="2017-03-14T09:33:16Z" uid="67832" user="joost schouppe" changeset="46834527">
     <nd ref="1163044642"/>
     <nd ref="250068183"/>
     <nd ref="3902608482"/>
     <nd ref="250068184"/>
-    <tag k="name" v="Bleukenstraat"/>
     <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="90"/>
+    <tag k="maxspeed" v="70"/>
     <tag k="maxweight" v="3.5"/>
+    <tag k="name" v="Bleukenstraat"/>
+    <tag k="source:maxspeed" v="BE-VLG:rural"/>
   </way>
   <way id="432993919" version="2" timestamp="2016-08-08T09:28:50Z" uid="4351319" user="Rik Houthuys" changeset="41319836">
     <nd ref="1033390754"/>
@@ -22667,20 +22739,30 @@
     <tag k="name" v="Pijpaenshoek"/>
     <tag k="highway" v="unclassified"/>
   </way>
-  <way id="432993925" version="2" timestamp="2016-07-25T14:00:25Z" uid="67832" user="joost schouppe" changeset="41012923">
+  <way id="432993925" version="3" timestamp="2017-03-24T17:36:42Z" uid="71942" user="henke54" changeset="47130435">
     <nd ref="1313022153"/>
-    <nd ref="253361451"/>
+    <nd ref="4753310012"/>
     <nd ref="253361452"/>
+    <nd ref="4753310015"/>
     <nd ref="253361453"/>
     <nd ref="1231088151"/>
+    <nd ref="4753310016"/>
     <nd ref="253361455"/>
+    <nd ref="4753313230"/>
+    <nd ref="4753313229"/>
     <nd ref="4258324052"/>
     <nd ref="253361456"/>
+    <nd ref="4753313226"/>
+    <nd ref="4753313231"/>
+    <nd ref="4753310020"/>
     <nd ref="253361457"/>
+    <nd ref="4753313233"/>
+    <nd ref="4753313235"/>
+    <nd ref="4753313234"/>
     <nd ref="253361458"/>
-    <tag k="name" v="Sint-Veroonsstraat"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Sint-Veroonsstraat / Rue Saint-Veron"/>
   </way>
   <way id="432993926" version="1" timestamp="2016-07-25T08:19:11Z" uid="67832" user="joost schouppe" changeset="41005497">
     <nd ref="250055396"/>
@@ -22725,7 +22807,7 @@
     <tag k="name" v="Dokter Spitaelslaan"/>
     <tag k="highway" v="tertiary"/>
   </way>
-  <way id="432993933" version="2" timestamp="2016-08-27T07:40:30Z" uid="4351319" user="Rik Houthuys" changeset="41729729">
+  <way id="432993933" version="3" timestamp="2017-03-09T15:15:06Z" uid="67832" user="joost schouppe" changeset="46712245">
     <nd ref="250068184"/>
     <nd ref="250068185"/>
     <nd ref="250068186"/>
@@ -22739,10 +22821,11 @@
     <nd ref="250068192"/>
     <nd ref="250068193"/>
     <nd ref="250068194"/>
-    <tag k="name" v="Bleukenstraat"/>
     <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="90"/>
+    <tag k="maxspeed" v="70"/>
     <tag k="maxweight" v="3.5"/>
+    <tag k="name" v="Bleukenstraat"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="432993936" version="1" timestamp="2016-07-25T08:19:12Z" uid="67832" user="joost schouppe" changeset="41005497">
     <nd ref="256855189"/>
@@ -23186,17 +23269,18 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
   </way>
-  <way id="435794345" version="2" timestamp="2017-02-02T07:31:59Z" uid="67832" user="joost schouppe" changeset="45738144">
+  <way id="435794345" version="3" timestamp="2017-03-09T15:13:48Z" uid="67832" user="joost schouppe" changeset="46712245">
     <nd ref="3907992623"/>
     <nd ref="250068199"/>
     <nd ref="250068200"/>
     <nd ref="4655232724"/>
     <nd ref="250068201"/>
     <nd ref="1033003901"/>
-    <tag k="name" v="Kluisbos"/>
     <tag k="highway" v="residential"/>
     <tag k="incline" v="13%"/>
     <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Kluisbos"/>
+    <tag k="surface" v="asphalt"/>
   </way>
   <way id="436280082" version="1" timestamp="2016-08-08T18:23:33Z" uid="67832" user="joost schouppe" changeset="41330055">
     <nd ref="4341530155"/>
@@ -25962,6 +26046,90 @@
   <way id="473585516" version="1" timestamp="2017-02-09T14:01:39Z" uid="67832" user="joost schouppe" changeset="45947961">
     <nd ref="4676659578"/>
     <nd ref="4676659579"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="driveway"/>
+  </way>
+  <way id="477158188" version="2" timestamp="2017-03-22T19:39:24Z" uid="71942" user="henke54" changeset="47077018">
+    <nd ref="254376849"/>
+    <nd ref="250055528"/>
+    <nd ref="250055529"/>
+    <nd ref="250055530"/>
+    <nd ref="2301820323"/>
+    <nd ref="250055531"/>
+    <nd ref="4749452374"/>
+    <nd ref="1152967296"/>
+    <nd ref="250055532"/>
+    <nd ref="254376555"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Krabos"/>
+  </way>
+  <way id="477158207" version="1" timestamp="2017-02-25T18:12:42Z" uid="672253" user="JanFi" changeset="46399464">
+    <nd ref="472464168"/>
+    <nd ref="517528065"/>
+    <tag k="bicycle" v="use_sidepath"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Graankaai"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="477158208" version="2" timestamp="2017-03-12T21:01:56Z" uid="3624994" user="bosboer" changeset="46795459">
+    <nd ref="8697760"/>
+    <nd ref="3285963322"/>
+    <nd ref="250045026"/>
+    <nd ref="250046003"/>
+    <nd ref="3908315962"/>
+    <nd ref="2301820577"/>
+    <tag k="cycleway" v="track"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Bergensesteenweg"/>
+  </way>
+  <way id="477158212" version="1" timestamp="2017-02-25T18:12:43Z" uid="672253" user="JanFi" changeset="46399464">
+    <nd ref="250075350"/>
+    <nd ref="3404491347"/>
+    <nd ref="3404491336"/>
+    <nd ref="3404492417"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Zinkstraat"/>
+  </way>
+  <way id="481307537" version="1" timestamp="2017-03-19T04:19:41Z" uid="672253" user="JanFi" changeset="46971668">
+    <nd ref="1248287747"/>
+    <nd ref="4070423480"/>
+    <nd ref="249560050"/>
+    <nd ref="249560051"/>
+    <tag k="cycleway:left" v="opposite"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Gustave Demeurslaan"/>
+    <tag k="oneway" v="no"/>
+  </way>
+  <way id="483904309" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975">
+    <nd ref="4766542459"/>
+    <nd ref="4766542458"/>
+    <nd ref="4766542457"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="driveway"/>
+  </way>
+  <way id="483904311" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975">
+    <nd ref="4766542465"/>
+    <nd ref="4766542464"/>
+    <nd ref="4766542463"/>
+    <nd ref="4766542462"/>
+    <nd ref="4766542461"/>
+    <nd ref="4766542460"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="driveway"/>
+  </way>
+  <way id="483904312" version="1" timestamp="2017-03-31T08:54:08Z" uid="428001" user="wegspotter" changeset="47317975">
+    <nd ref="4766542475"/>
+    <nd ref="4766542474"/>
+    <nd ref="4766542473"/>
+    <nd ref="4766542472"/>
+    <nd ref="4766542471"/>
+    <nd ref="4766542470"/>
+    <nd ref="4766542469"/>
+    <nd ref="4766542468"/>
+    <nd ref="4766542467"/>
+    <nd ref="4766542466"/>
     <tag k="highway" v="service"/>
     <tag k="service" v="driveway"/>
   </way>
