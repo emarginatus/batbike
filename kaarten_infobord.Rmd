@@ -95,6 +95,26 @@ labels@proj4string <- CRS("+proj=longlat")
 labels <- labels %>%
   spTransform(target) %>%
   as.data.frame()
+legende_infopunt <- read_csv("_osm/legende_infopunt.csv")
+coordinates(legende_infopunt) <- ~long + lat
+legende_infopunt@proj4string <- CRS("+proj=longlat")
+legende_infopunt <- legende_infopunt %>%
+  spTransform(target) %>%
+  as.data.frame() %>%
+  mutate(
+    long = long,
+    lat = lat - 950
+  )
+legende_extra <- read_csv("_osm/legende_extra.csv")
+coordinates(legende_extra) <- ~long + lat
+legende_extra@proj4string <- CRS("+proj=longlat")
+legende_extra <- legende_extra %>%
+  spTransform(target) %>%
+  as.data.frame() %>%
+  mutate(
+    long = long,
+    lat = lat + max(legende_infopunt$lat) - max(lat)
+  )
 ```
 
 ```{r lees_openstreetmap}
@@ -192,6 +212,45 @@ ggplot(origineel, aes(x = long, y = lat, group = group)) +
     size = 14 * mm,
     label.padding = unit(1, "mm"),
     label.r = unit(2, "mm")
+  ) +
+  geom_rect(
+    data = data.frame(
+      long = NA_integer_,
+      lat = NA_integer_,
+      group = NA_integer_,
+      xmin = 137900, 
+      xmax = 139550,
+      ymin = 159420, 
+      ymax = 160360
+    ),
+    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
+    colour = "black",
+    fill = "white"
+  ) +
+  geom_label(
+    data = legende_infopunt, 
+    aes(label = nummer), 
+    group = NA, 
+    colour = "red",
+    size = 9 * mm,
+    label.padding = unit(1, "mm"),
+    label.r = unit(2, "mm")
+  ) +
+  geom_text(
+    data = legende_infopunt, 
+    aes(x = long + 100, label = naam), 
+    group = NA, 
+    colour = "black",
+    size = 9 * mm,
+    hjust = 0
+  ) +
+  geom_text(
+    data = legende_extra, 
+    aes(label = label), 
+    group = NA, 
+    colour = "blue",
+    size = 9 * mm,
+    hjust = 0
   ) +
   coord_fixed(xlim = c(138100, 142200), ylim = c(155378, 160122))
 ```
