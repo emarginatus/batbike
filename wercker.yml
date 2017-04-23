@@ -15,6 +15,13 @@ ftp:
         destination: $WERCKER_FTP_DEPLOY_DESTINATION
         username: $WERCKER_FTP_DEPLOY_USERNAME
         password: $WERCKER_FTP_DEPLOY_PASSWORD
+ftp2:
+  steps:
+    - emarginatus/ftp-deploy:
+        subfolder: "_site"
+        destination: $WERCKER_FTP2_DEPLOY_DESTINATION
+        username: $WERCKER_FTP_DEPLOY_USERNAME
+        password: $WERCKER_FTP_DEPLOY_PASSWORD
 ghpages:
   steps:
     - lukevivier/gh-pages:
