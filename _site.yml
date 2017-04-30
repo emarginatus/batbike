@@ -14,9 +14,6 @@ navbar:
         - text: "Afdrukbare kaarten"
           href: "kaarten.html"
           icon: fa-map-o
-        - text: "Afdrukbare kaarten infoborden"
-          href: "kaarten_infobord.html"
-          icon: fa-map-o
     - text: "Infopunten"
       icon: fa-info
       menu:
