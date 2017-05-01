@@ -46,13 +46,15 @@ navbar:
           icon: fa-file-pdf-o
         - text: "GPX track"
           href: "route/route.gpx"
-        - text: "Routebeschrijving"
-          icon: fa-file-pdf-o
+    - text: "Vleermuizenwerkgroep Myotis"
+      menu:
+        - text: "Voorstelling"
+          href: "voorstelling.html"
+        - text: "Activiteiten"
+          href: "activiteiten.html"
     - text: "Met steun van"
       icon: fa-info
       menu:
-        - text: "Vleermuizenwerkgroep Myotis"
-          href: "https://www.natuurpunt.be/afdelingen/vleermuizenwerkgroep-myotis"
         - text: "Fietsersbond Halle"
           icon: fa-bicycle
           href: "http://www.fietsersbond.be/halle"
