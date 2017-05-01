@@ -1,0 +1,55 @@
+---
+title: "Activiteitkalender"
+output: html_document
+---
+
+## Batman op de oude trambaan
+
+- **wanneer**: 20 mei 2017 van 20u30 tot 22u00
+- **waar**: Plattelandscentrum Paddenbroek 
+- **adres**: [Paddenbroekstraat 12, 1755 Gooik](https://www.openstreetmap.org/directions?route=%3B50.78598%2C4.10911#map=16/50.78598/4.10911)
+- **kostprijs**: gratis
+
+Wandeling en vleermuisinventarisatie
+
+## Feestelijke opening vleermuizenfietsroute
+
+- **wanneer**: 21 mei 2017, vertrek om 13u30
+- **waar**: stationsplein Halle
+- **adres**: [Van den Peereboomstraat, Halle](https://www.openstreetmap.org/directions?route=%3B50.73372%2C4.24036#map=16/50.73372/4.24036)
+- **kostprijs**: gratis
+
+Inschrijven gewenst via het [online inschrijvingsformulier:](https://docs.google.com/a/muscardinus.be/forms/d/e/1FAIpQLSemFGxn4_9ltFJXKktX3Jjx5h0YlN8ToA9IpAnANYPsNpSVKg/viewform) https://docs.google.com/a/muscardinus.be/forms/d/e/1FAIpQLSemFGxn4_9ltFJXKktX3Jjx5h0YlN8ToA9IpAnANYPsNpSVKg/viewform
+
+## Vleermuizenwandeling voor kinderen
+
+- **wanneer**: 19 augustus 2017 van 19u30 tot 21u30
+- **waar**: Provinciaal domein Huizingen
+- **adres**: [Torleylaan 100, 1654 Huizingen](https://www.openstreetmap.org/directions?route=%3B50.74344%2C4.27967#map=16/50.74344/4.27967)
+- **kostprijs**: gratis
+
+afspraak om 19u30 aan de inkom van het Provinciaal domein
+
+Op een speelse manier laten we ons meeslepen in de wereld van de vleermuis. Deze kleine, zachte en nuttige zoogdieren worden nog al te vaak geassocieerd met bloeddorstige vampieren. Tijd om hier verandering in te brengen!  Vanzelfsprekend zijn volwassenen ook welkom.
+
+## Europese Nacht van de Vleermuis
+
+- **wanneer**: 26 augustus 2017 van 20u00 tot 23u00
+- **waar**: Parking Kasteel van Beersel
+- **adres**: [Lotsestraat 100, 1652 Beersel](https://www.openstreetmap.org/directions?route=%3B50.76620%2C4.30059#map=16/50.76620/4.30059)
+- **kostprijs**: gratis
+
+Dit jaar zoeken we naar vleermuizen in een uniek kader, met name het kasteel van Beersel.
+
+Met vleermuizen-gidsen en met batdetector gaan we op stap. Het kasteel staat er nog zoals het er uitzag aan het einde van de 15de eeuw, misschien voelen we ons samen met de vleermuizen even terug in de tijd van ridders en jonkvrouwen?
+
+Deze activiteit wordt georganiseerd in samenwerking met de Milieuraad Beersel
+
+## Stiltewandeling en de geheimen van de bosuil en de vleermuis
+
+- **wanneer**: 2 september 2017 van 19u30 tot 00u00
+- **waar**: Achtdreven Hallerbos
+- **adres**: [Vlasmarktdreef, 1500 Halle](https://www.openstreetmap.org/directions?route=%3B50.70215%2C4.28317#map=16/50.70215/4.28317)
+- **kostprijs**: gratis
+
+We genieten van de stilte, enkel een roepende bosuil kan deze doorbreken. Dit geluid doet de schaduwen zwarter lijken maar net dit maakt deze wandeling uniek.
