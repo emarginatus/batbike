@@ -48,7 +48,7 @@ navbar:
           href: "route/route.gpx"
         - text: "Routebeschrijving"
           icon: fa-file-pdf-o
-    - text: "Over de fietsroute"
+    - text: "Met steun van"
       icon: fa-info
       menu:
         - text: "Vleermuizenwerkgroep Myotis"
@@ -64,6 +64,10 @@ navbar:
           href: "http://www.planboommarter.be"
         - text: "Agentschap voor Natuur- en Bos"
           href: "https://www.natuurenbos.be/hallerbos"
+        - text: "Colruyt Group"
+          href: "https://www.colruytgroup.be/nl"
+        - text: "Conversion Works"
+          href: "http://www.conversionworks.eu/"
     - text: "Inschrijven"
       href: "https://docs.google.com/a/muscardinus.be/forms/d/e/1FAIpQLSemFGxn4_9ltFJXKktX3Jjx5h0YlN8ToA9IpAnANYPsNpSVKg/viewform"
 
