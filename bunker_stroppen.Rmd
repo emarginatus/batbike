@@ -1,7 +1,12 @@
 ---
-title: "Bunkers stroppen"
 output: html_document
 ---
+
+# Bunkers stroppen
+
+**eigenaar:** Conversion Works (Jambonstraat), Dedobbeleer (Uylenbroekstraat)  
+**toegankelijkheid:** deze bunkers zijn enkel toegankelijk voor vleermuizen
+
 
 ## Een vleermuis het jaar rond
 
@@ -11,7 +16,7 @@ De lichaamstemperatuur van een vleermuis ligt normaal rond de 37°C. Tijdens de 
 
 In de lente wanneer het opnieuw warmer wordt verlaten de vleermuizen de winterverblijven om de zomerverblijfplaatsen op te zoeken. Hier worden kraamkolonies gevormd die enkel uit vrouwtjes bestaan. De geboorte van de jongen vindt plaats. Voor de meeste soorten valt de tijd van de geboorten in juni.  
 
-In juli/ augustus beginnen de jongen te vliegen maar ze worden nog door de moeder gezoogd. 
+In juli/augustus beginnen de jongen te vliegen maar ze worden nog door de moeder gezoogd. 
 Na het grootbrengen van de jongen begint de paartijd weer voor de vrouwtjes.
 De periode net voor de winterslaap (september/begin oktober) wordt gebruikt om  de nodige vetreserves op te bouwen om de lange winterperiode te overbrugeen. Ze  proberen dan ook zoveel mogelijk insecten te vangen. Daarna trekken ze naar de winterverblijven.
 
@@ -32,15 +37,3 @@ Vliegende rosse vleermuizen
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/LSoh00BXiog?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/J4fC_TfCt9E?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-- eigenaar: Conversion Works
-- nut voor vleermuizen
-    - overwinteringsplaats
-- info over inrichting
-- geschiedenis
-    - typische cementering buitenkant
-    - http://www.ablhistoryforum.be/viewtopic.php?t=501
-    - https://collectiefgeheugen.wordpress.com/ontwerpers/krishia-de-vroede/
-    - http://www.militair.net/forum/viewtopic.php?f=8&t=1838&sid=abe21d13214f9d98c53513b08e54ebea&start=45
-    - http://www.bunkergordel.be/2-camouflage%20van%20de%20bunkers.htm
-- vleermuis toegelicht: rosse vleermuis
