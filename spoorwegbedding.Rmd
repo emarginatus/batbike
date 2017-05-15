@@ -1,11 +1,15 @@
 ---
-title: "Oude spoorwegbedding"
 output: html_document
 ---
 
+# Oude spoorwegbedding
+
+**eigenaar**: Stad Halle
+**toegankelijkheid**: het fietspad is publiek toegankelijk
+
 ## Vleermuizen en kleine landschapselementen
 
-Vleermuizen zenden ultrasone signalen uit die hier en daar weerkaatsen op wat er aanwezig is in de nabije omgeving: enkele huizen, een boom, wat struiken, een bosrand, enz. ... . Deze voorwerpen noemen we landschapselementen. De vleermuizen vangen de weerkaatste signalen op en kunnen zich hierdoor een beeld vormen van de omgeving. Dit systeem noemt men echolocatie.
+Vleermuizen zenden ultrasone signalen uit die hier en daar weerkaatsen op wat er aanwezig is in de nabije omgeving: enkele huizen, een boom, wat struiken, een bosrand, ... Deze voorwerpen noemen we landschapselementen. De vleermuizen vangen de weerkaatste signalen op en kunnen zich hierdoor een beeld vormen van de omgeving. Dit systeem noemt men echolocatie.
 Meteen is duidelijk waarom gebouwen, enkele bomen, een dreef, een bosrand, of zoals op deze plek een oude spoorwegbedding met 2 bermen met struiken en bomen, zo belangrijk zijn voor vleermuizen om zich te oriënteren.
 In een open landschap, een weide bv., raakt een vleermuis letterlijk (en figuurlijk) het Noorden kwijt.
 Deze landschapselementen zijn tevens een geschikt biotoop voor veel insecten, dewelke dan weer een belangrijke voedselbron voor de vleermuizen zijn.
@@ -29,11 +33,3 @@ Grootoorvleermuis vliegt uit een boomholte
 
 Grootoorvleermuis vliegt rond in een revalidatiekooi
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YHZR4BWmQsQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-
-- eigenaar: stad Halle? Openbaar domein?
-- nut voor vleermuizen: vliegroute/jachtgebied
-- inrichting: geen
-- geschiedenis: oude spoorweg. http://www.railations.net/oudespoorbeddingen.html
-- vleermuis toegelicht: gewone grootoorvleermuis
-
