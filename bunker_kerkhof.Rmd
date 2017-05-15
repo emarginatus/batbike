@@ -1,42 +1,15 @@
 ---
-title: "Bunker kerkhof Halle"
 output: html_document
 ---
+
+# Bunker kerkhof Halle
+
+**eigenaar:** Stad Halle
+**toegankelijkheid**: de bunker is enkel toegankelijk voor vleermuizen
 
 ## Vleermuizen in onze cultuur
 
 Vleermuizen worden vaak beschouwd als demonische creaturen. Rond geen enkele andere zoogdierengroep hangt zulk een sluier van magie en bijgeloof. Het nachtelijke leven van de vleermuis heeft er toe geleid dat deze dieren in de mythologie en de folklore in onze West-Europese cultuur meestal in verband worden gebracht met het kwaad. De dieren werden aan deuren gespijkerd of vormden ingrediënten van allerlei kwakzalverijen. De overtuiging dat vleermuizen in de haren vliegen blijft bijvoorbeeld taai doorleven, hoewel niemand het ooit meemaakte.
-
-
-### De vleermuis en de mand vol duisternis. Een Sierra Leoneese mythe over de maan
-
-Toen de wereld gemaakt was, maar nog niet bevolkt; wel verlicht, maar alleen bewoond door dieren, was de nacht even licht als de dag, want de maan scheen net zo helder als de zon. De nachthemel was blauw als korenbloemen, en alleen de breedgroeiende boomkruinen en de violette donderwolken zorgden voor welkome schaduwplekken.
-
-Op een dag vroeg God aan zijn dierlijke schepselen: "Wie wil voor mij naar het huis van de maan gaan om deze mand af te leveren?"
-
-"Ik niet," zei de adelaar. "De helle glans van de maan verblindt mijn ogen." En dat gold voor alle vogels, want de maan straalde met een withete gloed.
-
-"Ik zal wel gaan," zei meneer Vleermuis. "Ik ben blind, en het felle schijnsel zal me niet hinderen."
-
-En zo vertrouwde God meneer Vleermuis een grote, gesloten hengselmand toe, gevlochten van vreemdsoortige biezen. Als je hem heen en weer schudde, rammelde hij niet en hij woog niet meer dan een handvol veren. God vertelde er niet bij wat erin zat. Meneer Vleermuis sloeg zijn brede vleugels uit, hing de mand aan een van de klauwtjes van de leerachtige huidplooi en vloog weg naar de maan.
-
-Hoewel de mand niet veel woog, was hij onhandig om te dragen. Na een poosje nam meneer Vleermuis hem aan zijn andere vleugel en vloog verder. Na nog een paar mijl hing hij één hengsel om zijn nek en vloog weer door. Maar tegen de tijd dat hij de kruin van de Maneschijnheuvel bereikte, vlak onder de maan, was hij doodop. En hongerig. Hij zette de mand op de grond en vloog heen en weer, terwijl hij insecten uit de lucht nipte.
-
-Toen kwamen er verschillende dieren aangewandeld over de kam van de heuvel, de een na de ander. De eerste was een vos, die de mand opraapte om te voelen wat hij woog en of hij soms vol met lekkere dingen zat. Maar de mand woog niet meer dan een handvol veren. "Die zal wel leeg zijn," zei hij.
-
-Toen kwam er een koe voorbij, haakte een van haar hoorns in een hengsel en schudde de mand heen en weer om te zien of hij soms vol graan zat. Maar toen er niets ritselde liet ze hem weer vallen, en door de schok raakte het deksel een beetje los.
-
-Toen kwam er een miereneter aan en hij stak zijn lange neus door de opening, die net wijd genoeg was om te zien of de mand soms vol mieren zat. Maar hij rook alleen een bedompte, vochtige lucht en hij liet de mand weer los, met het deksel nog wat verder van zijn plaats.
-
-Daar kwam een aapje, dat zijn lenige vingers tussen het deksel en de rand naar binnen kon wurmen en rond kon tasten. Misschien zat die mand wel vol bananen! Maar hij voelde alleen een kille klammigheid, dus trok hij zijn hand weer terug. Hij deed zelfs het deksel weer stevig dicht.
-
-Nu kwam er een olifant voorbij. Die zag de mand niet eens. En het was de olifant die hem omverschopte, zodat het ronde deksel wegrolde; het was de olifant die de inhoud over de Maneschijnheuvel verspreidde.
-
-Plotseling steeg er een kolom van rokerig duister omhoog en omwolkte de maan, haar glanzende gezicht werd besmeurd met vuil en vlekken van roetachtig zwart. Haar heldere stralen verkwijnden als de blaadjes van een bloem die bevriest. Van goud veranderde ze in dof zilver.
-
-Van het ene moment op het andere was de heuvel in duister gehuld - de eerste duisternis die de wereld ooit gekend had. Die was niet gevlekt zoals de schaduw onder de bomen, niet somber, zoals van wolken die de zon kunnen bedekken. 
-
-Van het ene moment op het andere was de heuvel in duister gehuld - de eerste duisternis die de wereld ooit gekend had. Die was niet gevlekt zoals de schaduw onder de bomen, niet somber, zoals van wolken die de zon kunnen bedekken. Elke avond als de zon ondergaat en de maan opkomt en het duister over de aarde sluipt, fladderen de miljoenen kleinkinderen van meneer Vleermuis hun grotten uit en proberen het duister te vangen, het weer te verzamelen in de mand waarin God het had gestopt. Maar het duister is te groot voor hen, ze kunnen het nooit allemaal te pakken krijgen, al zouden ze het eeuwig blijven proberen.
 
 ### Het mysterie van de vleermuis
 
@@ -44,18 +17,13 @@ We krijgen regelmatig meldingen over vleermuizen die bij iemand het huis zijn bi
 
 Het is heel jammer dat sommigen nog steeds in dit soort mythes geloven, want vleermuizen zijn heel bijzondere en ongevaarlijke dieren. Het enige wat je niet moet doen, is een vleermuis oppakken zonder goede handschoenen, want ze kunnen besmet zijn met een bepaalde vorm van hondsdolheid.
 
-Recentelijk is in het blad Science een onderzoek gepubliceerd, waarin de erfelijke eigenschappen van twee vleermuissoorten zijn onderzocht. Hoewel ze wel drager kunnen zijn van gevaarlijke virussen, blijven ze er zelf ongevoelig voor en blijft een heftige afweerreactie uit. Door het mechanisme hierachter beter te begrijpen, kunnen volgens een onderzoeker in de toekomst wellicht medicijnen worden ontwikkeld om bij mensen virussen te bestrijden.
-
-Behalve de ongevoeligheid voor virusinfecties, hebben vleermuizen ook een weerstand ontwikkeld tegen veroudering en kanker. Vleermuizen kunnen daardoor 20 tot zelfs 40 jaar worden, terwijl dieren van gelijke grootte 2 à 3 jaar worden!
-
-Volgens de onderzoekers zijn deze eigenschappen ca. 88 miljoen jaar geleden ontwikkeld, toen de voorouders gingen vliegen. Langdurig vliegen vereist veel inspanning, waarbij giftige vrije radicalen vrijkomen die het DNA beschadigen. Beide vleermuissoorten bleken in staat om beschadigd DNA te repareren door speciale genen.
+Vleermuizen hebben ook een weerstand ontwikkeld tegen veroudering en kanker. Vleermuizen kunnen daardoor 20 tot zelfs 40 jaar worden, terwijl dieren van gelijke grootte 2 à 3 jaar worden!
 
 In feite weten we heel weinig van de dieren- en plantenwereld om ons heen. Iedere keer komen er weer fascinerende ontdekkingen, en alleen al daarom dienen we respect te hebben voor "Al wat groeit en bloeit en ons altijd weer boeit".
 
 ### Wil je meer weten? Raadpleeg dan ook volgende sites:
 
 - http://deredactie.be/cm/vrtnieuws/wetenschap/1.2138042
-- http://www.beleven.org/verhaal/de_vleermuis_en_de_mand_vol_duisternis
 - http://www.dierenambulancevianen.nl/wild2.html
 - https://www.natuurpunt.be/pagina/weetjes-en-faqs-over-vleermuizen
 
