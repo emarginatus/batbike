@@ -1,11 +1,15 @@
 ---
-title: "Kasteel(park) Lembeek"
 output: html_document
 ---
 
+# Kasteel(park) Lembeek
+
+**eigenaar:** Stad Halle
+**toegankelijkheid**: het kasteelpark is vrij toegankelijk.
+
 ## Het kasteel weerspiegeld in Zenne.
 
-Gedurende 3 eeuwen was dit bouwwerk het statige machtssymbool van de heren van Lembeek. De families Richardot, Bornonville, d’Ursel.
+Gedurende 3 eeuwen was dit bouwwerk het statige machtssymbool van de heren van Lembeek. De families Richardot, Bornonville, d'Ursel.
 In 1853 kocht Paul Claes, die in Lembeek een grote jeneverstokerij had, het kasteel en liet het restaureren.
 In 1904 verkochten de erfgenamen van P. Claes het kasteeldomein aan de Broeders der Christelijke scholen. De congregatie voorheen gevestigd in Frankrijk, was op zoek naar een nieuwe vestigingsplaats in het buitenland voor haar administratieve hoofdzetel.
 Het kasteeldomein was evenwel niet voorzien op de grote toevloed van religieuzen. Er werd in spoedtempo werk gemaakt van aanpassingswerken. 
@@ -14,7 +18,7 @@ De nieuwe gebouwen omvatten o.a. een klein en een tweede noviciaat met klaslokal
 Zo raakten Lembeek en zijn kasteel bekend in de 5 werelddelen en was het er een komen en gaan van mensen van over de hele wereld. Tot 1936 bleef Lembeek de administratieve hoofdzetel van de congregatie.
 
 
-In 1971 verkochten de Broeders hun domein in Lembeek aan de “Etablissementen Fr. Colruyt”. Die zouden er magazijnen bouwen!! Waarvoor ze toestemming kregen van het toenmalig gemeentebestuur... Nog geen jaar later was het grootste deel van het kasteel afgebroken.
+In 1971 verkochten de Broeders hun domein in Lembeek aan de "Etablissementen Fr. Colruyt". Die zouden er magazijnen bouwen!! Waarvoor ze toestemming kregen van het toenmalig gemeentebestuur... Nog geen jaar later was het grootste deel van het kasteel afgebroken.
 
 Wat er nu nog staat zijn o.a. het gerestaureerde klein noviciaat, grenzend aan de Bondgenotenstraat, en ernaast de toegangspoort tot het Kasteelpark. Hierin zijn nu het lokaal van de Chiromeisjes en de pingpongclub ondergebracht.
 In het dak van dit gebouw zijn er aan de kant van de Bondgenotenstraat invliegopeningen voor vleermuizen ondergebracht. 
@@ -23,10 +27,13 @@ Bronnen:
 - Lembeek in oude prenten deel 1 en 2 / Dirk Vandenplas
 
 Info vind je ook op :
+
 - http://home.scarlet.be/~tsf13331/toenennu/ligging-infra.htm
 - https://berichtenuithetverleden.wordpress.com/2010/12/27/de-malakoff-toren-te-lembeek/
 
+### Inrichting voor vleermuizen
 
+Op de zolder van de kloostergebouwen werden een aantal invliegopeningen geplaatst. Deze openingen laat toe dat enkel vleermuizen makkelijk binnen en buiten kunnen vliegen. Vleermuizen maken tijdens de zomer graag gebruik van dergelijke zolders om overdag te slapen.
 
 ## Wat eten vleermuizen?
 
@@ -40,7 +47,7 @@ Dagactieve insecten zijn evenmin veilig voor vleermuizen.
 
 ### Wist je dat... 
 
-... een vleermuis echt nacht de helft van zijn eigen gewicht opeet. Reken maar uit hoeveel muggen dat zijn als je weet dat een mug slechts 0.0025 gram weegt.
+... een vleermuis elke nacht de helft van zijn eigen gewicht opeet. Reken maar uit hoeveel muggen dat zijn als je weet dat een mug slechts 0.0025 gram weegt.
 
 ... vampiervleermuizen echt bestaan. Ze hebben slijmscherpe tanden waarmee ze een wondje maken bij hun slachtoffer waarna ze het bloed oplikken. Gelukkig komen deze vleermuizen enkel in Midden-Amerika voor!
 
@@ -53,7 +60,7 @@ Vertraagde opname van jagende vleermuis
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/el9RJL72vRA?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 
-## Franjestaat
+## Franjestaart
 
 ### Weetjes
 
@@ -77,31 +84,3 @@ Vertraagde opname van een Franjestaart die opvliegt
 
 Franjestaarten in winterslaap
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/bfmDAva7vbk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-
-# Op te kuisen
-
-- eigenaar: stad Halle? 
-- nut voor vleermuizen: zomerkolonie, winterverblijfplaats jachtgebied
-- inrichting:
-    - invliegopening: foto/tekening gebouw met aanduiding
-    - acetyleenkelder: foto buiten, filmpje binnen
-    - beerput: filmpje binnen
-- geschiedenis: 
-    - http://home.scarlet.be/~tsf13331/toenennu/lokaal.htm
-    - http://www.gs-esf.be/downloads/topoguides/Lembeek05_NL_LOW_A4.pdf
-    - https://inventaris.onroerenderfgoed.be/erfgoedobjecten/135379
-    - http://www.hallensia.be/blog/?page_id=6
-- vleermuis toegelicht: franjestaart
-    - foto
-    - silhouet?
-    - beknopte levenswijze
-    - kenmerken voor leken
-        - geen
-- detailkaart:
-    - fietsroute
-    - wandelroute?
-    - infobord
-    - acetyleenkelder
-    - beerput?
-    - kasteelruïne
