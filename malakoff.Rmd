@@ -1,7 +1,12 @@
 ---
-title: "Malakoffdomein (Grote Zenne)"
 output: html_document
 ---
+
+# Malakoffdomein (Grote Zenne)
+
+**eigenaar:** [Agentschap voor Natuur- en Bos](https://www.natuurenbos.be/hallerbos)
+**toegankelijkheid:** het Malakoffdomein is vrij toegankelijk. De Malakoffkelder wordt eenmaal per jaar opengesteld voor het publiek. Zie onze [activiteitenkalender](activiteiten.html).
+
 
 Op deze pagina:
 
@@ -27,19 +32,11 @@ De toren werd op een bepaald moment als decor gebruikt bij het naslepen van de [
 
 ### Malakoffkelder
 
-Een beetje verborgen op het terrein kan je de nieuwe ingang van de Malakoffkelder vinden. De  kelder bestaat uit een koepel met een diameter van ???m en ???m hoog. De koepel is gebouwd met lokale blauwe hardsteen en heeft bewust zeer ruwe randen gekregen. Daarom vermoeden we dat de kelder eerder als een imitatiegrot gebouwd is dan als een ijskelder. 
+Een beetje verborgen op het terrein kan je de nieuwe ingang van de Malakoffkelder vinden. De koepel is gebouwd met lokale blauwe hardsteen en heeft bewust zeer ruwe randen gekregen.
 
-Oorspronkelijk was de ingang een gang van ???m in het noordwesten. De kelder was op een bepaald moment behoorlijk vervallen. Een deel van de gang en het dak was ingestort. Op dat moment werd de kelder reeds door vleermuizen als winterverblijfplaats gebruikt. Herman Van Schepdael, Hugo Van Bochaute en Philippe Deschuyfeleer hebben eigen handig, en met financiële ondersteuning van het Agentschap voor Natuur en Bos, de kelder gerestaureerd en gelijkig aangepast zodat vleermuizen er ongestoord kunnen overwinteren.
+De kelder was op een bepaald moment behoorlijk vervallen. Een deel van de gang en het dak was ingestort. Op dat moment werd de kelder reeds door vleermuizen als winterverblijfplaats gebruikt. Herman Van Schepdael, Hugo Van Bochaute en Philippe Descuyffeleer hebben eigenhandig, en met financiële ondersteuning van het Agentschap voor Natuur en Bos, de kelder gerestaureerd en gelijktijdig aangepast zodat vleermuizen er ongestoord kunnen overwinteren.
 
-Eerst werd gestart met het herstel van de kelder en oorspronkelijke gang. De ingang van deze gang werd dichtgemetst. Aan de andere kant was immers een opening in de kelder die nu als nieuwe ingang gebruikt werd. Omdat vleermuizen graag een stabiel microklimaat hebben, werd voor de nieuwe ingang een gang van ???m lang gebouwd. Deze staat haaks op de ingang van de kelder en bevat drie binnendeuren die de instroom van koude buitenlucht beperken. De bezoekers aan het Malakoffdomein zien enkel de toegang van deze gang. Deze is afgesloten met een stevig hek om vandalisme en verstoring van de vleermuizen te vermijden. Zowel de nieuwe als oude gang en de kelder zelf werden met een dikke laag grond bedekt. Op die manier is het klimaat in de kelder goed gebufferd. De temperatuur schommelt tussen ???° in de winter en ???° in de zomer.
-
-### Te zoeken
-
-- foto van kanaaltunnel
-- foto interier kelder
-- grondplan kelder
-- foto van renovatie
-- cijfers van aantallen overwinterende vleermuizen
+Eerst werd gestart met het herstel van de kelder en oorspronkelijke gang. De ingang van deze gang werd dichtgemetst. Aan de andere kant was immers een opening in de kelder die nu als nieuwe ingang gebruikt werd. Omdat vleermuizen graag een stabiel microklimaat hebben, werd voor de nieuwe ingang een gang van 37m lang gebouwd. Deze staat haaks op de ingang van de kelder en bevat twee binnendeuren die de instroom van koude buitenlucht beperken. De bezoekers aan het Malakoffdomein zien enkel de toegang van deze gang. Deze is afgesloten met een stevig hek om vandalisme en verstoring van de vleermuizen te vermijden. De dikke laag grond over de kelder zorgt ervoor dat het klimaat goed gebufferd. De temperatuur schommelt tussen 8° in de winter en 10° in de zomer.
 
 ### Wandelen in het Malakoffdomein
 
@@ -148,7 +145,7 @@ Vleermuizen gebruiken geluiden met zeer hoge tonen, deze zijn zo hoog dat mensen
 
 ## Watervleermuis {#watervleermuis}
 
-**Foto van watervleermuis in een spechtenhol**
+(Kolonie watervleermuizen. Foto: Hugo Willocx)[images/watervleermuis_kolonie_HugoWillocx.jpeg]
 
 ### Weetjes
 
