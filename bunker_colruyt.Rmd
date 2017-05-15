@@ -1,14 +1,15 @@
 ---
-title: "Bunker Colruyt Group"
 output: html_document
 ---
+
+# Bunker Colruyt Group
 
 **eigenaar:** Colruyt Group  
 **toegankelijkheid:** deze bunker is enkel toegankelijk voor vleermuizen
 
 ## Bunkers rond Halle
 
-In de periode 1939-1940 werd Halle uitgebouwd als één van de zes weerstandscentra op de zuidelijke verdedigingsstelling Wwavre-Halle-Ninove. 
+In de periode 1939-1940 werd Halle uitgebouwd als één van de zes weerstandscentra op de zuidelijke verdedigingsstelling Wavre-Halle-Ninove. 
 Volgens de legerplannen bevonden er zich in Halle negen bunkers. Sommige waren zwaar versterkte vestigingen zoals de hierboven afgebeelde bunker aan de Jambonstraat. De bunker op het kerkhof was dan weer een lichte vestiging. Er werden 8 van de 9 bunkers gelokaliseerd, waarvan er nog 5 bestaan. Wie de vleermuisroute fietst ontdekt 4 bunkers die allen nog in zeer goede staat zijn.
 
 Toen rond 1930 de oorlogsdreiging steeds groter werd, ontstond het idee om achter het Albertkanaal een extra verdedigingslinie te bouwen.  De gordel moest tussen Koningshooikt (Antwerpen) en Waver lopen.  Het werd de KW-linie genoemd.
