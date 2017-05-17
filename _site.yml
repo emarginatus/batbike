@@ -44,6 +44,7 @@ navbar:
       menu:
         - text: "Folder"
           icon: fa-file-pdf-o
+          href: "images/folder.pdf"
         - text: "GPX track"
           href: "route/route.gpx"
     - text: "Vleermuizenwerkgroep Myotis"
