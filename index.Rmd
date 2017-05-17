@@ -144,7 +144,8 @@ leaflet(data = route) %>%
     paste0(
       "https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=", 
       Sys.getenv("OCM_API")
-    )
+    ),
+    attribution = "Kaart © <a href= 'http://www.thunderforest.com/'>Thunderforest</a>, Data © <a href ='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>-auteurs"
   ) %>%
   addPolylines()
 ```
