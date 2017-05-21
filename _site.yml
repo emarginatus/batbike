@@ -67,6 +67,8 @@ navbar:
           href: "http://www.planboommarter.be"
         - text: "Agentschap voor Natuur- en Bos"
           href: "https://www.natuurenbos.be/hallerbos"
+        - text: "Natuurpunt"
+          href: "https://www.natuurpunt.be"
         - text: "Colruyt Group"
           href: "https://www.colruytgroup.be/nl"
         - text: "Conversion Works"
