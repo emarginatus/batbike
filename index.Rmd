@@ -132,8 +132,6 @@ hoogtemeters <- sprintf("%.0fm", max(hoogteprofiel$hoogtemeter))
 </div>
 **Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen** en hoe ze gebruik maken van de verschillende historische gebouwen en elementen in het landschap. 
 
-Op zondag 21 mei wordt de fietstocht feestelijk geopend. We vertrekken om 13u30 stipt aan het station van Halle. . Deze opening is voor iedereen vrij en gratis toegankelijk. Inschrijven kan ter plaatse en (bijvoorkeur) via [ons online formulier](https://docs.google.com/a/muscardinus.be/forms/d/e/1FAIpQLSemFGxn4_9ltFJXKktX3Jjx5h0YlN8ToA9IpAnANYPsNpSVKg/viewform)
-
 De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.  De [GPX track](route/route.gpx) is tevens beschikbaar.
 
 ## Route
