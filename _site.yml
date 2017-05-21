@@ -71,8 +71,6 @@ navbar:
           href: "https://www.colruytgroup.be/nl"
         - text: "Conversion Works"
           href: "http://www.conversionworks.eu/"
-    - text: "Inschrijven"
-      href: "https://docs.google.com/a/muscardinus.be/forms/d/e/1FAIpQLSemFGxn4_9ltFJXKktX3Jjx5h0YlN8ToA9IpAnANYPsNpSVKg/viewform"
 
 output_dir: "_site"
 include: ["README.md"]
