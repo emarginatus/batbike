@@ -41,9 +41,15 @@ basis <- read_csv("route/route.csv") %>%
       coordinates() %>%
       "[["(1) %>%
       as.data.frame() %>%
+      cbind(
+        data.frame(
+          route, id, omkeren,
+          stringsAsFactors = FALSE
+        )
+      ) %>%
       list()
-  ) %>%
-  unnest(segment, .drop = FALSE) %>%
+  )
+basis <- bind_rows(basis$segment) %>%
   group_by(route, id) %>%
   mutate(
     volgorde = ifelse(omkeren, -1, 1) * row_number()
