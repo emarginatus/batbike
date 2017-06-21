@@ -46,9 +46,15 @@ route <- read_csv("route/route.csv") %>%
       coordinates() %>%
       "[["(1) %>%
       as.data.frame() %>%
+      cbind(
+        data.frame(
+          id, omkeren,
+          stringsAsFactors = FALSE
+        )
+      ) %>%
       list()
-  ) %>%
-  unnest(segment, .drop = FALSE) %>%
+  )
+route <- bind_rows(route$segment) %>%
   group_by(id) %>%
   mutate(
     volgorde = ifelse(omkeren, -1, 1) * row_number()
@@ -132,7 +138,7 @@ hoogtemeters <- sprintf("%.0fm", max(hoogteprofiel$hoogtemeter))
 </div>
 **Bat Bike** is een familievriendelijke fietstocht rond Halle die je in contact brengt met de wondere wereld van **vleermuizen** en hoe ze gebruik maken van de verschillende historische gebouwen en elementen in het landschap. 
 
-De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.  De [GPX track](route/route.gpx) is tevens beschikbaar.
+De `r afstand` lange route met `r hoogtemeters` hoogtemeters brengt je langs een aantal stopplaatsen met extra informatie over vleermuizen. Je kan de route en de beschrijving eveneens vinden in onze folder. Deze kan je downloaden via de website als gratis afhalen bij onze partners. De route is volledig bewegwijzerd.  De [GPX track](routeyou.html) is tevens beschikbaar.
 
 ## Route
 
