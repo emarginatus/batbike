@@ -51,6 +51,8 @@ navbar:
       menu:
         - text: "Voorstelling"
           href: "voorstelling.html"
+        - text: "Facebook"
+          href: "https://www.facebook.com/vleermuizenwerkgroepmyotis/"
         - text: "Activiteiten"
           href: "activiteiten.html"
     - text: "Met steun van"
