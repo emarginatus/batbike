@@ -2,6 +2,24 @@
 title: "Bat Bike"
 output: html_document
 ---
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script>
+  window.setInterval(function(){
+
+  var current = new Date();
+  var expiry  = new Date("June 25, 2018 12:00:00")
+
+  if(current.getTime()>expiry.getTime()){
+    $('#gidsbeurt').hide();
+  }
+}, 3000);
+
+$('#gidsbeurt').show(); 
+</script>
+<div id="gidsbeurt" style="display:none">
+    <p>Op zondag 24 juni 2018 kan je deze fietstocht onder begeleiding van een aantal vleermuizengidsen doen. Vertrek om 14u aan het station van Halle. Deelname is gratis.</p>
+</div>
+
 
 ```{r load_packages, include = FALSE}
 set.seed(1)
