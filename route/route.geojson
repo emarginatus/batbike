@@ -2936,7 +2936,7 @@
     {
       "type": "Feature",
       "properties": {
-        "segment": "32-32",
+        "segment": "32-33",
         "categorie": "fiets"
       },
       "geometry": {
