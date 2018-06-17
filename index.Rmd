@@ -16,8 +16,13 @@ output: html_document
 
 $('#gidsbeurt').show(); 
 </script>
-<div id="gidsbeurt" style="display:none">
-    <p>Op zondag 24 juni 2018 kan je deze fietstocht onder begeleiding van een aantal vleermuizengidsen doen. Vertrek om 14u aan het station van Halle. Deelname is gratis.</p>
+
+<div id="gidsbeurt">
+
+## Begeleide fietstocht
+
+Op zondag 24 juni 2018 kan je deze fietstocht onder begeleiding van een aantal vleermuizengidsen doen. Vertrek om 14u aan het station van Halle. Deelname is gratis.
+
 </div>
 
 
