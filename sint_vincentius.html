@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/markdown7.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Bat Bike</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Start
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-map-o"></span>
+     
+    Kaart
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="kaart.html">
+        <span class="fa fa-map-o"></span>
+         
+        Interactieve kaart
+      </a>
+    </li>
+    <li>
+      <a href="kaarten.html">
+        <span class="fa fa-map-o"></span>
+         
+        Afdrukbare kaarten
+      </a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-info"></span>
+     
+    Infopunten
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="station.html">
+        <span class="fa fa-photo"></span>
+         
+        1. Station
+      </a>
+    </li>
+    <li>
+      <a href="malakoff.html">
+        <span class="fa fa-photo"></span>
+         
+        2. Malakoffdomein
+      </a>
+    </li>
+    <li>
+      <a href="kasteelpark.html">
+        <span class="fa fa-info"></span>
+         
+        3. Kasteelpark Lembeek
+      </a>
+    </li>
+    <li>
+      <a href="spoorwegbedding.html">
+        <span class="fa fa-info-circle"></span>
+         
+        4. Oude spoorwegbedding
+      </a>
+    </li>
+    <li>
+      <a href="bunker_colruyt.html">
+        <span class="fa fa-eye"></span>
+         
+        5. Bunker Colruyt Group
+      </a>
+    </li>
+    <li>
+      <a href="bunker_kerkhof.html">
+        <span class="fa fa-binoculars"></span>
+         
+        6. Bunker kerkhof
+      </a>
+    </li>
+    <li>
+      <a href="bunker_stroppen.html">7. Bunker Stroppen</a>
+    </li>
+    <li>
+      <a href="sint_vincentius.html">8. Sint Vincentiuskerk</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-download"></span>
+     
+    Downloads
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="images/folder.pdf">
+        <span class="fa fa-file-pdf-o"></span>
+         
+        Folder
+      </a>
+    </li>
+    <li>
+      <a href="routeyou.html">GPX track</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Vleermuizenwerkgroep Myotis
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="voorstelling.html">Voorstelling</a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/vleermuizenwerkgroepmyotis/">Facebook</a>
+    </li>
+    <li>
+      <a href="activiteiten.html">Activiteiten</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-info"></span>
+     
+    Met steun van
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="http://www.fietsersbond.be/halle">
+        <span class="fa fa-bicycle"></span>
+         
+        Fietsersbond Halle
+      </a>
+    </li>
+    <li>
+      <a href="https://www.halle.be">Stad Halle</a>
+    </li>
+    <li>
+      <a href="http://www.vlaamsbrabant.be/wonen-milieu/milieu-en-natuur/natuur/koesterburen/index.jsp">Provincie Vlaams Brabant</a>
+    </li>
+    <li>
+      <a href="http://www.planboommarter.be">Plan Boommarter</a>
+    </li>
+    <li>
+      <a href="https://www.natuurenbos.be/hallerbos">Agentschap voor Natuur- en Bos</a>
+    </li>
+    <li>
+      <a href="https://www.natuurpunt.be">Natuurpunt</a>
+    </li>
+    <li>
+      <a href="https://www.colruytgroup.be/nl">Colruyt Group</a>
+    </li>
+    <li>
+      <a href="http://www.conversionworks.eu/">Conversion Works</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="sint-vincentiuskerk" class="section level1">
+<h1>Sint Vincentiuskerk</h1>
+<p><strong>eigenaar:</strong> kerkfabriek Sint Vincentiuskerk <strong>toegankelijkheid:</strong> de kerk zelf is enkel toegankelijk tijdens de erediensten. De zolder is enkel toegankelijk voor vleermuizen.</p>
+<div id="sint-vincentiuskerk-1" class="section level2">
+<h2>Sint Vincentiuskerk</h2>
+<p>De kerk dateert van het begin van vorige eeuw, en werd gebouwd ter vervanging van de kleinere St. Vincentiuskerk die aan de overkant van het plein naast de Kasteelhoeve stond en die op haar beurt werd gebouwd ter vervanging van de kapel van het Kasteel van Buizingen. Op de huidige kerk is er nooit een toren gebouwd. Vandaar de naam “Kerk zonder toren”</p>
+<p>Meer info nodig?</p>
+<p>Buizingen zoals het vroeger was/ Guy Lernout en Erik Meeussen</p>
+<p>Of digitaal:</p>
+<ul>
+<li><a href="http://www.kerkeninvlaanderen.be/pages/kerk_01370.htm" class="uri">http://www.kerkeninvlaanderen.be/pages/kerk_01370.htm</a></li>
+<li><a href="https://nl.wikipedia.org/wiki/Sint-Vincentiuskerk_(Buizingen)" class="uri">https://nl.wikipedia.org/wiki/Sint-Vincentiuskerk_(Buizingen)</a></li>
+<li><a href="http://www.bezieldverband.be/gemeenschap/don-boscoparochie-buizingen" class="uri">http://www.bezieldverband.be/gemeenschap/don-boscoparochie-buizingen</a></li>
+<li><a href="https://nl.wikipedia.org/wiki/Buizingen" class="uri">https://nl.wikipedia.org/wiki/Buizingen</a></li>
+<li><a href="http://www.nieuwsblad.be/cnt/blide_02528307" class="uri">http://www.nieuwsblad.be/cnt/blide_02528307</a></li>
+</ul>
+</div>
+<div id="zomerkolonies-van-vleermuizen" class="section level2">
+<h2>Zomerkolonies van vleermuizen</h2>
+<p>Twee dakramen van de kerk werden aangepast zodat de vleermuizen ze als invliegopening kunnen gebruiken.</p>
+</div>
+<div id="vleermuizen-zijn-bedreigd-en-hebben-geschikte-verblijfsplaatsen-nodig" class="section level2">
+<h2>Vleermuizen zijn bedreigd en hebben geschikte verblijfsplaatsen nodig</h2>
+<p>Vleermuizen gebruiken een verblijfplaats voor de winterslaap, in de zomer zijn er verblijfplaatsen om te slapen, te paren, voedsel te verorberen, jongen groot te brengen en als tussenstop tijdens de trek. Op basis van het soort verblijfplaats kunnen vleermuizen worden ingedeeld in twee typen, soorten die gebruik maken van holten en spleten in bomen en vleermuizen die gebruik maken van bebouwing.</p>
+<p>In bebouwing wordt bijvoorbeeld gebruik gemaakt van spouwruimten, ruimte achter beplating, zolders, kelders, kerktorens en dak bekleding. Soorten als de Gewone dwergvleermuis verkiezen smalle ruimten, waar zij zowel met de buik als met de rug in contact staan met het substraat; spouwmuren zijn een favoriet verblijf. Andere soorten hangen vrij, bijvoorbeeld aan balken op kerkzolders. Het aantal dieren dat van een verblijfplaats gebruik maakt kan variëren van een enkel exemplaar tot vele honderden exemplaren en hangt af van de soort en het type gebruik. Tijdens de kraamtijd komen bijvoorbeeld grote groepen vrouwtjes samen, om gezamenlijk jongen te baren. Later in het jaar, wanneer de jonge dieren uitvliegen, vallen dergelijke groepen uiteen in kleine groepjes. De samenhang in deze groep dieren is blijvend van karakter, men spreekt dan ook van een kolonie. Veel soorten vleermuizen onderhouden een netwerk van (zomer)verblijfplaatsen. Om een gebied, bijvoorbeeld een bedrijfsterrein, geschikt te maken voor bewoning door vleermuizen, wordt dan ook geadviseerd meerdere verblijfplaatsen te creëren.</p>
+<p>De mogelijkheden zijn eindeloos om bijvoorbeeld bij verbouwingen verblijfplaatsen te realiseren. Er zijn wel voorwaarden aan verbonden:</p>
+<ul>
+<li>de betreffende ruimte is bereikbaar voor vleermuizen door invliegopeningen;</li>
+<li>de invliegopening(en) is (zijn) vrij van verstoring (bijvoorbeeld verlichting);</li>
+<li>de ruimte is droog en niet tochtig;</li>
+<li>in en rond de ruimte vindt geen verstoring plaats (betreding door mensen, trillingen, licht);</li>
+<li>de ruimte is vrij van irriterende stoffen als gif, houtbehandelingsmiddelen en kleverige harsen;</li>
+<li>de ruimte is warm of warmt snel op;</li>
+<li>in de ruimte zijn mogelijkheden voor vleermuizen om aan te hangen (ruw materiaal als onbehandeld hout, niet gepolijst steenwerk) of tussen weg te kruipen (spleten, kieren);</li>
+<li>de ruimte is niet toegankelijk voor predatoren (er zijn voorbeelden bekend van katten die bij de uitvliegopening wachten op in- of uitvliegende vleermuizen)</li>
+</ul>
+<div id="invliegopeningen-wat-kan-u-zelf-doen-voor-de-vleermuis" class="section level3">
+<h3>Invliegopeningen: wat kan u zelf doen voor de vleermuis</h3>
+<p>Liggende chiroptières, dakramen, verluchtingsgaten</p>
+<ul>
+<li><p>Een dakraam kan fungeren als chiroptière. Het is voldoende om het raam te fixeren met een opening van maximum 6 cm. Een houten onderrand vergemakkelijkt het binnen kruipen. Verdonkeren van de dakramen is aan te raden. Dat maakt de achterliggende ruimte ongeschikt voor vogels.De zijkanten van het dakvenster afwerken met zink voorkomt binnen regenen.</p></li>
+<li><p>Bij gewone ramen kunnen invliegopeningen worden voorzien als het raamkozijn dat toelaat.Eén of meerdere vensters vervangen door een plank met een opening van maximum 6 cm bij 40 cm is een alternatief om vleermuizen toegang te verlenen via bestaande ramen.</p></li>
+<li><p>(Kerk)zolders met glazen ramen kan men verdonkeren door het plaatsen van ondoorzichtige panelen achter het glas. Het glas beschilderen is minder geschikt aangezien verf onder invloed van licht en temperatuurverschillen gemakkelijk afschilfert. Door het verdonkeren van de kerkzolder maakt men de zolder meer geschikt voor vleermuizen en houdt men duiven, die donkere ruimtes zoveel mogelijk vermijden.</p></li>
+</ul>
+<p>Meer info en afbeeldingen: <a href="https://www.ecopedia.be/pagina/inventariseren-van-kerkzolders-op-vleermuizen" class="uri">https://www.ecopedia.be/pagina/inventariseren-van-kerkzolders-op-vleermuizen</a></p>
+<iframe src="https://player.vimeo.com/video/149653792" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+</iframe>
+<p>
+<a href="https://vimeo.com/149653792">13 Vleermuizen op zolder</a> from <a href="https://vimeo.com/inverde">Inverde</a> on <a href="https://vimeo.com">Vimeo</a>.
+</p>
+<iframe src="https://player.vimeo.com/video/151408387" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+</iframe>
+<p>
+<a href="https://vimeo.com/151408387">Hoe een kerkzolder inrichten voor vleermuizen?</a> from <a href="https://vimeo.com/inverde">Inverde</a> on <a href="https://vimeo.com">Vimeo</a>.
+</p>
+</div>
+</div>
+<div id="laatvlieger" class="section level2">
+<h2>Laatvlieger</h2>
+<div id="weetjes" class="section level3">
+<h3>Weetjes</h3>
+<ul>
+<li>Als ik mijn vleugels spreid, ben ik 31 tot 38 cm breed.</li>
+<li>Ik weeg 14 tot 35 gram.</li>
+<li>Ik ben verzot op allerlei grote insecten.</li>
+<li>Zowel zomers als winter verblijf ik overdag graag op een zolder of in een spouwmuur.</li>
+</ul>
+</div>
+<div id="videos" class="section level3">
+<h3>Video’s</h3>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/suEs0KzJUcI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/7paEX5d-TqA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/nVOv80yFD1o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/-e9IQGQVfG4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

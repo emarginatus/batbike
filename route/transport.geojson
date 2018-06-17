@@ -1,0 +1,275 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "label": "🚆",
+        "id": "Lembeek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.221169352531433,
+          50.71469952006891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "label": "🚆",
+        "id": "Halle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.240454435348511,
+          50.73376106527006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "station",
+        "label": "🚆",
+        "id": "Buizingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.258419871330261,
+          50.75134697526809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "label": "P",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.249257445335388,
+          50.74125553103381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "label": "P",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.24271821975708,
+          50.73906078676139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "label": "P",
+        "id": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.243834018707275,
+          50.73599170659376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "label": "P",
+        "id": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.24783855676651,
+          50.732211097445976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "label": "P",
+        "id": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.222974479198455,
+          50.713542944891664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "parking",
+        "label": "P",
+        "id": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.222263693809509,
+          50.71519373071488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "fietsenmaker",
+        "label": "🚲",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2336443066596985,
+          50.73505294887661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "fietsenmaker",
+        "label": "🚲",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.233003258705139,
+          50.735765931139746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223272204399109,
+          50.709159248936984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.223787188529968,
+          50.71387752243614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.222711622714996,
+          50.71360068940997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.225560128688812,
+          50.74029820743334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2312973737716675,
+          50.750288035849145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "VVV",
+        "label": "🛈",
+        "id": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.237632751464844,
+          50.73592550187417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "categorie": "cafe",
+        "label": "☕",
+        "id": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.250780940055847,
+          50.74184281561346
+        ]
+      }
+    }
+  ]
+}

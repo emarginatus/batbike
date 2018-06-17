@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/markdown7.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Bat Bike</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Start
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-map-o"></span>
+     
+    Kaart
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="kaart.html">
+        <span class="fa fa-map-o"></span>
+         
+        Interactieve kaart
+      </a>
+    </li>
+    <li>
+      <a href="kaarten.html">
+        <span class="fa fa-map-o"></span>
+         
+        Afdrukbare kaarten
+      </a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-info"></span>
+     
+    Infopunten
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="station.html">
+        <span class="fa fa-photo"></span>
+         
+        1. Station
+      </a>
+    </li>
+    <li>
+      <a href="malakoff.html">
+        <span class="fa fa-photo"></span>
+         
+        2. Malakoffdomein
+      </a>
+    </li>
+    <li>
+      <a href="kasteelpark.html">
+        <span class="fa fa-info"></span>
+         
+        3. Kasteelpark Lembeek
+      </a>
+    </li>
+    <li>
+      <a href="spoorwegbedding.html">
+        <span class="fa fa-info-circle"></span>
+         
+        4. Oude spoorwegbedding
+      </a>
+    </li>
+    <li>
+      <a href="bunker_colruyt.html">
+        <span class="fa fa-eye"></span>
+         
+        5. Bunker Colruyt Group
+      </a>
+    </li>
+    <li>
+      <a href="bunker_kerkhof.html">
+        <span class="fa fa-binoculars"></span>
+         
+        6. Bunker kerkhof
+      </a>
+    </li>
+    <li>
+      <a href="bunker_stroppen.html">7. Bunker Stroppen</a>
+    </li>
+    <li>
+      <a href="sint_vincentius.html">8. Sint Vincentiuskerk</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-download"></span>
+     
+    Downloads
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="images/folder.pdf">
+        <span class="fa fa-file-pdf-o"></span>
+         
+        Folder
+      </a>
+    </li>
+    <li>
+      <a href="routeyou.html">GPX track</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Vleermuizenwerkgroep Myotis
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="voorstelling.html">Voorstelling</a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/vleermuizenwerkgroepmyotis/">Facebook</a>
+    </li>
+    <li>
+      <a href="activiteiten.html">Activiteiten</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-info"></span>
+     
+    Met steun van
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="http://www.fietsersbond.be/halle">
+        <span class="fa fa-bicycle"></span>
+         
+        Fietsersbond Halle
+      </a>
+    </li>
+    <li>
+      <a href="https://www.halle.be">Stad Halle</a>
+    </li>
+    <li>
+      <a href="http://www.vlaamsbrabant.be/wonen-milieu/milieu-en-natuur/natuur/koesterburen/index.jsp">Provincie Vlaams Brabant</a>
+    </li>
+    <li>
+      <a href="http://www.planboommarter.be">Plan Boommarter</a>
+    </li>
+    <li>
+      <a href="https://www.natuurenbos.be/hallerbos">Agentschap voor Natuur- en Bos</a>
+    </li>
+    <li>
+      <a href="https://www.natuurpunt.be">Natuurpunt</a>
+    </li>
+    <li>
+      <a href="https://www.colruytgroup.be/nl">Colruyt Group</a>
+    </li>
+    <li>
+      <a href="http://www.conversionworks.eu/">Conversion Works</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="kasteelpark-lembeek" class="section level1">
+<h1>Kasteel(park) Lembeek</h1>
+<p><strong>eigenaar:</strong> Stad Halle <strong>toegankelijkheid</strong>: het kasteelpark is vrij toegankelijk.</p>
+<div id="het-kasteel-weerspiegeld-in-zenne." class="section level2">
+<h2>Het kasteel weerspiegeld in Zenne.</h2>
+<p>Gedurende 3 eeuwen was dit bouwwerk het statige machtssymbool van de heren van Lembeek. De families Richardot, Bornonville, d’Ursel. In 1853 kocht Paul Claes, die in Lembeek een grote jeneverstokerij had, het kasteel en liet het restaureren. In 1904 verkochten de erfgenamen van P. Claes het kasteeldomein aan de Broeders der Christelijke scholen. De congregatie voorheen gevestigd in Frankrijk, was op zoek naar een nieuwe vestigingsplaats in het buitenland voor haar administratieve hoofdzetel. Het kasteeldomein was evenwel niet voorzien op de grote toevloed van religieuzen. Er werd in spoedtempo werk gemaakt van aanpassingswerken. De broeders respecteerden de oorspronkelijke constructie en gebruikten dezelfde materialen. De nieuwe gebouwen omvatten o.a. een klein en een tweede noviciaat met klaslokalen en de slaapzaal voor de novicen. Hier werden telkens een 50-tal Broeders van over de hele wereld (o.a. uit Frankrijk, V.S., Italië, Canada, Ierland, Duitsland, Spanje, Oostenrijk, Ceylon…) verder ingewijd in het gedachtengoed van J.-B. de la Salle gedurende 9 maanden. Zo raakten Lembeek en zijn kasteel bekend in de 5 werelddelen en was het er een komen en gaan van mensen van over de hele wereld. Tot 1936 bleef Lembeek de administratieve hoofdzetel van de congregatie.</p>
+<p>In 1971 verkochten de Broeders hun domein in Lembeek aan de “Etablissementen Fr. Colruyt”. Die zouden er magazijnen bouwen!! Waarvoor ze toestemming kregen van het toenmalig gemeentebestuur… Nog geen jaar later was het grootste deel van het kasteel afgebroken.</p>
+<p>Wat er nu nog staat zijn o.a. het gerestaureerde klein noviciaat, grenzend aan de Bondgenotenstraat, en ernaast de toegangspoort tot het Kasteelpark. Hierin zijn nu het lokaal van de Chiromeisjes en de pingpongclub ondergebracht. In het dak van dit gebouw zijn er aan de kant van de Bondgenotenstraat invliegopeningen voor vleermuizen ondergebracht.</p>
+<p>Bronnen: - Lembeek in oude prenten deel 1 en 2 / Dirk Vandenplas</p>
+<p>Info vind je ook op :</p>
+<ul>
+<li><a href="http://home.scarlet.be/~tsf13331/toenennu/ligging-infra.htm" class="uri">http://home.scarlet.be/~tsf13331/toenennu/ligging-infra.htm</a></li>
+<li><a href="https://berichtenuithetverleden.wordpress.com/2010/12/27/de-malakoff-toren-te-lembeek/" class="uri">https://berichtenuithetverleden.wordpress.com/2010/12/27/de-malakoff-toren-te-lembeek/</a></li>
+</ul>
+<div id="inrichting-voor-vleermuizen" class="section level3">
+<h3>Inrichting voor vleermuizen</h3>
+<p>Op de zolder van de kloostergebouwen werden een aantal invliegopeningen geplaatst. Deze openingen laat toe dat enkel vleermuizen makkelijk binnen en buiten kunnen vliegen. Vleermuizen maken tijdens de zomer graag gebruik van dergelijke zolders om overdag te slapen.</p>
+</div>
+</div>
+<div id="wat-eten-vleermuizen" class="section level2">
+<h2>Wat eten vleermuizen?</h2>
+<p>Alle vleermuizen die in onze streken voorkomen eten insecten en spinnen. Sommige tropische soorten zijn verzot op fruit, nectar of vis.</p>
+<p>Vleermuizen gebruiken verschillende technieken om hun prooi te pakken te krijgen. Voor vliegende prooien gebruiken de vleermuizen meestal hun staarthuid als een soort schepnet. De staarthuid is een dun vlies dat tussen de achterpoten en de staart van vleermuizen zit. Vervolgens nemen ze de prooi met hun mond vast. Muggen worden in de vlucht opgegeten, deze zijn klein genoeg om snel door te slikken. Nachtvlinders of kevers zijn te groot om in een keer door te slikken. De vleermuis vliegt dan naar een boom en hangt ondersteboven aan een tak waarna de prooi opgegeten wordt.</p>
+<p>Watervleermuizen en meervleermuizen jagen op insecten die op het water zitten. Deze soorten hebben extra grote voeten waarmee ze insecten van het wateroppervlak harken.</p>
+<p>Dagactieve insecten zijn evenmin veilig voor vleermuizen.</p>
+<div id="wist-je-dat" class="section level3">
+<h3>Wist je dat…</h3>
+<p>… een vleermuis elke nacht de helft van zijn eigen gewicht opeet. Reken maar uit hoeveel muggen dat zijn als je weet dat een mug slechts 0.0025 gram weegt.</p>
+<p>… vampiervleermuizen echt bestaan. Ze hebben slijmscherpe tanden waarmee ze een wondje maken bij hun slachtoffer waarna ze het bloed oplikken. Gelukkig komen deze vleermuizen enkel in Midden-Amerika voor!</p>
+</div>
+<div id="videos" class="section level3">
+<h3>Video’s</h3>
+<p>Jagende vleermuizen<br />
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/p08Y0oRAX3g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p>Vertraagde opname van jagende vleermuis <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/el9RJL72vRA?showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+</div>
+</div>
+<div id="franjestaart" class="section level2">
+<h2>Franjestaart</h2>
+<div id="weetjes" class="section level3">
+<h3>Weetjes</h3>
+<ul>
+<li>Als ik mijn vleugels spreid, ben ik 24 tot 28 cm breed.</li>
+<li>Ik weeg 5 tot 12 gram.</li>
+<li>Als ik honger heb, zoek ik insecten in bossen en parken. Hierbij ga ik op zoek naar dagactieve insecten die slapen op de bladeren.</li>
+<li>Tijdens de zomer slaap ik overdag graag in een oud spechtenhol of een andere holte in een boom</li>
+<li>Tijdens de winter verstop ik met liefst in een grot. Ondergrondse bouwsels zoals tunnels of forten die een beetje op een grot lijken vind ik ook prima. Als het maar rustig, donker en vochtig is.</li>
+</ul>
+</div>
+<div id="videos-1" class="section level3">
+<h3>Video’s</h3>
+<p>Franjestaarten vliegen ’s avonds uit de kolonie in een boom <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Y7CLEdDgd1A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p>Franjestaarten in een holle robinia <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/LMWT-iG39Cc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p>Vertraagde opname van een Franjestaart die opvliegt <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/o5-QIR4bgbM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/us1dFwR_ZXY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p>Franjestaarten in winterslaap <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/bfmDAva7vbk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
